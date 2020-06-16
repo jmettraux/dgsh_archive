@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Calls creature to fight for you.</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One or more creatures, no two of which can be more than 30 ft. apart</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As summon nature's ally I, except that you can summon one
+7th-level creature, 1d3 6th-level creatures of the same type, or
+1d4+1 lower level creatures of the same type.
+When you use a summoning spell to summon an air, chaotic,
+earth, evil, fire, good, lawful, or water creature, it is a spell
+of that type.
+7th Level
+
+    *   Arrowhawk, Large
+    *   Dire tiger
+    *   Elemental, Huge
+    *   Elephant
+    *   Octopus, giant (animal)
+    *   Pixie [can't cast Otto's irresistible dance,
+        neutral good]
+    *   Tojanida, Large
+    *   Treant [neutral good]
+    *   Xorn, Large
+
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Summon Nature's Ally VII</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

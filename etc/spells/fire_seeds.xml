@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action/seed</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Fire</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Sun</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Acorns and berries become grenades and bombs.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level or until used</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Acorn Grenades: Up to four acorns turn into special grenadelike weapons that can be hurled up to 100 feet. A ranged touch attack roll is required to strike the intended target. Each acorn bursts upon striking any hard surface. Together, the acorns are capable of dealing 1d8 points of fire damage per caster level (maximum 20d8), divided up among the acorns as you wish. A 20th-level druid could create one 20d8 missile, two 10d8 missiles, one 11d8 and three 3d8 missiles, or any other combination of d8s totaling up to four acorns and 20d8 points of damage. The acorns deal 1 point of splash damage per die and ignite any combustible materials within 10 feet. If a creature within the burst area makes a successful Reflex saving throw, it takes only half damage; a creature struck directly always sustains full damage (no saving throw).
+
+Holly Berry Bombs: You turn up to eight holly berries into special bombs. The holly berries are usually placed by hand, being too light to make effective thrown weapons (they can be tossed only 5 feet). They burst into flame if you are within 200 feet and speak a word of command. The berries instantly ignite, causing 1d8 points of fire damage +1 point per caster level to creatures and igniting any combustible materials within 5 feet.  Creatures who successfully make Reflex saving throws take half damage.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Fire Seeds</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex half (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fire</string> 
+  </void> 
+ </object> 
+</java> 

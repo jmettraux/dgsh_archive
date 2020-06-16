@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>(V)</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Fascinates 2d4+1 HD/level of creatures.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Concentration + 2 rounds</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Colorful lights in a 15-ft.-radius spread</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>A twisting pattern of subtle, shifting colors weaves through the air, fascinating creatures within it. Roll 2d4 +1 per caster level to determine the total number of HD affected (maximum +10).  Creatures with the fewest HD are affected first; and, among creatures with equal HD, those who are closest to the spell's point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Affected creatures gaze at the lights, heedless of all else, acting as if they are affected by hypnotism. However, you cannot make suggestions as with hypnotism. Sightless creatures are not affected.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Hypnotic Pattern</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Pattern</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

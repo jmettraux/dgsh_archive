@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can create a potion of any spell of 3rd level or lower that the character knows and that targets a creature or creatures. Brewing a potion takes 1 day. When the character creates a potion, the character sets the caster level. The caster level must be sufficient to cast the spell in question and no higher than the character's own level. The base price of a potion is its spell level multiplied by its caster level multiplied by 50 gp. To brew a potion, the character must spend 1/25 of this base price in XP and use up raw materials costing half this base price.  When the character creates a potion, the character makes any choices that the character would normally make when casting the spell. Whoever drinks the potion is the target of the spell.  Any potion that stores a spell with a costly material component or an XP cost also carries a commensurate cost. In addition to the costs derived from the base price, the character must expend the material component or pay the XP when creating the potion.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Brew Potion</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Spellcaster level 3rd+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Item Creation]</string> 
+  </void> 
+ </object> 
+</java> 

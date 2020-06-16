@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Earth</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Turns stone to clay or dirt to sand or mud.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+When this spell is cast, all natural, undressed earth or stone
+in the spell's area is softened. Wet earth becomes thick
+mud; dry earth becomes loose sand or dirt; and stone becomes soft
+clay that is easily molded or chopped. You affect a
+10-foot-square area to a depth of 1 to 4 feet, depending on the
+toughness or resilience of the ground at that spot (DM's
+option). Magical, enchanted, dressed, or worked stone cannot be
+affected. Earth or stone creatures are not affected.
+Creatures in mud must succeed at Reflex saves or be caught for
+1d2 rounds and unable to move, attack, or cast spells. Creatures
+who succeed at their saves can move through the mud at half
+speed, and they can't run or charge.
+Loose dirt is not as troublesome as mud, but all creatures in
+the area are reduced to half their normal speed and can't
+run or charge over the surface.
+Stone softened into clay does not hinder movement, but it does
+allow characters to cut, shape, or excavate areas they may not
+have been able to affect before. For example, a party of
+adventurers trying to break out of a cavern might use this spell
+to soften a wall. While soften earth and stone does not affect
+dressed or worked stone, vertical surfaces such as cliff faces or
+cavern ceilings can be affected. Usually, this causes a moderate
+collapse or landslide as the loosened material peels away from
+the face or the wall or roof and falls.
+A moderate amount of structural damage can be dealt to a
+manufactured structure (such as a wall or a tower) by softening
+the ground beneath it, causing it to settle. However, most
+well-built structures will only be damaged by this spell, not
+destroyed.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Soften Earth and Stone</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>One subject obeys one-word command for 1 round.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You give the subject a one-word command, which she obeys to the best of her ability. A very reasonable command causes the subject to suffer a penalty on the saving throw (from -1 to -4, at the DM's discretion). 
+Typical commands are "Flee," "Die" (which causes the subject to feign death), "Halt," "Run," "Stop," "Fall," "Go," "Leave," "Surrender," and "Rest." (A command of "Suicide" fails because "suicide" is generally used as a noun, not as a command.)</string> 
+  </void> 
+  <void property="name"> 
+   <string>Command</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Language-Dependent, Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

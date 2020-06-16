@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>See text</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Knowledge</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Learn tales about a person, place, or thing.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>See text</string> 
+  </void> 
+  <void property="focus"> 
+   <string>Worth 50 gp each.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Legend lore brings to your mind legends about an important person, place, or thing. If the person or thing is at hand, or if you are in the place in question, the casting time is only 1d4 x 10 minutes. If you have only detailed information on the person, place, or thing, casting time is 1d10 days, and the resulting lore is less complete and specific (though it often provides enough information to help you find the person, place, or thing, thus allowing a better legend lore next time). If you know only rumors, casting time is 2d6 weeks, and the resulting lore is vague and incomplete (though it often directs you to more detailed information, thus allowing a better legend lore).
+
+During the casting, you cannot engage in other than routine activities: eating, sleeping, etc. When completed, the divination brings legends (if any) about the person, place, or things to your mind. These may be legends that are still current, legends that have been forgotten, or even information that has never been generally known. If the person, place, or thing is not of legendary importance, you gain no information. As a rule of thumb, characters 11th level and higher are "legendary," as are the sorts of creatures they contend with, the major magic items they wield, and the places where they perform their key deeds.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Worth at least 250 gp.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Legend Lore</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+ </object> 
+</java> 

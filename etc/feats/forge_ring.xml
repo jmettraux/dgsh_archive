@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can create any ring whose prerequisites the character meets. Crafting a ring takes 1 day for each 1,000 gp in its base price. To craft a ring, the character must spend 1/25 of its base price in XP and use up raw materials costing half of its base price.  The character can also mend a broken ring if it is a ring that the character could make. Doing so costs half the XP, half the raw materials, and half the time it would take to craft that ring in the first place.
+Some magic rings incur extra costs in material components or XP as noted in their descriptions.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Forge Ring</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Spellcaster level 12th+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Item Creation]</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Plant</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>rgr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Grows vegetation, improves crops.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Plant growth has different effects depending on the version
+chosen.
+Overgrowth: The first effect causes normal vegetation
+(grasses, briars, bushes, creepers, thistles, trees, vines, etc.)
+within long range (400 feet + 40 feet per level) to become thick
+and overgrown. The plants entwine to form a thicket or jungle
+that creatures must hack or force a way through. Speed drops to 5
+feet, or 10 feet for Large or larger creatures. (The DM may allow
+faster movement for very small or very large creatures.) The area
+must have brush and trees in it for this spell to take effect.
+At your option, the area can be a circle with a radius of 100
+feet, a semicircle with a radius of 150 feet, or a quarter circle
+with a radius of 200 feet. You may also designate areas within
+the area that are not affected.
+Enrichment: The second effect targets plants within a range of
+one-half mile, raising their potential productivity over the
+course of the next year to one-third above normal.
+In many farming communities, clerics or druids cast this spell
+at planting time as part of the spring festivals.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Plant Growth</string> 
+  </void> 
+  <void property="range"> 
+   <string>See text</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

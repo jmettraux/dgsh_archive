@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Travel</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Instantly transports you anywhere.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell instantly transports you to a designated destination. Distance is not a factor, but interplanar travel is not possible. You can bring along objects and willing creatures totaling up to 50 pounds per caster level. As with all spells where the range is personal and the target is you, you need not make a saving throw, nor is SR applicable to you. Only objects held or in use (attended) by another person receive saving throws and SR.
+
+You must have some clear idea of the location and layout of the destination. You can't simply teleport to the warlord's tent if you don't know where that tent is, what it looks like, or what's in it. The clearer your mental image, the more likely the teleportation works. Areas of strong physical or magical energies may make teleportation more hazardous or even impossible.
+
+Note: Teleportation is instantaneous travel through the Astral Plane. Anything that blocks astral travel also blocks teleportation.
+
+To see how well the teleportation works, roll d% and consult the Teleport table. 
+
+                      On            Off           Similar
+Familiarity           Target        Target        Area         Mishap
+-----------           ------        ------        -------     ------
+Very familiar         01-97         98-99         100         ---
+Studied carefully     01-94         95-97         98-99       100
+Seen casually         01-88         89-94         95-98       99-100
+Viewed once           01-76         77-88         89-96       97-100
+Description           01-52         53-76         77-92       93-100
+False destination     (1d20+80)     --- ---       81-92       93-100
+
+Refer to the following information for definitions of the terms on the table.
+
+Familiarity: "Very familiar" is a place where you have been very often and where you feel at home. "Studied carefully" is a place you know well, either because you've been there often or you have used other means (such as scrying) to study the place. "Seen casually" is a place that you have seen more than once but with which you are not very familiar. "Viewed once" is a place that you have seen once, possibly using magic. "Description" is a place whose location and appearance you know through someone else's description, perhaps even from a precise map.
+
+"False destination" is a place that doesn't exist. When traveling to a false destination, roll 1d20+80 to obtain results on the table, rather than rolling d%, since there is no real destination for you to hope to arrive at or even be off target from.
+
+On Target: You appear where you want to be.
+
+Off Target: You appear safely a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10% of the distance that was to be traveled. The DM determines the direction off target randomly, such as by rolling 1d8 and designating 1 as north, 2 as northeast, etc. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.
+
+Similar Area: You wind up in an area that's visually or thematically similar to the target area. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up somewhere else across the globe.
+
+Mishap: You and anyone else teleporting with you have gotten "scrambled." You each take 1d10 points of damage, and you reroll on the chart to see where you wind up. For these rerolls, roll 1d20+80. Each time "Mishap" comes up, the characters take more damage and must reroll.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Teleport</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal and touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None and Will negates (object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No and Yes (object)</string> 
+  </void> 
+  <void property="type"> 
+   <string>Teleportation</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.random.TableSet"> 
+  <void property="name"> 
+   <string>SRD_treasure_level_5</string> 
+  </void> 
+  <void property="tables"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Table"> 
+     <void property="name"> 
+      <string>coins</string> 
+     </void> 
+     <void property="possibilities"> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object id="StaticItem0" class="burningbox.org.dsh.random.StaticItem"> 
+          <void property="average"> 
+           <string>0 gp</string> 
+          </void> 
+          <void property="description"> 
+           <string>Nothing</string> 
+          </void> 
+          <void property="value"> 
+           <string>0 gp</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object class="burningbox.org.dsh.random.StaticItem"> 
+          <void property="value"> 
+           <string>1d4x10000cp</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>8</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object class="burningbox.org.dsh.random.StaticItem"> 
+          <void property="value"> 
+           <string>1d6x1000sp</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>18</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object class="burningbox.org.dsh.random.StaticItem"> 
+          <void property="value"> 
+           <string>1d8x100gp</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>56</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object class="burningbox.org.dsh.random.StaticItem"> 
+          <void property="value"> 
+           <string>1d10x10pp</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Table"> 
+     <void property="name"> 
+      <string>goods</string> 
+     </void> 
+     <void property="possibilities"> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object idref="StaticItem0"/> 
+        </void> 
+        <void property="weight"> 
+         <int>59</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object class="burningbox.org.dsh.random.TableItem"> 
+          <void property="count"> 
+           <int>0</int> 
+          </void> 
+          <void property="countRoll"> 
+           <string>1d4</string> 
+          </void> 
+          <void property="tableName"> 
+           <string>SRD_gems</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>34</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object class="burningbox.org.dsh.random.TableItem"> 
+          <void property="count"> 
+           <int>0</int> 
+          </void> 
+          <void property="countRoll"> 
+           <string>1d4</string> 
+          </void> 
+          <void property="tableName"> 
+           <string>SRD_art</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>4</int> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Table"> 
+     <void property="name"> 
+      <string>items</string> 
+     </void> 
+     <void property="possibilities"> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object idref="StaticItem0"/> 
+        </void> 
+        <void property="weight"> 
+         <int>56</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object class="burningbox.org.dsh.random.TableItem"> 
+          <void property="count"> 
+           <int>0</int> 
+          </void> 
+          <void property="countRoll"> 
+           <string>1d4</string> 
+          </void> 
+          <void property="tableName"> 
+           <string>SRD_mundane</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>9</int> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="burningbox.org.dsh.random.Possibility"> 
+        <void property="item"> 
+         <object class="burningbox.org.dsh.random.TableItem"> 
+          <void property="count"> 
+           <int>0</int> 
+          </void> 
+          <void property="countRoll"> 
+           <string>1d3</string> 
+          </void> 
+          <void property="tableName"> 
+           <string>SRD_minor</string> 
+          </void> 
+         </object> 
+        </void> 
+        <void property="weight"> 
+         <int>32</int> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

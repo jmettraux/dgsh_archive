@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Wall is immune to damage.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level (D)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Wall whose area is up to one 10-ft. square/level or a sphere or hemisphere with a radius of up to 1 ft./level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+A wall of force spell creates an invisible wall of force. The
+wall of force cannot move, it is immune to damage of all kinds,
+and it is totally unaffected by most spells, including dispel
+magic. However, disintegrate immediately destroys it, as does a
+rod of cancellation, a sphere of annihilation, and
+Mordenkainen's disjunction. Spells and breath weapons cannot
+pass through the wall in either direction, although dimension
+door, teleport, and similar effects can bypass the barrier. It
+blocks ethereal creatures as well as material creatures (though
+ethereal creatures can usually get around the wall by floating
+under or over it through material floors and ceilings). Gaze
+attacks can operate through the wall of force.
+The caster can form the wall into a flat, vertical plane whose
+area is up to one 10-foot square per level, or into a sphere or
+hemisphere with a radius of up to 1 foot per level.
+The wall of force must be continuous and unbroken when formed.
+If its surface is broken by any object or creature, the spell
+fails.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Wall of Force</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Strength</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>War</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Armor or shield gains +1 enhancement/three levels.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You imbue a suit of armor or a shield that you touch with an
+enhancement bonus of +1 per three caster levels (maximum +5 at
+15th level). An outfit of regular clothing counts as a suit of
+armor that grants no AC bonus for purposes of this spell.
+Note: An enhancement bonus increases armor's or a
+shield's benefit to the wearer's AC. A suit of armor
+cannot have more than +5 in total bonuses (even if some of its
+bonus is from other than enhancement).
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Magic Vestment</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (harmless, object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless, object)</string> 
+  </void> 
+ </object> 
+</java> 

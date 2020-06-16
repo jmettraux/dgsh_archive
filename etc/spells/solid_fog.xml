@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Blocks vision and slows movement.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As fog cloud, but in addition to obscuring sight, the solid
+fog is so thick that any creature attempting to move through it
+progresses at one-tenth normal speed, and all melee attack and
+melee damage rolls suffer a -2 penalty. The vapors prevent
+effective ranged weapon attacks (except for magic rays and the
+like). A creature or object that falls into solid fog is slowed,
+so that each 10 feet of vapor that the creature or objects passes
+through reduces falling damage by 1d6.
+Unlike normal fog, only a severe wind (31+ mph) disperses
+these vapors, and it does so in 1 round.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Solid Fog</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

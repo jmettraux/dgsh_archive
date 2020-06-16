@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Makes everyone within 10 ft. invisible.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As invisibility, except this spell confers invisibility upon all creatures within 10 feet of the recipient. The center of the effect is mobile with the recipient.
+Those affected by this spell cannot see each other but can see themselves. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible. Affected creatures (other than the recipient) who attack negate the invisibility only for themselves. If the spell recipient attacks, the invisibility sphere ends.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Invisibility Sphere</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Glamer</string> 
+  </void> 
+ </object> 
+</java> 

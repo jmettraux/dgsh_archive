@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As teleport, but affects a touched object.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As teleport, except it teleports an object, not you. Creatures
+and magical forces (such as a delayed blast fireball bead) cannot
+be made to vanish. There is a 1% chance that a vanished item is
+disintegrated instead.
+If desired, a vanished object can be sent to a distant
+location on the Ethereal Plane. In this case, the point from
+which the object vanished remains faintly magical until the item
+is retrieved. A successful targeted dispel magic spell cast on
+that point brings the vanished item back from the Ethereal Plane.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Vanish</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (object)</string> 
+  </void> 
+  <void property="type"> 
+   <string>Teleportation</string> 
+  </void> 
+ </object> 
+</java> 

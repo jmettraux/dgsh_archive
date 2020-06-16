@@ -1,0 +1,64 @@
+
+help is available for these commands :
+
+COMMANDS						--> DEFAULT ALIAS
+-------------------------------------------------------------------------
+
+ab {targetName} {abilityDefinition} {delta}
+addlevel {characterName} {className} [levelCount] 
+    // don't use it for now, it doesn't add hit points
+alias [alias [command]]
+aoo {characterName|monsterName}
+blog [r[everse]]
+browse [temp|party|opp[onents]]
+carry {beingName} {equipmentLocator}
+cast {spellCasterName} {spellName} {className}
+charge [creatureName]
+clock [add {timeString} | set {timeString}]
+credit {targetName} {{amount}{gp|pp|cp|sp}}*
+credits
+display {characterName|monsterName|templateName}	--> d
+drop {equipmentLocator}
+effect {name} {target}*
+eqlist [filter]
+exit|quit
+feet {value}
+feats [filter]
+fight
+fidef [creatureName]
+gear {characterName}
+help {commandName}
+hp {targetName} {hpCount}
+hold {beingName} {equipmentLocator}
+init
+inst {monster template name} [{count} [name prefix]]
+it 
+license
+load {filename} [t[emp]|p[arty]|o[pponents]]
+log {text}
+monsters [filter]
+move {sourceEquipmentLocator} {targetEquipmentLocator}
+next							--> n
+opp							--> o
+party
+prepare {characterName} {className}			--> prep
+ref [subject]
+relax
+roll {diceSet}
+save {temp|party|opp[onents]} [filename]
+scn [fileName]
+search {dc} [characterName]
+set [attributeName [newValue]]
+setinit {character or monster name}
+skills {characterName}
+spell {filter}
+spellbook {characterName}
+spells [filter|{level} {className}}]
+sub {targetName} {hpCount}
+todef [creatureName]
+transfer {name[*]} {fromSet} {toSet}
+treasure {level}					--> trs
+version
+wear {beingName} {equipmentLocator}
+xp {count} [target]*
+rage {barbarianName}

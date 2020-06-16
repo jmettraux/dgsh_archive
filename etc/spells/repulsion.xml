@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Protection</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creatures can't approach you.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+An invisible, mobile field surrounds you and prevents
+creatures from approaching you. You decide how big the field is
+at the time of casting (up to the limit your level allows).
+Creatures within or entering the field must attempt saves. If
+they fail, they become unable to move toward you for the duration
+of the spell. Repelled creatures' actions are not otherwise
+restricted. They can fight other creatures and can cast spells
+and attack you with ranged weapons. If you move closer to an
+affected creature, nothing happens. (The creature is not forced
+back.) The creature is free to make melee attacks against you if
+you come within reach. If a repelled creature moves away from you
+and then tries to turn back toward you, it cannot move any closer
+if it is still within the spell's area.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Repulsion</string> 
+  </void> 
+  <void property="range"> 
+   <string>Up to 10 ft./level</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

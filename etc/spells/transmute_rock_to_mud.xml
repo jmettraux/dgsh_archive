@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Transforms two 10-ft. cubes/level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell turns natural, uncut or unworked rock of any sort into an equal volume of mud. If the spell is cast upon a boulder, for example, the boulder collapses into mud. Magical or enchanted stone is not affected by the spell. The depth of the mud created cannot exceed 10 feet. Creatures unable to levitate, fly, or otherwise free themselves from the mud sink until hip- or chest-deep, reducing their speed to 5 feet and giving them -2 penalties on attack rolls and AC. Brush thrown atop the mud can support creatures able to climb on top of it. Creatures large enough to walk on the bottom can wade through the area at a speed of 5 feet.
+
+If transmute rock to mud is cast upon the ceiling of a cavern or tunnel, the mud falls to the floor and spreads out in a pool at a depth of 5 feet. For example, a 10th-level caster could convert twenty 10-foot cubes into mud. Pooling on the floor, this mud would cover an area of forty 10-foot squares to a depth of 5 feet. The falling mud and the ensuing cave-in deal 8d6 points of damage to anyone caught directly beneath the area, or half damage to those who succeed at Reflex saves.
+
+Castles and large stone buildings are generally immune to the effects of the spell, since transmute rock to mud can't affect worked stone and doesn't reach deep enough to undermine such buildings' foundations. However, small buildings or structures often rest upon foundations shallow enough to be damaged or even partially toppled by this spell.  The mud remains until a successful dispel magic or transmute mud to rock spell restores its substance---but not necessarily its form. Evaporation turns the mud to normal dirt over a period of days. The exact time depends on exposure to the sun, wind, and normal drainage.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Transmute Rock to Mud</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

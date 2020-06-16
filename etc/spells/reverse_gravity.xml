@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Objects and creatures fall upward.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+This spell reverses gravity in the spell's area, causing
+all unattached objects and creatures within it to fall upward and
+reach the top of the area in 1 round. If some solid object (such
+as a ceiling) is encountered in this fall, falling objects and
+creatures strike it in the same manner as they would during a
+normal downward fall. If an object or creature reaches the top of
+the area without striking anything, it remains there, oscillating
+slightly, until the spell ends. At the end of the spell duration,
+affected objects and creatures fall downward.
+Provided there's something for them to hold onto,
+creatures caught in the area can attempt Reflex saves to secure
+themselves when the spell strikes. Creatures who can fly or
+levitate can keep themselves from falling.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Reverse Gravity</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

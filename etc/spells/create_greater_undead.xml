@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 hour</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Death</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Mummies, spectres, vampires, or ghosts.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As create undead, except that this spell allows you to create more powerful and intelligent sorts of undead. The type of undead created is based on your level. The following types of undead can be created by casters of the specified levels:
+
+Cleric Level     Undead Created
+------------     --------------
+15 or lower      Mummy
+16-17            Spectre
+18-19            Vampire
+20               Ghost*
+
+*Ghosts created by this spell have three ghostly powers in addition to manifestation: malevolence, horrific appearance, and corrupting gaze.
+
+You may attempt to command the undead as it forms with a turning check.
+
+Certain types of undead, such as liches, cannot be created by this spell. Such undead are created in other, very specific ways.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Create Greater Undead</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Evil</string> 
+  </void> 
+ </object> 
+</java> 

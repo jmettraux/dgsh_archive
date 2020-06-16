@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes, plus 1 action per bolt called</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Directs lightning bolts (1d10/level) during storms.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>See text</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>To cast call lightning, you must be in a stormy area---a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinn or air elemental of 7 HD or more). You are then able to evoke bolts of lightning as long as you remain in the stormy area. (The spell ends if you leave the stormy area.) You can call down one bolt every 10 minutes. You need not call a bolt of lightning immediately---other actions, even spellcasting, can be performed. However, you must use a standard action (concentrating on the spell) to call each bolt. A bolt causes 1d10 points of electrical damage per caster level (maximum 10d10).  The bolt of lightning flashes down in a vertical stroke at whatever target point you choose, within range (measured from your position at the time). The bolt takes the shortest possible unobstructed path between a nearby cloud and the target. Any creature within a 10-foot radius of the path or the point where the lightning strikes is affected.
+
+This spell can be used only outdoors. It does not function indoors, underground, or underwater.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Call Lightning</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex half</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Electricity</string> 
+  </void> 
+ </object> 
+</java> 

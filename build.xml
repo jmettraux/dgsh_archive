@@ -1,0 +1,111 @@
+<!--
+	build.xml
+
+	06.05.2002 jmettraux@burningbox.org
+-->
+
+
+<project name="dsh" default="compile" basedir=".">
+
+    <!--<property name="webDir" value="${jetspeedHome}/sca" />-->
+
+    <path id="classpath">
+	<fileset dir="lib">
+	    <include name="*.jar"/>
+	</fileset>
+        <pathelement 
+	    location="classes/"
+	/>
+        <pathelement 
+	    location="/usr/local/java/lib/tools.jar"
+	/>
+        <pathelement 
+	    location="/usr/local/java/jre/lib/rt.jar"
+	/>
+    </path>
+
+    <target name="compile">
+        <javac 
+	    srcdir="src" 
+	    destdir="classes" 
+	    classpathref="classpath" 
+	    deprecation="on"
+	/>
+    </target>
+
+    <target name="clean">
+        <delete 
+	    dir="classes/burningbox" 
+	/>
+    </target>
+
+    <!--
+    <target name="test">
+        <java
+	    classpathref="classpath"
+	    classname="burningbox.org.dsh.entities.BeingSet"
+	/>
+    </target>
+    -->
+
+    <target name="jar" depends="clean, compile">
+	<jar 
+	    jarfile="dgsh.jar"
+	    basedir="classes/"
+	/>
+    </target>
+
+    <target name="binary" depends="jar">
+	<mkdir dir="dgsh" />
+	<mkdir dir="dgsh/etc" />
+	<mkdir dir="dgsh/doc" />
+	<mkdir dir="dgsh/lib" />
+	<mkdir dir="dgsh/scripts" />
+	<mkdir dir="dgsh/scn" />
+	<mkdir dir="dgsh/pty" />
+	<mkdir dir="dgsh/sbo" />
+	<copy todir="dgsh/etc/">
+	    <fileset dir="etc/" />
+	</copy>
+	<copy todir="dgsh/doc/">
+	    <fileset dir="doc/" />
+	</copy>
+	<copy todir="dgsh/scn/">
+	    <fileset dir="scn/" />
+	</copy>
+	<copy todir="dgsh/pty/">
+	    <fileset dir="pty/" />
+	</copy>
+	<delete file="dgsh/doc/deploy_web.sh" />
+	<copy file="README.txt" todir="dgsh/" />
+	<copy file="CHANGELOG.txt" todir="dgsh/" />
+	<copy file="credits.txt" todir="dgsh/" />
+	<copy file="dgsh.sh" todir="dgsh/" />
+	<copy file="dgsh.bat" todir="dgsh/" />
+	<copy file="jython.sh" todir="dgsh/" />
+	<copy file="jython.bat" todir="dgsh/" />
+	<copy file="raptor.sh" todir="dgsh/" />
+	<copy file="raptor.bat" todir="dgsh/" />
+	<move file="dgsh.jar" todir="dgsh/lib/"/>
+	<copy file="lib/log4j-1.2.5.jar" todir="dgsh/lib/"/>
+	<copy file="lib/jython-2.1.jar" todir="dgsh/lib/"/>
+	<copy file="lib/jyLib.jar" todir="dgsh/lib/"/>
+	<copy todir="dgsh/scripts/">
+	    <fileset dir="src/jython/" />
+	</copy>
+	<copy file="import_samples/standard1.sbo" todir="dgsh/sbo/"/>
+	<copy file="import_samples/standard2.sbo" todir="dgsh/sbo/"/>
+	<copy file="import_samples/standard_m_1.sbo" todir="dgsh/sbo/"/>
+    </target>
+
+    <target name="javadoc">
+	<mkdir dir="doc/api" />
+	<javadoc
+	    packagenames="burningbox.*"
+	    sourcepath="src"
+	    destdir="doc/api"
+	    windowtitle="dgsh javadoc"
+	/>
+    </target>
+
+</project>

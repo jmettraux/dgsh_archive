@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can create a scroll of any spell that the character knows. Scribing a scroll takes 1 day for each 1,000 gp in its base price. The base price of a scroll is its spell level multiplied by its caster level multiplied by 25 gp. To scribe a scroll, the character must spend 1/25 of this base price in XP and use up raw materials costing half of this base price.  Any scroll that stores a spell with a costly material component or an XP cost also carries a commensurate cost. In addition to the costs derived from the base price, the character must expend the material component or pay the XP when scribing the scroll.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Scribe Scroll</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Spellcaster level 1st+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Item Creation]</string> 
+  </void> 
+ </object> 
+</java> 

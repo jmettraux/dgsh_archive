@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: When using the attack action with a ranged weapon, the character can move both before and after the attack, provided that the character's total distance moved is not greater than the character's speed.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Shot on the Run</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Point Blank Shot, Dex 13+, Dodge, Mobility.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Point Blank Shot</string> 
+    </void> 
+    <void method="add"> 
+     <string>Dodge</string> 
+    </void> 
+    <void method="add"> 
+     <string>Mobility</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

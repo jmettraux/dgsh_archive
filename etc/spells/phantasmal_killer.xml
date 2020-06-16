@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Fearsome illusion kills subject or deals 3d6 damage.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Only the spell's subject can see the phantasmal killer.
+You see only a shadowy shape. The subject first gets a Will save
+to recognize the image as unreal. If the subject fails, the
+phantasm touches him, and he must succeed at a Fortitude save or
+die from fear. Even if the Fortitude save is successful, the
+subject takes 3d6 points of damage.
+If the subject of a phantasmal killer attack succeeds in
+disbelieving and he is wearing a helm of telepathy, the beast can
+be turned upon you. You must then disbelieve it or suffer its
+deadly fear attack.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Phantasmal Killer</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will disbelief (if interacted with), then Fortitude partial</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Phantasm</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fear, Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

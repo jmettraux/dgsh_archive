@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Subjects within range cannot lie.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Creatures within the emanation area (or those who enter it) can't speak any deliberate and intentional lies. Creatures are allowed a save to avoid the effects when the spell is cast or when they first enter the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Zone of Truth</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

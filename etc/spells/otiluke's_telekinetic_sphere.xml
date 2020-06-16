@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As Otiluke's resilient sphere, but you move sphere telekinetically.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level (D)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>1-ft.-diameter/level sphere, centered around creatures or objects</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As Otiluke's resilient sphere, with the addition that the creatures or objects inside the globe are nearly weightless.
+
+Anything contained within an Otiluke's telekinetic sphere weighs only one-sixteenth of its normal weight. You can telekinetically lift anything in the sphere that normally weighs up to 5,000 pounds. The range of the telekinetic control extends to a maximum distance of medium range from you (100 feet + 10 feet per caster level) after the sphere has succeeded in encapsulating its contents.
+
+You move objects or creatures in the sphere that weigh up to a total of 5,000 pounds by concentrating on the sphere. You can begin moving a sphere the round after casting the spell. A round's concentration (a standard action) moves the sphere up to 30 feet. If you cease concentrating, the sphere does not move that round (if on a level surface) or descends at its falling rate (if aloft) until it reaches a level surface, the spell's duration ends, or you begin concentrating again. If you cease concentrating (voluntarily or due to failing a Concentration check), you can resume concentrating on your next turn or any later turn during the spell's duration.
+
+Note that even if more than 5,000 pounds of weight is englobed, the perceived weight is only one-sixteenth of the actual weight, so the orb can be rolled without exceptional effort. The sphere falls at a rate of only 60 feet per round, which is not fast enough to cause damage to the contents of the sphere.
+
+You can move the sphere telekinetically even if you are in it.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Otiluke's Telekinetic Sphere</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex negates (object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (object)</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Move instantly from one plant to another of the same  species.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You can enter any normal plant (Medium-size or larger) and
+pass any distance to a plant of the same species in a single
+round, regardless of the distance separating the two. The entry
+plant must be alive. The destination plant need not be familiar
+to you, but it also must be alive. If you are uncertain of the
+location of a particular kind of destination plant, you need
+merely designate direction and distance ("an oak tree one
+hundred miles due north of here"), and the transport via
+plants spell moves you as close as possible to the desired
+location. If a particular destination plant is desired (the oak
+tree outside your druid grove, for instance), but the plant is
+not living, the spell fails and you are ejected from the entry
+plant.
+This spell does not function with plant creatures such as
+shambling mounds and treants.
+The destruction of an occupied plant slays you.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Transport via Plants</string> 
+  </void> 
+  <void property="range"> 
+   <string>Unlimited</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+ </object> 
+</java> 

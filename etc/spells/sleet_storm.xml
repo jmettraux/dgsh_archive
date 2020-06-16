@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Hampers vision and movement.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Sleet spreads 40 ft., 20 ft. high</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy, slowing movement to one-half normal. Additionally, any creature in sleet that attempts to move must succeed at a Reflex save or fall down instead. The sleet extinguishes torches and small fires.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Sleet Storm</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex partial</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+  <void property="type"> 
+   <string>Cold</string> 
+  </void> 
+ </object> 
+</java> 

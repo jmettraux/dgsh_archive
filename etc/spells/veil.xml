@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Changes appearance of group of creatures.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Concentration + 1 hour/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You instantly change the appearance of the subjects and then
+maintain that appearance for the spell's duration. You can
+make the subjects appear to be anything you wish. A party might
+be made to resemble a mixed band of brownies, pixies, and faeries
+led by a treant. The subjects look, feel, and smell just like the
+creatures the spell makes them resemble. Affected creatures
+resume their normal appearances if slain. You must succeed at a
+Disguise check to duplicate the appearance of a specific
+individual. This spell gives you a +10 bonus on the check.
+Unwilling targets can negate the spell's effect on them
+by making Will saves or with SR. Those who interact with the
+subjects can attempt Will disbelief saves to see through the
+glamer, but SR doesn't help.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Veil</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (see text)</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Glamer</string> 
+  </void> 
+ </object> 
+</java> 

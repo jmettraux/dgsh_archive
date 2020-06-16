@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Magic</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Masks magic item's aura.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+This spell allows you to mask a magic item's aura from
+detection. If the object bearing Nystul's undetectable aura
+has identify cast on it or is similarly examined, the examiner
+recognizes that the aura is false and detects the object's
+actual qualities if he succeeds at a Will save.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Nystul's Undetectable Aura</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Glamer</string> 
+  </void> 
+ </object> 
+</java> 

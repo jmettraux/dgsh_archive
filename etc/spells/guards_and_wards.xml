@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>30 minutes (D)</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Array of magic effects protect area.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>2 hours/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This powerful spell is primarily used to defend your stronghold. The ward protects 200 square feet per caster level.  The warded area can be up to 20 feet high, and shaped as you desire. You can ward several stories of a stronghold by dividing the area among them; you must be somewhere within the area to be warded to cast the spell. The spell creates the following magical effects within the warded area:
+
+Fog: Fog fills all corridors, obscuring all sight, including darkvision, beyond 5 feet. A creature within 5 feet has one-half concealment (attacks suffer a 20% miss chance). Creatures farther away have full concealment (50% miss chance; the attacker cannot use sight to locate the target). Spell resistance: No.
+
+Arcane Locks: All doors in the warded area are arcane locked.  Spell resistance: No.
+
+Webs: Webs fill all stairs from top to bottom. These strands are identical with those created by the web spell, except that they regrow in 10 minutes if they are burned or torn away while the guards and wards spell lasts. Spell resistance: Yes.
+
+Confusion: Where there are choices in direction---such as a corridor intersection or side passage---a minor confusion-type spell functions so as to make it 50% probable that intruders believe they are going in the exact opposite direction from the one they actually chose. This is an enchantment (mind-affecting) effect. Spell resistance: No.
+
+Lost Doors: One door per caster level is covered by a glamer to appear as if it were a plain wall. Spell resistance: No.
+
+In addition, you can place your choice of one of the following five magical effects: ?
+
+The whole warded area radiates strong magic of the abjuration school. A dispel magic cast on a specific effect, if successful, removes only that effect. A successful Mordenkainen's disjunction destroys the entire guards and wards effect.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Guards and Wards</string> 
+  </void> 
+  <void property="range"> 
+   <string>Anywhere within the area to be warded</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>See text</string> 
+  </void> 
+ </object> 
+</java> 

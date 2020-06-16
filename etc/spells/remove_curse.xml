@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Frees object or person from curse.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Remove curse instantaneously removes all curses on an object
+or a person. Remove curse does not remove the curse from a cursed
+shield, weapon, or suit of armor, although the spell typically
+enables the person afflicted with any such cursed item to remove
+and get rid of it. Certain special curses may not be countered by
+this spell or may be countered only by a caster of a certain
+level or higher.
+Remove curse counters and dispels bestow curse.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Remove Curse</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (harmless)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless)</string> 
+  </void> 
+ </object> 
+</java> 

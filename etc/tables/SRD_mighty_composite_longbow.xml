@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.random.Table"> 
+  <void property="name"> 
+   <string>SRD_mighty_composite_longbow</string> 
+  </void> 
+  <void property="possibilities"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Mighty composite longbow  Str +1</string> 
+       </void> 
+       <void property="value"> 
+        <string>200gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>45</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Mighty composite longbow  Str +2</string> 
+       </void> 
+       <void property="value"> 
+        <string>300gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>30</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Mighty composite longbow  Str +3</string> 
+       </void> 
+       <void property="value"> 
+        <string>400gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>15</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Mighty composite longbow  Str +4</string> 
+       </void> 
+       <void property="value"> 
+        <string>500gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>10</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

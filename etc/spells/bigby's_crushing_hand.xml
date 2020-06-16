@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Strength</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>F/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As Bigby's interposing hand, but stronger.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As Bigby's interposing hand, except the hand can interpose itself, push, or crush one opponent that you select.
+The crushing hand can interpose itself as Bigby's interposing hand does, or it can bull rush an opponent as Bigby's forceful hand does, but at +18 on the Strength check.
+The crushing hand can grapple an opponent as Bigby's grasping hand does, but with a +12 bonus for the hand's Strength score (35). The hand deals 2d6+12 points of grapple damage (normal, not subdual).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Bigby's Crushing Hand</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+ </object> 
+</java> 

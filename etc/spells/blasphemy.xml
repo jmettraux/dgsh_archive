@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Evil</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Kills, paralyzes, weakens, or dazes nonevil subjects.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Uttering blasphemy creates two effects.
+
+If you are on your home plane, nonevil extraplanar creatures within the area are instantly banished back to their home planes.  Creatures so banished cannot return for at least 1 day. This effect takes place regardless of whether the creatures hear the blasphemy.
+
+Creatures native to your plane who hear the blasphemy and are not evil suffer the following ill effects:
+
+HD            Effect
+--            ------
+12 or more    Dazed
+Less than 12  Weakened, dazed
+Less than 8   Paralyzed, weakened, dazed
+Less than 4   Killed
+
+The effects are cumulative.
+
+Dazed: The creature is dazed and can take no actions for 1 round (but defends itself normally).
+
+Weakened: The creature's Strength score decreases by 2d6 points for 2d4 rounds.
+
+Paralyzed: The creature is paralyzed and helpless for 1d10 minutes, unable to move or act in any way.
+
+Killed: Living creatures die. Undead creatures are destroyed.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Blasphemy</string> 
+  </void> 
+  <void property="range"> 
+   <string>30 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Evil, Sonic</string> 
+  </void> 
+ </object> 
+</java> 

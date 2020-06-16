@@ -1,0 +1,362 @@
+<html>
+  <head>
+    <title>dgsh</title>
+    <link rel=stylesheet type="text/css" href=style.css title="">
+  </head>
+<body bgcolor=white>
+<table border=0 width=100% cellspacing=5 cellpadding=5>
+
+<!-- MAIN TITLE -->
+
+  <tr>
+    <td colspan=2 align=center>
+<!--#include virtual="logo.shtml" -->
+<small>$Id: commands.shtml,v 1.3 2002/08/31 06:38:22 jmettraux Exp $</small>
+    </td>
+  </tr>
+
+  <tr>
+
+<!-- MENU -->
+
+<!--#include virtual="menu.shtml" -->
+
+    <td>
+<!-- GAME COMMANDS -->
+
+<br><h3><a name=commands>The commands of dgsh</a></h3>
+
+<p>When dgsh is running, you can get help for any command by typing <tt>help <i>commandName</i></tt>.</p>
+
+<p>Some commands use filter expressed as regular expressions. Before being applied, these filters are always put in lower cases and '_' (underscores) are replaced by spaces. Putting a whitespace directy in the filter will fool dgsh.</p>
+
+<h3>ab</h3>
+<p><tt>ab {targetName} {abilityDefinition} {delta}</tt></p>
+<p>Like the <tt>hp</tt> command but for ability score. Plume The Gnome has been bitten by a silkspider ? Inflict him 1 con temporary damage with <tt>ab plume constitution -1</tt>. You can remove it the next day with <tt>ab plume constitution 1</tt>.</p>
+
+<!--
+<h3>addlevel</h3>
+<p><tt>addlevel {characterName} {className} [levelCount]</tt></p>
+<p>Adds or removes levels to a character for a given class.</p>
+-->
+
+<h3>alias</h3>
+<p><tt>alias [alias [command]]</tt></p>
+<p>Tired of typing long command names ? use <tt>alias x long_command_name</tt>, so next time you type <tt>x arg1 arg2</tt>, <tt>long_command_name arg1 arg2</tt> gets called</p>
+<p>If you type alias without any argument, a list of the currently set aliases will be displayed.</p>
+
+<img src=images/blog.png border=0 align=right>
+<h3>blog</h3>
+<p><tt>blog [r[everse]]</tt></p>
+<p>Browses the current log. If 'reverse' is stated, will browse in reverse order (recent logs first).</p>
+
+<h3>browse</h3>
+<p><tt>browse [temp|party|opp[onents]]</tt></p>
+<p>Displays a list of all the sets in the game session and what they contains. There are two main sets : party and temp. Party (short : <tt>p</tt>) contains the PCs and their friends, while temp (short : <tt>t</tt>) contains monster templates (instantiate them with the <a href=#cmd_inst><tt>inst</tt></a> command).<br>
+During a combat, a special set is created : opponents (short : <tt>o</tt>) which contains the adversaries.</p>
+
+<h3>carry</h3>
+<p><tt>carry {beingName} {equipmentLocator}</tt></p>
+<p>Put something into a character's bag or pockets.</p>
+<p><tt>carry shana ssword</tt> and Shana is now carrying that short sword she found on a goblin corpse.</p>
+
+<h3>cast</h3>
+<p><tt>cast {spellCasterName} {spellName} {className}</tt></p>
+<p>Simply casts a spell. Prepared spells are consumed as well as spell slots (if your class doesn't require spell preparation, only spell slots are consumed.</p>
+
+<h3>charge</h3>
+<p><tt>charge [creatureName]</tt></p>
+<p>This command can only get used during a combat. If the 'creatureName' is not specified, the creature whose turn it is will be considered as the charger.<br>
+This method simply adds a 'charge' effect to the creature marking it as 'charging' (+2 att / -2 AC for 1 round).</p>
+
+<h3>clock</h3>
+<p><tt>clock [add {timeString} | set {timeString}]</tt></p>
+<p>With no arguments, this command displays the current game time. If 
+you specify 'add', the {timeString} is interpreted and added to the current game
+ time. A timeString example : '1d2h3m4r5s' which is read as '1 day, 2 hours, 3 m
+ inutes, 4 rounds and 5 seconds'</p>
+
+<h3>credit</h3>
+<p><tt>credit {targetName} {{amount}{gp|pp|cp|sp}}*</tt></p>
+<p>Adds or remove coins to a character wallet.</p>
+<p>For example : <tt>credit shana 1gp 10pp -700cp</tt></p>
+
+<h3>credits</h3>
+<p><tt>credits</tt></p>
+<p>A list of people involved in making dgsh real and useful.</p>
+
+<h3>display</h3>
+<p><tt>display {characterName|monsterName|templateName}</tt></p>
+<p><tt>display hemgard</tt> will display the stats for the PC hemgard (you can find him in p.xml).<br>
+You can use this command with monsters, and also monster templates (try and <tt>load monsters.xml</tt> then <tt>d goblin</tt>).</p>
+
+<h3>drop</h3>
+<p><tt>drop {equipmentLocator}</tt></p>
+<p><tt>drop shana.carried.ssword</tt> the short sword wasn't worth carrying around, so she dropped it.</p>
+
+<img src=images/effect.png border=0 align=right>
+<h3>effect</h3>
+<p><tt>effect {name} {target}*</tt></p>
+<p><i>combat command</i></p>
+<p>Adds an effect during combat, like an entanglement or a bless effect.</p>
+<p>for example : <tt>effect entangle troudukh plume shana</tt></p>
+
+<h3>eqlist</h3>
+<p><tt>eqlist [filter]</tt></p>
+<p>Lists the equipments currently loaded in dgsh. The names listed here are the one used by the diverse equipment commands (<tt>hold</tt>, <tt>wear</tt>, <tt>carry</tt>)</p>
+<p>The optional filter is used to match equipment entries. You can list only swords with <tt>eqlist .*sword.*</tt></p>
+
+<h3>eval</h3>
+<p><tt>eval {exec|set} {jython commands}</tt></p>
+<p>Evaluates jython commands directly. For more information, take a look at <a href=http://jython.org>Jython's homepage</a> and at <a href=#javadoc>dgsh's javadoc</a>. You can get quite powerful with this command, but a normal usage of dgsh, should NEVER imply a call to this command. If you tend to use this command, then a feature is missing in dgsh and you should drop a few lines about it on the users mailing list.</p>
+
+<h3>exit</h3>
+<p><tt>exit|quit</tt></p>
+<p>Quits the dgsh game session.</p>
+
+<h3>feet</h3>
+<p><tt>feet {value}</tt></p>
+<p>Translates a feet value into meters. Should be useful for european DMs like me. (Does it the easy way : 5 feet = 1.5 meters)</p>
+
+<h3>feats</h3>
+<p><tt>feats [filter]</tt></p>
+<p>Displays the list of feats loaded in dgsh. You can narrow the output by providing a filter like in <tt>feats scribe.*</tt> which will return 'Scribe Scroll'.</p>
+
+<h3>fidef</h3>
+<p><tt>fidef [creatureName]</tt></p>
+<p>This command can only get used during a combat. If the 'creatureName' is not specified, the creature whose turn it is will be considered as the defender.<br>
+The creature will be marked as 'fighting defensively' (-4 att / +2 AC) for 1 round.</p>
+
+<h3>fight</h3>
+<p><tt>fight</tt></p>
+<p>Enters the combat mode. After that, you should <tt>load</tt> opponents and/or <tt>inst</tt>antiate them, then roll for <tt>init</tt>iative. Say <tt>next</tt> and dgsh will display the details of who or what is going to act.</p>
+
+<img src=images/gear.png border=0 align=right>
+<h3>gear</h3>
+<p><tt>gear {characterName}</tt></p>
+<p>Append the name of a character to this command to display the equipment that this character is currently holding / wearing / carrying. The coins and the total load are also displayed.</p>
+
+<h3>help</h3>
+<p><tt>help {commandName}</tt></p>
+<p>Type <tt>help</tt> and the name of another command to get the syntax and 'manual' of that other command.</p>
+
+<h3>hp</h3>
+<p><tt>hp {targetName} {hpCount} [p[ermanent]]</tt></p>
+<p>Add or deduce hit points to characters or monster with this command :</p>
+<p><tt>hp hemgard -2</tt> will inflict Hemgard the ranger 2 points of damage.</p>
+<p><tt>hp plume 4</tt> will heal Plume the gnome cleric with 4 fresh hit points.</p>
+<p><tt>hp troll1 -10 p</tt> will reduce the hit points of 'troll1' by 10. He will not be able to regenerate these damages.</p>
+
+<h3>hold</h3>
+<p><tt>hold {beingName} {equipmentLocator}</tt></p>
+<p>Tells dgsh that a creature will hold a piece of equipment in hand.</p>
+
+<h3>init</h3>
+<p><tt>init</tt></p>
+<p>A very important command : it iterates through the friends and the foes to automatically roll initiative for foes and ask for initiative result for friends.<br>
+My players enjoy to add their initiative bonus by themselves so dgsh just reminds me of their bonus but doesn't add it to the result I give.</p>
+
+<h3><a name=cmd_inst>inst</a></h3>
+<p><tt>inst {monster template name} [{count} [name prefix]]</tt></p>
+<p>6 goblins are embushing your characters ? Want to throw them right into action. Switch to combat mode with <tt>fight</tt> and then <tt>inst goblin 6 gob</tt> gob1 and all his brothers up to gob6 will show up in the 'opp' set.</p>
+<p>Next step is initiative rolling with <tt>init</tt></p>
+
+<h3>it</h3>
+<p><tt>it</tt></p>
+<p>Displays the initiative table (who plays when).</p>
+
+<h3>license</h3>
+<p><tt>license</tt></p>
+<p>Displays dgsh's license. Dgsh is released under a classic BSD license.</p>
+
+<h3>load</h3>
+<p><tt>load {filename} [t[emp]|p[arty]|o[pponents]]</tt></p>
+<p>Loads an xml data file or a jython script file (ending with .py or .jy) into dgsh. If you are loading your party, don't forget to end the command with 'p' or 'party'.</p>
+<p>When you load a jython script, it gets reinterpreted, so your changes are reflected immediately, debugging is easier... (And of course, you don't have precise a character set for loading jython scripts)</p>
+
+<h3>log</h3>
+<p><tt>log {text}</tt></p>
+<p>Logs a text to the current game session log file (usually 'dungeon.log'). Note that every command you type also goes to this log file.</p>
+
+<h3>monsters</h3>
+<p><tt>monsters [filter]</tt></p>
+<p>Displays the list of monsters you can '<a href=cmd_inst>inst</a>antiate' and throw against your party of players.</p>
+
+<h3>move</h3>
+<p><tt>move {sourceEquipmentLocator} {targetEquipmentLocator}</tt></p>
+<p>Moves a piece of equipment from one place to the other.</p>
+<p>Examples :</p>
+<ul>
+    <li><tt>move shana.carried.baxe shana.held.baxe</tt></li>
+    <li><tt>move shana.h.baxe troudukh.c</tt></li>
+</ul>
+
+<!--
+<h3>new</h3>
+<p></p>
+-->
+
+<h3>next</h3>
+<p><tt>next</tt></p>
+<p>This command is by default aliased to 'n'. Tells you who should play next (of course, initiative must be rolled at the beginning of the fight with <tt>init</tt>). Next also tells you when an effect ends or what effect it has when its turn shows up (1d6 damage per round).</p>
+
+<img src=images/opp.png align=right>
+<h3>opp</h3>
+<p><tt>opp</tt></p>
+<p>Use this command to display the opponents currently facing your party.</p>
+<p>you can also use its default alias : <tt>o</tt>.</p>
+
+<h3>party</h3>
+<p><tt>party</tt></p>
+<p>The same result as <tt>opp</tt> but with your party of PC.</p>
+
+<!--<img src=images/prepare.png border=0 align=right>-->
+<h3>prepare</h3>
+<p><tt>prepare {characterName} {className}</tt></p>
+<p><tt>prepare shana drd</tt> starts a spell preparation session for shana.</p>
+<p>It's like a small sub-shell for preparing spells.</p>
+<p>commands available during preparation : 
+<pre>
+r[eset] 
+    - flushes the prepared spell list and resets the spell slots
+f[ree] 
+    - displays the free slots available for preparation
+l[ist] {level}
+    - lists the spells that can be prepared for a given level
+p[repare] {spellName} [d] [count]
+    - the spellName can be a regular expression
+    - use _ (underscores) instead of space in the spellName
+    - you can specify how many times the spell gets prepared with [count]
+    - if you flag the command with a 'd' after the spell name, the spell
+      will be prepared as a domain spell (if possible).
+u[nprepare] {spellName} [d]
+    - removes a spell from the prepared ones 
+    - flag with a 'd' if the spell is a domain spell
+{ENTER} 
+    - displays the prepared spells 
+x|ex[it]
+    - quits the preparation mode
+</pre>
+
+<h3>ref</h3>
+<p><tt>ref [subject]</tt></p>
+<p>Displays reference texts contained in the subdirectory doc/ and having the '.ref' extension.</p>
+<p>For example <tt>ref turning</tt> will display a small reference text about turning or rebuking undead creatures.</p>
+<p><tt>ref</tt> alone, displays the various available subjects.</p>
+<br>
+<p>Ref uses some kind of pager for viewing the files :</p>
+<ul>
+ <li>'u' : pages up one screen</li>
+ <li>'d' : pages down one screen</li>
+ <li>'h' : goes 'home' (first page)</li>
+ <li>'e' : displays last page</li>
+ <li>'x' or 'q' : quits the ref command</li>
+</ul>
+
+<img src=images/relax.png border=0 align=right>
+<h3>relax</h3>
+<p><tt>relax</tt></p>
+<p>Exits the combat mode and flushes the opponent list.</p>
+
+<h3>roll</h3>
+<p><tt>roll {diceSet}</tt></p>
+<p>Type for example : <tt>roll 5d6+2</tt></p>
+<p>This command is usually aliased to 'r', so <tt>r 1d4-1</tt> will be equivalent to <tt>r 1d4-1</tt></p>
+
+<h3>save</h3>
+<p><tt>save {t[emp]|p[arty]|o[pponents] | creatureName} [filename]</tt></p>
+<p>Saves your party or the opponents into a file you choose. Be careful not to override important files (like dgsh data files, you've perhaps hacked them with some Eldritch Might). Usually put .xml at the end of the filename.</p>
+<p>You can now save a creature in its own file. This is very useful to save each party member to its file :<br>
+<tt>save delfae pty/delfae.xml</tt></p>
+
+<h3>scn</h3>
+<p><tt>scn [filename]</tt></p>
+<p>Allows you to browse the files you put in your scenario directory (by default it's $DGSH_HOME/scn/, but you can set it in dsh-config.xml). Works much like <tt>ref</tt></p>
+
+<h3>search</h3>
+<p><tt>search {dc} [characterName]</tt></p>
+<p>Performs an 'automatic' search check with the given DC. If no character name if given, performs the check for everybody in the party (don't bother about results for character you aren't allowed to check).</p>
+
+<h3>set</h3>
+<p><tt>set [{attributeName} [newValue]]</tt></p>
+<p>Sets the value for an environment attribute. Using 'set' without parameters lists the current attributes and their values.<br>
+If you give no newValue, the attribute will be removed from the environment.</p>
+
+<h3>setinit</h3>
+<p><tt>setinit {character or monster name}</tt></p>
+<p>Sets the init score of a character or a monster (useful when one has readied an action or enters the fight).</p>
+
+<h3>skills</h3>
+<p><tt>skills {characterName}</tt></p>
+<p>Displays the skills for a character or a monster.</p>
+
+<h3>spell</h3>
+<p><tt>spell {filter}</tt></p>
+<p>Is followed by a filter like in <tt>spell .*interposing.*</tt>. Displays all the stats for the first spell that matches the filter.</p>
+
+<h3>spellbook</h3>
+<p><tt>spellbook {characterName}</tt></p>
+<p>Displays the spellbook of a character.</p>
+
+<h3>spells</h3>
+<p><tt>spells [filter|{level} {className}}]</tt></p>
+<p>Lists the spells loaded in dgsh. You can use a filter so all the spells don't get displayed together. Try <tt>spells .*bigby.*</tt> to display all the Bigby suite.</p>
+<p>You can also display spells by class and level like this : <tt>spells 1 wiz</tt>.</p>
+
+<h3>sub</h3>
+<p><tt>sub {targetName} {hpCount}</tt></p>
+<p>Adds or remove subdual damage points to a character or a monster. Remember that subdual damage points are lost at a rate of 1 pt per hour per level.</p>
+
+<h3>todef</h3>
+<p><tt>fidef [creatureName]</tt></p>
+<p>This command can only get used during a combat. If the 'creatureName' is not specified, the creature whose turn it is will be considered as the defender.<br>
+The creature will be marked as on 'total defense' (+4 AC) for 1 round.</p>
+
+<h3>transfer</h3>
+<p><tt>transfer {name[*]} {fromSet} {toSet}</tt></p>
+<p>This command can get very useful if you've loaded your party into the 'temp' array, try <tt>transfer * temp party</tt> or <tt>transfer * t p</tt> and your adventurers will be back.</p>
+
+<h3>treasure</h3>
+<p><tt>treasure {level}</tt></p>
+<p>Rolls a random treasure for a given level. By default aliased to 'trs'.</p>
+<p>The random tables can be found in dgsh/etc/tables/</p>
+
+<h3>version</h3>
+<p><tt>version</tt></p>
+<p>Displays the version of dgsh you are using</p>
+
+<h3>wear</h3>
+<p><tt>wear {beingName} {equipmentLocator}</tt></p>
+<p></p>
+
+<h3>xp</h3>
+<p><tt>xp {count} [target]*</tt></p>
+<p>Adds or remove xp to the party or only to certain characters.</p>
+
+<!-- JYTHON COMMANDS -->
+
+<br><h2><a name=jcommands>Scripted commands</a></h2>
+
+<p>These commands are class related, so I didn't make them part of the dgsh standard commands. They are so implemented in jython, you can find their implementation in <a href=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dgsh/dgsh/etc/scripts/>etc/scripts/</a> (and hack them if you like).</p>
+<p>For example, the 'rage' command is tied to barbarians so if you look at the data file etc/classes.xml, you will find just before the xml representation of the barbarian class, a reference to etc/scripts/barbarianRage.py which contains the code for the rage command.</p>
+
+<h3>rage</h3>
+<p><tt>rage {barbarianName}</tt></p>
+<p>Pass the name of a barbarian as unique argument to this command and this barbarian will start its rage.<br>
+At the end of the rage, the barbarian will automatically depress.</p>
+
+    </td>
+  </tr>
+</table>
+<br>
+<p align=center><small>$Id: commands.shtml,v 1.3 2002/08/31 06:38:22 jmettraux Exp $</small><br>
+<br>
+<table>
+<tr>
+<td width=50%>hosted on <A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=56085&amp;type=4" border="0" alt="SourceForge Logo"></A></td>
+<td width=50%>and <a href=http://www.vim.org><img src=images/vim.png border=0></a></td>
+</p>
+</tr>
+</table>
+</body>
+</html>

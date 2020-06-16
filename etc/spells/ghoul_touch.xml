@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Paralyzes one subject, who exudes stench (-2 penalty) nearby.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1d6+2 rounds</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Imbuing you with negative energy, this spell allows you to paralyze a single humanoid for 1d6+2 rounds with a successful melee touch attack. Additionally, the paralyzed subject exudes a carrion stench that causes retching and nausea in a 10-foot radius. Those in the radius (excluding you) must make a Fortitude save or suffer a -2 penalty to all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks until the spell ends.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Ghoul Touch</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Fortitude negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

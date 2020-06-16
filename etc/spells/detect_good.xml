@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>rgr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Reveals creatures, spells, or objects.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As detect evil, except that the spell detects good creatures, spells, and magic items, and you are vulnerable to an overwhelming good aura if you are evil. It does not detect undead. Also, remember that healing potions, antidotes, and similar beneficial items are not good.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Detect Good</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+ </object> 
+</java> 

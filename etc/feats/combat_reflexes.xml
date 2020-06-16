@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: When foes leave themselves open, the character may make a number of additional attacks of opportunity equal to the character's Dexterity modifier. The character still may only make one attack of opportunity per enemy.
+The character may also make attacks of opportunity while flat-footed.
+Special: A rogue with the Combat Reflexes feat still can only make one attack of opportunity in a round if he uses his opportunist ability to make that attack.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Combat Reflexes</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

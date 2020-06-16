@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: Each time the wizard takes this feat, choose a number of
+spells equal to the wizard's Intelligence modifier (they must be
+spells that the wizard already knows). From that point on, the wizard
+can prepare those spells without referring to a spellbook.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Spell Mastery</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Spell Mastery is available only to wizards.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Special]</string> 
+  </void> 
+ </object> 
+</java> 

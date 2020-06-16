@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>rgr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Trickery</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Hides subject from divination, scrying.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+The warded creature or object becomes difficult to detect by
+divination spells such as clairaudience/clairvoyance, locate
+object, and detection spells. Nondetection also prevents location
+by such magic items as crystal balls. If a divination is
+attempted against the warded creature or item, the caster of the
+divination must succeed at a caster level check (1d20 + caster
+level) against a DC of 11 + the caster level of the spellcaster
+who cast nondetection. If you cast nondetection on yourself or on
+an item currently in your possession, the DC is 15 + your caster
+level.
+If cast on a creature, nondetection wards the creature's
+gear as well as the creature itself.
+Material Component: Worth 50 gp.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Nondetection</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (harmless, object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless, object)</string> 
+  </void> 
+ </object> 
+</java> 

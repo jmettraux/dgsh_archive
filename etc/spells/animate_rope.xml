@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Makes a rope move at your command.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You can animate a nonliving ropelike object, including string, yarn, cord, line, rope, or even a cable. The maximum length assumes a rope with a 1-inch diameter. Reduce the total length by 50% for every additional inch of thickness, and increase the length by 50% for each reduction of the rope's width by half. The possible commands are "Coil" (form a neat, coiled stack), "Coil and knot," "Loop," "Loop and knot," "Tie and knot," and the opposites of all of the above ("Uncoil," etc.). One command can be given each round as a standard action.
+
+The rope can enwrap only a creature or an object within 1 foot of it-it does not snake outward-so it must be thrown near the intended target. Doing so requires a successful ranged touch attack roll. The rope has a range increment of 10 feet. A typical rope has 2 hit points, AC 10, and can be burst with a Strength check (DC 23). The rope does not deal damage of any type, but it can be used as a trip line or to entangle a single opponent who fails a Reflex saving throw. An entangled creature suffers a -2 penalty to attack rolls and a -4 penalty to effective Dexterity.  If the rope can anchor itself to an immobile object, the entangled creature cannot move. Otherwise, it can move at half speed but can't run or charge. A creature capable of spellcasting that is bound by this spell must make a Concentration check (DC 15) to cast a spell. An entangled creature can slip free with an Escape Artist check (DC 20).
+
+The rope itself, and any knots tied in it, are not magical.  This spell grants a +2 bonus to any Use Rope checks you make when using the transmuted rope.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Animate Rope</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

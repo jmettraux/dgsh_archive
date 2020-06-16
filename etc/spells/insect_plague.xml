@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 full round</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Insect horde limits vision, inflicts damage, and weak  creatures flee.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Cloud of insects 180 ft. wide and up to 60 ft. high</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>A horde of creeping, hopping, and flying insects swarm in a thick cloud when you cast this spell. The insects limit vision to 10 feet, and spellcasting within the cloud is impossible.
+
+Creatures inside the insect plague, regardless of Armor Class, sustain 1 point of damage at the end of each round they remain within, due to the bites and stings of the insects. Invisibility is no protection. All creatures with 2 or fewer HD are driven from the cloud at their fastest possible speed in a random direction and flee until they are at least 100 feet away from the insects. Creatures with 3 to 5 HD flee as well, though a Will save negates this effect. (This urge to flee is an extraordinary fear effect.)
+
+Heavy smoke drives off insects within its bounds. Fire also drives insects away. For example, a wall of fire in a ring shape keeps a subsequently cast insect plague outside its confines, but a fireball spell simply clears insects from its blast area for 1 round. A single torch is ineffective against this vast horde of insects. Lightning, cold, and ice are likewise ineffective, while a strong wind (21+ mph) that covers the entire plague area disperses the insects and ends the spell.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Insect Plague</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

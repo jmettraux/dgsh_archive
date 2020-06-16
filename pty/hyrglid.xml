@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Character"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>14</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>13</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>18</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>18</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>12</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>12</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="alignment"> 
+   <string>chaotic good</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="currentHitPoints"> 
+   <int>8</int> 
+  </void> 
+  <void property="currentInitiative"> 
+   <int>-10</int> 
+  </void> 
+  <void property="equipment"> 
+   <void property="heldEquipment"> 
+    <void property="equipmentList"> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.RangedWeapon"> 
+       <void property="categoryDefinition"> 
+        <string>lcrossbow</string> 
+       </void> 
+       <void property="critical"> 
+        <string>19-20 x2</string> 
+       </void> 
+       <void property="damages"> 
+        <string>1d8</string> 
+       </void> 
+       <void property="description"> 
+        <string>light crossbow</string> 
+       </void> 
+       <void property="name"> 
+        <string>lcrossbow</string> 
+       </void> 
+       <void property="proficiencyType"> 
+        <string>simple weapon proficiency</string> 
+       </void> 
+       <void property="rangeIncrement"> 
+        <int>80</int> 
+       </void> 
+       <void property="value"> 
+        <string>35 gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>6.0</float> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.MeleeWeapon"> 
+       <void property="categoryDefinition"> 
+        <string>morningstar</string> 
+       </void> 
+       <void property="damages"> 
+        <string>1d8</string> 
+       </void> 
+       <void property="description"> 
+        <string>morningstar</string> 
+       </void> 
+       <void property="name"> 
+        <string>mstar</string> 
+       </void> 
+       <void property="proficiencyType"> 
+        <string>simple weapon proficiency</string> 
+       </void> 
+       <void property="value"> 
+        <string>8 gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>8.0</float> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+   </void> 
+  </void> 
+  <void property="experiencePoints"> 
+   <int>1126</int> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>simple weapon proficiency</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>toughness</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="hitPoints"> 
+   <int>8</int> 
+  </void> 
+  <void property="miscModifiers"> 
+   <null/> 
+  </void> 
+  <void property="name"> 
+   <string>Hyrglid</string> 
+  </void> 
+  <void property="player"> 
+   <string>Noel</string> 
+  </void> 
+  <void property="raceName"> 
+   <string>elf</string> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"/> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.CharacterSkill"> 
+     <void property="ranks"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>concentration</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.CharacterSkill"> 
+     <void property="ranks"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>knowledge (arcana)</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.CharacterSkill"> 
+     <void property="ranks"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>scry</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.CharacterSkill"> 
+     <void property="ranks"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spellcraft</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>10m (6sq)</string> 
+  </void> 
+  <void property="spellList"> 
+   <object class="burningbox.org.dsh.entities.magic.SpellList"> 
+    <void property="spellsPerClass"> 
+     <void method="put"> 
+      <string>sor</string> 
+      <object class="java.util.ArrayList"> 
+       <void method="add"> 
+        <string>Ray of Frost</string> 
+       </void> 
+       <void method="add"> 
+        <string>Read Magic</string> 
+       </void> 
+       <void method="add"> 
+        <string>Detect Poison</string> 
+       </void> 
+       <void method="add"> 
+        <string>Light</string> 
+       </void> 
+       <void method="add"> 
+        <string>Identify</string> 
+       </void> 
+       <void method="add"> 
+        <string>Magic missile</string> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="spellSlots"> 
+   <void property="slotsPerClass"> 
+    <void method="get"> 
+     <string>sor</string> 
+     <void index="0"> 
+      <int>3</int> 
+     </void> 
+     <void index="1"> 
+      <int>2</int> 
+     </void> 
+    </void> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

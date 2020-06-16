@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Luck</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Trickery</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Turns you invisible and creates illusory  double.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level (D)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>You/one illusory double</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+An illusory double of you (a figment) appears, and at the same
+time, you become invisible (as improved invisibility, a glamer).
+You are then free to go elsewhere while your double moves away.
+The double appears within range but thereafter moves according to
+your intent at the time of casting. You can make the figment
+appear superimposed perfectly over your own body so that
+observers don't notice an image appearing and you turning
+invisible. You and the figment can then move in different
+directions. The double moves at your speed, can talk and gesture
+as if it were real, and even smells and feels real. The double
+cannot attack or cast spells, but it can pretend to do so.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Mislead</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None/Will disbelief (if interacted with)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Figment, Glamer</string> 
+  </void> 
+ </object> 
+</java> 

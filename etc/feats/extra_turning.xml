@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: Allows a character to turn undead four more times per day than normal.
+Special: A character can take this feat multiple times, gaining four extra daily turning attempts each time.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Extra Turning</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Ability to Turn Undead</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Special]</string> 
+  </void> 
+ </object> 
+</java> 

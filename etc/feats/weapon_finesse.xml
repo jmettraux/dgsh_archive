@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Choose one light weapon. Alternatively, the character can choose a rapier, provided the character can use it in one hand, or a spiked chain, provided the character is at least Medium-size.
+Benefit: With the selected weapon, the character may use a Dexterity modifier instead of a Strength modifier on attack rolls. Since the character needs the second hand for balance, apply the armor check penalty of any shield worn to attack rolls.
+Special: The character can gain this feat multiple times. Each time the character takes the feat, it applies to a new weapon.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Weapon Finesse</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Proficient with weapon, base attack bonus +1 or higher.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

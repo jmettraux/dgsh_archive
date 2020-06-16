@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>pal</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Allies gain +1 on most rolls, and enemies suffer -1.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You bring special favor upon your allies (and possibly
+yourself) and bring disfavor to your enemies. You and your allies
+gain a +1 luck bonus on attack rolls, weapon damage rolls, saves,
+and skill checks, while foes suffer a -1 penalty on such
+rolls.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Prayer</string> 
+  </void> 
+  <void property="range"> 
+   <string>30 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

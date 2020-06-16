@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+
+<!-- TANAR'RI -->
+ <object class="burningbox.org.dsh.entities.Race"> 
+  <void property="name"> 
+   <string>tanar-ri</string> 
+  </void> 
+  <void property="specials"> 
+   <void method="put"> 
+    <string>telepathy</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Tanar'ri have cold, fire, and acid resistance 20</string> 
+     </void> 
+     <void property="name"> 
+      <string>telepathy</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>immunities</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Tanar'ri are immune to poison and electricity</string> 
+     </void> 
+     <void property="name"> 
+      <string>immunities</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>resistances</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Tanar'ri have cold, fire, and acid resistance 20</string> 
+     </void> 
+     <void property="name"> 
+      <string>resistances</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Charm, fear, sicken or sleep one subject.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/three levels (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You can merely meet the gaze of a creature and speak a single word to affect it with one of four magical effects: charm, fear, sicken, or sleep. You select one of these four possible gaze attacks when casting the spell. You retain the gaze power for 1 round for every three caster levels and can use the gaze attack as a free action each round.
+
+These effects do not affect undead creatures or extend beyond the plane you currently occupy. You are subject to the effects of your reflected gaze and are allowed any applicable saving throw.  In the case of a reflected charm gaze, you are held (as a hold monster spell).
+
+The four versions of the spell are as follows:
+
+Charm: Equivalent to the charm monster spell, except that the saving throw is based on spell level 6.
+
+Fear: The subject flees in blind terror for 1d4 rounds. Once it stops fleeing, the creature refuses to face you for 10 minutes per your caster level. If subsequently confronted by you, it either cowers or bolts for the nearest cover (50% chance of either). This is an enchantment, compulsion, mind-affecting effect; it can be negated by a Will save (SR applies).
+
+Sicken: Sudden pain and fever sweeps over the subject's body. An affected creature's speed is reduced by half, it loses any Dexterity bonus to Armor Class, and it suffers a -2 penalty to attack rolls. The creature remains stricken for 10 minutes per your caster level. The effects cannot be negated by a cure disease or heal spell, but a remove curse or successful dispel magic spell is effective. This is a necromancy effect; it can be negated by a Fortitude save (SR applies).
+
+Sleep: The subject falls asleep. The creature sleeps for your caster level x 10 minutes but can be slapped awake. This is an enchantment, compulsion, mind-affecting effect; it can be negated by a Will save (SR applies).
+
+Note: Each round, a gaze attack automatically works against one creature within range that is looking at (attacking or interacting with) the gazing creature.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Eyebite</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

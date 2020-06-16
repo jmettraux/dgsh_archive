@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>rgr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Gains permanent animal companions.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You win the loyalty of an animal, provided that your heart is true. The spell functions only if you actually wish to be the animal's friend. If you are not willing to treat the animal as a friend (for example, you intend to eat it, or to use it to set off traps), the spell fails. An animal's loyalty, once gained, is natural (not magical) and lasting.
+You can teach the befriended animal three specific tricks or tasks for each point of Intelligence it possesses. Typical tasks are coming when called, rolling over on command, fetching, or shaking hands. They cannot be complex (complex tricks, such as accepting a rider, require the Handle Animal skill).
+At any one time, you can have only a certain number of animals befriended to you. You can have animal friends whose Hit Dice total no more than twice your caster level. You may dismiss animal friends to enable you to befriend new ones.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Animal Friendship</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Charm</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

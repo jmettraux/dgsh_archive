@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Purifies 1 cu. ft./level of food or water.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+This spell makes spoiled, rotten, poisonous, or otherwise
+contaminated food and water pure and suitable for eating and
+drinking. This spell does not prevent subsequent natural decay or
+spoilage. Unholy water and similar food and drink of significance
+is spoiled by purify food and drink, but the spell has no effect
+on creatures of any type nor upon magic potions.
+Note: Water weighs about 8 pounds per gallon. One cubic foot
+of water contains roughly 8 gallons and weighs about 60 pounds.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Purify Food and Drink</string> 
+  </void> 
+  <void property="range"> 
+   <string>10 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Universal</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (object)</string> 
+  </void> 
+ </object> 
+</java> 

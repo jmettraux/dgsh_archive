@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Kills 3 HD or less; 4-6 HD save or die.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Cloud spreads 30 ft. wide and 20 ft. high</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell generates a bank of fog, similar to a fog cloud except that its vapors are ghastly yellowish green and poisonous.  They kill any living creature with 3 or fewer HD (no save) and cause creatures with 4 to 6 HD to make Fortitude saving throws or die. Living creatures above 6 HD, and creatures of 4 to 6 HD who make their saving throws, take 1d10 points of poison damage each round while in the cloud. Holding one's breath doesn't help. 
+Unlike a fog cloud, the cloudkill moves away from you at 10 feet per round, rolling along the surface of the ground. (Figure out the cloud's new spread each round based on its new point of origin, 10 feet farther away from the point of origin where you cast the spell.) Because the vapors are heavier than air, they sink to the lowest level of the land, even pouring down den or sinkhole openings. It cannot penetrate liquids, nor can it be cast underwater.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Cloudkill</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

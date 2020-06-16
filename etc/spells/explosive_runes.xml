@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Deals 6d6 damage when read.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Until discharged (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You trace these mystic runes upon a book, map, scroll, or similar object bearing written information. The runes detonate when read, dealing 6d6 points of damage. Anyone next to the runes (close enough to read them) takes this damage with no saving throw. Others within 10 feet of the runes take half damage if they succeed at Reflex saving throws. The object in which the runes were written also takes the damage (no saving throw).  As the spellcaster, you and any characters you specifically instruct can read the protected writing without triggering the runes. Likewise, you can remove the runes whenever desired.  Others can remove them with a successful dispel magic or erase spell. However, attempting to dispel or erase the runes and failing to do so triggers the explosion.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Explosive Runes</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

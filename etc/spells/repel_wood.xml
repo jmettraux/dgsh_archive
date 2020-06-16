@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Plant</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Pushes away wooden objects.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Waves of energy roll forth from you, moving in the direction
+that you determine, causing all wooden objects in the path of the
+spell to be pushed away from you to the limit of the range.
+Wooden objects larger than 3 inches in diameter that are fixed
+firmly are not affected, but loose objects (barrels, siege
+towers, etc.) are. Objects 3 inches in diameter or smaller that
+are fixed in place splinter and break, and the pieces move with
+the wave of energy. Objects affected by the spell are repelled at
+the rate of 40 feet per round. 
+Objects such as wooden shields, spears, wooden weapon shafts
+and hafts, and arrows and bolts are pushed back, dragging those
+carrying them with them. (A creature being dragged by an item it
+is carrying can let go. A creature being dragged by a shield can
+unlimber it as a move-equivalent action.) If a spear is planted
+(set) to prevent this forced movement, it splinters. Even magic
+items with wooden sections are repelled, although an antimagic
+field blocks the effects.
+The waves of energy continue to sweep down the set path for
+the spell's duration. After casting the spell, the path is
+set, and you can then do other things or go elsewhere without
+affecting the spell's power.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Repel Wood</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

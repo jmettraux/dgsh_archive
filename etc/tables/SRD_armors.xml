@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.random.Table"> 
+  <void property="name"> 
+   <string>SRD_armors</string> 
+  </void> 
+  <void property="possibilities"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>padded Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>leather Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>hide Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>studded leather Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>14</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>chain shirt Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>14</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>scale mail Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>chainmail Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>breastplate Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>12</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>splint mail Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>banded mail Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>half-plate Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>full plate Armor</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>39</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

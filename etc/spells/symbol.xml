@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action or 10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF (or V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M for carefully engraved)</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Triggered runes have array of effects.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>See text</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One symbol</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell allows you to scribe any of the potent runes described below. A symbol can be quickly scribed in the air or on some surface. Alternatively, you can carefully inscribe it on a surface. The symbol harms those who trigger it (usually those who pass over it, touch it, read it, etc.)
+
+A quickly scribed symbol has a casting time of 1 action. The resulting rune becomes active immediately. It lasts 10 minutes per caster level and glows faintly while it lasts. Symbols of fear, hopelessness, pain, or persuasion can be used in this manner. Symbols of death, discord, insanity, pain, sleep, and stunning cannot.
+
+A carefully engraved symbol has a casting time of 10 minutes.  The symbol is inactive when finished and remains so until triggered. Once triggered, it becomes active and glows, usually lasting 10 minutes per caster level. Some symbols can last indefinitely once triggered. For example, a symbol of death ends when it has slain 150 hit points worth of creatures.  To be effective, a symbol must always be placed in plain sight and in a prominent location. Covering or hiding the rune renders the symbol ineffective.
+
+As a default, a symbol is triggered whenever a creature does one or more of the following, as you select: reads, touches, or passes over the rune, looks at the rune, or passes through a portal bearing the rune.
+
+In this case, "reading" the rune means any attempt to study it, identify it, or fathom its meaning. Throwing a cover over a symbol to render it inoperative triggers it if it reacts to touch. To trigger a symbol, a creature must be within 60 feet of the rune.
+
+You can set special triggering conditions of your own. These can be as simple or elaborate as you desire. Special conditions for triggering a symbol can be based on a creature's name, identity, or alignment, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, HD, and hit points don't qualify. For example, a symbol can be set to activate when a lawful good creature approaches, but not when a paladin approaches.
+
+A symbol's triggering conditions must always be defensive in nature. A touch-triggered symbol remains untriggered if an item bearing the symbol is used to touch a creature. Likewise, a symbol cannot be placed on a weapon and set to activate when the weapon strikes a foe.
+
+Once the spell is cast, a symbol's triggering conditions cannot be changed.
+
+You ignore the effects of your own symbols and cannot inadvertently trigger them. When scribing a symbol quickly, you can instantly attune any number of creatures to the symbol, rending them immune to its effects, provided the creatures are within 60 feet of the rune when it is created and that you are aware of their presence.
+
+When creating a carefully inscribed symbol, you can specify a password or phrase that prevents a creature using it from triggering the symbol. You also can attune any number of creatures to the symbol, but doing this can extend the casting time. Attuning one or two creatures takes negligible time, and attuning a small group (up to ten creatures) takes 1 hour.  Attuning a large group (up to twenty-five creatures) takes 1 day.  Attuning larger groups takes proportionately longer, as the DM sees fit.
+
+When triggered, a symbol affects all creatures within a 60-foot radius except for you and any individuals attuned to it.  If a symbol has a password, anyone using the password remains immune to that particular rune's effects so long as the character remains within 60 feet of the rune. If the character leaves the radius and returns later, he must use the password again. Once triggered, a symbol remains active until its duration expires. Creatures who subsequently meet an active symbol's triggering conditions suffer its effects.
+
+A successful dispel magic removes the effects of a symbol from a creature unless the symbol's effect is instantaneous (death, stunning) or the description specifies another remedy (insanity). The rune itself can be removed by a successful dispel magic targeted solely on the rune. An erase spell has no effect on a symbol. Destruction of the surface where a symbol rests destroys the symbol but also triggers its effects.
+
+Read magic allows you to identify a symbol with a successful Spellcraft check (DC 19). Identifying the symbol does not discharge it and allows you to know the version of the symbol. A symbol can be rendered permanent with the permanency spell, provided it is carefully engraved upon a permanent, nonportable surface such as a wall or door. A permanency spell extends a symbol's basic duration of 10 minutes per caster level indefinitely. When triggered, a permanent symbol usually glows and is active for about 10 minutes, but there is no limit to how many times it can be triggered. If the symbol can affect only a limited number of hit points worth of creatures, the limit applies each 10 minutes. For example, a permanent symbol of death could slay 150 hit points worth of creatures every 10 minutes.
+
+Known symbols include:
+
+Death: One or more creatures within the radius, whose combined total hit points do not exceed 150, must succeed at Fortitude saves or die. The symbol affects the closest creatures first, skipping creatures with too many hit points to affect. This symbol must be carefully engraved on a surface. Once triggered, the symbol lasts until it has affected 150 hit points worth of creatures.
+
+Discord: All creatures with an Intelligence score of 3 or higher within 60 feet immediately fall into loud bickering and arguing. Meaningful communication is impossible. If the affected creatures have different alignments, there is a 50% chance that they attack each other. Bickering lasts 5d4 rounds. Fighting begins 1d4 rounds into the bickering and lasts 2d4 rounds. This symbol must be carefully engraved on a surface. Once triggered, the symbol lasts 10 minutes per caster level. This version is a mind-affecting spell.
+
+Fear: This symbol can be scribed quickly or carefully engraved on a surface. Creatures within the radius are afflicted by a powerful version of the fear spell. If scribed in the air, this symbol requires a Will save to resist. If the rune is carefully inscribed, the save DC increases by 4. Once triggered, the symbol lasts 10 minutes per caster level. This version is a mind-affecting spell.
+
+Hopelessness: All creatures within the radius must attempt Will saves. If the rune is carefully engraved on a surface, the save DC increases by 4. If the save fails, the creature suffers from hopelessness for 3d4x10 minutes and submits to simple demands from foes, such as to surrender or get out. The effect is similar to that of the suggestion spell. If no foes are present to make demands, there is a 25% chance that a hopeless creature proves unable to take any action except hold its ground. If the creature remains free to act, there is a 25% chance it retreats from the rune at normal speed. In either case, the creature can defend normally if attacked. Once triggered, the symbol lasts 10 minutes per caster level. This version is a mind-affecting spell.
+
+Insanity: One or more creatures within the radius, whose combined total hit points do not exceed 150, become insane (as the insanity spell; Will negates). The symbol affects the closest creatures first, skipping creatures with too many hit points to affect. This symbol must be carefully engraved on a surface. Once triggered, the symbol lasts until it has affected 150 hit points worth of creatures. This version is a mind-affecting spell.  
+
+Pain: Creatures within the radius suffer wracking pains that reduce Dexterity scores by 2 and impose a -4 penalty on attack rolls, skill checks, and ability checks (Fortitude negates). Both effects last 2d10x10 minutes. This symbol can be scribed quickly or carefully engraved on a surface. If carefully inscribed, the save DC increases by 4. Once triggered, the symbol lasts 10 minutes per caster level.
+
+Persuasion: This symbol can be scribed quickly or carefully engraved on a surface. All creatures within the radius must succeed at Will saves to resist. If the symbol is carefully inscribed, the save DC increases by 4. If the save fails, the creature becomes the same alignment as you for 1d20 x 10 minutes.  During this time, affected creatures become friendly to you as though subjected to charm person. This version is a mind-affecting spell.
+
+Sleep: Creatures within the radius fall into a catatonic slumber if they have 8 or fewer HD (Will negates). Sleeping creatures cannot be awakened for 3d6x10 minutes. This symbol must be carefully engraved on a surface. Once triggered, the symbol lasts 10 minutes per caster level. This version is a mind-affecting spell.
+
+Stunning: One or more creatures within the radius whose total hit points do not exceed 250 become stunned (Fortitude negates).  The symbol affects the closest creatures first, skipping creatures with too many hit points to affect. A stunned creature can't act and loses any Dexterity bonus to AC. Attackers gain +2 bonuses to attack it. In addition, the stunned creatures drop what they are holding. This symbol must be carefully engraved on a surface.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>carefully scribed symbol, worth at least 5,000 gp each.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Symbol</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Universal</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

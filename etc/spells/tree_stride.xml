@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>rgr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Step from one tree to another far away.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level or until expended (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You gain the ability to enter trees and move from inside one
+tree to inside another tree. The first tree you enter and all
+others you enter must be of the same type, must all be living,
+and must have girth at least equal to yours. By moving into an
+oak tree (for example), you instantly know the location of all
+other oak trees within transport range (see below) and may choose
+whether you want to pass into one or simply step back out of the
+tree you moved into. You may choose to pass to any tree of the
+appropriate kind within the transport range shown in the
+following table:
+Type of Tree        Range of Transport
+------------        ------------------
+Oak, ash, yew         3,000 feet
+Elm, linden         2,000 feet
+Other deciduous     1,500 feet
+Any coniferous         1,000 feet
+All other trees     500 feet
+You may move into a tree up to one time per level (passing
+from one tree to another counts only as moving into one tree).
+The spell lasts until the duration is expended or you exit a
+tree. Each transport is a full-round action.
+You can, at your option, remain within a tree without
+transporting yourself, though you are forced out when the spell
+ends. If the tree in which you are concealed is chopped down or
+burned, you are slain if you do not exit before the process is
+complete.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Tree Stride</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="type"> 
+   <string>Teleportation</string> 
+  </void> 
+ </object> 
+</java> 

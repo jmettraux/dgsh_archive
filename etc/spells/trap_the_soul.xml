@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action or see text</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>(F)</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Imprisons subject within gem.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent (see text)</string> 
+  </void> 
+  <void property="focus"> 
+   <string>[Trigger Object Only] If the trigger object method is
+used, a special trigger object, prepared as described above, is
+needed.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Trap the soul forces a creature's life force (and its material body) into a gem.
+
+The gem holds the trapped entity indefinitely or until the gem is broken and the life force is released, which allows the material body to reform. If the trapped creature is a powerful creature from another plane (which could mean a character trapped by an inhabitant of another plane when the character is not on the Material Plane), it can be required to perform a service immediately upon being freed. Otherwise, the creature can go free once the gem imprisoning it is broken.
+
+Depending on the version selected, the spell can be triggered in one of two ways.
+
+Spell Completion: First, the spell can be completed by speaking its final word as a standard action as if you were casting a regular spell at the subject. This allows SR (if any) and a Will save to avoid the effect. If the creature's name is spoken as well, any SR is ignored and the save DC increases by 2. If the save or SR is successful, the gem shatters.
+
+Trigger Object: The second method is far more insidious, for it tricks the subject into accepting a trigger object inscribed with the final spell word, automatically placing the creature's soul in the trap. To use this method, both the creature's name and the trigger word must be inscribed on the trigger object when the gem is enchanted. A sympathy spell can also be placed on the trigger object. As soon as the subject picks up or accepts the trigger object, its life force is automatically transferred to the gem without the benefit of SR or a save.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Before the actual casting of trap the
+soul, you must procure a gem of at least 1,000 gp value for every
+Hit Die possessed by the creature to be trapped. If the gem is
+not valuable enough, it shatters when the entrapment is
+attempted. (While characters have no concept of level as such,
+the value of the gem needed to trap an individual can be
+researched. Remember that this value can change over time as
+characters advance.)</string> 
+  </void> 
+  <void property="name"> 
+   <string>Trap the Soul</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (see text)</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+ </object> 
+</java> 

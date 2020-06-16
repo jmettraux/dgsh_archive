@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Grants object false magic aura.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You make an item's aura register to detection spells (and similar spells) as though it were either a magic item of the type that you specify or the subject of a spell that you specify. You could make an ordinary sword register as a +2 vorpal sword as far as magical detection is concerned or make a +2 vorpal sword register as if it were a +1 sword.
+
+If the object bearing Nystul's magic aura has identify cast on it or is similarly examined, the examiner recognizes that the aura is false and detects the object's actual qualities if he succeeds at a Will save. Otherwise, he believes the aura and no amount of testing reveals what the true magic is.  If the targeted item's own aura is exceptionally powerful (if it is an artifact, for instance), Nystul's magic aura doesn't work.
+
+Note: A magic weapon, shield, or suit of armor must be a masterwork item, so a sword of average make, for example, looks suspicious if it has a magical aura.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Nystul's Magic Aura</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Glamer</string> 
+  </void> 
+ </object> 
+</java> 

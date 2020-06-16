@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Turns insects into giant vermin.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You turn one or more normal-sized insects, arachnids, or other vermin into larger forms resembling giant vermin. Only one type of vermin can be transmuted (so a single casting cannot affect both an ant and a fly), and all must be grown to the same number of HD. The number of vermin and the HD to which they can be grown depends upon your level; see the accompanying table.
+
+Caster   Target's      New     Armor    Attack/
+Level    New HD        Size    Class    Damage      Fort Refl Will 
+------   --------      ----    -----    -------     ---- ---- ----
+7-9      3d8+6         Large   14       +4/1d8+4    +5   +0   +1
+10-12    4d8+16        Huge    14       +8/2d6+8    +8   +0   +1
+13-15    5d8+20        Huge    14       +8/2d6+8    +8   +0   +1
+16-18    6d8+24        Huge    14       +9/2d6+8    +9   +1   +2
+19-20    7d8+28        Huge    14       +9/2d6+8    +9   +1   +2
+
+Any giant vermin created by this spell do not attempt to harm you, but your control of such creatures is limited to simple commands ("Attack," "Defend," "Stop," and so forth). Orders to attack a certain creature when it appears or guard against a particular occurrence are too complex for the vermin to understand. Unless commanded to do otherwise, the giant vermin attack whoever or whatever is near them.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Giant Vermin</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

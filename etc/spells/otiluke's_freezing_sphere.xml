@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Freezes water or deals cold damage.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>See text</string> 
+  </void> 
+  <void property="effect"> 
+   <string>See text</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Otiluke's freezing sphere is a multipurpose spell. You
+can cast any one of the following three versions:
+Frigid Sphere: A tiny sphere of freezing matter steaks from
+your fingertips to up to long range (400 feet + 40 feet/level) to
+strike a body of water or a liquid that is principally water.
+When it strikes such a target, it freezes the liquid to a depth
+of 6 inches over an area equal to 100 square feet (a 10-foot
+square) per caster level. This ice lasts for 1 round per caster
+level. The sphere has no effect if it strikes a creature, even a
+water-based creature, but creatures swimming on the surface of
+frozen water become trapped in the ice. Attempting to break free
+is a full-round action. A trapped creature must succeed at a
+Strength check (DC 25) to do so.
+Cold Ray: A ray of cold springs from your hand to close range
+(25 feet + 5 feet/2 levels). You must succeed at a ranged touch
+attack to hit your target. The ray instantaneously deals 1d6
+points of cold damage per caster level (maximum 20d6).
+Globe of Cold: You create a small globe about the size of a
+sling stone, cool to the touch but not harmful. This globe is a
+grenadelike weapon and can be hurled either as a thrown weapon
+(range increment 20 feet) or in a sling. The globe bursts on
+impact, dealing 6d6 points of cold damage instantaneously to all
+targets within a 10-foot radius. Affected creatures can attempt
+Reflex saves for half damage. If you do not hurl the globe, it
+bursts on its own after 1 round per caster level. You can command
+the globe to burst sooner if you wish, but the time cannot be
+changed once set (though it still bursts on impact after being
+hurled).
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Otiluke's Freezing Sphere</string> 
+  </void> 
+  <void property="range"> 
+   <string>See text</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Cold</string> 
+  </void> 
+ </object> 
+</java> 

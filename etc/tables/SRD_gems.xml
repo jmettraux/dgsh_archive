@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.random.Table"> 
+  <void property="name"> 
+   <string>SRD_gems</string> 
+  </void> 
+  <void property="possibilities"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>10gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Banded, eye, or moss agate; azurite; blue quartz; hematite; lapis lazuli; malachite; obsidian; rhodochrosite; tiger eye turquoise; freshwater (irregular) pearl</string> 
+       </void> 
+       <void property="value"> 
+        <string>4d4gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>25</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>50gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Bloodstone; carnelian; chalcedony; chrysoprase; citrine; iolite, jasper; moonstone; onyx; peridot; rock crystal (clear quartz); sard; sardonyx; rose, smoky, or star rose quartz; zircon</string> 
+       </void> 
+       <void property="value"> 
+        <string>2d4x10gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>25</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>100gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Amber; amethyst; chrysoberyl; coral; red or brown-green garnet; jade; jet; white, golden, pink or silver pearl; red spinel, red-brown or deep green spinel; tourmaline</string> 
+       </void> 
+       <void property="value"> 
+        <string>4d4x10gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>20</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>500gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Alexandrite; aquamarine; violet garnet; black pearl; deep blue spinel; golden yellow topaz</string> 
+       </void> 
+       <void property="value"> 
+        <string>2d4x100gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>20</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>1000gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Emerald; white, black, or fire opal; blue sapphire; fiery yellow or rich purple corundum; blue or black star sapphire; star ruby</string> 
+       </void> 
+       <void property="value"> 
+        <string>4d4x100gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>5000gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Clearest bright green emerald; blue-white, canary, pink, brown, or blue diamond; jacinth</string> 
+       </void> 
+       <void property="value"> 
+        <string>2d4x1000gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

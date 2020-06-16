@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As major image, plus triggered by event.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent until triggered, then 1 round/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Visual figment that cannot extend beyond a 20-ft. cube + one 10-ft. cube/level (S)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As silent image, except this spell's figment activates
+when a specific condition occurs. The figment includes visual,
+auditory, olfactory, and thermal elements, including intelligible
+speech.
+You set the triggering condition (which may be a special word)
+when casting the spell. The event that triggers the illusion can
+be as general or as specific and detailed as desired but must be
+based on an audible, tactile, olfactory, or visual trigger. The
+trigger cannot be based on some quality not normally obvious to
+the senses, such as alignment. (See magic mouth for more details
+about such triggers.)
+Material Component: Worth 25 gp.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Programmed Image</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Figment</string> 
+  </void> 
+ </object> 
+</java> 

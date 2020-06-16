@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The creature's secondary attacks with natural weapons suffer only a -2 penalty.
+Normal: Without this feat, the creature's secondary natural attacks suffer a -5 penalty.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Multiattack</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Three or more natural weapons.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

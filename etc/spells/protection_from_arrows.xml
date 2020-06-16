@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Subject immune to most ranged attacks.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level or until discharged</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>The warded creature gains resistance to ranged weapons. The subject gains damage reduction 10/+1 against ranged weapons. It ignores the first 10 points of damage each time it takes damage from a ranged weapon, though a weapon with a +1 enhancement bonus or any magical attack bypasses the reduction. The damage reduction increases with the caster level to 10/+2 at 5th, 10/+3 at 10th, 10/+4 at 15th, and 10/+5 at 20th. Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Protection from Arrows</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (harmless)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless)</string> 
+  </void> 
+ </object> 
+</java> 

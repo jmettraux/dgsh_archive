@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Detects spells and magic items within 60 ft.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Concentration, up to 1 minute/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject: 1st Round: Presence or absence of magical auras.
+
+2nd Round: Number of different magical auras and the strength of the strongest aura.
+
+3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.) 
+
+Magical areas, multiple types of magic, or strong local magical emanations may confuse or conceal weaker auras.
+
+Aura Strength: An aura's magical power and strength depend on a spell's functioning spell level or an item's caster level.
+
+                Functioning     Item
+                Spell           Caster
+Strength        Level           Level
+--------        -----------     ------
+Dim             0-level or      Lingering
+                lingering aura  aura
+Faint           1st-3rd         1st-5th
+Moderate        4th-6th         6th-11th
+Strong          7th-9th         12th-20th
+Overwhelming    Artifact or     Beyond
+                deity-level     mortal
+                magic           caster
+
+If an aura falls into more than one category, detect magic indicates the stronger of the two.
+Length Aura Lingers: How long the aura lingers depends on its original strength:
+
+Aura Strength    Duration
+-------------    --------
+Faint         1d6 minutes
+Moderate     1d6 X 10 minutes
+Strong         1d6 hours
+Overwhelming     1d6 days
+
+Note: Each round, you can turn to detect things in a new area.  The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it. Outsiders and elementals are not magical in themselves, but if they are conjured, the conjuration spell registers.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Detect Magic</string> 
+  </void> 
+  <void property="range"> 
+   <string>60 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Universal</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

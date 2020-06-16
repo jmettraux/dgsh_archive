@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Inscription harms those who pass it.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Until discharged</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This powerful inscription harms those who enter, pass, or open the warded area or object. A glyph can guard a bridge or passage, ward a portal, trap a chest or box, and so on.  You set the conditions of the ward. Typically, any creature violating the warded area without speaking a pass phrase (which you set when casting the spell) is subject to the magic it stores. Glyphs can be set according to physical characteristics (such as height or weight) or creature type, subtype, or species (such as "drow" or "aberration"). Glyphs can also be set with respect to good, evil, law, or chaos, or to pass those of your religion. They cannot be set according to class, HD, or level. Glyphs respond to invisible creatures normally but are not triggered by those who travel past them ethereally.  Multiple glyphs cannot be cast on the same area. However, if a cabinet had three drawers, each could be separately warded.  When casting the spell, you weave a tracery of faintly glowing lines around the warding sigil. The glyph can be placed to conform to any shape up to the limitations of your total square footage. When the spell is completed, the glyph and tracery become nearly invisible.
+Glyphs cannot be affected or bypassed by such means as physical or magical probing, though they can be dispelled.  Mislead, polymorph, and nondetection can fool a glyph.  Read magic allows you to identify a glyph of warding with a successful Spellcraft check (DC 13). Identifying the glyph does not discharge it and allows you to know the basic nature of the glyph (version, type of damage caused, what spell is stored).  Depending on the version selected, a glyph either blasts the intruder or activates a spell.
+
+Blast Glyph: A blast deals 1d8 points of damage per two caster levels to the intruder and to all within 5 feet of the intruder (maximum 5d8). This damage is acid, cold, fire, electricity, or sonic (caster's choice, made at time of casting). Those affected can make Reflex saves to take half damage.
+
+Spell Glyph: You can store any harmful spell of up to 3rd level that you know. All level-dependent features of the spell are based on your level at the time of casting. If the spell has targets, it targets the intruder. If the spell has an area or an amorphous effect (such as a cloud), the area or effect is centered on the intruder. If the spell summons creatures, they appear as close as possible to the intruder and attack. All saving throws operate as normal, except that the DC is based on the level of the glyph.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Worth at least 200 gp.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Glyph of Warding</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (object)</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Negates sound in 15-ft. radius.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Upon the casting of this spell, complete silence prevails in
+the affected area. All sound is stopped: Conversation is
+impossible, spells with verbal components cannot be cast, and no
+noise whatsoever issues from, enters, or passes through the area.
+The spell can be cast on a point in space, but the effect is
+stationary unless cast on a mobile object. The spell can be
+centered on a creature, and the effect then radiates from the
+creature and moves as it moves. An unwilling creature can attempt
+a Will save to negate the spell and can use SR, if any. Items in
+a creature's possession or magic items that emit sound
+receive saves and SR, and unattended objects and points in space
+do not.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Silence</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates or none (object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes or no (object)</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Glamer</string> 
+  </void> 
+ </object> 
+</java> 

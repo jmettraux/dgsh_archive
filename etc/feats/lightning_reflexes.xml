@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character gets a +2 bonus to all Reflex saving throws.</string> 
+  </void> 
+  <void property="miscModifiers"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>reflex</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="name"> 
+   <string>Lightning Reflexes</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

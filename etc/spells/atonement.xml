@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 hour</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+   <void method="add"> 
+    <string>XP</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Removes burden of misdeeds from subject.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="focus"> 
+   <string>The Focus must be worth at least 500 gp.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell removes the burden of evil acts or misdeeds from the subject. The creature seeking atonement must be truly repentant and desirous of setting right its misdeeds. If the atoning creature committed the evil act unwittingly or under some form of compulsion, atonement operates normally at no cost to you. However, in the case of a creature atoning for deliberate misdeeds and acts of knowing and willful nature, you must intercede with your deity at the cost of 500 experience points in order to expunge the subject's burden. Naturally, many casters first assign a subject of this sort a quest (see geas/quest) or similar penance to determine if the creature is truly contrite before casting the atonement spell on its behalf.
+
+Atonement may be cast for one of several purposes, depending on the version selected:
+
+Reverse Magical Alignment Change: If a creature has had its alignment magically changed, atonement returns its alignment to its original status at no cost in experience points.
+
+Restore Class: A paladin who has lost her class features due to unwillingly or unwittingly committing an evil act may have her paladinhood restored to her by this spell. Note: A paladin who willingly and deliberately commits an evil act can never regain her paladinhood.
+
+Restore Cleric or Druid Spell Powers: A cleric or druid who has lost his ability to cast spells because he incurred the anger of his deity may regain his spell powers by seeking atonement from another cleric of the same deity or another druid. If the transgression was intentional, the casting cleric loses 500 XP for his intercession. If the transgression was unintentional, he does not lose XP.
+
+Redemption or Temptation: You may cast this spell upon a creature of an opposing alignment in order to offer it a chance to change its alignment to match yours. The prospective subject must be present for the entire casting process. Upon completion of the spell, the subject freely chooses whether it retains its original alignment or acquiesces to your offer and changes to your alignment. No duress, compulsion, or magical influence can force the subject to take advantage of the opportunity offered if it is unwilling to abandon its old alignment. This use of the spell does not work on outsiders (or any creature incapable of changing its alignment naturally).
+
+Note: Normally, changing alignment is up to the player (for PCs) or the DM (NPCs). This use of atonement simply offers a believable way for a character to change her alignment drastically, suddenly, and definitively.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Atonement</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Up to eight creatures hide in extradimensional space.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+When this spell is cast upon a piece of rope from 5 to 30 feet
+long, one end of the rope rises into the air until the whole rope
+hangs perpendicular, as if affixed at the upper end. The upper
+end is, in fact, fastened to an extradimensional space that is
+outside the multiverse of extradimensional spaces
+("planes"). You and up to seven others can climb up the
+rope and disappear into this place of safety where no creature
+can find you. Climbing the rope counts as climbing a knotted
+rope, which requires a Climb check against DC 5. The rope can be
+taken into the extradimensional space if fewer than eight persons
+have climbed it; otherwise, it simply stays hanging in the air.
+Pulling the rope free requires succeeding at a Strength check (DC
+30).
+Spells cannot be cast across the interdimensional interface,
+nor can area effects cross it. Those in the extradimensional
+space can see out of it as if a 3-foot-by-5-foot window were
+centered on the rope. Anything inside the extradimensional space
+drops out when the spell ends. The rope can be climbed by only
+one person at a time. The rope trick spell enables climbers to
+reach a normal place if they do not climb all the way to the
+extradimensional space.
+Note: Creating an extradimensional space within or taking an
+extradimensional space into an existing extradimensional space is
+hazardous.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Rope Trick</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>rgr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Subject treads on water as if solid.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+The transmuted creatures can tread on any liquid as if it were
+firm ground. Mud, oil, snow, quicksand, running water, ice, and
+even lava can be traversed easily, since the subjects' feet
+hover an inch or two above the surface. (Creatures crossing
+molten lava still take damage from the heat.) The creatures can
+walk, run, charge, or otherwise move across the surface as if it
+were normal ground.
+If the spell is cast underwater (or while the subjects are
+partially or wholly submerged in whatever liquid they are in),
+the subjects are borne toward the surface at 60 feet per round
+until they can stand on it.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Water Walk</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (harmless)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless)</string> 
+  </void> 
+ </object> 
+</java> 

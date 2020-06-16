@@ -1,0 +1,11 @@
+
+$Id: credits.txt,v 1.5 2002/12/03 08:13:36 jmettraux Exp $
+
+christelle,
+My girlfriend for letting me develop dgsh bit my bit in my spare time.
+
+dvvega,
+As being the 'first reviewer'.
+
+tim-the-enchanter,
+For the being the first to submit bugs.

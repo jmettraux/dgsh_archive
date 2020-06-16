@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Plant</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Summons 1d4+2 shambling mounds to fight for you.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Seven days or seven months (D) (see text)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Three or more shambling mounds, no two of which can be more than 30 ft. apart (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Shambler creates 1d4+2 shambling mounds of 11 HD. (See the
+Monster Manual for details about shambling mounds.) The creatures
+willingly aid you in combat or battle, perform a specific
+mission, or serve as bodyguards. The creatures remain with you
+for seven days unless you dismiss them. If the shamblers are
+created only for guard duty, however, the duration of the spell
+is seven months. In this case, the shamblers can only be ordered
+to guard a specific site or location. Shamblers summoned to guard
+duty cannot move outside the spell's range, which is
+measured from the point where each first appeared.
+The shamblers have resistance to fire as normal shambling
+mounds do only if the terrain is rainy, marshy, or damp.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Shambler</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

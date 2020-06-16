@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creates invisible force that obeys your commands.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One invisible, mindless, shapeless servant</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+The unseen servant is an invisible, mindless, shapeless force
+that performs simple tasks at your command. It can run and fetch
+things, open unstuck doors, and hold chairs, as well as clean and
+mend. The servant can perform only one activity at a time, but it
+repeats the same activity over and over again if told to do so,
+thus allowing you to command the servant to clean the floor and
+then turn your attention elsewhere as long as you remain within
+range. It can open only normal doors, drawers, lids, etc. It has
+an effective Strength score of 2 (so it can lift 20 pounds or
+drag 100 pounds). It can trigger traps and such, but it can exert
+only 20 pounds of force, and that is not enough to activate
+certain pressure plates and other devices. Its speed is 15 feet.
+The servant cannot attack in any way; it is never allowed an
+attack roll. It cannot be killed, but it dissipates if it takes 6
+points of damage from area attacks. (It gets no saves against
+attacks.) If you attempt to send it beyond the spell's range
+(measured from your current position), the servant ceases to
+exist.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Unseen Servant</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

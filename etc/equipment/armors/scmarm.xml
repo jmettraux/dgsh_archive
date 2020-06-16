@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.equipment.Armor"> 
+  <void property="armorClassBonus"> 
+   <int>4</int> 
+  </void> 
+  <void property="armorPenalty"> 
+   <int>-4</int> 
+  </void> 
+  <void property="armorType"> 
+   <string>medium</string> 
+  </void> 
+  <void property="baseSpeedMedium"> 
+   <int>20</int> 
+  </void> 
+  <void property="baseSpeedSmall"> 
+   <int>15</int> 
+  </void> 
+  <void property="categoryDefinition"> 
+   <string></string> 
+  </void> 
+  <void property="description"> 
+   <string>scale mail</string> 
+  </void> 
+  <void property="maxDexModifier"> 
+   <int>3</int> 
+  </void> 
+  <void property="name"> 
+   <string>scmarm</string> 
+  </void> 
+  <void property="spellFailurePercent"> 
+   <int>25</int> 
+  </void> 
+  <void property="value"> 
+   <string>50gp</string> 
+  </void> 
+  <void property="weight"> 
+   <float>30.0</float> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>rgr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Sends a Tiny animal to a specific place.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You compel a Tiny animal to go to a spot you designate. The most common use for this spell is to get the animal to carry a message to your allies. The animal cannot be one tamed or trained by someone else.
+
+Using some type of food desirable to the animal as a lure, you call the animal to you. It advances and awaits your bidding. You can mentally impress on the animal a certain place well known to you or an obvious landmark (such as the peak of a distant mountain or mouth of a nearby river). The directions must be simple, because the animal depends on your knowledge and can't find a destination on its own. You can attach some small item or note to the messenger. The animal then goes to the designated location and waits there until the duration of the spell expires, whereupon it resumes its normal activities. 
+
+During this period of waiting, the messenger allows others to approach it and remove any scroll or token it carries. Note that unless the intended recipient of a message is expecting a messenger in the form of a bird or other small animal, the carrier may be ignored. The intended recipient of a message gains no special ability to communicate with the animal or read any attached message (if it's in a language she doesn't know, for example).
+
+The spell works only on animals with an Intelligence score of 1 or 2.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Animal Messenger</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

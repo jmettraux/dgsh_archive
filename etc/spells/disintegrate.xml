@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Destruction</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Makes one creature or object vanish.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Ray</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>A thin, green ray springs from your pointing finger, causing the creature or object it strikes to glow and vanish, leaving behind only a trace of fine dust. You must make a successful ranged touch attack to hit. Up to a 10-foot cube of nonliving matter is affected, so the spell disintegrates only part of any very large object or structure targeted. The ray affects even magical matter or energy of a magical nature, such as Bigby's forceful hand or a wall of force, but not a globe of invulnerability or an antimagic field. A creature or object that makes a successful Fortitude save is only partially affected. It takes 5d6 points of damage instead of disintegrating. Only the first creature or object struck can be affected (that is, the ray affects only one target per casting).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Disintegrate</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Fortitude partial</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

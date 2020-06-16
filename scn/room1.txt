@@ -1,0 +1,13 @@
+
+ROOM 1
+======
+
+This room seems at first glance empty. However, a search check (DC 17) reveals a pattern in the stone floor.
+
+If the party starts talking loud, after 1d4 minutes, 4 goblins and 1 half-orc will erupt from next room and attack the PC.
+
+
+<dgsh>
+    fight
+    load scn/gob_1.xml opp
+</dgsh>

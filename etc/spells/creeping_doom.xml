@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 full round</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Animal</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Carpet of insects attacks at your command.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>1,000 insects that fill a 10-ft.-radius spread</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>When you utter the spell of creeping doom, you call forth a mass of 1,000 venomous, biting and stinging spiders, scorpions, beetles, and centipedes. This carpetlike mass swarms in a square 20 feet on a side. Upon your command, the swarm creeps forth at 10 feet per round toward any prey within 100 feet, moving in the direction you command. Each vermin in the creeping doom effect automatically bites a creature for 1 point of damage and then dies. Each creature takes enough damage to kill it, destroying that number of vermin in the process. Thus, a total of 1,000 points of damage can be inflicted on those in the creeping doom's effect. These attacks are nonmagical attacks, so creatures with damage reduction, for example, are safe.  If there aren't enough vermin to kill all the creatures in the spell's effect, damage is distributed among the survivors equally.
+If creeping doom travels more than 100 feet away from you, it loses 50 of its number for each additional 10 feet it travels.  For example, at 120 feet, its numbers have shrunk by 100. There are a number of ways to thwart or destroy the creatures forming the swarm. Anything that would deter or destroy normal insects is effective against these insects.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Creeping Doom</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)/100 ft. (see text)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+ </object> 
+</java> 

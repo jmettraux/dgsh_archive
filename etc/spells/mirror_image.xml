@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creates decoy duplicates of you (1d4 +1/three levels, max 8).</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Several illusory duplicates of you pop into being, making it
+difficult for enemies to know which target to attack. The
+figments stay near you and disappear when struck.
+Mirror image creates 1d4 images plus one image per three
+caster levels (maximum eight images). These figments separate
+from you and remain in a cluster, each within 5 feet of at least
+one other figment or you. You can move into and through a mirror
+image. When you and the mirror image separate, observers
+can't use vision or hearing to tell which one is you and
+which the image. The figments may also move through each other.
+The figments mimic your actions, pretending to cast spells when
+you cast a spell, drink potions when you drink a potion, levitate
+when you levitate, and so on.
+Enemies attempting to attack you or cast spells at you must
+select from among indistinguishable targets. Generally, roll
+randomly to see whether the selected target is real or a figment.
+Any successful attack roll against a figment destroys it. A
+figment's AC is 10 + size modifier + Dexterity modifier.
+Figments seem to react normally to area spells (such as looking
+like they're burned or dead after being struck by a
+fireball).
+While moving, you can merge with and split off from figments
+so that enemies who have learned which image is real are again
+confounded.
+An attacker must be able to see the images to be fooled. If
+you are invisible or an attacker shuts her eyes, the spell has no
+effect, though being unable to see carries the same penalties as
+being blinded: In addition to the obvious effects, a blinded
+creature suffers a 50% miss chance in combat (all opponents have
+full concealment), loses any Dexterity bonus to AC, grants a +2
+bonus to attackers' attack rolls (they are effectively
+invisible), moves at half speed, and suffers a -4 penalty on
+most Strength- and Dexterity-based skills.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Mirror Image</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Figment</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As sending, plus you can send suggestion.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As sending, but the message can also contain a suggestion (see the suggestion spell), which the subject does her best to carry out. A successful Will save negates the suggestion effect but not the contact itself. The demand, if received, is understood even if the creature's Intelligence score is as low as 1. If the message is impossible or meaningless according to the circumstances that exist for the subject at the time the demand comes, the message is understood but the suggestion is ineffective.
+
+The demand's message to the creature must be twenty-five words or less, including the suggestion. The creature can also give a short reply immediately.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Demand</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will partial</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

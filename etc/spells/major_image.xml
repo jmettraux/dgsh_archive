@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As silent image, plus sound, smell and thermal effects.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Concentration + 3 rounds</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As silent image, except sound, smell, and thermal illusions
+are included in the spell effect. While concentrating, you can
+move the image within the range.
+The image disappears when struck by an opponent unless you
+cause the illusion to react appropriately.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Major Image</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Figment</string> 
+  </void> 
+ </object> 
+</java> 

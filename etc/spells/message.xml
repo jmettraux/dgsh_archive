@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Whispered conversation at distance.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You can whisper messages and receive whispered replies with
+little chance of being overheard. You point your finger at each
+creature to be included in the spell effect. When you whisper,
+the whispered message is audible to all of the targeted creatures
+who are within range. Magical silence, 1 foot of stone, 1 inch of
+common metal (or a thin sheet of lead), or 3 feet of wood or dirt
+blocks the spell. The message, however, does not have to travel
+in a straight line. It can circumvent a barrier if there is an
+open path between you and the subject, and the path's entire
+length lies within the spell's range. The creatures who
+receive the message can whisper a reply that you hear. The spell
+transmits sound, not meaning. It doesn't transcend language
+barriers.
+Note: To speak a message, you must mouth the words and
+whisper, possibly allowing trained rogues the opportunity to read
+your lips.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Message</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Language-Dependent</string> 
+  </void> 
+ </object> 
+</java> 

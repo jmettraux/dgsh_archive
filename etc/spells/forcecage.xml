@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M (see text)</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Cube of force imprisons all inside.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>2 hours/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This powerful spell brings into being an immobile cubical prison with bars or solid walls of force (your choice).  Creatures within the area are caught and contained unless they are too big to fit inside or can pass through the slits in the barred cage. All spells and breath weapons can pass through the gaps in the bars. Teleportation and other forms of astral travel provide a means of escape, but the force walls or bars extend into the Ethereal Plane, blocking ethereal travel.  Like a wall of force spell, the forcecage resists dispel magic, but it is vulnerable to a disintegrate spell, and it can be destroyed by a sphere of annihilation or a rod of cancellation.
+
+Barred Cage: The barred cage is a 20-foot cube with bands of force (similar to a wall of force spell) for bars. The bands are a half-inch wide, with half-inch gaps between the bars.
+
+Windowless Cell: The cell is a 10-foot cube with no way in and no way out. Solid walls of force form its six sides.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Worth 1,500 gp, consumed when the spell is
+prepared.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Forcecage</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,94 @@
+
+TITLE: SRD Death, Dying & Healing
+
+AUTHOR: RSD
+
+This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
+
+HIT POINTS
+
+All characters (and some items) have a certain number of hit points. Hit points represent a character's luck, health, and basic physical condition.
+If a character's Constitution changes, modify that character's hit point total immediately.
+
+DEATH, DYING & HEALING
+
+As a character takes damage, subtract that damage from the character's hit points. 
+Effects of Hit Point Damage:
+
+At 1+ hit points, a character is able to act normally
+
+At 0 hit points, a character is disabled.
+
+At from -1 to -9 hit points, a character is dying.
+
+At -10 or lower, a character is dead. 
+
+Massive Damage
+
+If a character ever sustains damage so massive that 50 points of damage or more are inflicted in one deduction, and the character isn't killed outright, the character must make a Fortitude save (DC 15). If this saving throw fails, the character dies regardless of current hit points. 
+
+Disabled (0 Hit Points)
+
+When a character's current hit points drop to exactly 0, the character is disabled. The character is not unconscious, but is close to it. The character can only take a partial action each round, and if the character performs any strenuous activity, the character takes 1 point of damage after the completing the act. Strenuous activities include running, attacking, or using any ability that requires physical exertion or mental concentration. If the character takes a strenuous action, the character's hit points drop to -1, and the character is dying.
+
+Dying (-1 to -9 Hit Points)
+
+When a character's current hit points drop to between -1 and -9 inclusive, the character is dying. The character immediately falls unconscious and can take no actions. 
+At the end of each round (starting with the round in which the character dropped below 0), roll d% to see whether the character stabilizes. The character has a 10% chance to become stable. If the character doesn't, the character loses 1 hit point. 
+If the character's hit points drop to -10 (or lower), the character is dead. 
+A character can keep a dying character from losing any more hit points and make the dying character stable with a successful Heal check (DC 15). 
+If any sort of healing cures the dying character of even 1 point of damage, the dying character stops losing hit points and becomes stable. 
+Healing that raises the dying character's hit points to 0 makes the character conscious and disabled. Healing that raises the character's hit points to 1 or more makes the character fully functional again, just as if the character had never been reduced to 0 or less. 
+
+Dead (10 hit points or lower)
+
+When a character's current hit points drop to 10 or lower, or if the character takes massive damage and fails the saving throw (see above), the character is dead. A character can also die from taking ability damage or suffering an ability drain that reduces Constitution to 0. 
+
+Stable characters and Recovery
+
+An hour after a tended, dying character becomes stable, roll d%. The character has a 10% chance of becoming conscious, at which point the character is disabled (as if the character had 0 hit points). If the character remains unconscious, the character has the same chance to revive and become disabled every hour. Even if unconscious, the character recovers hit points naturally. The character is back to normal when its hit points rise to 1 or higher. 
+A character who stabilizes on its own (by making the 10% roll while dying) and who has no one to tend for it still loses hit points, just at a slower rate. The character has a 10% chance each hour of becoming conscious. Each time the character misses the hourly roll to become conscious, the character loses 1 hit point. The character also does not recover hit points through natural healing. 
+Even once the character becomes conscious and is disabled, an unaided character still does not recover hit points naturally. Instead, each day he has a 10% chance to start recovering hit points naturally (starting with that day); otherwise, the character loses 1 hit point. 
+Once an unaided character starts recovering hit points naturally, the character is no longer in danger of losing hit points (even if the character's current hit point total is negative). 
+
+Healing
+
+A character can never get back more hit points than the character lost. 
+Natural Healing
+A character recovers 1 hit point per character level per day of rest. If the character undergoes complete bed rest (doing nothing for an entire day), the character recovers one and one half times the character's character level in hit points. 
+
+Magical Healing
+
+Various abilities and spells, can give a character back hit points. Each use of the spell or ability restores a different amount of hit points. Magical healing won't raise a character's current hit points higher than a character's hit point total. 
+
+Healing Ability Damage
+
+Temporary ability damage returns at the rate of 1 point per day of rest (light activity, no combat or spellcasting). Complete bed rest restores 2 points per day. 
+
+Temporary Hit Points
+
+Certain effects give a character temporary hit points. When a character gains temporary hit points, note the character's current hit points. When the temporary hit points go away, the character's hit points drop to that score. If the character's hit points are already below that score at that time, all the temporary hit points have already been lost and the character's hit point score does not drop. 
+When temporary hit points are lost, they cannot be restored as real hit points can be. 
+
+SUBDUAL DAMAGE
+
+Sometimes a character gets roughed up or weakened. This sort of stress won't kill a character, but it can knock a character out or make a character faint. 
+Nonlethal damage is subdual damage. If a character takes sufficient subdual damage, the character falls unconscious, but the character doesn't die. 
+
+Dealing Subdual Damage
+
+Certain attacks deal subdual damage. Other stresses, such as heat or exhaustion, also deal subdual damage. When a character takes subdual damage, keep a running total of how much a has accumulated. Do not deduct the subdual damage number from a character's current hit points. It is not "real" damage. Instead, when a character's subdual damage equals a character's current hit points, the character is staggered, and when it exceeds a character's current hit points, the character goes unconscious. It doesn't matter whether the subdual damage equals or exceeds a character's current hit points because the subdual damage has gone up or because a character's current hit points have gone down. 
+A character can use a melee weapon that deals normal damage to deal subdual damage instead, but the character suffer a -4 penalty on the attack roll. 
+A character can use a weapon that deals subdual damage, including an unarmed strike, to deal normal damage instead, but the character suffers a -4 penalty on the attack roll. 
+
+Staggered and Unconscious
+
+When a character's subdual damage exactly equals a character's current hit points, the character is staggered. The character is so badly weakened or roughed up that the character can only take a partial action each round. A character ceases being staggered when the character's hit points exceed the character's subdual damage again. 
+When a character's subdual damage exceeds the character's current hit points, the character falls unconscious. While unconscious, a character is helpless. 
+Each full minute that a character is unconscious, a character has a 10% chance to wake up and be staggered until the character's hit points exceed a character's subdual damage again. Nothing bad happens to a character if the character misses this roll. 
+Spellcasters who are rendered unconscious retain any spellcasting ability they had before going unconscious. 
+
+Healing Subdual Damage
+
+A character heals subdual damage at the rate of 1 hit point per hour per character level. When a spell or a magical power cures hit point damage, it also removes an equal amount of subdual damage, if any. 
+

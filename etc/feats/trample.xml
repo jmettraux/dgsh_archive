@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: When the character attempts to overrun an opponent while mounted, the target may not choose to avoid the character. If the character knocks down the target, the character's mount may make one hoof attack against the target, gaining the standard +4 bonus on attack rolls against prone targets.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Trample</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Ride skill, Mounted Combat.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Mounted Combat</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

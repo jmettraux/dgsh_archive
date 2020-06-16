@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character gets a +4 dodge bonus to Armor Class against
+attacks of opportunity caused when the character moves out of or
+within a threatened area. Note: A condition that makes the character
+lose the Dexterity bonus to Armor Class (if any) also makes the
+character lose dodge bonuses. Also, dodge bonuses stack with each
+other, unlike most types of bonuses.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Mobility</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Dex 13+, Dodge.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Dodge</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Alerts you of magical eavesdropping.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>24 hours</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You immediately become aware of any attempt to observe you by means of clairaudience/clairvoyance or scrying. The spell's effect radiates from you moves as you move. The spell also reveals the use of crystal balls or other magic scrying devices.  You know the location of every magical sensor within the
+spell's area.
+
+If the scrying attempt originates within the area, you also know its location. If the attempt originates outside this range, you and the scrier immediately make opposed Scry skill checks. (A Scry check is the same as an Intelligence check for a creature without the Scry skill.) If you at least match the scrier's result, you get a visual image of the scrier and a sense of the scrier's direction and distance from you (accurate to within one-tenth the distance).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Detect Scrying</string> 
+  </void> 
+  <void property="range"> 
+   <string>120 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

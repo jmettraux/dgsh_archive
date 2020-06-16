@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Animal</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Learn about terrain for one mile/level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You become one with nature, attaining knowledge of the surrounding territory. You instantly gain knowledge of up to three facts from among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of powerful unnatural creatures, or even the general state of the natural setting. 
+
+In outdoor settings, the spell operates in a radius of one mile per caster level. In natural underground settings---caves, caverns, etc. the range is limited to 100 feet per caster level. The spell does not function where nature has been replaced by construction or settlement (such as in dungeons and towns).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Commune with Nature</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Hand pushes creatures away.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As Bigby's interposing hand, except the forceful hand pursues and pushes away the opponent that you designate. Treat this as a bull rush with a +14 bonus on the Strength check (+8 for Strength 27, +4 for being Large, and +2 for charging bonus, which it always gets). The hand always moves with the opponent to push him back the full distance allowed, and it has no speed limit.
+
+A very strong creature could not push the hand out of its way (because the hand would instantly reposition itself between the creature and you), but it could push the hand up against you by successfully bull rushing the hand.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Bigby's Forceful Hand</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+ </object> 
+</java> 

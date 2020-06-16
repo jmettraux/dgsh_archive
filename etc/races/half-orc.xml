@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+
+<!-- HALF-ORC -->
+ <object class="burningbox.org.dsh.entities.Race"> 
+  <void property="name"> 
+   <string>half-orc</string> 
+  </void> 
+  <void property="predilectionClass"> 
+   <string>barbarian</string> 
+  </void> 
+  <!--
+  <void property="miscModifiers"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>strength</string> 
+      </void> 
+      <void property="description"> 
+       <string>Strength +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>intelligence</string> 
+      </void> 
+      <void property="description"> 
+       <string>Intelligence -2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>-2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>charisma</string> 
+      </void> 
+      <void property="description"> 
+       <string>Charisma -2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>-2</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  -->
+  <void property="specials"> 
+   <void method="put"> 
+    <string>darkvision</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>darkvision</string> 
+     </void> 
+     <void property="description"> 
+      <string>Half-orcs (and orcs) can see in the dark up to 60ft. Darkvision is black and white only, but it is otherwise like normal sight, and half-orcs can function just fine with no light at all.</string>
+     </void> 
+    </object> 
+   </void> 
+  </void>
+ </object> 
+</java> 

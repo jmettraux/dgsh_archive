@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Character"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>15</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>8</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>16</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>16</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="alignment"> 
+   <string>lawful</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>ftr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="currentHitPoints"> 
+   <int>12</int> 
+  </void> 
+  <void property="currentInitiative"> 
+   <int>-10</int> 
+  </void> 
+  <void property="equipment"> 
+   <void property="heldEquipment"> 
+    <void property="equipmentList"> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.RangedWeapon"> 
+       <void property="categoryDefinition"> 
+        <string>sbow</string> 
+       </void> 
+       <void property="critical"> 
+        <string>x3</string> 
+       </void> 
+       <void property="damages"> 
+        <string>1d6</string> 
+       </void> 
+       <void property="description"> 
+        <string>shortbow</string> 
+       </void> 
+       <void property="name"> 
+        <string>sbow</string> 
+       </void> 
+       <void property="proficiencyType"> 
+        <string>martial weapon proficiency</string> 
+       </void> 
+       <void property="rangeIncrement"> 
+        <int>60</int> 
+       </void> 
+       <void property="value"> 
+        <string>30 gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>2.0</float> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.MeleeWeapon"> 
+       <void property="categoryDefinition"> 
+        <string>baxe</string> 
+       </void> 
+       <void property="critical"> 
+        <string>x3</string> 
+       </void> 
+       <void property="damages"> 
+        <string>1d8</string> 
+       </void> 
+       <void property="description"> 
+        <string>battleaxe</string> 
+       </void> 
+       <void property="name"> 
+        <string>baxe</string> 
+       </void> 
+       <void property="proficiencyType"> 
+        <string>martial weapon proficiency</string> 
+       </void> 
+       <void property="value"> 
+        <string>10 gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>7.0</float> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.MeleeWeapon"> 
+       <void property="categoryDefinition"> 
+        <string>hnaxe</string> 
+       </void> 
+       <void property="critical"> 
+        <string>x3</string> 
+       </void> 
+       <void property="damages"> 
+        <string>1d6</string> 
+       </void> 
+       <void property="description"> 
+        <string>handaxe</string> 
+       </void> 
+       <void property="name"> 
+        <string>hnaxe</string> 
+       </void> 
+       <void property="proficiencyType"> 
+        <string>martial weapon proficiency</string> 
+       </void> 
+       <void property="value"> 
+        <string>6 gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>5.0</float> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.MeleeWeapon"> 
+       <void property="categoryDefinition"> 
+        <string>gaxe</string> 
+       </void> 
+       <void property="critical"> 
+        <string>x3</string> 
+       </void> 
+       <void property="damages"> 
+        <string>1d12</string> 
+       </void> 
+       <void property="description"> 
+        <string>greataxe</string> 
+       </void> 
+       <void property="name"> 
+        <string>gaxe</string> 
+       </void> 
+       <void property="proficiencyType"> 
+        <string>martial weapon proficiency</string> 
+       </void> 
+       <void property="value"> 
+        <string>20 gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>20.0</float> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+   </void> 
+   <void property="wornEquipment"> 
+    <void property="equipmentList"> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.Armor"> 
+       <void property="armorClassBonus"> 
+        <int>4</int> 
+       </void> 
+       <void property="armorPenalty"> 
+        <int>-4</int> 
+       </void> 
+       <void property="armorType"> 
+        <string>medium</string> 
+       </void> 
+       <void property="baseSpeedMedium"> 
+        <int>20</int> 
+       </void> 
+       <void property="baseSpeedSmall"> 
+        <int>15</int> 
+       </void> 
+       <void property="categoryDefinition"> 
+        <string></string> 
+       </void> 
+       <void property="description"> 
+        <string>scale mail</string> 
+       </void> 
+       <void property="maxDexModifier"> 
+        <int>3</int> 
+       </void> 
+       <void property="name"> 
+        <string>scmarm</string> 
+       </void> 
+       <void property="spellFailurePercent"> 
+        <int>25</int> 
+       </void> 
+       <void property="value"> 
+        <string>50gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>30.0</float> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.Armor"> 
+       <void property="armorClassBonus"> 
+        <int>1</int> 
+       </void> 
+       <void property="armorPenalty"> 
+        <int>-1</int> 
+       </void> 
+       <void property="armorType"> 
+        <string>shield</string> 
+       </void> 
+       <void property="categoryDefinition"> 
+        <string>shield</string> 
+       </void> 
+       <void property="description"> 
+        <string>small steel shield</string> 
+       </void> 
+       <void property="maxDexModifier"> 
+        <int>10</int> 
+       </void> 
+       <void property="name"> 
+        <string>sstshield</string> 
+       </void> 
+       <void property="value"> 
+        <string>9gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>6.0</float> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+   </void> 
+  </void> 
+  <void property="experiencePoints"> 
+   <int>1126</int> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>simple weapon proficiency</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>martial weapon proficiency</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>armor proficiency (light)</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>armor proficiency (medium)</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>armor proficiency (heavy)</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>power attack</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>cleave</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="hitPoints"> 
+   <int>12</int> 
+  </void> 
+  <void property="miscModifiers"> 
+   <null/> 
+  </void> 
+  <void property="name"> 
+   <string>Farin</string> 
+  </void> 
+  <void property="player"> 
+   <string>Miniben</string> 
+  </void> 
+  <void property="raceName"> 
+   <string>dwarf</string> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"/> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.CharacterSkill"> 
+     <void property="ranks"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>craft (weaponsmith)</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.CharacterSkill"> 
+     <void property="ranks"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>craft (armorsmith)</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>6,5m, 4c</string> 
+  </void> 
+ </object> 
+</java> 

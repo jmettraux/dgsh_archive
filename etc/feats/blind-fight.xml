@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: In melee, every time a character misses because of concealment, the character can reroll the miss chance percentile roll one time to see if the character actually hit.  An invisible attacker gets no bonus to hit the character in melee.  That is, the character doesn't lose a Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus. The invisible attacker's bonuses do still apply for ranged attacks, however.  The character suffers only half the usual penalty to speed for being unable to see. Darkness and poor visibility in general reduces the character's speed to three-quarters of normal, instead of one-half.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Blind-Fight</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can create any rod whose prerequisites the character meets. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, the character must spend 1/25 of its base price in XP and use up raw materials costing half of its base price.  Some rods incur extra costs in material components or XP as noted in their descriptions. These costs are in addition to those derived from the rod's base price.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Craft Rod</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Spellcaster level 9th+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Item Creation]</string> 
+  </void> 
+ </object> 
+</java> 

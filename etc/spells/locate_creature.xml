@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Indicates direction to familiar creature.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As locate object, except this spell locates a known or
+familiar creature.
+You slowly turn and sense when you are facing in the direction
+of the creature to be located, provided the creature is within
+range. You also know in which direction the creature is moving,
+if any.
+The spell can locate a creature of a specific type (such as
+human or unicorn) or a specific creature known to you. It cannot
+find a creature of a general type (such as humanoid or beast). To
+find a type of creature, you must have seen such a creature up
+close (within 30 feet) at least once.
+Running water blocks the spell. It cannot detect objects. It
+can be fooled by mislead, nondetection, and polymorph spells.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Locate Creature</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+ </object> 
+</java> 

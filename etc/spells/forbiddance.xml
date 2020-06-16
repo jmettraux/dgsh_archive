@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>6 rounds</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Denies area to creatures of another alignment.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Forbiddance prevents creatures whose alignments are different from yours from entering the area. Additionally, the spell seals the area against all planar travel into it, including dimension door, teleport, plane shifting, astral travel, ethereal travel, and all summoning spells. At your option, the abjuration can be locked by a password, in which case it can be entered only by those speaking the proper words (no saving throw allowed to those who don't speak the password, although SR applies).
+
+Otherwise, the effect on those entering the warded area is based on their alignment relative to yours.
+
+Alignments identical: No effect. The creature may enter freely (albeit not by planar travel).
+
+Alignments different with respect to either law/chaos or good/evil: The creature is hedged out and takes 3d6 points of damage. A successful Will save negates both effects, and SR applies.
+
+Alignments different with respect to both law/chaos and good/evil: The creature is hedged out and takes 6d6 points of damage. A successful Will save negates both effects, and SR applies.
+
+Once a saving throw is failed, an intruder cannot enter the forbidden area (future saving throws likewise fail). Intruders who enter by rolling successful saving throws feel uneasy and tense, despite their success.
+
+Dispel magic does not dispel the forbiddance effect unless the dispeller's level is at least as high as your caster level.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Worth at least 1,500 gp per 60-foot cube.
+If a password lock is desired, additional components worth at
+least 5,000 gp per 60-foot cube.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Forbiddance</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

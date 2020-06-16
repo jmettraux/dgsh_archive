@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Object or creature grows +10%/level (max +50%).</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell causes instant growth of a creature or object, increasing both size and weight. The subject grows by up to 10% per caster level, increasing by this amount in height, width, and depth (to a maximum of 50%). Weight increases by approximately the cube of the size increase, as follows : 
+
+Height Increase  Weight Increase
+---------------  ---------------
++10% (x 1.1)     +30%  (x 1.3)
++20% (x 1.2)     +70%  (x 1.7)
++30% (x 1.3)     +120% (x 2.2)
++40% (x 1.4)     +170% (x 2.7)
++50% (x 1.5)     +240% (x 3.4)
+
+All equipment worn or carried by a creature is enlarged by the spell. If insufficient room is available for the desired growth, the creature or object attains the maximum possible size, bursting weak enclosures in the process.  However, it is constrained without harm by stronger materials---the spell cannot be used to crush a creature by growth.  Magical properties are not increased by this spell. Weight, mass, and strength are affected, though. A creature's hit points, Armor Class, and base attack bonus do not change, but Strength increases along with size. For every 20% of enlargement, the creature gains a +1 enlargement bonus to Strength.  Multiple magical effects that increase size do not stack.  
+
+Enlarge counters and dispels reduce.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Enlarge</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Fortitude negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="triggerName"> 
+   <string>EnlargeTrigger</string> 
+  </void> 
+ </object> 
+</java> 

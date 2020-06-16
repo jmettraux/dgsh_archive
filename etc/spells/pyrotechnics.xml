@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Turns fire into blinding light or choking smoke.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1d4+1 rounds or 1d4+1 rounds after creatures leave the smoke cloud (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Pyrotechnics turns a fire into either a burst of blinding fireworks or a thick cloud of choking smoke, depending on the version you choose.
+
+Fireworks: The fireworks are a flashing, fiery, momentary burst of glowing, colored aerial lights. This effect blinds creatures within 120 feet of the fire source for 1d4+1 rounds (Will negates). These creatures must have line of sight to the fire to be affected. Spell resistance can prevent blindness. In addition to the obvious effects, a blinded creature suffers a 50% miss chance in combat (all opponents have full concealment), loses any Dexterity bonus to AC, grants a +2 bonus to attackers' attack rolls (they are effectively invisible), moves at half speed, and suffers a -4 penalty on most Strength- and Dexterity-based skills.
+
+Smoke Cloud: The smoke is a writhing stream of smoke billowing out from the source and forming a choking cloud. The cloud spreads 20 feet in all directions and lasts for 1 round per caster level. All sight, even darkvision, is ineffective in or through the cloud. All within the cloud suffer -4 penalties to Strength and Dexterity scores (Fortitude negates). These effects last for 1d4+1 rounds after the cloud dissipates or after the character leaves the area of the cloud. Spell resistance does not apply.
+
+Material Component: The spell uses one fire source, which is immediately extinguished. A fire so large that it exceeds a 20-foot cube is only partly extinguished. Magical fires are not extinguished, although a fire-based creature (such as a fire elemental) used as a source takes 1 point of damage per caster level.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Pyrotechnics</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates or Fortitude negates (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes or No (see text)</string> 
+  </void> 
+ </object> 
+</java> 

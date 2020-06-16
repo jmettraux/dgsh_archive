@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Your touch corrodes iron and alloys.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>See text</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You corrode iron and iron alloys at a touch. Any iron or iron
+alloy item you touch becomes instantaneously rusted, pitted, and
+worthless, effectively destroyed. If the item is so large that it
+cannot fit within a 3-foot radius (a large iron door or a wall of
+iron), a 3-foot-radius volume of the metal is rusted and
+destroyed. Magical metal items are immune to this spell.
+You may employ rusting grasp in combat with a successful melee
+touch attack. Rusting grasp used in this way instantaneously
+destroys 1d6 points of Armor Class gained from metal armor (up to
+the maximum amount of protection the armor offered) through
+corrosion. For example, full plate armor (AC +8) could be reduced
+to +7 or as low as +2 in protection, depending on the die roll.
+Weapons in use by an opponent targeted by the spell are more
+difficult to grasp. You must succeed at a melee touch attack
+against the weapon. A metal weapon that is hit is instantaneously
+destroyed. Note: Striking at an opponent's weapon provokes
+an attack of opportunity. Also, you must touch the weapon and not
+the other way around.
+Against ferrous creatures, rusting grasp instantaneously deals
+3d6 points of damage +1 per caster level (maximum +15) per
+successful attack. The spell lasts for 1 round per level, and you
+can make one melee touch attack per round.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Rusting Grasp</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

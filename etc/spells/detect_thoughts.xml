@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Knowledge</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Allows "listening" to surface thoughts.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Concentration, up to 1 minute/level (D)</string> 
+  </void> 
+  <void property="focus"> 
+   <string>A copper piece.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You detect surface thoughts. The amount of information revealed depends on how long you study a particular area or subject:
+
+1st Round: Presence or absence of thoughts (from conscious creatures with Intelligence scores of 1 or higher).
+
+2nd Round: Number of thinking minds and the mental strength of each.
+
+3rd Round: Surface thoughts of any mind in the area. A target's Will save prevents you from reading its thoughts, and you must cast detect thoughts again to have another chance.
+
+Creatures of animal intelligence (Int 1 or 2) have simple, instinctual thoughts that you can pick up.
+
+Intelligence   Mental Strength
+------------   ---------------
+1-2            Animal
+3-5            Very low
+6-9            Low
+10-11          Average
+12-15          High
+16-17          Very high
+18-21          Genius
+22-25          Supra-genius
+26+            Deific
+
+Note: Each round, you can turn to detect thoughts in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Detect Thoughts</string> 
+  </void> 
+  <void property="range"> 
+   <string>60 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

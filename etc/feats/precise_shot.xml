@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can shoot or throw ranged weapons at an
+opponent engaged in melee without suffering the standard -4 penalty.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Precise Shot</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Point Blank Shot.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Point Blank Shot</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

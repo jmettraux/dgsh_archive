@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Shoots flaming projectiles (extra damage) or fiery bolts (4d6 damage).</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/Instantaneous</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Up to one projectile/level, all of which must be within 10 ft. of you at the time of casting; or one fiery bolt/four levels</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You can either create flames that turn normal arrows, bolts, and stones into fiery projectiles, or you can create fiery bolts and shoot them at enemies.
+
+Flaming Normal Projectiles: When choosing this version, you can affect up to one projectile per level. The projectiles must all be within 10 feet of you at the time of casting. If shot before the end of the next round, these projectiles catch fire.
+
+If they hit, they deal additional fire damage equal to half your caster level (up to +10). The flaming projectiles can easily ignite flammable materials or structures. No saving throw is allowed for this version of the spell.
+
+Fiery Bolts: When creating a fiery bolt, you must succeed at a ranged touch attack roll to hit. The bolt deals 4d6 points of fire damage (Reflex save half). If you create extra bolts (at 8th level or higher), all bolts must be aimed at enemies that are all within 30 feet of each other.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Flame Arrow</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fire</string> 
+  </void> 
+ </object> 
+</java> 

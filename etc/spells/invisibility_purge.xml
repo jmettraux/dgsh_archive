@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Dispels invisibility within 5 ft./level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You surround yourself with a sphere of power with a radius of 5 feet per caster level that negates all forms of invisibility.  Anything invisible becomes visible while in the area. Only creatures with no visible form, such as an invisible stalker, remain invisible.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Invisibility Purge</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+ </object> 
+</java> 

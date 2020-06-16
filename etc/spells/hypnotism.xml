@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Fascinates 2d4 HD of creatures.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>2d4 rounds (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Your gestures and droning incantation cause creatures nearby to stop and stare blankly at you, hypnotized. You can use their rapt attention to make your suggestions and requests seem more plausible. Roll 2d4 to see how many total HD you affect.  Creatures with fewer HD are affected before creatures with more HD. Only creatures who can see or hear you are affected, but they do not need to understand you to be hypnotized.
+If you use this spell in combat, the targets gain a +2 bonus to their saving throws. If the spell affects only a single creature not in combat at the time, the saving throw has a penalty of -2. While hypnotized, a creature's Spot and Listen checks suffer a -4 penalty. Any potential threat (such as an armed party member moving behind the hypnotized creature) allows the creature a second saving throw. Any obvious threat, such as casting a spell, drawing a sword, or aiming an arrow, automatically breaks the hypnotism, as does shaking or slapping the creature. A hypnotized creature's ally may shake it free of the spell as a standard action.
+While the subject is hypnotized, you can make a suggestion or request (provided you can communicate with it). The suggestion must be brief and reasonable. An affected creature reacts as though it were two steps more friendly in attitude. Even once the spell ends, it retains its new attitude toward you, but only with respect to that particular suggestion.
+A creature who fails its saving throw does not remember that you enspelled it.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Hypnotism</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

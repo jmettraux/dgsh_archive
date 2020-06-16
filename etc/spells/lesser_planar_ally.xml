@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Exchange services with an 8 HD outsider.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One summoned elemental or outsider of up to 8 HD</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+By casting this spell, you request your deity to send you an
+elemental or outsider (of up to 8 HD) of the deity's choice.
+If you serve no particular deity, the spell is a general plea
+answered by a creature sharing your philosophical alignment. If
+you know an individual creature's name, you may request that
+individual by speaking the name during the spell (though you
+might get a different creature anyway).
+You may ask the creature to perform one task for you, and the
+creature may request some service in return. The more demanding
+your request, the greater return favor the creature asks for.
+This bargaining takes at least 1 round, so any actions by the
+creature begin in the round after it arrives. If you agree to the
+service, the creature performs the task you requested, reports
+back to you afterward (if possible), and returns to its home
+plane. You are honor bound to perform the return favor.
+A creature may accept some form of payment, such as a magic
+item, in return for its service. The creature may keep it or may
+deliver the item to another member of your religion somewhere
+else, where it can help the religion's cause.
+Note: When you use a calling spell that calls an air, chaotic,
+earth, evil, fire, good, lawful, or water creature, it is a spell
+of that type. For example, lesser planar ally is a fire spell
+when it calls a fire elemental.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Lesser Planar Ally</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels) (see text)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Calling</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

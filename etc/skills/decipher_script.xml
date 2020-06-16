@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Skill"> 
+  <void property="baseAbilityDefinition"> 
+   <string>intelligence</string> 
+  </void> 
+  <void property="name"> 
+   <string>decipher script</string> 
+  </void> 
+ </object> 
+</java> 

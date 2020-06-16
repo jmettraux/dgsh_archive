@@ -1,0 +1,91 @@
+
+TITLE: SRD Combat Basics
+
+AUTHOR: Ryan S. Dancey
+
+This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
+
+SPECIAL TERMS
+
+Face
+
+How much area a character occupies in combat. Face is essentially the border between the square or rectangular space that a character occupies and the space next to it. These faces are abstract, not "front, back, left, and right," because characters are constantly moving and turning in battle. Unless a character is immobile, it practically doesn't have a front or a left sideat least not one that can be identified on the tabletop. 
+
+Flanking
+
+If a character is making a melee attack against an opponent, and an ally directly opposite the character is threatening the opponent, the character and the character's ally flank the opponent. A character gains a +2 flanking bonus on the attack roll. A rogue in this position can also sneak attack the target. The ally must be on the other side of the opponent, so that the opponent is directly between the character and the ally. 
+
+Flat-Footed
+
+At the start of a battle each character is flat-footed. A character can't use a Dexterity bonus to AC (if any) while flat-footed. A flat-footed character can't make attacks of opportunity. 
+
+Initiative Check
+
+At the start of a battle, each character makes a single initiative check. An initiative check is a Dexterity check. If two or more characters have the same initiative check result, the characters that are tied act in order of Dexterity (highest first). If there is still a tie, roll dice to break the tie. 
+
+Touch Attack
+
+Touch attacks come in two types: melee touch attacks and ranged touch attacks. A character can score critical hits with either type of attack. A character's opponent's AC against a touch attack does not include any armor bonus, shield bonus, or natural armor bonus. The target's size modifier, Dexterity modifier, and deflection bonus (if any) all apply normally. 
+
+SIZE MODIFIERS
+
+Size AC/Attack Modifier
+-----------------------
+Fine		+8
+Diminutive	+4
+Tiny		+2
+Small		+1
+Medium		0
+Large		-1
+Huge		-2
+Gargantuan	-4
+Colossal	-8
+
+Apply this modifier to the attack rolls and AC values of characters, unless the value has not already been precalculated to include this modifier.
+
+COMBAT SEQUENCE
+
+Step One:
+
+The DM determines which characters are aware of their opponents at the start of the battle. If some but not all of the characters are aware of their opponents, a surprise round happens before regular rounds begin. The characters that are aware of the opponents can act in the surprise round, so they roll for initiative. In initiative order (highest to lowest), characters that started the battle aware of their opponents each take a partial action during the surprise round. Characters who were unaware do not get to act in the surprise round. If no one or everyone starts the battle aware, there is no surprise round. 
+
+Step Two:
+
+Characters who have not yet rolled initiative do so. 
+
+Step Three:
+
+Characters act in initiative order. 
+
+Step Four:
+
+When everyone has had a turn, the character with the highest initiative acts again, and steps 4 and 5 repeat until combat ends. 
+
+ATTACKS OF OPPORTUNITY
+
+Threatened Area
+
+A character threatens the area into which it can make a melee attack, even when it is not a character's action. An enemy that takes certain actions while in a threatened area may provoke an attack of opportunity from a character. A small or medium sized character normally has a 5-foot threat radius. "Reach weapons" and "natural reach" can change the threatened area. 
+
+Provoking an Attack of Opportunity by Moving
+
+If a character moves through (not simply into) or out of a threatened area, a character usually provokes an attack of opportunity. 
+If all a character does during that character's turn is make a normal move or a double move (not a run), the space that the character started out in is not considered threatened. 
+If a character's entire move for the round is 5 feet the 5 foot move does not provoke an attack of opportunity. 
+
+Provoking an Attack of Opportunity by Taking an Action
+
+A character taking some kinds actions provokes attacks of opportunity, as described in the rules for each action type. 
+
+Making an Attack of Opportunity
+
+An attack of opportunity is a single melee attack, and a character can only make one per round. The character does not have to make an attack of opportunity if the character doesn't want to. The character makes the attack of opportunity at the character's normal base attack bonus.
+
+THE COMBAT ROUND
+
+Each round represents about 6 seconds in the game world. Anything a person could reasonably do in 6 seconds, a character can do in 1 round. 
+When a character's turn comes up in the initiative sequence that character performs his entire round's worth of actions. 
+There are no simultaneous actions. All effects of a character's action fully resolve before the next character acts. A character cannot split an action to allow another character to act between portions.
+
+Effects that last a certain number of rounds end just before the same initiative count that they began on.
+

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+
+<!-- HALFLING -->
+ <object class="burningbox.org.dsh.entities.Race"> 
+  <void property="name"> 
+   <string>halfling</string> 
+  </void> 
+  <void property="predilectionClass"> 
+   <string>rogue</string> 
+  </void> 
+  <void property="miscModifiers"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>reflex</string> 
+      </void> 
+      <void property="description"> 
+       <string>reflex +1</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>will</string> 
+      </void> 
+      <void property="description"> 
+       <string>will +1</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>fortitude</string> 
+      </void> 
+      <void property="description"> 
+       <string>fortitude +1</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>thrown</string> 
+      </void> 
+      <void property="description"> 
+       <string>+1 with thrown weapons</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>hide</string> 
+      </void> 
+      <void property="description"> 
+       <string>hide +4</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>4</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>move silently</string> 
+      </void> 
+      <void property="description"> 
+       <string>move silently +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>climb</string> 
+      </void> 
+      <void property="description"> 
+       <string>climb +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>jump</string> 
+      </void> 
+      <void property="description"> 
+       <string>jump +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>listen</string> 
+      </void> 
+      <void property="description"> 
+       <string>listen +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <!--
+  <void property="miscModifiers"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>strength</string> 
+      </void> 
+      <void property="description"> 
+       <string>Strength -2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>-2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>dexterity</string> 
+      </void> 
+      <void property="description"> 
+       <string>Dexterity +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  -->
+  <void property="specials"> 
+   <void method="put"> 
+    <string>fear</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>fear</string> 
+     </void> 
+     <void property="description"> 
+      <string>+2 morale bonus on saving throws against fear</string>
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>throw</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>throw</string> 
+     </void> 
+     <void property="description"> 
+      <string>+1 racial attack bonus with a thrown weapon</string>
+     </void> 
+    </object> 
+   </void> 
+  </void>
+ </object> 
+</java> 

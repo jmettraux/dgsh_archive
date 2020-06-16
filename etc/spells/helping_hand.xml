@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Ghostly hand leads subject to you.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Ghostly hand</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You create the ghostly image of a hand, which you can send to find someone within five miles. The hand then beckons to that person and leads her to you if she follows it.
+
+When the spell is cast, the hand appears in front of you. You then specify a person (or any creature) by physical description, which can include race, gender, and appearance but not ambiguous factors such as level, alignment, or class. When the description is complete, the hand streaks off in search of a subject that fits the description. The amount of time it takes to find the subject depends on how far away she is.
+
+Distance       Time to Locate
+--------       --------------
+Up to 100 ft.  1 round
+1,000 ft.      1 minute
+One mile       10 minutes
+Two miles      1 hour
+Three miles    2 hours
+Four miles     3 hours
+Five miles     4 hours
+
+Once the hand locates the subject, it beckons her to follow it. If she follows, the hand points in your direction, leading her in the most direct, feasible route. The hand hovers 10 feet in front of the subject, moving before her at a rate of anywhere up to 240 feet per round. Once the hand leads the subject to you, it disappears.
+
+The subject is not compelled to follow the hand or act in any particular way toward you. If she chooses not to follow, the hand continues to beckon for the duration of the spell, then disappears. If the spell expires while the subject is en route to you, the hand disappears; she will have to rely on her own devices to locate you.
+
+If more than one subject within a five-mile radius meets the description, the hand locates the closest creature. If that creature refuses to follow the hand, the hand does not seek out a second subject.
+
+If, at the end of 4 hours of searching, the hand has found no subject that matches the description within five miles, it returns to you, displays an outstretched palm (indicating that no such creature was found), and disappears.
+
+The ghostly hand has no physical form. It is invisible to anyone except you and potential subjects. It cannot engage in combat or execute any other task aside from locating the subject and leading her back to you. The hand does not pass through solid objects but can ooze through small cracks and slits. The hand cannot travel more than five miles from the spot it appeared when you cast the spell.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Helping Hand</string> 
+  </void> 
+  <void property="range"> 
+   <string>Five miles</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

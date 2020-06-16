@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Strength</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Hand provides cover, pushes, or grapples.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As Bigby's interposing hand, except the hand can also grapple one opponent that you select. The grasping hand gets one grappling attack per round. Its attack bonus to make contact is your level + your Intelligence, Wisdom, or Charisma modifier (for wizards, clerics, and sorcerers, respectively), +10 for the hand's Strength score (31), -1 for being Large. Its grapple check is this same figure, except with +4 for being Large instead of -1. It holds but does not harm creatures it grapples.
+
+The grasping hand can also bull rush an opponent as Bigby's forceful hand does, but at +16 on the Strength check, or interpose itself as Bigby's interposing hand does.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Bigby's Grasping Hand</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Alters item to transport its possessor to you.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent until discharged</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You create powerful magic in some specially prepared
+object---a statuette, a jeweled rod, a gem, etc. This object
+contains the power to instantaneously transport its possessor
+across any distance within the same plane to your abode. Once the
+item is transmuted, you must give it willingly to an individual
+and at the same time inform him of a command word to be spoken
+when the item is to be used. To make use of the item, the subject
+speaks the command word at the same time that he rends or breaks
+the item (a standard action). When this is done, the individual
+and all that he is wearing and carrying (up to a maximum of 50
+lb./level) are instantaneously transported to your abode. No
+other creatures are affected (aside from a familiar that is
+touching the subject).
+You can alter the spell when casting it so that it transports
+you to within 10 feet of the possessor of the item when it is
+broken and the command word spoken. You will have a general idea
+of the location and situation of the item possessor at the time
+the refuge spell is discharged, but once deciding to alter the
+spell in this fashion you have no choice whether or not to be
+transported.
+Material Component: Worth 1,500 gp.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Refuge</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Teleportation</string> 
+  </void> 
+ </object> 
+</java> 

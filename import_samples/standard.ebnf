@@ -1,0 +1,259 @@
+﻿/*
+ * standard.ebnf
+ *
+ * an ebnf grammar for the 
+ * <a href="http://www.d20statblock.org">d20 stat block standard</a>
+ *
+ * $Id: standard.ebnf,v 1.14 2002/09/17 07:10:43 jmettraux Exp $
+ *
+ * CRGreathouse and jmettraux
+ */
+
+statBlock:	headSection newLine (skillsAndFeatsSection newLine)? 
+		(languageSection newLine)? (specialSection newLine)*
+		(spellsPreparedSection newLine)* (domainSpellsSection newLine)?
+		(knownSpellsSection newLine)* equipmentSection
+
+
+newLine:	"\n"+	/* 1 or more lines */
+string:		(specialCharacter | lowAlpha | upAlpha)*
+specialCharacter:	
+		" " | "'" | "-"
+lowAlpha:	"a" | ... | "z" | "á" | "à" | "ä" | "â" | "ã" | "é" | "è" | "ë" 
+		| "ê" | "" | "í" | "ì" | "ï" | "î" | "ó" | "ò" | "ö" | "ô" | "ø" 
+		| "õ" | "ú" | "ù" | "ü" | "û" | "ç" | "ñ"
+upAlpha:	"A" | ... | "Z" | "Á" | "À" | "Ä" | "Â" | "É" | "È" | "Ë" | "Ê" 
+		| "Í" | "Ì" | "Ï" | "Î" | "Ó" | "Ò" | "Ö" | "Ô" | "Ø" | "Ú" 
+		| "Ù" | "Ü" | "Û" | "Ç" | "Ñ"
+
+lowAlpha:	"á" | "à" | "â" | "ä" | "ǎ" | "ă" | "ā" | "ã" | "å" | "ą" | "ǻ" 
+		| "æ" | "ǽ" | "ć" | "ċ" | "ĉ" | "č" | "ç" | "đ" | "ð" | "é" | "è" 
+		| "ė" | "ê" | "ë" | "ě" | "ĕ" | "ē" | "ę" | "ġ" | "ĝ" | "ğ" | "ģ" 
+		| "ĥ" | "ħ" | "í" | "ì" | "î" | "ï" | "ǐ" | "ĭ" | "ī" | "ĩ" | "į" 
+		| "ĵ" | "ķ" | "ĺ" | "ŀ" | "ļ" | "ł" | "ń" | "ň" | "ñ" | "ņ" | "ŋ" 
+		| "ó" | "ò" | "ô" | "ö" | "ǒ" | "ŏ" | "ō" | "õ" | "ő" | "ø" | "ǿ" 
+		| "œ" | "ŕ" | "ř" | "ŗ" | "ś" | "ŝ" | "š" | "ş" | "ß" | "ţ" | "þ" 
+		| "ŧ" | "ú" | "ù" | "û" | "ü" | "ǔ" | "ŭ" | "ū" | "ũ" | "ů" | "ų" 
+		| "ű" | "ǘ" | "ǜ" | "ǚ" | "ǖ" | "ư" | "ŵ" | "ý" | "ŷ" | "ÿ" | "ź" 
+		| "ż" | "ž"
+
+upAlpha:	"Á" | "À" | "Â" | "Ä" | "Ǎ" | "Ă" | "Ā" | "Ã" | "Å" | "Ą" | "Æ" 
+		| "Ć" | "Ċ" | "Ĉ" | "Č" | "Ç" | "Đ" | "É" | "È" | "Ė" | "Ê" 
+		| "Ë" | "Ě" | "Ĕ" | "Ē" | "Ę" | "Ġ" | "Ĝ" | "Ğ" | "Ģ" | "Ĥ" | "Ħ" 
+		| "Í" | "Ì" | "Î" | "Ï" | "Ǐ" | "Ĭ" | "Ī" | "Ĩ" | "Į" | "Ĵ" | "Ķ" 
+		| "Ĺ" | "Ŀ" | "Ļ" | "Ł" | "Ń" | "Ň" | "Ñ" | "Ņ" | "Ŋ" | "Ó" | "Ò" 
+		| "Ô" | "Ö" | "Ǒ" | "Ŏ" | "Ō" | "Õ" | "Ő" | "Ø" | "Œ" | "Ŕ" | "Ř" 
+		| "Ŗ" | "Ś" | "Ŝ" | "Š" | "Ş" | "Ţ" | "Þ" | "Ŧ" | "Ú" | "Ù" | "Û" 
+		| "Ü" | "Ǔ" | "Ŭ" | "Ū" | "Ũ" | "Ů" | "Ų" | "Ű" | "Ǘ" | "Ǜ" | "Ǚ" 
+		| "Ǖ" | "Ư" | "Ŵ" | "Ý" | "Ŷ" | "Ÿ" | "Ź" | "Ż" | "Ž"
+
+
+lowString:	(specialCharacter | lowAlpha)*
+upString:	(specialCharacter | upAlpha)*
+enDash:		"-" "-"?
+/* Per style guide, the en dash is represented with two hyphens,
+but an actual en dash copied to plaintext is a single hyphen.
+A strict interpretation would drop the ?. */
+
+integer: 	zero | natural
+natural: 	nonZero digit*
+float: 		integer "." digit
+zero: 		"0"
+twoToNine:	"2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+nonZero: 	"1" | twoToNine
+twoPlus:	twoToNine | (nonZero digit+)
+digit: 		zero | nonzero
+
+modifier:	bonus | penalty
+bonus:		"+" integer
+penalty:	"-" integer
+
+
+
+/*
+ *
+ * head section
+ *
+ */
+headSection:	identification ": " cr "; " sizeAndType "; " hd "; " hp "; "
+		init "; " speed "; " ac "; " melee " ; " ( ranged "; ")? 
+		(sa "; ")? (sq "; ")? al "; " sv "; " abilities "."
+
+identification:	(name ", " gender race classes) /* character */
+		| name 				/* classless named monster */
+		| raceName 			/* typical monster */
+
+name:		string
+gender:		"male" | "female" | string
+race: 		lowAlpha* (" " lowAlpha*)*
+raceName:	lowAlpha* (" " lowAlpha*)*
+classes:	class level ("/" class level)*
+class:		upAlpha (upAlpha | lowAlpha)* 
+		(" " upAlpha (upAlpha | lowAlpha)*)*
+		/* First letter must be capitalized, but intercapping is OK. */
+
+level:		natural
+cr:		"CR " (("1/"? natural) | enDash)
+/* CR - is allowed, but CR 0 is not. */
+Fractions are OK, but I've restricted them to reciprocals of natural numbers (no 2/3). */
+
+sizeAndType: 	size typeSub
+size:		("Fine" | "Diminutive" | "Tiny" | "Small" | "Medium-size" 
+		| "Large" | "Huge" | "Gargantuan" | ("Colossal" "+"?))
+typeSub:	("Aberration" | "Animal" | "Beast" | "Construct" | "Dragon" |
+		elemental | "Fey" | "Giant" | humanoid | "Magical Beast" | 
+		"Monstrous Humanoid" | "Ooze" | "Outsider" | "Plant" | 
+		"Shapechanger" | "Vermin" | "Undead") (" (" sub ")")?
+humanoid:	"Humanoid (" sub (", " sub)* ")"
+/* Humanoid subtypes are required. */
+
+elemental:	"Elemental (" (sub ", ")* ("Air" | "Earth" | "Fire" | "Water") 
+		(", " sub)* ")"
+
+sub:		(upAlpha | lowAlpha) lowAlpha*
+/* Subtypes must be at least one character, and must start with a letter.
+This letter may be lowercase the way I wrote it, but that's controversial.  This may change. */
+
+hd:		"HD " ((dice ("+" dice)* "+")? modifiedDice)
+/* 1d4+3d6+8, not 1d4+2+3d6+6 */
+modifiedDice:	dice modifier
+dice:		natural "d" ("2" | "3" | "4" | "6" | "8" | "10" | "12" | "20" | "%")
+
+hp:		"hp " integer
+
+init:		"Init " modifier
+speed:		"Spd " speedIndex
+		(", burrow " speedIndex)? 
+		(", climb " speedIndex)? 
+		(", fly " speedIndex " (" maneuverability ")")? 
+		(", swim " speedIndex)?
+
+speedIndex:	(integer | float) ((" ft" "."?) | "m")
+maneuverability:
+		"perfect" | "good" | "average" | "poor" | "clumsy"
+
+ac:		"AC " integer (" (" acModifier ( ", " acModifier )* ")")?
+acModifier:	modifier " " string
+
+melee:		"Melee " attDescription (", " attDescription)*
+ranged:		"Ranged " attDescription (", " attDescription)*
+attDesciption:	weapon " " attModifier " (" damages ")"
+weapon:		magicModifier? string
+magicModifier:	modifier
+attModifier:	modifier ("/" modifier)*
+damages:	modifiedDice ( "/crit " natural "-20" )?
+
+sa:		"SA " string (", " string)*
+sq:		"SQ " string (", " string)* (", SR " twoPlus)? (", " string)*
+
+al:		"AL " ("LG" | "LN" | "LE" | "NG" | "N" | "NE" | "CG" | "CN" | "CE")
+
+sv:		"SV Fort " modifier ", Ref " modifier ", Will " modifier
+
+abilities:	"Str " aScore ", Dex " aScore ", Con " aScore 
+		", Int " aScore ", Wis " aScore ", Cha " aScore
+
+aScore:		integer | enDash
+/* Both 0 and -- are defined for ability scores. */
+
+
+/*
+ *
+ * skillsAndFeatSection
+ *
+ */
+skillsAndFeatSection:
+		"Skills and Feats: " ((skills "; " feats) | skills | feats ) "."
+
+skills:		skill (", " skill)*
+feats:		feat (", " feat)*
+
+skill:		skillName (" (" string ")")? " " modifier ( " (" ranks ")" )?
+ranks:		integer
+skillName:	upAlpha lowAlpha* ((" "|"-") upAlpha lowAlpha*)*
+feat:		upAlpha lowAlpha* ((" "|"-") upAlpha lowAlpha*)* 
+		("(" string (", " string)* ")")?
+/* The arcane formulae above control capitalization carefully.
+Blind-Fight is OK, as is Improved Initiative, but alertness, aLerTnEss, and Sense motive are banned.
+This is fully intentional. */
+
+
+/*
+ *
+ * languageSection
+ *
+ */
+languageSection:
+		"Languages Known: " language (", " language)*
+language:	string
+
+
+/*
+ *
+ * specialSection
+ *
+ */
+specialSection:	("Spell-like Abilities" | "SA" | "SQ") (":" | enDash) " "
+		description "."
+description:	string
+
+
+
+/*
+ *
+ * spellsPreparedSection
+ *
+ */
+spellsPreparedSection:
+		classname " Spells Prepared (" spellsPerDay "): " 
+		preparedSpells ("; " preparedSpells)* "."
+className:	string
+spellsPerDay:	(natural | enDash) ("/" (natural | enDash))*
+preparedSpells: integer enDash preparedSpell (", " preparedSpell)*
+preparedSpell:	spellIdentifier (" (" twoPlus ")")?
+spellIdentifier:	
+		(lowAlpha | upAlpha) lowAlpha* | (" " (lowAlpha | upAlpha) lowAlpha*)*
+
+/* Multiword OK; first letter may be capitalized (but shouldn't be, nomally). */
+
+
+
+/*
+ *
+ * domainSpellsSection
+ *
+ */
+domainSpellsSection:
+		classname? " Domain Spells: (" deity "/" domain ("," domain)? 
+		" and " domain ")" ("[ " domainBonus ("; " domainBonus)* "]")? 
+		domainSpells "."
+deity:		upAlpha lowAlpha* "."? ((" " | "-") upAlpha lowAlpha* ".")*
+/* Odin, Re-Horakhty, and capitalized multiword names allowed.
+balder, Re-horakhty, and DEMETER disallowed. */
+
+domain:		upAlpha lowAlpha*
+
+domainSpells:	domainSpellLevel ("; " domainSpellLevel)*
+domainSpellLevel:
+		level enDash spellIdentifier
+
+
+
+/*
+ *
+ * knownSpellsSection
+ *
+ */
+knownSpellsSection:
+		classname " Spells Known (cast " spellsPerDay "): " knownSpells ("; " knownSpells)* "."
+knownSpells:	level enDash spellIdentifier (", " spellIdentifier)*
+
+
+
+/*
+ *
+ * equipmentSection
+ *
+ */
+equipmentSection:	
+		"Equipment: " string (", " string)* "."

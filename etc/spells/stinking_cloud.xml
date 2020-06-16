@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Nauseating vapors, 1 round/level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Cloud that spreads in 30-ft. radius, 20 ft. high</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Stinking cloud creates a bank of fog like that created by fog
+cloud, except that the vapors are nauseating. Living creatures in
+the cloud are nauseated (Fortitude negates), making them unable
+to attack, cast spells, concentrate on spells, and so on. The
+only action a nauseated character can take is a single move (or
+move-equivalent action) per turn. These effects last as long as
+the character is in the cloud and for 1d4+1 rounds after he or
+she leaves the cloud. (Roll separately for each nauseated
+character.) Those who succeed at their saves but remain in the
+cloud must continue to save each round.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Stinking Cloud</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Fortitude negates (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

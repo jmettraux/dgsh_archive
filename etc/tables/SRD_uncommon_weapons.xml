@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.random.Table"> 
+  <void property="name"> 
+   <string>SRD_uncommon_weapons</string> 
+  </void> 
+  <void property="possibilities"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>double orc Axe</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Battleaxe</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>spiked Chain</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Club</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>hand Crossbow</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>repeating Crossbow</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>punching Dagger</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Falchion</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>dire Flail</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>heavy Flail</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>light Flail</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Gauntlet</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>spiked Gauntlet</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Glaive</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Greatclub</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Guisarme</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Halberd</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Halfspear</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>gnome hooked Hammer</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>light Hammer</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Handaxe</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Kukri</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>heavy Lance</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>light Lance</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Longspear</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Morningstar</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Net</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>heavy Pick</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>light Pick</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Ranseur</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Sap</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Scythe</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Shuriken</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Sickle</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>two-bladed Sword</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Trident</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>dwarven Urgrosh</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Warhammer</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="value"> 
+        <string>Whip</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

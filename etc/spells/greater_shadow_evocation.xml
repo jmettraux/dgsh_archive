@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As shadow evocation, but up to 5th level.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As shadow evocation, but it enables the caster to create partially real, illusory versions of sorcerer or wizard evocations of up to 5th level. If recognized as greater shadow evocation, damaging spells deal only two-fifths (40%) of normal damage, with a minimum of 2 points per die of damage. For example, a greater shadow cloudkill has a 40% chance to kill creatures of 6 HD or less, and creatures of 4 to 6 HD get a saving throw. Creatures not killed take 1d10 x 0.4 points of damage each round.
+Nondamaging effects, such as a web's ensnarement, are only 40% likely to work when the greater shadow evocation is recognized as mostly illusory (roll separately for each effect and each creature who recognizes the evocation as shadowy).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Greater Shadow Evocation</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Shadow</string> 
+  </void> 
+ </object> 
+</java> 

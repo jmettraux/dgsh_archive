@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Wall's colors have array of effects.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Wall 4 ft./level wide x 2 ft./level high</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Prismatic wall creates a vertical, opaque wall---a shimmering, multicolored plane of light that protects you from all forms of attack. The wall flashes with seven colors, each of which has a distinct power and purpose. The wall is immobile, and you can pass through and remain near the wall without harm.
+
+However, any other creature with fewer than 8 HD that is within 20 feet of the wall is blinded (see blindness/deafness) for 2d4 rounds by the colors if it looks at the wall.
+
+The wall's maximum proportions are 4 feet wide per caster level and 2 feet high per caster level. A prismatic wall spell cast to materialize in a space occupied by a creature is disrupted, and the spell is wasted.
+
+Each color in the wall has a special effect. The accompanying table shows the seven colors of the wall, the order in which they appear, their effects on creatures trying to attack you or pass through the wall, and the magic needed to negate each color. 
+
+The wall can be destroyed, color by color, in consecutive order, by various magical effects; however, the first must be brought down before the second can be affected, and so on. A rod of cancellation or a Mordenkainen's disjunction spell destroys a prismatic wall, but an antimagic field fails to penetrate it. Dispel magic and greater dispelling cannot dispel the wall or anything beyond it. Spell resistance is effective against a prismatic wall, but the caster level check must be repeated for each color present.
+
+Color   Order Effect of Color                           Negated By
+-----   ----- ---------------                           ----------
+Red     1st   Stops nonmagical ranged weapons           Cone of Cold
+        Deals 20 ponts of fire damage (Reflex half)
+
+Orange  2nd   Stops magical ranged weapoins             Gust of Wind
+        Deals 40 points of acid damage (Reflex half)
+
+Yellow  3rd   Stops poisons, gasses, and petrification  Disintegrate
+        Deals 80 points of electricity damage (Reflex half)
+
+Green   4th   Stops breath weapons                      Passwall
+        Poison (Kills; Fortitute partial to take 20 points of damage instead)
+
+Blue    5th   Stops divination and mental attacks       Magic Missile
+        Turned to stone (Fortitude negates)
+
+Indigo  6th   Stops all spells                          Daylight
+        Will save or become insane (as insanity spell)
+
+Violet  7th   Energy field destroys all objects and     Dispel Magic effects
+        Creatures are sent to another plane (Will negates)
+
+The violet effect makes the special effects of the other six colors redundant, but they are included here because certain magic items can create prismatic effecs one color at a time, and SR might render some colors ineffective (see above).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Prismatic Wall</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>See text</string> 
+  </void> 
+ </object> 
+</java> 

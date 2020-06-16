@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Calls outsider to fight for you.</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One or more summoned creatures, no two of which can be more than 30 ft. apart</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As summon monster I, except you can summon one creature from
+the 4th-level list, 1d3 creatures of the same type from the
+3rd-level list, or 1d4+1 creatures of the same type from a
+lower-level list.
+4th Level
+
+    *   Lantern archon (celestial) LG
+    *   Giant owl NG
+    *   Giant eagle CG
+    *   Celestial lion (animal) CG
+    *   Tojanida, Small N
+    *   Xorn, Small N
+    *   Arrowhawk, Small N 
+    *   Magmin CN
+    *   Imp (devil) LE
+    *   Fiendish dire ape LE
+    *   Fiendish dire wolf LE
+    *   Hell hound LE
+    *   Varguouille NE
+    *   Fiendish viper, Medium-size CE
+    *   snake (animal) Howler CE
+
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Summon Monster IV</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

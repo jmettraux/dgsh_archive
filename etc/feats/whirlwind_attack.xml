@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>
+Benefit: When the character performs the full attack action, he or she can give up all regular attacks and instead make one melee attack at the full base attack bonus against each opponent within 5 feet.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Whirlwind Attack</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Int 13+, Expertise, Dex 13+, Dodge, Mobility, base attack bonus +4 or higher, Spring Attack.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Expertise</string> 
+    </void> 
+    <void method="add"> 
+     <string>Dodge</string> 
+    </void> 
+    <void method="add"> 
+     <string>Mobility</string> 
+    </void> 
+    <void method="add"> 
+     <string>Spring Attack</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

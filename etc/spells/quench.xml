@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Extinguishes nonmagical fires or one magic item.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Quench is often used to put out forest fires and other conflagrations. It extinguishes all nonmagical fires in its area.  The spell also dispels fire spells in the area, though you must succeed at a dispel check of 1d20 +1 per caster level (maximum +15) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell. Fire-based creatures within the area take 1d6 points of damage per caster level from the spell (maximum 15d6, no save allowed).  
+
+Alternatively, you can target the spell on a single magic item that creates or controls flame, such as a wand of fireball or a flame tongue sword. The item loses all its fire-based magical abilities permanently unless it succeeds at a Will save.  (Artifacts are immune to this effect.)</string> 
+  </void> 
+  <void property="name"> 
+   <string>Quench</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None or Will negates (object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No or Yes (object)</string> 
+  </void> 
+ </object> 
+</java> 

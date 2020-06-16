@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>12 hours</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>XP</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creates partially real double of a creature.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One duplicate creature</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Simulacrum creates an illusory duplicate of any creature. The
+duplicate creature is partially real and formed from ice or snow.
+The duplicate appears to be exactly the same as the original, but
+there are differences: The simulacrum has only 51% to 60%
+(50%+1d10%) of the hit points, knowledge (including level,
+skills, and speech), and personality of the real creature.
+Creatures familiar with the original might detect the ruse with a
+successful Spot check. You must make a Disguise check when you
+cast the spell to determine how good the likeness is.
+At all times the simulacrum remains under your absolute
+command. No special telepathic link exists, so command must be
+exercised in some other manner. The simulacrum has no ability to
+become more powerful. It cannot increase its level or abilities.
+If destroyed, it reverts to snow and melts instantly into
+nothingness. A complex process requiring at least 1 day, 100 gp
+per hit point, and a fully equipped magical laboratory can repair
+damage to the simulacrum.
+</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Worth at least 100 gp.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Simulacrum</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Shadow</string> 
+  </void> 
+ </object> 
+</java> 

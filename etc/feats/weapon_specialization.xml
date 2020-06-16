@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Choose one type of weapon. The character is especially good at inflicting damage with this weapon.
+Benefit: The character adds +2 to all damage inflicted with the weapon the character has specialized with. If the weapon is a ranged weapon, the target must be within 30 feet.
+Special: The character can gain this feat multiple times. Its effects do not stack. Each time the character takes the feat, it applies to a new weapon.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Weapon Specialization</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Special]</string> 
+  </void> 
+ </object> 
+</java> 

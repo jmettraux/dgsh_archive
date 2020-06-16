@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Duplicate awakens when original dies.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One clone</string> 
+  </void> 
+  <void property="focus"> 
+   <string>Special laboratory equipment (cost 500 gp).</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell makes an inert duplicate of a creature. If the original individual has been slain, the original's soul transfers to the clone, creating a replacement (provided the soul is free and willing to return). The original's physical remains, should they still exist, become inert matter and cannot thereafter be restored to life. If the original has reached the end of its natural life span (died of natural causes), any cloning attempt fails.
+
+To create the duplicate, you must have a piece of flesh (not hair, nails, scales, or the like) taken from the original's living body, with a volume of at least 1 cubic inch. The piece of flesh need not be fresh, but it must be kept from rotting (such as by the gentle repose spell). Once the spell is cast, the duplicate must be grown in a laboratory for 2d4 months.
+
+When the clone is completed, if the original is dead, the original's soul enters the clone. The clone has the personality, memories, skills, and levels the original had at the time the piece of flesh was taken. However, the replacement must be at least one level lower than the original was at the time of death. If the original was 1st level, the clone's Constitution score drops by 1; if this would give the clone a Constitution score of 0, the spell fails. If the original creature has lost levels since the flesh sample was taken and died at a lower level than the clone would otherwise be, the clone is at the level at which the original died.  The spell duplicates only the original's body and mind, not its equipment.
+
+A duplicate can be grown while the original still lives, or when the original soul is unavailable, but the resulting creature is merely a soulless bit of inert flesh, which rots if not somehow preserved.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>The piece of flesh and various
+laboratory supplies (cost 1,000 gp).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Clone</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

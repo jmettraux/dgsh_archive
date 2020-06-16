@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Fire</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>1d4 +1/two levels damage, touch or thrown.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level (D)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Flame in your palm</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Flames appear in your hand. You can hurl them or use them to
+touch enemies. The bright flames, which illuminate out to 20 feet
+as torches do, appear in your open hand and harm neither you nor
+your equipment.
+You can strike opponents with a melee touch attack, dealing
+fire damage equal to 1d4 +1 point per two caster levels (maximum
++10). Alternatively, you can hurl the flames up to 120 feet as a
+thrown weapon. When doing so, you attack with a ranged touch
+attack (with no range penalty) and deal the same damage as with
+the melee attack. No sooner do you hurl the flames than a new set
+appears in your hand.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Produce Flame</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fire</string> 
+  </void> 
+ </object> 
+</java> 

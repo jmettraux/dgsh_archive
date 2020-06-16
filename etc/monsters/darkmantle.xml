@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- DARKMANTLE -->
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>2</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>13</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>16</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="attackRoutine"> 
+   <string>Slam +5 melee</string> 
+  </void> 
+  <void property="alignment"> 
+   <string>neutral</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>17</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>11</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>5</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d4+4</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>slam</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="category"> 
+   <string>small magical beast</string> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>1.0</float> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>improved initiative</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>4</int> 
+  </void> 
+  <void property="name"> 
+   <string>Darkmantle</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>1d10+1</string> 
+  </void> 
+  <!--
+  <void property="raceName"> 
+   <string>darkmantle</string> 
+  </void> 
+  -->
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="fortitudeModifier"> 
+     <int>3</int> 
+    </void> 
+    <void property="reflexModifier"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <int>9</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>5</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>listen</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>11</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>hide</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="specials"> 
+   <void method="put"> 
+    <string>darkness</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Once per day a darkmantle can cause darkness as the spell cast by a 5th-level sorcerer. It most often uses this ability just before attacking</string> 
+     </void> 
+     <void property="name"> 
+      <string>darkness</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>constrict</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>A darkmantle deals 1d4+4 damage with a successful grapple check</string> 
+     </void> 
+     <void property="name"> 
+      <string>constrict</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>improved grab</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>To use this ability, the darkmantle must hit with its slam attack. If it gets a hold, it can constrict</string> 
+     </void> 
+     <void property="name"> 
+      <string>improved grab</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>blindsight</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>A darkmantle can 'see' by emitting high-frequency sounds, inaudible to most other creatures, that allows it to ascertain objects and creatures within 90 feet. A silence spell negates this and effectively blinds the darkmantle</string> 
+     </void> 
+     <void property="name"> 
+      <string>blindsight</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>20ft, fly 30ft (poor)</string> 
+  </void> 
+ </object> 
+</java> 

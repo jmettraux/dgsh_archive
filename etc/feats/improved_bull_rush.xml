@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: When the character performs a bull rush, the character does not draw an attack of opportunity from the defender.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Improved Bull Rush</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Str 13+, Power Attack.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Power Attack</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

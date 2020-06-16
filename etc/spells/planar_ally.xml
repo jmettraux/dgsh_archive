@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As lesser planar ally, but up to 16 HD.</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Up to 16 HD worth of elementals and outsiders, no two of which can be more than 30 ft. apart when they appear</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As lesser planar ally, except you may call a single creature
+of up to 16 HD or a number of creatures whose HD total no more
+than 16. The creatures, as a group, agree to perform one task for
+you and request one favor in return.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Planar Ally</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Calling</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

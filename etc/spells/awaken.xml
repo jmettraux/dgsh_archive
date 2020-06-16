@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>One day</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+   <void method="add"> 
+    <string>XP</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Animal or tree gains human intellect.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You awaken a tree or animal to humanlike sentience. To succeed, you must make a Will save (DC 10 + the target's HD, or the HD the tree will have once awakened).  The awakened animal or tree is friendly toward you. You have no special empathy or connection with a creature you awaken, although it serves you in specific tasks or endeavors if you communicate your desires to it.
+
+An awakened tree has characteristics as if it were an animated object, except that its Intelligence, Wisdom, and Charisma scores are all 3d6. Awakened plants gain the ability to move their limbs, roots, vines, creepers, etc., and have senses similar to a human's.
+
+An awakened animal gets 3d6 Intelligence, +1d3 Charisma, and +2 HD.
+
+An awakened tree or animal can speak one language that you know, plus one additional language that you know per point of Intelligence bonus (if any).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Awaken</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

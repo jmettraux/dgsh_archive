@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 full round</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Summons swarm of small crawling or flying creatures.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Concentration + 2 rounds</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Swarm of small creatures in a 5-ft. spread</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+A swarm of little creatures carpets the effect's area,
+viciously attacking all other creatures there. (Roll on the table
+below to see what sort of creature is summoned.) A creature in
+the swarm who takes no actions other than fighting off the
+creatures takes 1 point of damage on its turn. A creature in the
+swarm who takes any other action, including leaving the swarm,
+takes 1d4 points of damage +1 point per three caster levels.
+Spellcasting or concentrating on spells within the swarm is
+impossible.
+1d20    Swarm Type*
+----    -----------
+1-8     Rats (animals)
+9-14     Bats (animals)
+15-16     Spiders (vermin, poisonous)
+17-18     Centipedes (vermin, poisonous)
+19-20     Flying beetles (vermin)
+*The creature types (in parentheses) indicate what sorts of
+spells and effects might aid a subject against the swarm.
+A swarm of poisonous creatures deals no damage to creatures
+who are immune to poison, though it still prevents spellcasting
+and concentration. The creatures' attacks are nonmagical.
+Damage reduction, being incorporeal, and other special abilities
+also make a creature immune to damage from the swarm.
+The swarm cannot be fought effectively with weapons, but fire
+and damaging area effects can force it to disperse. The swarm
+disperses when it has taken a total of 2 hit points of damage per
+caster level from these attacks. Certain area or effect spells,
+such as gust of wind and stinking cloud, disperse a swarm
+immediately if appropriate to the swarm summoned. (For example,
+only fliers are affected by a gust of wind.)
+The swarm is stationary once summoned. A druid caster,
+however, can (as a move-equivalent action) direct the swarm to
+move up to 30 feet per round (or 90 feet per round if she has
+summoned bats or beetles).
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Summon Swarm</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+ </object> 
+</java> 

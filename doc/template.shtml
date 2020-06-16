@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>dgsh</title>
+    <link rel=stylesheet type="text/css" href=style.css title="">
+  </head>
+<body bgcolor=white>
+<table border=0 width=100% cellspacing=5 cellpadding=5>
+
+<!-- MAIN TITLE -->
+
+  <tr>
+    <td colspan=2 align=center>
+<!--#include virtual="logo.shtml" -->
+<small>$Id: template.shtml,v 1.1 2002/09/02 06:47:23 jmettraux Exp $</small>
+    </td>
+  </tr>
+
+  <tr>
+
+<!-- MENU -->
+
+<!--#include virtual="menu.shtml" -->
+
+<!-- CONTENT -->
+
+    <td>
+    </td>
+
+  </tr>
+</table>
+<br>
+<p align=center><small>$Id: template.shtml,v 1.1 2002/09/02 06:47:23 jmettraux Exp $</small><br>
+<br>
+<table>
+<tr>
+<td width=50%>hosted on <A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=56085&amp;type=4" border="0" alt="SourceForge Logo"></A></td>
+<td width=50%>and <a href=http://www.vim.org><img src=images/vim.png border=0></a></td>
+</p>
+</tr>
+</table>
+</body>
+</html>

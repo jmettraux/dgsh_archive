@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Arouses strong emotion in subject.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Concentration</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell arouses a single emotion of your choice in the subjects. You can choose any one of the following versions: Despair: The enchanted creatures suffer a -2 morale penalty to saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls. Emotion (despair) dispels emotion (hope).
+
+Fear: The enchanted creatures flee from you whenever they are in sight of you. Emotion (fear) dispels emotion (rage).
+
+Friendship: The enchanted creatures react more positively toward others. Their attitude shifts to the next more favorable reaction (hostile to unfriendly, unfriendly to indifferent, indifferent to friendly, or friendly to helpful). Creatures involved in combat, however, continue to fight back normally.  Emotion (friendship) dispels emotion (hate).
+
+Hate: The enchanted creatures react more negatively toward others. Their attitude shifts to the next less favorable reaction (helpful to friendly, friendly to indifferent, indifferent to unfriendly, or unfriendly to hostile). Emotion (hate) dispels emotion (friendship).
+
+Hope: The enchanted creatures gain a +2 morale bonus to saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls. Emotion (hope) dispels emotion (despair).
+
+Rage: The enchanted creatures gain a +2 morale bonus to Strength and Constitution scores, a +1 morale bonus on Will saves, and a -1 penalty to AC. They are compelled to fight heedless of danger. Emotion (rage) does not stack with barbarian rage or with itself. Emotion (rage) dispels emotion (fear).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Emotion</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

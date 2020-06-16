@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Oak becomes treant guardian.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell turns an oak tree into a protector or guardian. The spell can be cast on only a single tree at a time; while liveoak is in effect, you can't cast it again on another tree. The tree on which the spell is cast must be within 10 feet of your dwelling place, within a place sacred to you, or within 300 feet of something that you wish to guard or protect.
+
+Liveoak must be cast on a healthy, Huge oak. A triggering phrase of up to one word per caster level is placed on the targeted oak. For instance, "Attack any persons who come near without first saying 'sacred mistletoe'" is an eleven-word trigger phrase that you could use at 11th level or higher. The liveoak spell triggers the tree into animating as a treant. Statistics for a treant can be found in the Monster Manual. (At the DM's option, you can extrapolate stats for a smaller tree from the treant statistics if you cast liveoak on a smaller oak.)
+
+If liveoak is dispelled, the tree takes root immediately, wherever it happens to be. If released by you, it tries to return to its original location before taking root.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Liveoak</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

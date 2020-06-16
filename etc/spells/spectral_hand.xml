@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creates disembodied glowing hand to deliver touch attacks.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level (D)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One spectral hand</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+A ghostly, glowing hand shaped from your life force
+materializes and moves as you desire, allowing you to deliver
+low-level, touch range spells at a distance. On casting the
+spell, you lose 1d4 hit points that return when the spell ends
+(even if it is dispelled), but not if the hand is destroyed. (The
+hit points can be healed as normal.) For as long as the spell
+lasts, any touch range spell that you cast of 4th level or lower
+can be delivered by the spectral hand. The spell gives you a +2
+bonus to your melee touch attack roll, and attacking with the
+hand counts normally as an attack. The hand always strikes from
+your direction. The hand can flank targets like a creature can.
+If the hand goes beyond the spell range, goes out of your sight,
+or if you are not directing it, the hand returns to you and
+hovers.
+The hand is incorporeal and thus cannot be harmed by normal
+weapons. It has improved evasion (one-half damage on a failed
+save against an area spell and no damage on a successful save),
+your save bonuses, and an AC of at least 22. Your Intelligence
+modifier applies to the hand's AC as if it were the
+hand's Dexterity modifier. The hand has 1 to 4 hit points,
+the same number that you lost in creating it.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Spectral Hand</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

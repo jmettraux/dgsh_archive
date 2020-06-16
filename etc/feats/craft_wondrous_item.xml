@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can create any miscellaneous magic item whose prerequisites the character meet. Enchanting a miscellaneous magic item takes 1 day for each 1,000 gp in its price. To enchant a miscellaneous magic item, the spellcaster must spend 1/25 of the item's price in XP and use up raw materials costing half of this price.
+The character can also mend a broken miscellaneous magic item if it is one that the character could make. Doing so costs half the XP, half the raw materials, and half the time it would take to enchant that item in the first place.
+Some wondrous items incur extra costs in material components or XP as noted in their descriptions. These costs are in addition to those derived from the item's base price. The character must pay such a cost to create an item or to mend a broken one.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Craft Wondrous Item</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Spellcaster level 3rd+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Item Creation]</string> 
+  </void> 
+ </object> 
+</java> 

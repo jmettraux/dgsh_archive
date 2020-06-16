@@ -1,0 +1,67 @@
+$Id: CHANGELOG.txt,v 1.17 2002/12/03 08:05:58 jmettraux Exp $
+
+0.6.03 - ki
+-----------
+
+	* lots of small fixes (see todo.txt)
+	* added a 'sbo/' folder for standard stat block examples
+
+0.6.02 - martial
+----------------
+
+	* spell hierarchy is cached at first run
+	* 'martial weapon proficiency' now works
+	* magical weapons now works
+	* raptor.sh/.bat now works with import_samples/standard1.sbo
+
+0.6.01b - clergy
+----------------
+
+	* domain spells are ok
+
+0.6.01 - trance
+---------------
+
+	* implemented the skill focus feat
+    	* storing every reference data into hierarchic cached sets
+	* added the adept class and its spells 
+	  (also added the other NPC classes)
+	* implemented Weapon Focus (at least !)
+	(* still implementing domain spells)
+
+0.6.00 - elven
+--------------
+
+	* more random tables
+	* now storing spells, monsters and tables in cached sets 
+	  (less memory needed)
+
+0.5.10 - daze
+-------------
+
+	* implemented 'it' command
+	* implemented 'Daze' spell
+	* changed the prompt to 'dgsh>'
+
+0.5.09 - treasure
+-----------------
+
+	* implemented 'treasure' command
+	* implemented 'charge', 'fidef' and 'todef' commands
+	* With the prepare command, you can now 'p magic_missile 3'
+
+0.5.08 - dispell
+----------------
+
+	* Implemented 'improved initiative'
+	* Fixed MeleeOrRangedWeapon views in DetailView
+	* Massive Damages implemented (just a notification for the moment)
+	* Tanar'ri and Baatezu are now monster races
+	* Implemented the 'Enlarge' spell
+
+0.5.07 - bless
+--------------
+
+	* Added the 'license' and the 'credits' commands.
+	* 'Roll' your dices : 'dgsh> roll 1d20-5'
+	* Implemented the 'Bless' spell

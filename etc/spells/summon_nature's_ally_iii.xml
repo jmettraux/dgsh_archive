@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>rgr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Calls creature to fight for you.</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One or more creatures, no two of which can be more than 30 ft. apart</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As summon nature's ally I, except that you can summon one
+3rd-level creature, 1d3 2nd-level creatures of the same type, or
+1d4+1 1st-level creatures of the same type.
+When you use a summoning spell to summon an air, chaotic,
+earth, evil, fire, good, lawful, or water creature, it is a spell
+of that type. For example, summon nature's ally III is an
+evil and fire spell when you cast it to summon a salamander.
+3rd Level
+
+    *   Ape (animal)
+    *   Bear, black (animal)
+    *   Bison
+    *   Boar
+    *   Crocodile (animal)
+    *   Dire badger
+    *   Dire bat
+    *   Dire weasel
+    *   Elemental, Small
+    *   Leopard (animal)
+    *   Lizard, giant (animal)
+    *   Salamander, Small [neutral evil]
+    *   Satyr [without pipes]
+    *   Shark, Large (animal)
+    *   Snake, constrictor (animal)
+    *   Thoqqua
+    *   Viper, Medium-size (animal)
+    *   Wolverine (animal)
+
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Summon Nature's Ally III</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

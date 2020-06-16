@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>You and your gear merge with stone.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Meld into stone enables you to meld your body and possessions
+into a single block of stone. The stone must be large enough to
+accommodate your body in all three dimensions. When the casting
+is complete, you and not more than 100 pounds of nonliving gear
+merge with the stone. If either condition is violated, the spell
+fails and is wasted.
+While in the stone, you remain in contact, however tenuous,
+with the face of the stone through which you melded. You remain
+aware of the passage of time and can cast spells on yourself
+while hiding in the stone. Nothing that goes on outside the stone
+can be seen, but you can still hear what happens around you.
+Minor physical damage to the stone does not harm you, but its
+partial destruction to the extent that you no longer fit within
+it expels you and deals you 5d6 points of damage. The
+stone's complete destruction expels you and slays you
+instantly unless you succeed at a Fortitude save (DC 18).
+At any time before the duration expires, you can step out of
+the stone through the surface that you entered. If the
+spell's duration runs out or the effect is dispelled before
+you voluntarily exit the stone, you are violently expelled and
+take 5d6 points of damage.
+The following spells harm you if cast upon the stone that you
+are occupying: Stone to flesh expels you and deals you 5d6 points
+of damage. Stone shape deals you 3d6 points of damage but does
+not expel you. Transmute rock to mud expels you and then slays
+you instantly unless you succeed at a Fortitude save (DC 18), in
+which case you are merely expelled. Finally, passwall expels you
+without damage.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Meld into Stone</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- QUASIT (TANAR'RI) -->
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>17</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>12</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>8</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="attackRoutine"> 
+   <string>2 claws +8 melee, bite +3 melee</string> 
+  </void> 
+  <void property="alignment"> 
+   <string>chaotic evil</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>18</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>15</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>8</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d3-1</string> 
+     </void> 
+     <void property="description"> 
+      <string>poison</string> 
+     </void> 
+     <void property="name"> 
+      <string>2 claws</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>3</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d4-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>bite</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="category"> 
+   <string>tiny outsider (chaotic, evil)</string> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>3.0</float> 
+  </void> 
+  <void property="faceReach"> 
+   <string>2 1/2 by 2 1/2 / 0</string> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="beneficiaryDefinition"> 
+      <string>(bite, claw)</string> 
+     </void> 
+     <void property="featName"> 
+      <string>weapon finesse</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>3</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>3</int> 
+  </void> 
+  <void property="name"> 
+   <string>Quasit</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>3d8</string> 
+  </void> 
+  <void property="raceName"> 
+   <string>tanar-ri</string> 
+  </void> 
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="fortitudeModifier"> 
+     <int>3</int> 
+    </void> 
+    <void property="reflexModifier"> 
+     <int>6</int> 
+    </void> 
+    <void property="willModifier"> 
+     <int>4</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <int>9</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>14</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>hide</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>6</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>listen</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>6</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>move silently</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>search</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spellcraft</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>6</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spot</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="specials"> 
+   <void method="put"> 
+    <string>SR 5</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>SR 5</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>regeneration 5/silver</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Quasits take normal damage from acid, and from holy and blessed weapons.</string> 
+     </void> 
+     <void property="name"> 
+      <string>regeneration 5/silver</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>alternate form</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>A quasit can assume other forms at will as a standard action. This ability functions as polymorph self cast by a 12th-level sorcerer, except that any individual quasit can assume only one or two forms no larger than Medium-size. Common forms include bat, monstrous centipede, toad, and wolf.</string> 
+     </void> 
+     <void property="name"> 
+      <string>alternate form</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>detect good</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>At will. As cast by a 6th level sorcerer (Save DC 10 + spell level)</string> 
+     </void> 
+     <void property="name"> 
+      <string>detect good</string> 
+     </void> 
+     <void property="type"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>poison</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Claw, fortitude save (DC 13); initial damage 1d4 temporary DEX, secondary damage 2d4 temp DEX.</string> 
+     </void> 
+     <void property="name"> 
+      <string>poison</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>invisibility</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>At will (self only). As cast by a 6th level sorcerer (Save DC 10 + spell level)</string> 
+     </void> 
+     <void property="name"> 
+      <string>invisibility</string> 
+     </void> 
+     <void property="type"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>cause fear</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Once per day. As the spell, but the radius is 30ft around the quasit. As cast by a 6th level sorcerer (Save DC 10 + spell level)</string> 
+     </void> 
+     <void property="name"> 
+      <string>cause fear</string> 
+     </void> 
+     <void property="type"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>commune</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Once per week. Can ask six questions (otherwise like the spell cast by a 12th level cleric.</string> 
+     </void> 
+     <void property="name"> 
+      <string>commune</string> 
+     </void> 
+     <void property="type"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>detect magic</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>At will. As cast by a 6th level sorcerer (Save DC 10 + spell level)</string> 
+     </void> 
+     <void property="name"> 
+      <string>detect magic</string> 
+     </void> 
+     <void property="type"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>20ft, fly 50ft (perfect)</string> 
+  </void> 
+ </object> 
+</java> 

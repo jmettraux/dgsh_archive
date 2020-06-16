@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creates new sounds or changes existing  ones.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You change the sounds that creatures or objects make. You can
+create sounds where none exist (such as making trees sing),
+deaden sounds (such as making a party of adventurers silent), or
+transform sounds into other sounds (such as making a
+caster's voice sound like a pig snorting). All affected
+creatures or objects must be transmuted in the same way. Once the
+transmutation is made, you cannot change it.
+You can change the qualities of sounds but cannot create words
+with which you are unfamiliar yourself. For instance, you
+can't change your voice so that it sounds as though you are
+giving the command word to activate a magic item unless you know
+that command word.
+A spellcaster whose voice is changed dramatically (such as
+into that of the aforementioned snorting pig) is unable to cast
+spells with verbal components.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Sculpt Sound</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (object)</string> 
+  </void> 
+ </object> 
+</java> 

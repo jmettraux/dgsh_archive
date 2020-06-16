@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Death</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creates undead skeletons and zombies.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow your spoken commands. The skeletons or zombies can follow you, or can remain in an area and attack any creature (or just a specific type of creature) entering the place. The undead remain animated until they are destroyed. (A destroyed skeleton or zombie can't be animated again.)
+
+Regardless of the type of undead, you can't create more HD of undead than you have caster levels with a single casting of animate dead.
+
+The undead you create remain under your control indefinitely.  No matter how many times you use this spell, however, you can control only 2 HD worth of undead creatures per caster level. If you exceed this number, all the newly created creatures fall under your control, and any excess undead from previous castings become uncontrolled (you choose which creatures are released). If you are a cleric, any undead you might command by virtue of your power to command or rebuke undead do not count toward the limit.
+
+Skeletons: A skeleton can be created only from a mostly intact corpse or skeleton. The corpse must have bones (so purple worm skeletons are not allowed). If a skeleton is made from a corpse, the flesh falls off the bones. The statistics for a skeleton depend on its size; they do not depend on what abilities the creature may have had while alive.
+
+Zombies: A zombie can be created only from a mostly intact corpse. The creature must have a true anatomy (so gelatinous cube zombies are not allowed). The statistics for a zombie depend on its size, not on what abilities the creature may have had while alive.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>You must place a black onyx gem worth at
+least 50 gp into the mouth or eye socket of each corpse. The
+magic of the spell turns these gems into worthless, burned-out
+shells.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Animate Dead</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Evil</string> 
+  </void> 
+ </object> 
+</java> 

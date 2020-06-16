@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Object shrinks to one-twelfth size.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You are able to shrink one nonmagical item (if it is within
+the size limit) to one-twelfth of its normal size in each
+dimension (to about 1/2,000th the original volume and mass).
+Optionally, you can also change its now-shrunken composition to a
+clothlike one. Objects changed by a shrink item spell can be
+returned to normal composition and size merely by tossing them
+onto any solid surface or by a word of command from the original
+caster. Restoring the shrunken object to its normal size and
+composition ends the spell.
+If shrink item is made permanent (see the permanency spell),
+the affected object can be shrunk and expanded an indefinite
+number of times, but only by the original caster.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Shrink Item</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (object)</string> 
+  </void> 
+ </object> 
+</java> 

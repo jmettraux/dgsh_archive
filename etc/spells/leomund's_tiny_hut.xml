@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creates shelter for 10 creatures.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>2 hours/level (D)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>20-ft.-radius sphere centered on your location</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You create an unmoving, opaque sphere of force of any color
+you desire around yourself. Half of the sphere projects above the
+ground, and the lower hemisphere passes through the ground. Up to
+nine other Medium-size creatures can fit into the field with you;
+they can freely pass into and out of the hut without harming it.
+However, if you remove yourself from the hut, the spell ends.
+The temperature inside the hut is 70 dg F if the exterior
+temperature is between 0 dg and 100 dg F. An exterior temperature
+below 0 dg or above 100 dg lowers or raises, respectively, the
+interior temperature on a 1-degree-for-1 basis (thus, if
+it's -20 dg outside, inside it'll be 50 dg The hut
+also provides protection against the elements, such as rain,
+dust, and sandstorms. The hut withstands any wind of less than
+hurricane force, but a hurricane (75+ mph wind speed) or greater
+force destroys it.
+The interior of the hut is a hemisphere. You can illuminate it
+dimly upon command or extinguish the light as desired. Note that
+although the force field is opaque from the outside, it is
+transparent from within. Missiles, weapons, and most spell
+effects can pass through the hut without affecting it, although
+the occupants cannot be seen from outside the hut (they have
+total concealment).
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Leomund's Tiny Hut</string> 
+  </void> 
+  <void property="range"> 
+   <string>20 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

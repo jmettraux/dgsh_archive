@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Prepared object appears in your hand.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent until discharged</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You call some nonliving item from virtually any location directly to your hand.
+
+First, you place your arcane mark on the item. Then you cast this spell, which magically and invisibly inscribes the name of the item on a gem worth at least 1,000 gp. Thereafter, you can summon the item by speaking a special word (set by you when the spell is cast) and crushing the gem. The item appears instantly in your hand. Only you can use the gem in this way.
+
+If the item is in the possession of another creature, the spell does not work, but you know who the possessor is and roughly where he, she, or it is located when the summons is cast.  The inscription on the gem is invisible. It is also unreadable, except by means of a read magic spell, to anyone but you.
+
+The item can be summoned from another plane, but only if no other creature has claimed ownership of it.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Drawmij's Instant Summons</string> 
+  </void> 
+  <void property="range"> 
+   <string>See text</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+ </object> 
+</java> 

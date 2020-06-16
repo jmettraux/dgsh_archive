@@ -1,0 +1,167 @@
+TITLE: SRD Combat Modifiers
+
+This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
+
+ATTACK ROLL MODIFIERS
+=====================
+
+Use these adjustments whenever a character is making a melee, ranged, full, or other type of attack action. 
+Table: Attack Roll Modifiers 
+
+Circumstance Melee Ranged
+------------ ----- ------
+Attacker flanking defender* 			+2 
+Attacker on higher ground 			+1 	+0
+Attacker prone 					-4 	**
+Attacker invisible 				+2*** 	+2***
+Defender sitting or kneeling 			+2 	-2
+Defender prone 					+4 	-4
+Defender stunned, cowering, or off balance 	+2*** 	+2***
+Defender climbing (cannot use shield) 		+2*** 	+2***
+Defender surprised or flat-footed 		+0*** 	+0***
+Defender running 				+0*** 	-2***
+Defender grappling (attacker not) 		+0*** 	+0****
+Defender pinned 				+4*** 	-4***
+Defender has cover  				See Cover 
+Defender concealed or invisible  		See Concealment 
+Defender helpless 				See Helpless Defenders 
+
+* A character flanks a defender when the character has an ally on the opposite side of the defender and that ally threatens the defender
+
+** Most ranged weapons can't be used while the attacker is prone, but a character can use a crossbow while prone.
+
+*** The defender loses any Dexterity bonus to AC.
+
+**** Roll randomly to see which grappling character is struck when an attack is made against two or more grappling characters. The character attacked also loses any Dexterity bonus to AC.
+
+Helpless Characters
+
+A melee attack against a helpless character gets a +4 circumstance bonus on the attack roll. A ranged attack gets no special bonus. A helpless defender has a Dexterity score of 0. 
+
+
+Two Weapon Fighting
+
+If a normal character (i.e. a character without the multiattack and/or multidexterity feats) wields a second weapon (fights two handed), that character can get one extra attack per round with that weapon. Fighting in this way is very hard, however, and the character suffers a -6 penalty for regular attacks with the first hand and a -10 penalty to the attack with a other hand. A character can reduce these stiff penalties in three ways: 
+* If a character's second weapon is light, the penalties are reduced by 2 each. 
+* The Ambidexterity feat reduces the penalty against the second weapon by 4. 
+* The Two-Weapon Fighting feat reduces both penalties by 2. 
+
+Double Weapons
+
+A character can use a double weapon to make an extra attack as if the character were fighting with two weapons. The penalties apply as if the off-hand weapon were light. If the character does not elect to take the extra attack, the character is not penalized for fighting with two weapons.
+Gaining the extra attack from fighting with two weapons always requires the use of the Full Attack action, even when using a double weapon.
+
+INFLICTING DAMAGE
+
+Damage Rolls
+
+If the attack roll result equals or exceeds the target's AC, the attack is successful, and the attacker deals damage to the defender. Roll the appropriate damage for the attacker's weapon. The damage is deducted from the target character's current hit points. 
+
+Minimum Weapon Damage
+
+If penalties to damage bring the damage result below 1, a hit still deals 1 point of damage. 
+
+Fighting with Two Weapons
+
+When a character is fighting with two weapons deals damage with the extra attack, add only one-half of the character's Strength bonus. 
+Wielding a Weapon Two-Handed
+When a character deals damage with a weapon that the character is wielding two-handed, the character adds one and one half times the character's Strength bonus. Light weapons don't get this higher Strength bonus when used two-handed. 
+
+Unarmed Strike Damage
+
+An unarmed strike from a Medium-size character deals 1d3 points of damage (with a character's Strength modifier, as normal). A Small character's unarmed strike deals 1d2 points of damage. All damage is subdual damage. Unarmed strikes count as light weapons (for purposes of two-weapon attack penalties and so on). 
+
+Dealing Normal Damage
+
+A character can specify that it's unarmed strike will deal normal damage before it makes an attack roll, but the attack suffers a -4 penalty. 
+
+Critical Hits
+
+When a character makes an attack roll and gets a natural 20, the character hits regardless of the target's AC, and the character has scored a threat. The hit might be a critical hit (or "crit"). To find out if it's a critical hit, the character immediately makes a critical roll  another attack roll with all the same modifiers as the attack roll the character just made. If the critical roll also results in a hit against the target's AC, the character's original hit is a critical hit. If the critical roll is a miss, then the character's hit is just a regular hit. 
+A critical hit means that the attacker rolls for damage more than once, as indicated by the weapon description for the weapon that scored the threat, with all the attacker's usual bonuses, and add the rolls together to get total damage. 
+Exception: Bonus damage represented as extra dice is not multiplied when a character score a critical hit. 
+
+Increased Threat Range
+
+Sometimes a character's threat range is greater than 20. In such cases, a roll below 20 is not an automatic hit. Any attack roll that doesn't result in a hit is not a threat. 
+
+Increased Critical Multiplier
+
+Some weapons, deal better than double damage with a critical hit. 
+Multiplying Damage
+Sometimes a character multiplies damage by some factor, such as when a character scores a critical hit. Roll the damage (with all modifiers) multiple times and total the results. 
+
+COVER AND CONCEALMENT
+
+Depending on the situation, a character may gain bonuses or suffer penalties due to cover. The DM judges what bonuses and penalties apply. 
+
+Cover
+
+Cover provides a bonus to a character's AC. The more cover a character has, the bigger the bonus. 
+
+Cover   AC Cover  Reflex
+        Bonus     Save bonus
+----------------------------
+1/4       +2        +1
+1/2       +4        +2
+3/4       +7        +3
+9/10      +10       +4*
+        
+*Half damage if save is failed; no damage if successful.
+
+Cover and Attacks of Opportunity
+
+An attacker can't execute an attack of opportunity against a character with one-half or better cover. 
+
+Cover and Reach Weapons
+
+If a character is using a reach weapon, another character standing between the attacker and the target provides cover to the target. Generally, if both of the other characters are the same size, the one furthest from the attacker has one-half cover (+4 AC). 
+
+Degree of Cover
+
+Cover is assessed in subjective measurements of how much protection it offers a character. The DM determines the value of cover. 
+
+Cover Reflex Save Bonus
+
+Add this bonus to Reflex saves against attacks that affect an area. For nine-tenths cover, a character also effectively has improved evasion. These bonuses, however, only apply to attacks that originate or spread out from a point on the other side of the cover. 
+
+Striking the Cover Instead of a Missed Target
+
+If it ever becomes important to know whether the cover was actually struck by an incoming attack that misses the intended target, the DM should determine if the attack roll would have hit the protected target without the cover. If the attack roll falls within a range low enough to miss the target with cover but high enough to strike the target if there had been no cover, the object used for cover was struck. This can be particularly important to know in cases where a character uses another character as cover. In such a case, if the cover is struck and the attack roll exceeds the AC of the covering character, the covering character takes the damage intended for the target. 
+If the covering character has a Dexterity bonus to AC or a dodge bonus, and this bonus keeps the covering character from being hit, then the original target is hit instead. The covering character has dodged out of the way and didn't provide cover after all. A covering character can choose not to apply his Dexterity bonus to AC and/or his dodge bonus, if his intent is to try to take the damage in order to keep the covered character from being hit. 
+
+Concealment
+
+Concealment includes all circumstances where nothing physically blocks a blow or shot but where something interferes with an attacker's accuracy. 
+        
+        
+Miss Chance
+-----------
+
+One-Quarter     
+Light fog; moderate darkness; light foliage     
+10%
+
+One-Half        
+Dense fog at 5ft.       
+20%
+
+Three-quarters  
+Dense foliage   
+30%
+
+Nine-tenths     
+Near total darkness     
+40%
+
+Total   
+Attacker blind; target invisible;
+total darkness; dense fog at 10 ft.     
+50%
+
+Concealment is subjectively measured as to how well concealed the defender is. Concealment always depends on the point of view of the attacker. 
+
+Concealment Miss Chance
+
+Concealment gives the subject of a successful attack a chance that the attacker missed because of the concealment. If the attacker hits, the defender must make a miss chance percentile roll to avoid being struck. When multiple concealment conditions apply to a defender, use the one that would produce the highest miss chance. Do not add the miss chances together.
+

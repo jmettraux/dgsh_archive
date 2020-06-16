@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>XP</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As restoration, plus restores all levels and ability  scores</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As lesser restoration, except the spell dispels all negative energy levels afflicting the healed creature, restoring the creature to the highest level it had previously achieved. This reverses level drains by a force or creature. The drained levels are restored only if the time since the creature lost the level is no more than 1 week per caster level.
+Greater restoration also dispels all magical effects penalizing the character's abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also removes all forms of insanity, confusion, and similar mental effects. Greater restoration does not restore levels or Constitution points lost due to death.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Greater Restoration</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+ </object> 
+</java> 

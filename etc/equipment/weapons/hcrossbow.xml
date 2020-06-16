@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.equipment.RangedWeapon"> 
+  <void property="categoryDefinition"> 
+   <string>crossbow</string> 
+  </void> 
+  <void property="critical"> 
+   <string>19-20 x2</string> 
+  </void> 
+  <void property="damages"> 
+   <string>1d10</string> 
+  </void> 
+  <void property="description"> 
+   <string>heavy crossbow</string> 
+  </void> 
+  <void property="name"> 
+   <string>hcrossbow</string> 
+  </void> 
+  <void property="proficiencyType"> 
+   <string>simple weapon proficiency</string> 
+  </void> 
+  <void property="rangeIncrement"> 
+   <int>120</int> 
+  </void> 
+  <void property="value"> 
+   <string>50 gp</string> 
+  </void> 
+  <void property="weight"> 
+   <float>9.0</float> 
+  </void> 
+ </object> 
+</java> 

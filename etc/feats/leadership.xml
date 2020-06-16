@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefits: Having this feat enables the character to attract loyal companions and devoted followers, subordinates who assist her. See Table: Leadership for what sort of cohort and how many followers the character can recruit.
+
+Table: Leadership
+
+Leadership Cohort  -- Number of Followers by Level --
+
+Score       Level   1st   2nd  3rd 4th 5th 6th
+---------   -----   ---   ---  --- --- --- ---
+1 or less   -       -     -    -   -   -   -
+2           1st     -     -    -   -   -   -
+3           2nd     -     -    -   -   -   -
+4           3rd     -     -    -   -   -   -
+5           3rd     -     -    -   -   -   -
+6           4th     -     -    -   -   -   -
+7           5th     -     -    -   -   -   -
+8           5th     -     -    -   -   -   -
+9           6th     -     -    -   -   -   -
+10          7th     5     -    -   -   -   -
+11          7th     6     -    -   -   -   -
+12          8th     8     -    -   -   -   -
+13          9th     10    1    -   -   -   -
+14          10th    15    1    -   -   -   -
+15          10th    20    2    1   -   -   -
+16          11th    25    2    1   -   -   -
+17          12th    30    3    1   1   -   -
+18          12th    35    3    1   1   -   -
+19          13th    40    4    2   1   1   -
+20          14th    50    5    3   2   1   -
+21          15th    60    6    3   2   1   1
+22          15th    75    7    4   2   2   1
+23          16th    90    9    5   3   2   1
+24          17th    110   11   6   3   2   1
+25+         17th    135   13   7   4   2   2
+
+Leadership Score: A character's Leadership score equals his level plus any Charisma modifier. In order to take into account negative Charisma modifiers, Table: Leadership allows for very low Leadership scores, but the character must still be 6th level or higher in order to gain the Leadership feat and thus attract a cohort. Outside factors can affect a character's Leadership score, as detailed in Table: Leadership Modifiers.
+
+Cohort Level: The character can attract a cohort of up to this level.  Regardless of the character's Leadership score, he can't recruit a cohort of his level or higher.
+
+Number of Followers by Level: The character can lead up to the indicated number of characters of each level.
+
+Table: Leadership Modifiers
+
+General Leadership Modifiers
+
+The Leader Has a Reputation of        Leadership Modifier
+------------------------------        -------------------
+Great prestige                        +2
+Fairness and generosity               +1
+Special power                         +1
+Failure                               -1
+Aloofness                             -1
+Cruelty                               -2
+
+Cohort-Only Leadership Modifiers
+The Leader                                           Leadership mod.
+
+Has a familiar/paladin's warhorse/              -2 animal companion
+Recruits a cohort of a different alignment      -1
+Caused the death of a cohort                    -2*
+*Cumulative per cohort killed.
+Follower-Only Leadership Modifiers
+
+The Leader                                  Leadership mod.
+
+Has a stronghold, base of operations,	    +2 guildhouse, and so on
+Moves around a lot                          -1
+Caused the death of other followers         -1
+
+Special Cohorts: With the DM's permission, a leader may seek out a special cohort who is not a member of the standard PC races (the common races).
+
+Followers: A leader attracts followers whose alignments are within one step of his own. These characters have gear appropriate to NPCs of their level. As the leader's Leadership rises, he can attract more followers. If his Leadership goes down, followers may desert.  Replacing Cohorts and Followers: If a leader loses a cohort or followers, he can generally replace them, according to his current Leadership score. It takes time (1d4 months) to recruit replacements.  If the leader is to blame for the deaths of the cohort or followers, it takes extra time to replace them, up to a full year. Note that the leader also picks up a reputation of failure, which decreases his Leadership score.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Leadership</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>The character must be at least 6th level.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

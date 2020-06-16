@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Commands subject of 7 HD or less.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level or until discharged (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+A lesser geas places a magical command on a creature to carry
+out some service or to refrain from some action or course of
+activity, as desired by you. The creature must have 7 or fewer HD
+and be able to understand you. While a geas cannot compel a
+creature to kill itself or perform acts that would result in
+certain death, it can cause almost any other course of activity.
+The geased creature must follow the given instructions until the
+geas is completed, no matter how long it takes. If the
+instructions involve some open-ended task that the recipient
+cannot complete through his own actions (such as "Wait
+here" or "Defend this area against attack"), the
+spell remains in effect for a maximum of 1 day per caster level.
+Note that a clever recipient can subvert some instructions. For
+example, if you order the recipient to protect you from all harm,
+it might place you in a nice, safe dungeon for the duration of
+the spell.
+If the subject is prevented from obeying the lesser geas for a
+whole day, he suffers a -2 penalty on each ability score.
+Each day, another -2 penalty accumulates, up to a total of
+-8. Abilities are not reduced below 1. The ability penalties
+end 1 day after the character resumes obeying the lesser geas.
+A lesser geas (and all ability penalties) can be ended by
+break enchantment, limited wish, remove curse, miracle, or wish.
+Dispel magic does not affect a lesser geas.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Lesser Geas</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Language-Dependent, Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

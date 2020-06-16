@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- TROLL -->
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>6</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>23</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>6</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>14</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>9</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>23</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="attackRoutine"> 
+   <string>2 claws +9 melee, bite +4 melee</string> 
+  </void> 
+  <void property="alignment"> 
+   <string>chaotic evil</string> 
+  </void> 
+  <void property="triggerToApplyEachRound"> 
+   <string>Regeneration</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>18</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>11</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>9</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d6+6</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>2 claws</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>4</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d6+3</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>bite</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="category"> 
+   <string>large giant</string> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>5.0</float> 
+  </void> 
+  <void property="faceReach"> 
+   <string>5 by 5 / 10</string> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>alertness</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>iron will</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>6</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>2</int> 
+  </void> 
+  <void property="name"> 
+   <string>Troll</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>6d8+36</string> 
+  </void> 
+  <!--
+  <void property="raceName"> 
+   <string>troll</string> 
+  </void> 
+  -->
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="fortitudeModifier"> 
+     <int>11</int> 
+    </void> 
+    <void property="reflexModifier"> 
+     <int>4</int> 
+    </void> 
+    <void property="willModifier"> 
+     <int>3</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <int>11</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>5</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>listen</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>5</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spot</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <!-- attribute map is frozen for the moment, may be useful later though...
+  <void property="attributes"> 
+   <void method="put"> 
+    <string>regeneration.rate</string> 
+    <int>5</int>
+   </void> 
+  </void>
+  -->
+  <void property="specials"> 
+   <void method="put"> 
+    <string>darkvision 90ft</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>darkvision 90ft</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>scent</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>scent</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>rend</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>If a troll hits with both claw attacks, it latches onto the opponents body and tears the flesh. This attack automatically deals an additional 2d6+9 points of damage</string> 
+     </void> 
+     <void property="name"> 
+      <string>rend</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>regeneration 5</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Fire and acid deal normal damage to a troll. If a troll loses a limb or body part, the lost portion regrows in 3d6 minutes. The creature can reattach the severed member instantly by holding it to the stump</string> 
+     </void> 
+     <void property="name"> 
+      <string>regeneration 5</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>30ft</string> 
+  </void> 
+  <void property="treasure"> 
+   <string>Standard</string> 
+  </void> 
+ </object> 
+</java> 

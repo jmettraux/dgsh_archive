@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As charm monster, but all within 30 ft.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As charm person, except the spell affects a number of
+creatures (persons or not) whose combined HD do not exceed twice
+your level (or at least one creature regardless of HD). If there
+are more potential targets than you can affect, you choose them
+one at a time until you choose a creature with too many HD.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Mass Charm</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Charm</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

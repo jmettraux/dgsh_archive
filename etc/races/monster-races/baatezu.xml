@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+
+<!-- BAATEZU -->
+ <object class="burningbox.org.dsh.entities.Race"> 
+  <void property="name"> 
+   <string>baatezu</string> 
+  </void> 
+  <void property="specials"> 
+   <void method="put"> 
+    <string>see in darkness</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>All devils can see perfectly in darkness of any kind, even that created by deeper darkness spells</string> 
+     </void> 
+     <void property="name"> 
+      <string>see in darkness</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>resistances</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Baatezu have cold, and acid resistance 20</string> 
+     </void> 
+     <void property="name"> 
+      <string>resistances</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>immunities</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Baatezu are immune to fire and poison</string> 
+     </void> 
+     <void property="name"> 
+      <string>immunities</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>telepathy</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Baatezu (except lemures) can communicate telepathically with any creature within 100 feet that has a language</string> 
+     </void> 
+     <void property="name"> 
+      <string>telepathy</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java>

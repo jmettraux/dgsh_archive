@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As lesser geas, plus it affects any creature.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As lesser geas, except that geas/quest affects a creature of any HD and allows no saving throw.
+
+Instead of suffering penalties to abilities, the subject takes 3d6 points of damage each day he does not attempt to follow the geas/quest. Additionally, each day he must make a Fortitude saving throw or sicken. A sickened creature moves at half his normal speed and suffers -4 penalties on both Strength and Dexterity. He heals damage at one-tenth his normal rate and cannot benefit from any magical healing effects. A sickened creature must make a Fortitude save each day or become crippled.  Once crippled, the subject is effectively disabled (as if he had 0 hit points) and can't choose to take strenuous actions.  These effects end 1 day after the creature attempts to resume the geas/quest.
+
+Remove curse ends the geas/quest only if its caster level is at least two higher than your caster level. Break enchantment does not end the geas/quest, although limited wish, miracle, and wish do.
+
+Wizard and bards usually refer to this spell as geas, while clerics call the same spell quest.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Geas Quest</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Language-Dependent, Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

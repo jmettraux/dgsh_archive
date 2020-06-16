@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Opened object deals 1d4 +1/level damage.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent until discharged</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Fire trap creates a fiery explosion when an intruder opens the item that the trap wards. The fire trap can ward any closeable item (book, box, bottle, chest, coffer, coffin, door, drawer, and so forth). When casting fire trap, you select a point on the item as the spell's center. When someone other than you opens the item, a fiery explosion fills the area within a 5-foot radius around the spell's center. The flames deal 1d4 points of fire damage +1 point per caster level (maximum +20). The item protected by the trap is not harmed by this explosion.  The fire trapped item cannot have a second closure or warding spell placed on it.
+A knock spell does not affect a fire trap in any way, because knock only opens things and the fire trap in no way prevents one from opening the trapped item. An unsuccessful dispel magic spell does not detonate the spell.
+Underwater, this ward deals half damage and creates a large cloud of steam.
+As the caster, you can use the trapped object without discharging it, as can any individual to whom the spell was specifically attuned when cast. "Attuning" usually involves a password that you can share with friends.
+Material: Worth 25 gp</string> 
+  </void> 
+  <void property="name"> 
+   <string>Fire Trap</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex half (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fire</string> 
+  </void> 
+ </object> 
+</java> 

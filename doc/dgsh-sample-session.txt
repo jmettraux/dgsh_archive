@@ -1,0 +1,628 @@
+     ___    ____  ____  __ __
+    / _ \  / __/ / __/ / // /
+   / // / / / / _\ \  / _  /
+  /____/ /___/ /___/ /_//_/
+
+dgsh - Dungeon Shell - v0.5.10 - jmettraux@burningbox.org
+
+..DataSets.init()
+...loading etc/races.xml
+...loading etc/classes.xml
+...loading etc/skills.xml
+...loading etc/feats.xml
+...loading etc/armors.xml
+...loading etc/shields.xml
+...loading etc/weapons.xml
+...loading etc/equipment.xml
+...loading etc/monster-races.xml
+...loading etc/monsters.xml
+...loading etc/spells.xml
+..Setting up aliases
+..Loading additional script files
+..Setting up debug logging to dungeon.log
+..Setting scenario directory to scn/
+..Setting party directory to pty/
+...Loading pty/glockmuch.xml
+...Loading pty/sakado.xml
+...Loading pty/delfae.xml
+...Loading pty/shana.xml
+...Loading pty/loup.xml
+...Loading pty/hemgard.xml
+...Loading pty/plume.xml
+...Loading pty/troudukh.xml
+..Setting random tables directory to etc/tables/
+..Setting env attributes
+dsh> prep shana drd
+   Shana drd> f
++------------------------------------------------------------------------------+
+|                 lvl  0    1    2    3    4    5    6    7    8    9          |
+|                 drd  4 /  3 / -- / -- / -- / -- / -- / -- / -- / --          |
++------------------------------------------------------------------------------+
+   Shana drd> l 0
++--------------------------+--------+-----------------+------------------------+
+| name                     | lvl    | type            | description            |
++--------------------------+--------+-----------------+------------------------+
+| Read Magic               | drd 0  | Universal       | Read scrolls and spell |
+|                          |        |                 | books.                 |
+| Light                    | drd 0  | Evocation       | Object shines like a t |
+|                          |        | [Light]         | orch.                  |
+| Cure Minor Wounds        | drd 0  | Conjuration     | Cures 1 point of damag |
+|                          |        | (Healing)       | e.                     |
+| Flare                    | drd 0  | Evocation       | Dazzles one creature ( |
+|                          |        | [Light]         | -1 attack).            |
+| Guidance                 | drd 0  | Divination      | +1 on one roll, throw, |
+|                          |        |                 |  or check.             |
+| Virtue                   | drd 0  | Transmutation   | Subject gains 1 tempor |
+|                          |        |                 | ary hp.                |
+| Detect Magic             | drd 0  | Universal       | Detects spells and mag |
+|                          |        |                 |                        |
+|                          |        |                 |                        |
+| Mending                  | drd 0  | Transmutation   | Makes minor repairs on |
+|                          |        |                 |  an object.            |
+| Resistance               | drd 0  | Abjuration      | Subject gains +1 on sa |
+|                          |        |                 | ving throws.           |
+| Purify Food and Drink    | drd 0  | Universal       | Purifies 1 cu. ft./lev |
+|                          |        |                 | el of food or water.   |
+| Detect Poison            | drd 0  | Divination      | Detects poison in one  |
+|                          |        |                 | creature or small obje |
+|                          |        |                 | ct.                    |
+| Create Water             | drd 0  | Conjuration     | Creates 2 gallons/leve |
+|                          |        | (Creation)      | l of pure water.       |
+| Know Direction           | drd 0  | Divination      | You discern north.     |
++--------------------------+--------+-----------------+------------------------+
+   Shana drd> p read_magic
+      'Read Magic' got added.
+   Shana drd> p detect_magic 2
+      'Detect Magic' got added.
+   Shana drd> p create_water
+      'Create Water' got added.
+   Shana drd> l 1
++--------------------------+--------+-----------------+------------------------+
+| name                     | lvl    | type            | description            |
++--------------------------+--------+-----------------+------------------------+
+| Pass without Trace       | drd 1  | Transmutation   | One subject/level leav |
+|                          |        |                 | es no tracks.          |
+| Calm Animals             | drd 1  | Enchantment     | Calms 2d4 +1/level HD  |
+|                          |        | (Compulsion)    | of animals, beasts, an |
+|                          |        | [Mind-Affecting | d magical  beasts.     |
+| Entangle                 | drd 1  | Transmutation   | Plants entangle everyo |
+|                          |        |                 | ne in 40-ft.-radius ci |
+|                          |        |                 | rcle.                  |
+| Animal Friendship        | drd 1  | Enchantment     | Gains permanent animal |
+|                          |        | (Charm)         |  companions.           |
+|                          |        | [Mind-Affecting |                        |
+| Faerie Fire              | drd 1  | Evocation       | Outlines subjects with |
+|                          |        |                 |  light, canceling blur |
+|                          |        |                 | ,  concealment, etc.   |
+| Obscuring Mist           | drd 1  | Conjuration     | Fog surrounds you.     |
+|                          |        | (Creation)      |                        |
+| Invisibility to Animals  | drd 1  | Abjuration      | Animals can't perceive |
+|                          |        |                 |  one subject/level.    |
+| Summon Nature's Ally I   | drd 1  | Conjuration     | Calls creature to figh |
+|                          |        | (Summoning)     | t for you.             |
+|                          |        | [see text]      |                        |
+| Detect Snares and Pits   | drd 1  | Divination      | Reveals natural or pri |
+|                          |        |                 | mitive traps.          |
+| Cure Light Wounds        | drd 1  | Conjuration     | Cures 1d8 +1/level dam |
+|                          |        | (Healing)       | age (max +5).          |
+| Shillelagh               | drd 1  | Transmutation   | Cudgel or quarterstaff |
+|                          |        |                 |  becomes +1 weapon (1d |
+|                          |        |                 | 10  damage) for 1 minu |
+|                          |        |                 | te/level.              |
+| Magic Fang               | drd 1  | Transmutation   | One natural weapon of  |
+|                          |        |                 | subject creature gets  |
+|                          |        |                 | +1 bonus to attack and |
+|                          |        |                 |  damage.               |
+| Endure Elements          | drd 1  | Abjuration      | Ignores 5 damage/round |
+|                          |        |                 |                        |
+|                          |        |                 |                        |
+| Detect Animals or Plants | drd 1  | Divination      | Detects species of ani |
+|                          |        |                 | mals or plants.        |
+| Goodberry                | drd 1  | Transmutation   | 2d4 berries each cure  |
+|                          |        |                 | 1 hp (max 8 hp/24 hour |
+|                          |        |                 | s).                    |
++--------------------------+--------+-----------------+------------------------+
+   Shana drd> p entangle_2
+      spell not known.
+   Shana drd> f
++------------------------------------------------------------------------------+
+|                 lvl  0    1    2    3    4    5    6    7    8    9          |
+|                 drd -- /  3 / -- / -- / -- / -- / -- / -- / -- / --          |
++------------------------------------------------------------------------------+
+   Shana drd> p entangle 2
+      'Entangle' got added.
+   Shana drd> p shillelagh
+      'Shillelagh' got added.
+   Shana drd> x
+dsh> prep plume clr
+   Plume clr> p bless 2
+      'Bless' got added.
+   Plume clr> f
++------------------------------------------------------------------------------+
+|                 lvl  0    1    2    3    4    5    6    7    8    9          |
+|                 clr  4 /  1 / -- / -- / -- / -- / -- / -- / -- / --          |
++------------------------------------------------------------------------------+
+   Plume clr> l 0
++--------------------------+--------+-----------------+------------------------+
+| name                     | lvl    | type            | description            |
++--------------------------+--------+-----------------+------------------------+
+| Read Magic               | clr 0  | Universal       | Read scrolls and spell |
+|                          |        |                 | books.                 |
+| Inflict Minor Wounds     | clr 0  | Necromancy      | Touch attack, 1 point  |
+|                          |        |                 | of damage.             |
+| Light                    | clr 0  | Evocation       | Object shines like a t |
+|                          |        | [Light]         | orch.                  |
+| Cure Minor Wounds        | clr 0  | Conjuration     | Cures 1 point of damag |
+|                          |        | (Healing)       | e.                     |
+| Guidance                 | clr 0  | Divination      | +1 on one roll, throw, |
+|                          |        |                 |  or check.             |
+| Virtue                   | clr 0  | Transmutation   | Subject gains 1 tempor |
+|                          |        |                 | ary hp.                |
+| Detect Magic             | clr 0  | Universal       | Detects spells and mag |
+|                          |        |                 |                        |
+|                          |        |                 |                        |
+| Mending                  | clr 0  | Transmutation   | Makes minor repairs on |
+|                          |        |                 |  an object.            |
+| Resistance               | clr 0  | Abjuration      | Subject gains +1 on sa |
+|                          |        |                 | ving throws.           |
+| Purify Food and Drink    | clr 0  | Universal       | Purifies 1 cu. ft./lev |
+|                          |        |                 | el of food or water.   |
+| Detect Poison            | clr 0  | Divination      | Detects poison in one  |
+|                          |        |                 | creature or small obje |
+|                          |        |                 | ct.                    |
+| Create Water             | clr 0  | Conjuration     | Creates 2 gallons/leve |
+|                          |        | (Creation)      | l of pure water.       |
++--------------------------+--------+-----------------+------------------------+
+   Plume clr> p read_magic 2
+      'Read Magic' got added.
+   Plume clr> p purify_food_and_drink 2
+      'Purify Food and Drink' got added.
+   Plume clr> l 1
++--------------------------+--------+-----------------+------------------------+
+| name                     | lvl    | type            | description            |
++--------------------------+--------+-----------------+------------------------+
+| Invisibility to Undead   | clr 1  | Abjuration      | Undead can't perceive  |
+|                          |        |                 | one subject/level.     |
+| Shield of Faith          | clr 1  | Abjuration      | Aura grants +2 or high |
+|                          |        |                 | er deflection bonus.   |
+| Detect Good              | clr 1  | Divination      | Reveals creatures, spe |
+|                          |        |                 | lls, or objects.       |
+| Cure Light Wounds        | clr 1  | Conjuration     | Cures 1d8 +1/level dam |
+|                          |        | (Healing)       | age (max +5).          |
+| Bane                     | clr 1  | Enchantment     | Enemies suffer -1 atta |
+|                          |        | (Compulsion)    | ck, -1 on saves agains |
+|                          |        | [Mind-Affecting | t fear.                |
+| Endure Elements          | clr 1  | Abjuration      | Ignores 5 damage/round |
+|                          |        |                 |                        |
+|                          |        |                 |                        |
+| Inflict Light Wounds     | clr 1  | Necromancy      | Touch, 1d8 +1/level da |
+|                          |        |                 | mage (max +5).         |
+| Sanctuary                | clr 1  | Abjuration      | Opponents can't attack |
+|                          |        |                 |  you, and you can't at |
+|                          |        |                 | tack.                  |
+| Deathwatch               | clr 1  | Necromancy      | Sees how wounded subje |
+|                          |        |                 |                        |
+|                          |        |                 |                        |
+| Detect Undead            | clr 1  | Divination      | Reveals undead within  |
+|                          |        |                 | 60 ft.                 |
+| Obscuring Mist           | clr 1  | Conjuration     | Fog surrounds you.     |
+|                          |        | (Creation)      |                        |
+| Protection from Evil     | clr 1  | Abjuration      | +2 AC and saves, count |
+|                          |        | [Good]          | er mind control, hedge |
+|                          |        |                 |  out  elementals and o |
+|                          |        |                 | utsiders.              |
+| Curse Water              | clr 1  | Transmutation   | Makes unholy water.    |
+|                          |        | [Evil]          |                        |
+| Protection from Good     | clr 1  | Abjuration      | +2 AC and saves, count |
+|                          |        | [Evil]          | er mind control, hedge |
+|                          |        |                 |  out elementals and ou |
+|                          |        |                 | tsiders.               |
+| Detect Evil              | clr 1  | Divination      | Reveals creatures, spe |
+|                          |        |                 | lls, or objects.       |
+| Doom                     | clr 1  | Enchantment     | One subject suffers -2 |
+|                          |        | (Compulsion)    |  on attacks, damage, s |
+|                          |        | [Fear, Mind-Aff | aves, and  checks.     |
+| Entropic Shield          | clr 1  | Abjuration      | Ranged attacks against |
+|                          |        |                 |  you suffer 20% miss c |
+|                          |        |                 | hance.                 |
+| Divine Favor             | clr 1  | Evocation       | You gain attack, damag |
+|                          |        |                 | e bonus, +1/three leve |
+|                          |        |                 | ls.                    |
+| Bless Water              | clr 1  | Transmutation   | Makes holy water.      |
+|                          |        | [Good]          |                        |
+| Remove Fear              | clr 1  | Abjuration      | +4 on saves against fe |
+|                          |        |                 | ar for one subject +1/ |
+|                          |        |                 | four  levels.          |
+  --more--
+| Summon Monster I         | clr 1  | Conjuration     | Calls outsider to figh |
+|                          |        | (Summoning)     | t for you.             |
+|                          |        | [see text]      |                        |
+| Comprehend Languages     | clr 1  | Divination      | Understands all spoken |
+|                          |        |                 |  and written languages |
+|                          |        |                 | .                      |
+| Protection from Chaos    | clr 1  | Abjuration      | +2 AC and saves, count |
+|                          |        | [Lawful]        | er mind control, hedge |
+|                          |        |                 |  out  elementals and o |
+|                          |        |                 | utsiders.              |
+| Magic Stone              | clr 1  | Transmutation   | Three stones gain +1 a |
+|                          |        |                 | ttack, deal 1d6+1 dama |
+|                          |        |                 | ge.                    |
+| Protection from Law      | clr 1  | Abjuration      | +2 AC and saves, count |
+|                          |        | [Chaotic]       | er mind control, hedge |
+|                          |        |                 |  out elementals and ou |
+|                          |        |                 | tsiders.               |
+| Magic Weapon             | clr 1  | Transmutation   | Weapon gains +1 bonus. |
+|                          |        |                 |                        |
+| Random Action            | clr 1  | Enchantment     | One creature acts rand |
+|                          |        | (Compulsion)    | omly for one round.    |
+|                          |        | [Mind-Affecting |                        |
+| Bless                    | clr 1  | Enchantment     | Allies gain +1 attack  |
+|                          |        | (Compulsion)    | and +1 on saves agains |
+|                          |        | [Mind-Affecting | t fear.                |
+| Command                  | clr 1  | Enchantment     | One subject obeys one- |
+|                          |        | (Compulsion)    | word command for 1 rou |
+|                          |        | [Language-Depen | nd.                    |
+| Detect Chaos             | clr 1  | Divination      | Reveals creatures, spe |
+|                          |        |                 | lls, or objects.       |
+| Cause Fear               | clr 1  | Necromancy      | One creature flees for |
+|                          |        | [Fear, Mind-Aff |  1d4 rounds.           |
+| Detect Law               | clr 1  | Divination      | Reveals creatures, spe |
+|                          |        |                 | lls, or objects.       |
++--------------------------+--------+-----------------+------------------------+
+   Plume clr> p bane 2
+      Failed to add spell 'Bane'
+      SpellCaster has already reached its max for clr1
+   Plume clr> p bless 1
+      Failed to add spell 'Bless'
+      SpellCaster has already reached its max for clr1
+   Plume clr> f
++------------------------------------------------------------------------------+
+|                 lvl  0    1    2    3    4    5    6    7    8    9          |
+|                   clr -- / -- / -- / -- / -- / -- / -- / -- / -- / --        |
++------------------------------------------------------------------------------+
+   Plume clr> 
++--------------------------+--------+-----------------+------------------------+
+| name                     | lvl    | type            | description            |
++--------------------------+--------+-----------------+------------------------+
+| Bless                    | clr 1  | Enchantment     | Allies gain +1 attack  |
+|                          |        | (Compulsion)    | and +1 on saves agains |
+|                          |        | [Mind-Affecting | t fear.                |
+| Bless                    | clr 1  | Enchantment     | Allies gain +1 attack  |
+|                          |        | (Compulsion)    | and +1 on saves agains |
+|                          |        | [Mind-Affecting | t fear.                |
+| Read Magic               | clr 0  | Universal       | Read scrolls and spell |
+|                          |        |                 | books.                 |
+| Read Magic               | clr 0  | Universal       | Read scrolls and spell |
+|                          |        |                 | books.                 |
+| Purify Food and Drink    | clr 0  | Universal       | Purifies 1 cu. ft./lev |
+|                          |        |                 | el of food or water.   |
+| Purify Food and Drink    | clr 0  | Universal       | Purifies 1 cu. ft./lev |
+|                          |        |                 | el of food or water.   |
+| Bane                     | clr 1  | Enchantment     | Enemies suffer -1 atta |
+|                          |        | (Compulsion)    | ck, -1 on saves agains |
+|                          |        | [Mind-Affecting | t fear.                |
++--------------------------+--------+-----------------+------------------------+
+    Plume clr> x
+dsh> 
+dsh> 
+dsh> 
+dsh> 
+dsh> hp hemgard -2
+Hemgard now has 17 hit points 
+dsh> log small trap !
+dsh> 
+dsh> fight
+dsh-combat> inst goblin 3 gob
+3 monsters 'goblin' added to the opponents
+dsh-combat> o
++-----------------+----------+------------+---------+---------+-----+-----+
+| Name            | Race     | Classes    | player  | HP      |  AC | ini |
++-----------------+----------+------------+---------+---------+-----+-----+
+| gob3            | Goblin   |            |         |   2/  2 |  15 | -10 |
+| gob2            | Goblin   |            |         |   6/  6 |  15 | -10 |
+| gob1            | Goblin   |            |         |   1/  1 |  15 | -10 |
++-----------------+----------+------------+---------+---------+-----+-----+
+dsh-combat> log small party of goblins
+dsh-combat> init
+  Opponents 
+    'gob3' rolls a 3 that makes a		4
+    'gob2' rolls a 17 that makes a		18
+    'gob1' rolls a 10 that makes a		11
+  Party members 
+    'Shana' has +4 
+        d20 roll > 12
+        initiative score is 12. 
+    'Delfae' has +3 
+        d20 roll > 14
+        initiative score is 14. 
+    'Sakado' has +8 
+        d20 roll > 23
+        initiative score is 23. 
+    'GlockMuch' has +1 
+        d20 roll > 11
+        initiative score is 11. 
+    'Loup' has +2 
+        d20 roll > 9
+        initiative score is 9. 
+    'Hemgard' has +4 
+        d20 roll > 5
+        initiative score is 5. 
+    'Troudukh' has +0 
+        d20 roll > 14
+        initiative score is 14. 
+    'Plume' has +2 
+        d20 roll > 14
+        initiative score is 14. 
+dsh-combat> 
+dsh-combat> n
+
+rounds elapsed 0
++-----------------+-----------------+-----------------+------------+-----------+
+| SAKADO          | Anne            | chaotic good    | halfling   | rog2      |
++-----------------+-----------------++----------------+------+-----+-----------+
+| hp  18/ 18  OK                     | init mod  +8  ini 23  | female          |
++----------+-------------------------+-----------------------+-----------------+
+| AoOl: 1  | 6,5m - 4.33sq                                                     |
++----------+-----+----------+---------+----------------------+-----------------+
+| str  13    +1  | fort  +4 | AC   17 | base    +1           | leather armor   |
+| dex  18    +4  | refl  +8 | flt  13 | melee   +3           |                 |
+| con  16    +3  | will  +5 | tch  13 | ranged  +6           |                 |
+| int  11    +0  |          | pen  +0 |                      |                 |
+| wis  18    +4  |          | spl 10% |                      |                 |
+| cha   9    -1  |          | mdx  +6 |                      |                 |
++----------------+----------+---------+----------------------+-----------------+
+| ssword          +3   1d6  +1  19-20 x2 melee  short sword                    |
+| dgr             +3   1d4  +1  19-20 x2 melee  dagger                         |
+| dgr             +7   1d4  +0  19-20 x2 10ft   dagger                         |
+| sbow            +2   1d6  +0  x3       60ft   shortbow                       |
+| lcrossbow       +6   1d8  +0  19-20 x2 80ft   light rossbow                  |
+| drt             +3   1d4  +1  x2       melee  dart                           |
+| drt             +7   1d4  +0  x2       20ft   dart                           |
++--------------------------+---------------------------------------------------+
+| innuendo              +6 | martial weapon profiency (ssword  +0)             |
+| hide                  +9 | simple weapon profiency                           |
+| heal                  +6 | improved initiative                               |
+| escape artist         +6 |                                                   |
+| disguise              +2 |                                                   |
+| disable device        +4 |                                                   |
+| jump                  +7 |                                                   |
+| search                +4 |                                                   |
+| listen                +6 |                                                   |
+| move silently        +10 |                                                   |
+| spot                  +9 |                                                   |
+| open lock             +9 |                                                   |
+| swim                  +3 |                                                   |
++--------------------------+---------------------------------------------------+
+|      - throw :                                                               |
+| +1 racial attack bonus with a thrown weapon                                  |
+|      - fear :                                                                |
+| +2 morale bonus on saving throws against fear                                |
++------------------------------------------------------------------------------+
+
+dsh-combat> hp gob1 -5
+gob1 now has -4 hit points 
+gob1 is dead. 
+dsh-combat> 
+dsh-combat> n
+
+rounds elapsed 0
++-----------------+-----------------+-----------------+------------+-----------+
+| GOB2            | DM              | evil            | Goblin     |           |
++-----------------+-----------------+-----------+-----+------------+-----------+
+|                                               | tres: None                   |
++------------------------------------+----------+------------+-----------------+
+| hp   6/  6  OK                     | init mod  +1  ini 18  | male            |
++----------+-------------------------+-----------------------+-----------------+
+| AoOl: 1  | 30ft - 10m - 6sq                                                  |
++----------+-----+----------+---------+----------------------+-----------------+
+| str   8    -1  | fort  +2 | AC   15 |                      |                 |
+| dex  13    +1  | refl  +1 | flt  14 |                      |                 |
+| con  11    +0  | will  +0 | tch  12 |                      |                 |
+| int  10    +0  |          |         |                      |                 |
+| wis  11    +0  |          |         |                      |                 |
+| cha   8    -1  |          |         |                      |                 |
++----------------+----------+---------+----------------------+-----------------+
+| lightmace       +1   1d8-1    20 x2    melee                                 |
+| javelin         +3   1d6-1    20 x2    ranged                                |
++--------------------------+---------------------------------------------------+
+| hide                  +6 | alertness                                         |
+| listen                +3 |                                                   |
+| move silently         +4 |                                                   |
+| spot                  +3 |                                                   |
++--------------------------+---------------------------------------------------+
+
+dsh-combat> hp shana -4
+Shana now has 9 hit points 
+dsh-combat> n
+
+rounds elapsed 0
++-----------------+-----------------+-----------------+------------+-----------+
+| DELFAE          | Annabelle       | good            | human      | ftr2      |
++-----------------+-----------------++----------------+------+-----+-----------+
+| hp  23/ 23  OK                     | init mod  +3  ini 14  | female          |
++----------+-------------------------+-----------------------+-----------------+
+| AoOl: 1  | 6,5m - 4.33sq                                                     |
++----------+-----+----------+---------+----------------------+-----------------+
+| str  17    +3  | fort  +5 | AC   13 | base    +2           |                 |
+| dex  17    +3  | refl  +3 | flt  10 | melee   +5           |                 |
+| con  15    +2  | will  +0 | tch  10 | ranged  +5           |                 |
+| int  11    +0  |          | pen  +0 |                      |                 |
+| wis  10    +0  |          | spl 0%  |                      |                 |
+| cha  14    +2  |          | mdx +10 |                      |                 |
++----------------+----------+---------+----------------------+-----------------+
+|                                                                              |
++--------------------------+---------------------------------------------------+
+| search                +0 |                                                   |
++--------------------------+---------------------------------------------------+
+
+dsh-combat> hp sakado -3
+Sakado now has 15 hit points 
+dsh-combat> log oops !!!!
+dsh-combat> n
+
+rounds elapsed 0
++-----------------+-----------------+-----------------+------------+-----------+
+| PLUME           | Miniben         | good            | gnome      | clr2      |
++-----------------+-----------------++----------------+------+-----+-----------+
+| hp  18/ 18  OK                     | init mod  +2  ini 14  | male            |
++----------+-------------------------+-----------------------+-----------------+
+| AoOl: 1  | 6,5m - 4.33sq                                                     |
++----------+-----+----------+---------+----------------------+-----------------+
+| str  13    +1  | fort  +5 | AC   13 | base    +1           |                 |
+| dex  15    +2  | refl  +2 | flt  11 | melee   +3           |                 |
+| con  15    +2  | will  +7 | tch  11 | ranged  +4           |                 |
+| int  14    +2  |          | pen  +0 |                      |                 |
+| wis  18    +4  |          | spl 0%  |                      |                 |
+| cha  14    +2  |          | mdx +10 |                      |                 |
++----------------+----------+---------+----------------------+-----------------+
+|                                                                              |
++--------------------------+---------------------------------------------------+
+| search                +2 |                                                   |
++--------------------------+---------------------------------------------------+
+|            lvl  0    1    2    3    4    5    6    7    8    9               |
+|            clr  4 /  3 / -- / -- / -- / -- / -- / -- / -- / --               |
++------------------------------------------------------------------------------+
+|      - foes :                                                                |
+| +1 racial bonus to attacks against kobolds and goblinoids (goblins, hobgobli |
+| ngs and bugbears)                                                            |
+| +4 dodge bonus against giants                                                |
+|      - cantrips :                                                            |
+| Gnomes with Intelligence scores of 10 or higher may cast the 0-level spells  |
+| (cantrips) dancing lights, ghost sound, and prestidigitation, each once per  |
+| day. These are arcane spells. Treat the gnome as a 1st-level caster for all  |
+| spell effects dependent on level (range for all three spells and duration fo |
+| r ghost sound)                                                               |
+|      - low-light vision :                                                    |
+| Gnomes can see twice as far as a human in starlight, moonlight, torchlight a |
+| nd similar conditions of poor illumination. They retain the ability to disti |
+| nguish color and detail under these conditions.                              |
+|      - speak with animals :                                                  |
+| Once per day a gnome can use "Speak with Animals" [per the spell] as a spell |
+| -like ability to speak with a burrowing mammal (a badger, fox, rabbit, etc.) |
+| . This ability is innate to gnomes. It has a duration of 1 minute (the gnome |
+|  is considered a 1st-level caster when he uses this ability, regardless of h |
+| is actual level)                                                             |
+|      - illusions :                                                           |
+| +2 racial bonus on saving throws against illusions                           |
++------------------------------------------------------------------------------+
+
+dsh-combat> hp gob2 -4
+gob2 now has 2 hit points 
+dsh-combat> o
++-----------------+----------+------------+---------+---------+-----+-----+
+| Name            | Race     | Classes    | player  | HP      |  AC | ini |
++-----------------+----------+------------+---------+---------+-----+-----+
+| gob3            | Goblin   |            |         |   2/  2 |  15 |   4 |
+| gob2            | Goblin   |            |         |   2/  6 |  15 |  18 |
+| gob1            | Goblin   |            |         |  -4/  1 |  15 |  11 |
++-----------------+----------+------------+---------+---------+-----+-----+
+dsh-combat> 
+dsh-combat> n
+
+rounds elapsed 0
++-----------------+-----------------+-----------------+------------+-----------+
+| TROUDUKH        | Manu            | chaotic         | half-orc   | bbn2      |
++-----------------+-----------------++----------------+------+-----+-----------+
+| hp  28/ 28  OK                     | init mod  +0  ini 14  | male            |
++----------+-------------------------+-----------------------+-----------------+
+| AoOl: 1  | 40ft - 13m - 9sq                                                  |
++----------+-----+----------+---------+----------------------+-----------------+
+| str  20    +5  | fort  +5 | AC   14 | base    +2           | Leather armor   |
+| dex  11    +0  | refl  +0 | flt  14 | melee   +7           | large wooden sh |
+| con  15    +2  | will  +0 | tch  14 | ranged  +2           |                 |
+| int   6    -2  |          | pen  -2 |                      |                 |
+| wis  10    +0  |          | spl 10% |                      |                 |
+| cha   7    -2  |          | mdx  +6 |                      |                 |
++----------------+----------+---------+----------------------+-----------------+
+| mstar           +7   1d8  +5  20 x2    melee  morningstar                    |
++--------------------------+---------------------------------------------------+
+| search                -2 | alertness                                         |
+|                          | simple weapon profiency                           |
++--------------------------+---------------------------------------------------+
+|      - darkvision :                                                          |
+| Half-orcs (and orcs) can see in the dark up to 60ft. Darkvision is black and |
+|  white only, but it is otherwise like normal sight, and half-orcs can functi |
+| on just fine with no light at all.                                           |
++------------------------------------------------------------------------------+
+
+dsh-combat> hp gob3 -7
+gob3 now has -5 hit points 
+gob3 is dead. 
+dsh-combat> n
+
+rounds elapsed 0
++-----------------+-----------------+-----------------+------------+-----------+
+| SHANA           | Christelle      | chaotic         | elf        | drd2      |
++-----------------+-----------------++----------------+------+-----+-----------+
+| hp   9/ 13  OK                     | init mod  +4  ini 12  | female          |
++----------+-------------------------+-----------------------+-----------------+
+| AoOl: 1  | 10m - 6.66sq                                                      |
++----------+-----+----------+---------+----------------------+-----------------+
+| str   9    -1  | fort  +2 | AC   17 | base    +1           | Leather armor   |
+| dex  18    +4  | refl  +4 | flt  13 | melee   +0           | small wooden sh |
+| con   8    -1  | will  +7 | tch  13 | ranged  +5           |                 |
+| int  13    +1  |          | pen  -1 |                      |                 |
+| wis  18    +4  |          | spl 10% |                      |                 |
+| cha  15    +2  |          | mdx  +6 |                      |                 |
++----------------+----------+---------+----------------------+-----------------+
+| lsword          +0   1d8  -1  19-20 x2 melee  long sword                     |
+| sic             +0   1d6  -1  20 x2    melee  sickle                         |
+| csbow           +5   1d6  +0  x3       70ft   composite shortbow             |
++--------------------------+---------------------------------------------------+
+| wilderness lore       +8 | simple weapon profiency                           |
+| spellcraft            +5 | point blank shot                                  |
+| listen                +7 | martial weapon profiency (lbow  +0)               |
+| jump                  +0 | martial weapon profiency (sbow  +0)               |
+| intuit direction      +8 | martial weapon profiency (lsword  +0)             |
+| handle animal         +6 |                                                   |
+| diplomacy             +6 |                                                   |
+| climb                 -1 |                                                   |
+| search                +4 |                                                   |
++--------------------------+---------------------------------------------------+
+|            lvl  0    1    2    3    4    5    6    7    8    9               |
+|            drd  4 /  3 / -- / -- / -- / -- / -- / -- / -- / --               |
++------------------------------------------------------------------------------+
+|      - proficiency :                                                         |
+| Proficient with either longsword or rapier; proficient with shortbow, longbo |
+| w, composite longbow and composite shortbow.                                 |
+|      - enchantments :                                                        |
+| +2 racial saving throw bonus against Enchantment spells or effect            |
+|      - immunity :                                                            |
+| Immunity to sleep spells and similar magical effects                         |
+|      - low-light vision :                                                    |
+| Elves can see twice as far as a human in starlight, moonlight, torchlight an |
+| d similar conditions of poor illumination. They retain the ability to distin |
+| guish color and detail under these conditions.                               |
++------------------------------------------------------------------------------+
+
+dsh-combat> hp gob2 -2
+gob2 now has 0 hit points 
+gob2 is dead. 
+dsh-combat> o
++-----------------+----------+------------+---------+---------+-----+-----+
+| Name            | Race     | Classes    | player  | HP      |  AC | ini |
++-----------------+----------+------------+---------+---------+-----+-----+
+| gob3            | Goblin   |            |         |  -5/  2 |  15 |   4 |
+| gob2            | Goblin   |            |         |   0/  6 |  15 |  18 |
+| gob1            | Goblin   |            |         |  -4/  1 |  15 |  11 |
++-----------------+----------+------------+---------+---------+-----+-----+
+dsh-combat> 
+dsh-combat> log gob2 surrenders.
+dsh-combat> relax
+Party level                      : 2
+Total dead opponents' CR         : 0.68  (204 xp) 
+Total still alive opponents' CR  : 0.34  (102 xp) 
+Total CR                         : 1.02  (300 xp) 
+Combat lasted 0 rounds
+dsh> 
+dsh> xp 306
+Shana receives 38 XP  --> 1467 XP
+Delfae receives 38 XP  --> 1138 XP
+Sakado receives 38 XP  --> 1467 XP
+GlockMuch receives 38 XP  --> 1358 XP
+Hemgard receives 38 XP  --> 1467 XP
+Troudukh receives 38 XP  --> 1467 XP
+Plume receives 38 XP  --> 1467 XP
+dsh> 
+dsh> 
+dsh> exit

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Knocks unconscious, blinds, or stuns 1d6 weak creatures.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string> A vivid cone of intertwined, clashing colors springs forth from your hand, stunning creatures, blinding them, or even knocking them unconscious. The closest 1d6 creatures in the cone are affected. The spell affects each subject according to its HD: Up to 2: Unconscious for 2d4 rounds, then blinded for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.)
+
+3 or 4: Blinded for 1d4 rounds, then stunned for 1 round.
+5 or more: Stunned for 1 round.
+
+In addition to the obvious effects, a blinded creature suffers a 50% miss chance in combat (all opponents have full concealment), loses any Dexterity bonus to AC, grants a +2 bonus to attackers' attack rolls (they are effectively invisible), moves at half speed, and suffers a -4 penalty on most Strength- and Dexterity-based skills.
+A stunned creature can't act and loses any Dexterity bonus to AC. Attackers gain +2 bonuses to attack it.  Sightless creatures are not affected by color spray.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Color Spray</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Pattern</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Deals 24d6 fire damage, plus bursts.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Meteor swarm is a very powerful and spectacular spell that is
+similar to fireball in many aspects. When you cast it, either
+four large spheres (2-foot-diameter) or eight small spheres
+(1-foot-diameter) spring from your outstretched hand and streak
+in a straight line to the spot you select. The meteor spheres
+leave a fiery trail of sparks.
+Any creature in the straight-line path of these spheres is
+struck by each one and takes 24d6 points of fire damage (no
+save).
+If the spheres reach their destination, each bursts like a
+fireball in a spread.
+Each large sphere deals 6d6 points of fire damage. The four
+spheres explode with their points of origin forming a diamond or
+box pattern around the spell's central point of origin,
+which you designate upon casting. Each large sphere has a
+15-foot-radius spread, and each blast is 20 feet apart along the
+sides of the pattern, creating overlapping areas of the
+spell's effect and exposing the center to all four blasts.
+The smaller spheres each have a 7 1/2-foot-radius spread, and
+each deals 3d6 points of fire damage. They explode with their
+points of origin forming a pattern around the spell's
+central point of origin (which you designated upon casting) of a
+box within a diamond or vice versa, with each of the outer sides
+measuring 20 feet long. The center has four areas of overlapping
+effect, and numerous peripheral areas have two or three
+overlapping areas of the spell's effect.
+Creatures caught in a blast can attempt Reflex saves for half
+damage. Creatures struck by multiple blasts save against each
+blast separately.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Meteor Swarm</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None or Reflex half (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fire</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Destruction</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Earth</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Intense tremor shakes 5-ft./level radius.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>When you cast earthquake, an intense but highly localized tremor rips the ground. It knocks creatures down, collapses structures, opens cracks in the ground, and more. The shock lasts 1 round, during which time creatures on the ground can't move or attack. Spellcasters on the ground must make Concentration checks (DC 20 + spell level) or lose any spells they try to cast. The earthquake affects all terrain, vegetation, structures, and creatures in the area. The exact effects depend on the terrain and its features:
+
+Cave, Cavern, or Tunnel: The spell collapses the roof, dealing 8d6 points of damage to any creature caught under the cave-in (Reflex half DC 15). An earthquake cast on the roof of a very large cavern could also endanger those outside the actual area but below the falling debris.
+
+Cliffs: They crumble, causing a landslide that travels horizontally as far as it fell vertically. An earthquake cast at the top of a 100-foot cliff would sweep 100 feet outward from the base of the cliff. Any creature in the path sustains 8d6 points of damage (Reflex half DC 15).
+
+Open Ground: All creatures standing in the area must make Reflex saving throws (DC 15) or fall down. Fissures open in the ground, and every creature on the ground has a 25% chance to fall into one (Reflex save DC 20 to avoid the fissure). At the end of the spell, all fissures grind shut, killing any creatures still trapped within.
+
+Structure: Most structures standing on open ground collapse, dealing 8d6 points of damage to those caught within or beneath the rubble (Reflex half DC 15).
+
+River, Lake, or Marsh: Fissures open underneath the water, draining away the water from that area and forming muddy ground.  Soggy marsh or swampland becomes quicksand for the duration of the spell, sucking down creatures and structures. Creatures must make Reflex saving throws (DC 15) or sink down in the mud and quicksand. At the end of the spell, the rest of the body of water rushes in to replace the drained water, possibly drowning those caught in the mud.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Earthquake</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

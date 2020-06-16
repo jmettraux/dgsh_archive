@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Traps subject in extradimensional maze.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>See text</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You conjure up an extradimensional labyrinth of force planes,
+and the subject vanishes into it. If the subject attempts to
+escape, the time it takes to find the way out depends on its
+Intelligence score:
+Intelligence Score    Time Trapped
+of Mazed Creature    in Maze
+------------------    ------------
+Under 3         2d4 minutes
+3             1d6 minutes
+4-5             1d4 minutes
+6-8             5d4 rounds
+9-12             4d4 rounds
+13-15             3d4 rounds
+16-17             2d4 rounds
+18+             1d4 rounds
+If the subject doesn't attempt to escape, the maze
+disappears after 10 minutes, forcing the subject to leave.
+On leaving the maze, the subject reappears in the spot it had
+been in when the maze spell was cast. If this spot is filled with
+a solid object, the subject appears nearby.
+Spells and abilities that move a creature within a plane, such
+as teleport and dimension door, do not help a creature escape a
+maze spell, although a plane shift spell allows it to exit to
+whatever plane is designated in that spell. Minotaurs are not
+affected by this spell.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Maze</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

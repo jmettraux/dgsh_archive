@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>13</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>0</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>16</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>15</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>14</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>13</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="alignment"> 
+   <string>chaotic evil</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>14</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>12</int> 
+  </void> 
+  <void property="attackRoutine"> 
+   <string>Bite +3 melee; 2 claws +0 melee</string> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>3</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d6</string> 
+     </void> 
+     <void property="description"> 
+      <string>paralysis</string> 
+     </void> 
+     <void property="name"> 
+      <string>bite</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"/> 
+     </void> 
+     <void property="damage"> 
+      <string>1d3</string> 
+     </void> 
+     <void property="description"> 
+      <string>paralysis</string> 
+     </void> 
+     <void property="name"> 
+      <string>claws</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="category"> 
+   <string>medium-size undead</string> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>1.0</float> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>multiattack</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="beneficiaryDefinition"> 
+      <string>bite</string> 
+     </void> 
+     <void property="featName"> 
+      <string>weapon finesse</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>2</int> 
+  </void> 
+  <void property="name"> 
+   <string>ghoul</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>2d12</string> 
+  </void> 
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="reflexModifier"> 
+     <int>2</int> 
+    </void> 
+    <void property="willModifier"> 
+     <int>5</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"/> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>6</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>climb</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>7</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>escape artist</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>7</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>hide</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>3</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>intuit direction</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>6</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>jump</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>7</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>listen</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>7</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>move silently</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>6</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>search</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>7</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spot</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="specials"> 
+   <void method="put"> 
+    <string>create spawn</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>In most cases, ghouls devour those they kill. From time to time, however, the bodies of their humanoid victims lie where they fell, to rise as ghouls themselves in 1d4 days. Casting protection from evil on a body before the end of that time averts the transformation. (The statistics above are for human ghouls and ghasts. Ghouls and ghasts may vary depending on their original race or kind.)</string> 
+     </void> 
+     <void property="name"> 
+      <string>create spawn</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>undead</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Immune to mind-influencing effects, poison, sleep, paralysis, stunning, and disease. Not subject to critical hits, subdual damage, ability damage, energy drain, or death from massive damage.</string> 
+     </void> 
+     <void property="name"> 
+      <string>undead</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>+2 turn resistance</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>+2 turn resistance</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>paralysis</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Those hit by a ghouls bite or claw attack must succeed at a Fortitude save (DC 14) or be paralyzed for 1d6+2 minutes. Elves are immune to this paralysis.</string> 
+     </void> 
+     <void property="name"> 
+      <string>paralysis</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>30ft (6sq)</string> 
+  </void> 
+ </object> 
+</java> 

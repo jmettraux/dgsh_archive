@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.equipment.MeleeWeapon"> 
+  <void property="categoryDefinition"> 
+   <string>short sword</string> 
+  </void> 
+  <void property="critical"> 
+   <string>19-20 x2</string> 
+  </void> 
+  <void property="damages"> 
+   <string>1d6</string> 
+  </void> 
+  <void property="description"> 
+   <string>short sword</string> 
+  </void> 
+  <void property="name"> 
+   <string>ssword</string> 
+  </void> 
+  <void property="proficiencyType"> 
+   <string>martial weapon proficiency</string> 
+  </void> 
+  <void property="value"> 
+   <string>10 gp</string> 
+  </void> 
+  <void property="weight"> 
+   <float>3.0</float> 
+  </void> 
+ </object> 
+</java> 

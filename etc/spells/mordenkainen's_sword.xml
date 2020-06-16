@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Floating magic blade strikes opponents.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level (D)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One sword</string> 
+  </void> 
+  <void property="focus"> 
+   <string>Worth at least 250 gp.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You bring into being a shimmering, swordlike plane of force.
+The sword strikes at any opponent within its range, as you
+desire, starting the round that you cast the spell. The sword
+attacks its designated target once each round. Its attack bonus
+is your level + your Intelligence bonus or your Charisma bonus
+(for wizards and sorcerers, respectively) with a +3 enhancement
+bonus. As a force effect, it can strike ethereal and incorporeal
+creatures. It deals 4d6+3 points of damage, with a threat range
+of 19-20 and a crit of x2.
+The sword always strikes from your direction. It does not get
+a flanking bonus or help a combatant get one. If the sword goes
+beyond the spell range from you, if it goes out of your sight, or
+if you are not directing it, the sword returns to you and hovers.
+Each round after the first, you can use a standard action to
+switch the sword to a new target. If you do not, the sword
+continues to attack the previous round's target. The sword
+cannot be attacked or harmed by physical attacks, but dispel
+magic, disintegrate, a sphere of annihilation, or a rod of
+cancellation affects it. The sword's AC against touch
+attacks is 13.
+If an attacked creature has SR, the resistance is checked the
+first time Mordenkainen's sword strikes it. If the sword is
+successfully resisted, the spell is dispelled. If not, the sword
+has its normal full effect on that creature for the duration of
+the spell.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Mordenkainen's Sword</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Earth</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Three stones gain +1 attack, deal 1d6+1 damage.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>30 minutes or until discharged</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You transmute up to three pebbles, which can be no larger than
+sling bullets, so that they strike with great force when thrown
+or slung. If hurled, they have a range increment of 20 feet. If
+slung, treat them as sling bullets (range increment 50 feet). The
+spell gives them a +1 enhancement bonus to attack and damage
+rolls. The creature using the stones makes a normal ranged attack
+to use a magic stone. Each magic stone that hits deals 1d6+1
+points of damage (including the enhancement bonus). Against
+undead creatures, this damage is doubled (2d6+2 points).
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Magic Stone</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (harmless, object)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless, object)</string> 
+  </void> 
+ </object> 
+</java> 

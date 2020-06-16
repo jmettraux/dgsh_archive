@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>dgsh</title>
+    <link rel=stylesheet type="text/css" href=style.css title="">
+  </head>
+<body bgcolor=white>
+<table border=0 width=100% cellspacing=5 cellpadding=5>
+
+<!-- MAIN TITLE -->
+
+  <tr>
+    <td colspan=2 align=center>
+<!--#include virtual="logo.shtml" -->
+<small>$Id: parsing.shtml,v 1.2 2002/09/04 19:15:56 jmettraux Exp $</small>
+    </td>
+  </tr>
+
+  <tr>
+
+<!-- MENU -->
+
+<!--#include virtual="menu.shtml" -->
+
+<!-- CONTENT -->
+
+    <td>
+<h2>Parsing stat blocks</h2>
+
+<p>Dgsh ships with a stat block parsing utility named <i>Raptor</i>. It also ships with stat block examples stored in the 'sbo' folder.</p>
+
+<p><tt>./raptor.sh -f sbo/standard1.sbo</tt></p>
+<p>or</p>
+<p><tt>raptor -f sbo\standard1.sbo</tt></p>
+<p>will turn the file sbo/standard1.sbo into a file named ugolin.xml</p>
+
+<p><b>Note</b>:<br>
+The sbo folder and its content will appear in dgsh-0.6.03. Here are <a href=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/dgsh/dgsh/import_samples/standard1.sbo?rev=HEAD&content-type=text/plain>standard1.sbo</a> and <a href=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/dgsh/dgsh/import_samples/standard2.sbo?rev=HEAD&content-type=text/plain>standard2.sbo</a> anyway.
+</p>
+    </td>
+
+  </tr>
+</table>
+<br>
+<p align=center><small>$Id: parsing.shtml,v 1.2 2002/09/04 19:15:56 jmettraux Exp $</small><br>
+<br>
+<table>
+<tr>
+<td width=50%>hosted on <A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=56085&amp;type=4" border="0" alt="SourceForge Logo"></A></td>
+<td width=50%>and <a href=http://www.vim.org><img src=images/vim.png border=0></a></td>
+</p>
+</tr>
+</table>
+</body>
+</html>

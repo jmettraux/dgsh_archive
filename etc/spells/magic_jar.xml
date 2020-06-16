@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Enables possession of another creature.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level or until you return to your body</string> 
+  </void> 
+  <void property="focus"> 
+   <string>Worth at least 100 gp.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+By casting magic jar, you place your own soul in a gem or
+large crystal (known as the magic jar), leaving your body
+lifeless. Then you can attempt to take control of a nearby body,
+forcing its soul into the magic jar. You may move back to the jar
+(returning the trapped soul to its body) and attempt to possess
+another body. The spell ends when you send your soul back to your
+own body (leaving the receptacle empty).
+To cast the spell, the magic jar must be within spell range
+and you must know where it is, though you do not need line of
+sight or effect to it. When you transfer your soul upon casting,
+your body is, as near as anyone can tell, dead.
+While in the magic jar, you can sense and attack any life
+force within 10 feet per caster level (on the same plane). You do
+need line of effect from the jar to the creatures. You, however,
+cannot determine the exact creature types or positions of these
+creatures. In a group of life forces, you can sense a difference
+of four or more HD and can determine whether a life force is
+positive or negative energy. (Undead creatures are powered by
+negative energy. Only sentient undead creatures have, or are,
+souls.)
+Attempting to possess a body is a full-round action. It is
+blocked by protection from evil or a similar ward. You possess
+the body and force the creature's soul into the magic jar
+unless the subject succeeds at a Will save. Failure to take over
+the host leaves your life force in the magic jar, and the target
+automatically succeeds at further saving throws if you attempt to
+possess its body again.
+If successful, your life force occupies the host body, and the
+host's life force is imprisoned in the magic jar. You keep
+most mental abilities and gain some physical abilities, as with
+polymorph other (except that you get the creature's actual
+physical abilities, not average ones).
+As a standard action, you can shift freely from a host to the
+magic jar if within range, sending the trapped soul back to its
+body. The spell ends when you shift from the jar to your own
+body.
+If the host body is slain, you return to the magic jar, if
+within range, and the life force of the host departs (that is, it
+is dead). If the host body is slain beyond the range of the
+spell, both you and the host die. Any life force with nowhere to
+go is treated as slain.
+If the spell ends while you are in the magic jar, you return
+to your body (or die if your body is out of range or destroyed).
+If the spell ends while you are in a host, you return to your
+body (or die, if it is out of range of your current position),
+and the soul in the magic jar returns to its body (or dies if it
+is out of range). Destroying the receptacle ends the spell, and
+the spell can be dispelled at either the magic jar or the host.
+Incorporeal creatures with the magic jar ability can use a
+handy, nearby object (not just a gem or crystal) as the magic
+jar.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Magic Jar</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft.+10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can create any magic weapon, armor, or shield whose prerequisites the character meets. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, the character must spend 1/25 of its features' total price in XP and use up raw materials costing half of this total price.
+The character can also mend a broken magic weapon, suit of armor, or shield if it is one that the character could make. Doing so costs half the XP, half the raw materials, and half the time it would take to enchant that item in the first place.
+The weapon, armor, or shield to be enhanced must be a masterwork item that the character must provide. (Its cost is not included in the above cost.)</string> 
+  </void> 
+  <void property="name"> 
+   <string>Craft Magic Arms and Armor</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Spellcaster level 5th+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Item Creation]</string> 
+  </void> 
+ </object> 
+</java> 

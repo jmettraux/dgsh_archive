@@ -1,0 +1,174 @@
+<html>
+  <head>
+    <title>dgsh</title>
+    <link rel=stylesheet type="text/css" href=style.css title="">
+  </head>
+<body bgcolor=white>
+<table border=0 width=100% cellspacing=5 cellpadding=5>
+
+<!-- MAIN TITLE -->
+
+  <tr>
+    <td colspan=2 align=center>
+<!--#include virtual="logo.shtml" -->
+<small>$Id: adding.shtml,v 1.2 2002/09/03 06:17:42 jmettraux Exp $</small>
+    </td>
+  </tr>
+
+  <tr>
+
+<!-- MENU -->
+
+<!--#include virtual="menu.shtml" -->
+
+<!-- CONTENT -->
+
+    <td>
+
+<br><h2><a name=adding>Adding a PC or a NPC</a></h2>
+
+<p>There is a script named createCharacter.py in dgsh/scripts/ : you can cutomize it to create a character.</p>
+
+<p>I have started using jython for creating the files, because I don't have to compile those scripts. It should be easy for you to figure out how to customize and run these scripts too.</p>
+
+<p>Once you have customized this script, run it with :
+<pre>
+./jython.sh scripts/createCharacter.py
+</pre>
+</p>
+<p>or</p>
+<p>
+<pre>
+jython scripts\createCharacter.py
+</pre>
+</p>
+
+<p>Your character will be saved in character_name.xml at the point where you ran the script. You can move this new file in the folder named 'pty' and the next time you will run dgsh, the character will appear in your party.</p>
+<p>If your newly created character is a opposing NPC, do not put it in the 'pty' folder : put it somewhere else (perhaps) scn.<br>
+You will be able to load during the game session with <tt>dgsh&gt; load my_evil_folder/my_villain.xml</tt>
+
+<p>&nbsp;</p>
+<table border=1><tr><td>
+<pre>
+# 
+# Adds the character (spellCaster) defined here to a party XML file
+# 
+
+import java.util as util
+
+import burningbox.org.dsh as dsh
+import burningbox.org.dsh.entities as entities
+import burningbox.org.dsh.entities.equipment as equipment
+
+configuration = dsh.Configuration.load("etc/dgsh-config.xml")
+configuration.apply(0)
+
+#
+# build the character
+
+c = entities.Character()
+c.name="Plume"
+c.player="Miniben"
+c.abilities = entities.Abilities(13, 15, 15, 14, 18, 14)
+    # STR, DEX, CON, INT, WIS, CHA
+c.raceName="gnome"
+c.alignment=dsh.Definitions.GOOD
+c.hitDice=2
+c.hitPoints=18
+c.currentHitPoints=18
+c.experiencePoints = 1429
+c.miscModifiers = None
+c.speeds = "20ft"
+c.size = entities.Size.SMALL
+
+#
+# character's classes
+
+c.classes.add(entities.ClassLevel("clr", 2))
+#c.classes.add(entities.ClassLevel("wiz", 1))
+#c.classes.add(entities.ClassLevel("sor", 1))
+
+#
+# character's skills
+
+    # you will find skills and feats in etc/skills.xml and 
+    # etc/feats.xml respectively
+
+c.skills.add(entities.CharacterSkill("alchemy", 0))
+c.skills.add(entities.CharacterSkill("bluff", 2))
+c.skills.add(entities.CharacterSkill("concentration", 4))
+c.skills.add(entities.CharacterSkill("diplomacy", 5))
+c.skills.add(entities.CharacterSkill("heal", 5))
+c.skills.add(entities.CharacterSkill("listen", 5))
+c.skills.add(entities.CharacterSkill("profession (singer)", 5))
+
+#
+# character's feats
+
+#c.feats.add(entities.FeatInstance("alertness", None, 0))
+c.feats.add(entities.FeatInstance("simple weapon proficiency", None, 0))
+c.feats.add(entities.FeatInstance("armor proficiency (light)", None, 0))
+c.feats.add(entities.FeatInstance("armor proficiency (medium)", None, 0))
+c.feats.add(entities.FeatInstance("armor proficiency (heavy)", None, 0))
+c.feats.add(entities.FeatInstance("weapon focus", "gaxe", 1))
+
+#
+# add equipment
+
+c.equipment.wornEquipment.add(entities.DataSets.findEquipment("scmarm"))
+c.equipment.wornEquipment.add(entities.DataSets.findEquipment("lwdshield"))
+c.equipment.heldEquipment.add(entities.DataSets.findEquipment("gaxe"))
+
+#
+# wizard spellbook
+#
+# (or sorcerer's known spells)
+
+#spellbook = entities.magic.SpellList()
+#spellbook.addSpell("wiz", "Magic Missile");
+#spellbook.addSpell("wiz", "Detect Magic");
+#spellbook.addSpell("wiz", "Disrupt Undead");
+#spellbook.addSpell("wiz", "Alarm");
+#spellbook.addSpell("sor", "Magic Missile");
+#c.spellList = spellbook
+
+#
+# clerical domains
+
+domains = util.ArrayList(2)
+domains.add("Good")
+domains.add("Protection")
+
+c.setAttribute("domains_clr", domains)
+
+#
+# add and save
+
+fileName = "%s.xml" % c.name
+fileName = fileName.lower()
+
+bs = entities.BeanSet()
+
+bs.add(c)
+bs.save(fileName)
+
+print "Your character %s has been created and saved to %s" % (c.name, fileName)
+</pre>
+</td></tr></table>
+
+    </td>
+
+  </tr>
+</table>
+<br>
+<p align=center><small>$Id: adding.shtml,v 1.2 2002/09/03 06:17:42 jmettraux Exp $</small><br>
+<br>
+<table>
+<tr>
+<td width=50%>hosted on <A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=56085&amp;type=4" border="0" alt="SourceForge Logo"></A></td>
+<td width=50%>and <a href=http://www.vim.org><img src=images/vim.png border=0></a></td>
+</p>
+</tr>
+</table>
+</body>
+</html>

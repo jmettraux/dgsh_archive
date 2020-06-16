@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>2 rounds</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>XP</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Makes certain spells permanent; costs XP.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent (see text)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>See text</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell makes certain other spells permanent. Depending on the spell, you must be at least a minimum level and must expend a number of XP.
+
+You can make these spells permanent in regard to yourself:
+
+                          Minimum 
+Spell                     Level         XP Cost
+-----                     -------       -------
+Comprehend languages       9th            500 XP
+Darkvision                10th          1,000 XP
+Detect magic               9th            500 XP
+Protection from arrows    11th          1,500 XP
+Read magic                 9th            500 XP
+See invisibility          10th          1,000 XP
+Tongues                   11th          1,500 XP
+
+You cast the desired spell and then follow it with the permanency spell. You cannot cast these spells on other creatures. This application of permanency can be dispelled only by a caster of greater level than you were when you cast the spell.
+
+In addition to personal use, permanency can be used to make the following spells permanent on yourself, another creature, or an object (as appropriate):
+
+              Minimum 
+Spell         Level       XP Cost
+-----         -------     -------
+Enlarge       9th         500 XP
+Magic Fang    9th         500 XP
+Resistance    9th         250 XP
+
+Additionally, the following spells can be cast upon objects or areas only and rendered permanent:
+
+                       Minimum 
+Spell                  Level       XP Cost
+-----                  -------     -------
+Alarm                  9th           500 XP
+Dancing lights         9th           500 XP
+Ghost sound            9th           500 XP
+Gust of wind           11th        1,500 XP
+Invisibility           10th        1,000 XP
+Magic mouth            10th        1,000 XP
+Phase door             15th        3,500 XP
+Prismatic sphere       17th        4,500 XP
+Shrink item            11th        1,500 XP
+Solid fog              12th        2,000 XP
+Stinking cloud         11th        1,500 XP
+Symbol                 16th        4,000 XP
+Teleportation circle   17th        4,500 XP
+Wall of fire           12th        2,000 XP
+Wall of force          13th        2,500 XP
+Web                    10th        1,000 XP
+
+Spells cast on other creatures, objects, or locations (not on you) are vulnerable to dispel magic as normal.
+
+The DM may allow other selected spells to be made permanent.  Researching this possible application of a spell costs as much time and money as independently researching the selected spell.
+
+If the DM has already determined that the application is not possible, the research automatically fails. Note that you never learn what is possible except by the success or failure of your research.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Permanency</string> 
+  </void> 
+  <void property="range"> 
+   <string>See text</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Universal</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

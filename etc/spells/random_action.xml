@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>One creature acts randomly for one round.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+The enchanted creature is compelled to act randomly for 1
+round. Rather than deciding its action for itself, the subject of
+the spell takes an action determined randomly on the following
+table:
+1d8    Action
+---    ------
+1     Attack self (succeed on any roll other than a natural 1).
+2     Attack nearest being (for this purpose, a familiar counts as part of the subject's "self").
+3     Flee away from caster at top possible speed.
+4     Drop anything held.
+5     Stand motionless (as if stunned).
+6     Do nothing but defend (total defense).
+7     Speak (in the subject's native tongue, usually regarding surface thoughts) or make noises (if not capable of speech).
+8     Attack caster with melee or ranged weapons (or close with caster if attacking is not possible).
+Nothing can affect this die roll in any way. It is always
+entirely random.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Random Action</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

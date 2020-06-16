@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Magical horse appears for 1 hour/level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One quasi-real, horselike creature</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You conjure a quasi-real, horselike creature. The steed can be
+ridden only by you or by the one person for whom you specifically
+created the mount. A phantom steed has a black head and body,
+gray mane and tail, and smoke-colored, insubstantial hooves that
+make no sound. It has what seems to be a saddle, bit, and bridle.
+It does not fight, but all normal animals shun it and refuse to
+attack it. (Dire animals and nonintelligent creatures, such as
+vermin, can attack it.)
+The mount has an Armor Class of 18 (-1 size, +4 natural
+armor, +5 Dex) and 7 hit points +1 hit point per caster level. If
+it loses all its hit points, the phantom steed disappears. A
+phantom steed has a speed of 20 feet per caster level, to a
+maximum of 240 feet. It can bear its rider's weight plus up
+to 10 pounds per caster level.
+These mounts gain certain powers according to caster level. A
+mount's abilities include those of mounts of lower caster
+levels. Thus, the mount created by a 12th-level caster has the
+8th, 10th, and 12th caster level abilities.
+8th Level: The mount can ride over sandy, muddy, or even
+swampy ground without difficulty or decrease in speed.
+10th Level: The mount can ride over water as if it were firm,
+dry ground.
+12th Level: The mount can ride in the air as if it were firm
+land, so chasms and the like can be crossed without benefit of a
+bridge. The mount cannot simply take off and fly. It can only
+ride horizontally across the air. After 1 round in the air, the
+mount falls.
+14th Level: The mount can fly at its speed. It has a
+maneuverability rating of average.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Phantom Steed</string> 
+  </void> 
+  <void property="range"> 
+   <string>0 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

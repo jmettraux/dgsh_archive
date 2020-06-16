@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: To find tracks or to follow them for one mile requires a Wilderness Lore check. The character must make another Wilderness Lore check every time the tracks become difficult to follow, such as when other tracks cross them or when the tracks backtrack and diverge.  The character moves at half normal speed (or at normal speed with a -5 penalty on the check). The DC depends on the surface and the prevailing conditions:
+
+Surface   DC
+-------   --
+Very soft  5
+Soft      10
+Firm      15
+Hard      20
+
+Very Soft Ground: Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.
+
+Soft Ground: Any surface soft enough to yield to pressure, but firmer than wet mud or fresh snow, in which the creature leaves frequent but shallow footprints.
+
+Firm Ground: Most normal outdoor surfaces (such as lawns, fields, woods, and the like) or exceptionally soft or dirty indoor surfaces (thick rugs, very dirty or dusty floors). The creature might leave some traces (broken branches, tufts of hair) but leaves only occasional or partial footprints.
+
+Hard Ground: Any surface that doesn't hold footprints at all, such as bare rock or indoor floors. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks, displaced pebbles).
+
+Condition DC Modifier
+--------- -----------
+Every three creatures in the group being tracked -1
+Size of creature or creatures being tracked:*
+Fine +8
+Diminutive +4
+Tiny +2
+Small +1
+Medium-size 0
+Large -1
+Huge -2
+Gargantuan -4
+Colossal -8
+
+Every 24 hours since the trail was made +1
+Every hour of rain since the trail was made +1
+Fresh snow cover since the trail was made +10
+Poor visibility:**
+Overcast or moonless night +6
+Moonlight +3
+Fog or precipitation +3
+Tracked party hides trail (and moves at half speed) +5
+
+*For a group of mixed sizes, apply only the modifier for the largest
+size category.
+**Apply only the largest modifier from this category.
+
+If the character fails a Wilderness Lore check, the character can retry after 1 hour (outdoors) or 10 minutes (indoors) of searching.  
+
+Normal: A character without this feat can use the Search skill to find
+tracks, but can only follow tracks if the DC is 10 or less.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Track</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

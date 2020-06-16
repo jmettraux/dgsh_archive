@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Choose a school of magic, such as Illusion. The character's spells of
+that school are more potent than normal.
+Benefit: Add +2 to the Difficulty Class for all saving throws against
+spells from the school of magic the character selects to focus on.
+Special: The character can gain this feat multiple times. Its effects
+do not stack. Each time the character takes the feat, it applies to a
+new school of magic.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Spell Focus</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

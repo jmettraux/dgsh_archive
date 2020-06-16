@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character makes attack rolls with simple weapons
+normally.
+Normal: A character who uses a weapon without being proficient with it
+suffers a -4 penalty on attack rolls.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Simple Weapon Proficiency</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

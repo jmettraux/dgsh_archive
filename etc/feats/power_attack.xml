@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: On the character's action, before making attack rolls for a round, the character may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. This number may not exceed the character's base attack bonus. The penalty on attacks and bonus on damage applies until the character's next action.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Power Attack</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Str 13+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

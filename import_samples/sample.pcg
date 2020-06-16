@@ -1,0 +1,31 @@
+CAMPAIGNS:WotC - DnD Core Rules I - Players Hand Book:WotC - DnD Core Rules II - Dungeon Masters Guide:WotC - DnD Core Rules III - Monster Manual:
+VERSION:3.0.0
+Heraldo::
+14:14:10:17:11:12:0:0
+Aristocrat:None :None :2:8:2:0:None:Wizard: :None :1:2:0:INT:
+Alertness:0:Combat Reflexes:0:
+Alchemy:1.5:1:2:Aristocrat:0.5:Wizard:1.0:Appraise:2.0:2:1:Aristocrat:2.0:Balance:0.5:3:1:Aristocrat:0.5:Bluff:2.0:4:1:Aristocrat:2.0:Climb:0.5:5:1:Aristocrat:0.5:Concentration:2.0:6:1:Aristocrat:2.0:Craft (Calligraphy):1.0:7:1:Wizard:1.0:Craft (Shipmaking):2.0:8:1:Wizard:2.0:Disguise:1.0:9:1:Aristocrat:1.0:Heal:1.0:10:1:Aristocrat:1.0:Hide:1.0:11:1:Aristocrat:1.0:Intimidate:1.0:12:1:Aristocrat:1.0:Knowledge (Arcana):5.0:13:1:Aristocrat:5.0:Move Silently:1.0:14:1:Aristocrat:1.0:Ride:2.0:15:1:Aristocrat:2.0:Sense Motive:1.0:16:1:Aristocrat:1.0:Speak Language:1.0:17:1:Aristocrat:1.0:Celestial:Spellcraft:1.0:18:1:Aristocrat:1.0:
+None:
+Elf:5:0:0:134:M:Right
+AUTOSPELLS:YES
+SPELL:Alarm:1:CLASS:Wizard:Wizard:Known Spells:1
+SPELL:Burning Hands:1:CLASS:Wizard:Wizard:Known Spells:1
+SPELL:Mage Armor:1:CLASS:Wizard:Wizard:Known Spells:1
+SPELL:Magic Missile:1:CLASS:Wizard:Wizard:Known Spells:1
+SPELL:Magic Weapon:1:CLASS:Wizard:Wizard:Known Spells:1
+Celestial:Common:Elven:
+Armor Spikes:Axe:Axe (Throwing):Battleaxe:Blowgun:Club:Crossbow (Heavy):Crossbow (Light):Dagger:Dagger (Punching):Dagger (Thrown):Dart:Falchion:Flail (Heavy):Flail (Light):Gauntlet:Gauntlet (Spiked):Glaive:Greataxe:Greatclub:Guisarme:Halberd:Halfspear:Hammer (Light):Handaxe:Javelin:Katana (2-H):Kusari-gama:Lance (Heavy):Lance (Light):Longbow:Longbow (Composite):Longspear:Mace (Heavy):Mace (Light):Morningstar:Pick (Heavy):Pick (Light):Quarterstaff:Ranseur:Rapier:Sap:Scimitar:Scythe:Shieldbash:Shortbow:Shortbow (Composite):Shortspear:Sickle:Sling:Sword (Bastard/2-H):Sword (Great):Sword (Long):Sword (Short):Trident:Unarmed Strike:Wakizashi:Waraxe (Dwarven/2-H):Warhammer:
+0:0
+ : : : : : : : : : : : :
+Outfit (Traveler's);COSTMOD=-1 :0.0:2:N:N:Neither:Dagger :1.0:1:N:N:Neither:
+PORTRAIT:
+98.00:::
+Aristocrat:
+Wizard:
+3000: : : :0:0:
+Aristocrat:
+Wizard:
+TEMPLATE:
+EQUIPSET:0.1:Default Set
+NOTES:0:-1:New Item:New Value
+

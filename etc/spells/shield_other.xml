@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>pal</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Protection</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>You take half of subject's damage.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level (D)</string> 
+  </void> 
+  <void property="focus"> 
+   <string>Worth at least 50 gp each.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+This spell wards the subject and creates a mystic connection
+between you and the subject so that some of the subject's
+wounds are transferred to you. The subject gains a +1 deflection
+bonus to AC and a +1 resistance bonus to saves. Additionally, the
+subject takes only half damage from all wounds and attacks
+(including those inflicted by special abilities) that deal it hit
+point damage. The amount of damage not taken by the warded
+creature is taken by you. Forms of harm that do not involve hit
+points, such as charm effects, temporary ability damage, level
+draining, and disintegration, are not affected. If the subject
+suffers a reduction of hit points from a lowered Constitution
+score, the reduction is not split with you because it is not hit
+point damage. When the spell ends, subsequent damage is no longer
+divided between the subject and you, but damage already split is
+not reassigned to the subject.
+If you and the subject of the spell move out of range of each
+other, the spell ends. 
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Shield Other</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (harmless)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless)</string> 
+  </void> 
+ </object> 
+</java> 

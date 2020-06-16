@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>One day</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Designates location as holy.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Hallow makes a particular site, building, or structure a holy site. This has four major effects.  First, the site or structure is guarded by a magic circle against evil effect.
+Second, all Charisma checks to turn undead gain a +4 sacred bonus and Charisma checks to command undead suffer a -4 sacred penalty. Spell resistance does not apply to this effect.  (Note: This provision does not apply to the druid version of the spell.)
+Third, any dead body interred in a hallowed site cannot be turned into an undead creature.
+Finally, you may choose to fix a single spell effect to the hallow site. The spell effect lasts for one year and functions throughout the entire consecrated site, regardless of the normal duration and area or effect. You may designate whether the effect applies to all creatures, creatures who share your faith or alignment, or creatures who adhere to another faith or alignment.  At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting hallow again.  Spell effects that may be tied to a hallow site include aid, bane, bless, cause fear, darkness, daylight, deeper darkness, detect evil, detect magic, dimensional anchor, discern lies, dispel magic, endure elements, freedom of movement, invisibility purge, negative energy protection, protection from elements, remove fear, resist elements, silence, tongues, and zone of truth. Spell resistance might apply to these spells' effects. (See the individual spell descriptions for details.) An area can receive only one hallow (and its associated spell effect) at a time.
+Hallow counters or dispels unhallow.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Worth at least 1,000 gp, plus 1,000 gp per level of the spell to be included in the hallowed area.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Hallow</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>See text</string> 
+  </void> 
+  <void property="type"> 
+   <string>Good</string> 
+  </void> 
+ </object> 
+</java> 

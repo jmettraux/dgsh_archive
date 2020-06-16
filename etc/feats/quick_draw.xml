@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can draw a weapon as a free action instead of
+as a move-equivalent action.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Quick Draw</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Base attack bonus +1 or higher.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

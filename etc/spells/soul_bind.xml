@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Traps newly dead soul to prevent resurrection.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent</string> 
+  </void> 
+  <void property="focus"> 
+   <string>A gem of at least 1,000 gp value for every Hit Die
+possessed by the creature whose soul is to be bound. If the gem
+is not valuable enough, it shatters when the binding is
+attempted.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You draw the soul from a newly dead body and imprison it in a
+gem. The subject must have been dead no more than 1 round per
+caster level. The soul, once trapped in the gem, cannot be
+returned through clone, raise dead, reincarnation, resurrection,
+true resurrection, or even a miracle or a wish. Only by
+destroying the gem or dispelling the spell on the gem can one
+free the soul (which is then still dead).
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Soul Bind</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

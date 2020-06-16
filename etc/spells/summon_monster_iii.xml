@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Calls outsider to fight for you.</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One or more summoned creatures, no two of which can be more than 30 ft. apart</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As summon monster I, except you can summon one creature from
+the 3rd-level list, 1d3 creatures of the same type from the
+2nd-level list, or 1d4+1 creatures of the same type from the
+1st-level list.
+3rd Level
+
+    *   Celestial bear, black LG (animal)
+    *   Celestial bison (animal) NG
+    *   Triton NG
+    *   Celestial dire badger CG
+    *   Azer LN
+    *   Elemental, Small N
+    *   Thoqqua N
+    *   Fiendish dire weasel LE
+    *   Fiendish gorilla (animal) LE
+    *   Fiendish snake, constrictor (animal) LE
+    *   Fiendish boar NE
+    *   Fiendish dire bat NE
+    *   Fiendish lizard, giant (animal) NE
+    *   Salamander, Small NE
+    *   Fiendish shark, Large (animal) NE
+    *   Fiendish viper, Small snake (animal) CE
+    *   Fiendish crocodile (animal) CE
+    *   Dretch CE
+    *   Fiendish leopard (animal) CE
+    *   Fiendish wolverine (animal) CE
+
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Summon Monster III</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

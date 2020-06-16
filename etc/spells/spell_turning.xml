@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Luck</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Magic</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Reflect 1d4+6 spell levels back at caster.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Until expended or 10 minutes/ level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Spells (and spell-like effects) targeted against you rebound
+on the original caster. The abjuration turns only spells that
+have you as a target. Effect and area spells are not affected.
+Spell turning also fails to affect touch range spells.
+From seven to ten (1d4+6) spell levels are affected by the
+turning. The DM secretly rolls the exact number. Each spell
+turned subtracts its level from the amount of spell turning left.
+A spell might be only partially turned. Subtract the 1d4+6
+result from the spell level of the incoming spell. Divide the
+remaining levels of the incoming spell by the spell level of the
+incoming spell to see what fraction of the effect gets through.
+For damaging spells, you and the caster each take a fraction of
+the damage. For nondamaging spells, each of you has a
+proportional chance to be affected.
+If you and a spellcasting attacker are both warded by spell
+turning effects in operation, a resonating field is created. Roll
+randomly to determine the result:
+d%     Effect
+--     ------
+01-70     Spell drains away without effect.
+71-80     Spell affects both of you equally at full effect.
+81-97     Both turning effects are rendered nonfunctional for 1d4 minutes.
+98-100     Both of you go through a rift into another plane.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Spell Turning</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+ </object> 
+</java> 

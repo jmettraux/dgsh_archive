@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- SKELETON -->
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>0</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>0</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>12</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>10</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="attackRoutine"> 
+   <string>2 claws +0 melee</string> 
+  </void> 
+  <void property="alignment"> 
+   <string>neutral</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>13</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>11</int> 
+  </void> 
+  <!-- attacks -->
+  <void property="attacks"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.Attack"> 
+      <void property="attackModifier"> 
+       <array class="int" length="1"> 
+        <void index="0"> 
+         <int>0</int> 
+        </void> 
+       </array> 
+      </void> 
+      <void property="attackType"> 
+       <string>melee</string> 
+      </void> 
+      <void property="damage"> 
+       <string>1d4</string> 
+      </void> 
+      <void property="description"> 
+       <string>2 claws</string> 
+      </void> 
+      <void property="name"> 
+       <string>claws</string> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>0.34</float> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>5</int> 
+  </void> 
+  <void property="name"> 
+   <string>Skeleton</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>1d12</string> 
+  </void> 
+  <!--
+  <void property="raceName"> 
+   <string>Humanoid</string> 
+  </void> 
+  -->
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"/> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <!-- small is 9 -->
+     <int>10</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="speeds"> 
+   <string>30ft - 10m - 6sq</string> 
+  </void> 
+ </object> 
+</java> 

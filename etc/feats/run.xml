@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: When running, the character moves five times normal speed instead of four times normal speed. If the character makes a running jump, increase the distance or height cleared by one-fourth, but not past the maximum.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Run</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

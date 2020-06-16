@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Trickery</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Changes your appearance.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You make yourself---including clothing, armor, weapons, and equipment---look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your body type. For example, a human caster could look human, humanoid, or like any other generally human-shaped bipedal creature.  Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature, such as a mole or a beard, or look like an entirely different person.
+The spell does not provide the abilities or mannerisms of the chosen form. It does not alter the perceived tactile (touch) or audible (sound) properties of you or your equipment. A battleaxe made to look like a dagger still functions as a battleaxe.  If you use this spell to create a disguise, you get a +10 bonus on the Disguise check.
+Note: Creatures get Will saves to recognize the glamer as an illusion if they interact with it (such as by touching you and having that not match what they see, in this case of this spell).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Change Self</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Glamer</string> 
+  </void> 
+ </object> 
+</java> 

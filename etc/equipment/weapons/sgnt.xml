@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.equipment.MeleeWeapon"> 
+  <void property="categoryDefinition"> 
+   <string>gauntlet</string> 
+  </void> 
+  <void property="damages"> 
+   <string>1d4</string> 
+  </void> 
+  <void property="description"> 
+   <string>spiked gauntlet</string> 
+  </void> 
+  <void property="name"> 
+   <string>sgnt</string> 
+  </void> 
+  <void property="proficiencyType"> 
+   <string>simple weapon proficiency</string> 
+  </void> 
+  <void property="value"> 
+   <string>5 gp</string> 
+  </void> 
+  <void property="weight"> 
+   <float>2.0</float> 
+  </void> 
+ </object> 
+</java> 

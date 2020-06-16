@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: If the character deals a creature enough damage to make it drop (typically by dropping it to below 0 hit points, killing it, etc.), the character gets an immediate, extra melee attack against another creature in the immediate vicinity. The character cannot take a 5-foot step before making this extra attack. The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. The character can use this ability once per round.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Cleave</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Str 13+, Power Attack.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Power Attack</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

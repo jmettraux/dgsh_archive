@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- HUMAN -->
+ <object class="burningbox.org.dsh.entities.Race"> 
+  <void property="name"> 
+   <string>human</string> 
+  </void> 
+ </object> 
+</java> 

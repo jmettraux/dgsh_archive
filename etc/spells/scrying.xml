@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 hour</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Spies on subject from a distance.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Magical sensor</string> 
+  </void> 
+  <void property="focus"> 
+   <string>A natural pool of water.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You can see and hear some creature, who may be at any
+distance. You must succeed at a Scry check to do so. The
+difficulty of the task depends on how well you know the subject
+and what sort of physical connection (if any) you have to that
+creature. Furthermore, if the subject is on another plane, you
+get a -5 penalty on the Scry check.
+Knowledge                     DC
+---------                     --
+None*                         20
+Secondhand (you have heard of the subject)     15
+Firsthand (you have met the subject)         10
+Familiar (you know the subject well)         5
+*You must have some sort of connection to a creature you have
+no knowledge of. 
+Connection                     Scry Check Bonus
+----------                     ----------------
+Likeness or picture                 +5
+Possession or garment                 +8
+Body part, lock of hair, nail clippings, etc.     +10
+This spell creates a magical sensor located near the subject.
+Any creature with Intelligence 12 or higher can notice the sensor
+by making a Scry check (or an Intelligence check) against DC 20.
+The following spells can be cast through a scrying spell:
+comprehend languages, read magic, tongues, and darkvision. The
+following spells have a 5% chance per caster level of operating
+correctly: detect magic, detect chaos, detect evil, detect good,
+detect law, and message.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Scrying</string> 
+  </void> 
+  <void property="range"> 
+   <string>See text</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

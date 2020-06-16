@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Undead can't perceive one subject/level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Undead cannot perceive the warded creatures. Nonintelligent undead are automatically affected and act as though the warded creatures are not there. Intelligent undead get saving throws. If they fail, they can't see the warded creatures. However, if they have reason to believe unseen opponents are present, they can attempt to find or strike them. If a warded character attempts to turn or command undead, touches an undead, or attacks any creature (even with a spell), the spell ends for all recipients.
+
+Note: An intelligent undead creature gets one saving throw against the spell. It either sees all the warded creatures or none of them.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Invisibility to Undead</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: Casting a quickened spell is a free action. The character can perform another action, even casting another spell, in the same round as the character casts a quickened spell. The character may only cast one quickened spell per round. A spell whose casting time is more than 1 full round cannot be quickened. A quickened spell uses up a spell slot four levels higher than the spell's actual level.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Quicken Spell</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Metamagic]</string> 
+  </void> 
+ </object> 
+</java> 

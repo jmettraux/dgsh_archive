@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Metal within 40 ft. becomes wood.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+This spell enables you to change all metal objects within its
+area to wood. Weapons, armor, and other metal objects carried by
+creatures are affected as well. Magic objects made of metal
+effectively have SR 20 + caster level against this spell.
+Artifacts cannot be transmuted. Weapons converted from metal to
+wood suffer a -2 penalty to attack and damage rolls. Armor
+converted from metal to wood loses 2 points of AC bonus. Weapons
+changed by this spell splinter and break on any natural attack
+roll of 1 or 2, and armor changed by this spell loses an
+additional point of AC bonus every time it is struck by a natural
+attack roll of 19 or 20.
+Only a limited wish, miracle, or wish or similar magic can
+restore a transmuted object to its metallic state. Otherwise, for
+example, a metal door changed to wood is forevermore a wooden
+door.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Transmute Metal to Wood</string> 
+  </void> 
+  <void property="range"> 
+   <string>Long (400 ft. + 40 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (object; see text)</string> 
+  </void> 
+ </object> 
+</java> 

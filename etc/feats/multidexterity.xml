@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The creature ignores all penalties for using an off hand.
+Normal: Without this feat, a creature who uses an off hand suffers a
+-4 penalty to attack rolls, ability checks, and skill checks. A
+creature has one primary hand, and all the others are off hands; for
+example, a four-armed creature has one primary hand and three off
+hands.
+Special: This feat replaces the Ambidexterity feat for creatures with
+more than two arms.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Multidexterity</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Dex 15+, three or more arms.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Designates action that will trigger curse on subject.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>When moral suasion fails to win a criminal over to right conduct, you can use mark of justice to encourage the criminal to walk the straight and narrow path.
+
+You draw an indelible mark on the subject and state some behavior on the part of the subject that will activate the mark.
+
+When activated, the mark curses the subject. Typically, you designate some sort of criminal behavior that activates the mark, but you can pick any act you please. The effect of the mark is identical with the effect of bestow curse.
+
+Since this spell takes 10 minutes to cast and involves writing on the target, you can cast only it on someone who is willing or restrained.
+
+Like bestow curse, mark of justice cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell. Remove curse, however, works only if the caster is at least as high level as your mark of justice.
+
+These restrictions apply regardless of whether the mark has activated.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Mark of Justice</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

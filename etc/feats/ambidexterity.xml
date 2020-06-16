@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character ignores all penalties for using an off hand.
+The character is neither left-handed nor right-handed.
+Normal: Without this feat, a character who uses his or her off hand
+suffers a -4 penalty to attack rolls, ability checks, and skill
+checks. For example, a right-handed character wielding a weapon with
+her left hand suffers a -4 penalty to attack rolls with that weapon.
+Special: This feat helps offset the penalty for fighting with two
+weapons.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Ambidexterity</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Dex 15+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

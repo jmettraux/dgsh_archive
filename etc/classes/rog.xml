@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.CharacterClass"> 
+  <void property="baseAttackModifiers"> 
+   <array class="[I" length="20"> 
+    <void index="0"> 
+     <array class="int" length="1"/> 
+    </void> 
+    <void index="1"> 
+     <array class="int" length="1"> 
+      <void index="0"> 
+       <int>1</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="2"> 
+     <array class="int" length="1"> 
+      <void index="0"> 
+       <int>2</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="3"> 
+     <array class="int" length="1"> 
+      <void index="0"> 
+       <int>3</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="4"> 
+     <array class="int" length="1"> 
+      <void index="0"> 
+       <int>3</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="5"> 
+     <array class="int" length="1"> 
+      <void index="0"> 
+       <int>4</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="6"> 
+     <array class="int" length="1"> 
+      <void index="0"> 
+       <int>5</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="7"> 
+     <array class="int" length="2"> 
+      <void index="0"> 
+       <int>6</int> 
+      </void> 
+      <void index="1"> 
+       <int>1</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="8"> 
+     <array class="int" length="2"> 
+      <void index="0"> 
+       <int>6</int> 
+      </void> 
+      <void index="1"> 
+       <int>1</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="9"> 
+     <array class="int" length="2"> 
+      <void index="0"> 
+       <int>7</int> 
+      </void> 
+      <void index="1"> 
+       <int>2</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="10"> 
+     <array class="int" length="2"> 
+      <void index="0"> 
+       <int>8</int> 
+      </void> 
+      <void index="1"> 
+       <int>3</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="11"> 
+     <array class="int" length="2"> 
+      <void index="0"> 
+       <int>9</int> 
+      </void> 
+      <void index="1"> 
+       <int>4</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="12"> 
+     <array class="int" length="2"> 
+      <void index="0"> 
+       <int>9</int> 
+      </void> 
+      <void index="1"> 
+       <int>4</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="13"> 
+     <array class="int" length="2"> 
+      <void index="0"> 
+       <int>10</int> 
+      </void> 
+      <void index="1"> 
+       <int>5</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="14"> 
+     <array class="int" length="3"> 
+      <void index="0"> 
+       <int>11</int> 
+      </void> 
+      <void index="1"> 
+       <int>6</int> 
+      </void> 
+      <void index="2"> 
+       <int>1</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="15"> 
+     <array class="int" length="3"> 
+      <void index="0"> 
+       <int>12</int> 
+      </void> 
+      <void index="1"> 
+       <int>7</int> 
+      </void> 
+      <void index="2"> 
+       <int>2</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="16"> 
+     <array class="int" length="3"> 
+      <void index="0"> 
+       <int>12</int> 
+      </void> 
+      <void index="1"> 
+       <int>7</int> 
+      </void> 
+      <void index="2"> 
+       <int>2</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="17"> 
+     <array class="int" length="3"> 
+      <void index="0"> 
+       <int>13</int> 
+      </void> 
+      <void index="1"> 
+       <int>8</int> 
+      </void> 
+      <void index="2"> 
+       <int>3</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="18"> 
+     <array class="int" length="3"> 
+      <void index="0"> 
+       <int>14</int> 
+      </void> 
+      <void index="1"> 
+       <int>9</int> 
+      </void> 
+      <void index="2"> 
+       <int>4</int> 
+      </void> 
+     </array> 
+    </void> 
+    <void index="19"> 
+     <array class="int" length="3"> 
+      <void index="0"> 
+       <int>15</int> 
+      </void> 
+      <void index="1"> 
+       <int>10</int> 
+      </void> 
+      <void index="2"> 
+       <int>5</int> 
+      </void> 
+     </array> 
+    </void> 
+   </array> 
+  </void> 
+  <void property="fullName"> 
+   <string>rogue</string> 
+  </void> 
+  <void property="name"> 
+   <string>rog</string> 
+  </void> 
+  <void property="savingThrowPerLevels"> 
+   <array class="burningbox.org.dsh.entities.SavingThrowSet" length="20"> 
+    <void index="0"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="reflexModifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="1"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="reflexModifier"> 
+       <int>3</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="2"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>1</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>3</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="3"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>1</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>4</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="4"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>1</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>4</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="5"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>2</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>5</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="6"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>2</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>5</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="7"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>2</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>6</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="8"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>3</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>6</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>3</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="9"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>3</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>7</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>3</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="10"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>3</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>7</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>3</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="11"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>4</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>8</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>4</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="12"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>4</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>8</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>4</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="13"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>4</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>9</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>4</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="14"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>5</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>9</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>5</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="15"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>5</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>10</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>5</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="16"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>5</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>10</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>5</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="17"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>6</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>11</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>6</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="18"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>6</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>11</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>6</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="19"> 
+     <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+      <void property="fortitudeModifier"> 
+       <int>6</int> 
+      </void> 
+      <void property="reflexModifier"> 
+       <int>12</int> 
+      </void> 
+      <void property="willModifier"> 
+       <int>6</int> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+ </object> 
+</java> 

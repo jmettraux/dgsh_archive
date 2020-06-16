@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- BEHOLDER -->
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>17</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>12</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>15</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>15</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>10</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="attackRoutine"> 
+   <string>Eye rays +7 ranged touch, bite +2 melee</string> 
+  </void> 
+  <void property="alignment"> 
+   <string>lawful evil</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>20</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>9</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>7</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="attackType"> 
+      <string>150ft</string> 
+     </void> 
+     <void property="damage"> 
+      <string>*</string> 
+     </void> 
+     <void property="description"> 
+      <string>ranged touch</string> 
+     </void> 
+     <void property="name"> 
+      <string>eye rays</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>2</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>2d4</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>bite</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="category"> 
+   <string>large aberration</string> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>13.0</float> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>alertness</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>flyby attack</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>improved initiative</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>iron will</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>shot on the run</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>11</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>4</int> 
+  </void> 
+  <void property="name"> 
+   <string>Beholder</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>11d8+11</string> 
+  </void> 
+  <!--
+  <void property="raceName"> 
+   <string>beholder</string> 
+  </void> 
+  -->
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="fortitudeModifier"> 
+     <int>4</int> 
+    </void> 
+    <void property="reflexModifier"> 
+     <int>3</int> 
+    </void> 
+    <void property="willModifier"> 
+     <int>11</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <int>11</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>7</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>hide</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>10</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>knowledge (arcana)</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>15</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>listen</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>18</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>search</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>20</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spot</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="specials"> 
+   <void method="put"> 
+    <string>flight</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>A beholders body is naturally buoyant. This buoyancy allows it to fly as the spell, as a free action, at a speed of 20 feet. This buoyancy also grants it a permanent feather fall effect with personal range</string> 
+     </void> 
+     <void property="name"> 
+      <string>flight</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>eye rays</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Each of the ten small eyes can produce a magical ray once a round, even when the beholder is attacking physically or moving at full speed. The creature can easily aim all its eyes upward, but its own body tends to get in the way when it tries to aim the rays in other directions. During a round, the creature can aim only three eye rays at targets in any one arc other than up (forward, backward, left, right, or down). The remaining eyes must aim at targets in other arcs or not at all. A beholder can tilt and pan its body each round to change which rays it can bring to bear in an arc. Each eyes effect resembles a spell cast by a 13th-level sorcerer but follows the rules for a ray. All rays have a range of 150 feet and a save DC of 18</string> 
+     </void> 
+     <void property="name"> 
+      <string>eye rays</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>antimagic cone</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>A beholders central eye continually produces a 150-foot antimagic cone extending straight ahead from the creatures front. This functions just like antimagic field cast by a 13th-level sorcerer. All magical and supernatural powers and effects within the cone are suppressed-even the beholders own eye rays. Once each round, during its turn, the beholder decides which way it will face, and whether the antimagic cone is active or not (the beholder deactivates the cone by shutting its central eye). Note that a beholder can bite only creatures to its front</string> 
+     </void> 
+     <void property="name"> 
+      <string>antimagic cone</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>5ft, fly 20ft (good)</string> 
+  </void> 
+  <void property="treasure"> 
+   <string>Double standard</string> 
+  </void> 
+ </object> 
+</java> 

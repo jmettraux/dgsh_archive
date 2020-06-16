@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: When using the weapon the character selected, the character's threat range is doubled.
+Special: The character can gain this feat multiple times. The effects do not stack. Each time the character takes the feat, it applies to a new weapon.
+Note: "Keen" magic weapons also double their normal, nonmagical threat range. As with all doubled doublings, the result is triple.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Improved Critical</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Proficient with weapon, base attack bonus +8 or higher.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

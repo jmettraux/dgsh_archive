@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+
+<!-- GNOME -->
+ <object class="burningbox.org.dsh.entities.Race"> 
+  <void property="name"> 
+   <string>gnome</string> 
+  </void> 
+  <void property="predilectionClass"> 
+   <string>illusionist</string> 
+  </void> 
+  <void property="miscModifiers"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>listen</string> 
+      </void> 
+      <void property="description"> 
+       <string>Listen +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>alchemy</string> 
+      </void> 
+      <void property="description"> 
+       <string>Alchemy +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <!--
+  <void property="miscModifiers"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>strength</string> 
+      </void> 
+      <void property="description"> 
+       <string>Strength -2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>-2</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>constitution</string> 
+      </void> 
+      <void property="description"> 
+       <string>Constitution +2</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>2</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  -->
+  <void property="specials"> 
+   <void method="put"> 
+    <string>low-light vision</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>low-light vision</string> 
+     </void> 
+     <void property="description"> 
+      <string>Gnomes can see twice as far as a human in starlight, moonlight, torchlight and similar conditions of poor illumination. They retain the ability to distinguish color and detail under these conditions.</string>
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>illusions</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>illusions</string> 
+     </void> 
+     <void property="description"> 
+      <string>+2 racial bonus on saving throws against illusions</string>
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>foes</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>foes</string> 
+     </void> 
+     <void property="description"> 
+      <string>+1 racial bonus to attacks against kobolds and goblinoids (goblins, hobgoblings and bugbears)
++4 dodge bonus against giants</string>
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>speak with animals</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>speak with animals</string> 
+     </void> 
+     <void property="description"> 
+      <string>Once per day a gnome can use "Speak with Animals" [per the spell] as a spell-like ability to speak with a burrowing mammal (a badger, fox, rabbit, etc.). This ability is innate to gnomes. It has a duration of 1 minute (the gnome is considered a 1st-level caster when he uses this ability, regardless of his actual level)</string>
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>cantrips</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>cantrips</string> 
+     </void> 
+     <void property="description"> 
+      <string>Gnomes with Intelligence scores of 10 or higher may cast the 0-level spells (cantrips) dancing lights, ghost sound, and prestidigitation, each once per day. These are arcane spells. Treat the gnome as a 1st-level caster for all spell effects dependent on level (range for all three spells and duration for ghost sound)</string>
+     </void> 
+    </object> 
+   </void> 
+  </void>
+ </object> 
+</java> 

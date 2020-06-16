@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Gives one subject a new form.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Polymorph other changes the subject into another form of
+creature. The new form can range in size from Diminutive to one
+size larger than the subject's normal form. Upon changing,
+the subject regains lost hit points as if having rested for a day
+(though this healing does not restore temporary ability damage
+and provide other benefits of resting for a day; and changing
+back does not heal the creature further). If slain, the
+polymorphed creature reverts to its original form, though it
+remains dead.
+The polymorphed creature acquires the physical and natural
+abilities of the creature it has been polymorphed into while
+retaining its own mind. Physical abilities include natural size
+and Strength, Dexterity, and Constitution scores. Natural
+abilities include armor, attack routines (claw, claw, and bite;
+swoop and rake; and constriction; but not petrification, breath
+weapons, energy drain, energy effects, etc.), and similar gross
+physical qualities (presence or absence of wings, number of
+extremities, etc.). Natural abilities also include mundane
+movement capabilities, such as walking, swimming, and flight with
+wings, but not magical flight and other magical forms of travel,
+such as blink, dimension door, phase door, plane shift, teleport,
+and teleport without error. Extremely high speeds for certain
+creatures are the result of magical ability, so they are not
+granted by this spell. Other nonmagical abilities (such as an
+owl's low-light vision) are considered natural abilities and
+are retained.
+Any part of the body or piece of equipment that is separated
+from the whole reverts to its original form.
+The creature's new scores and faculties are average ones
+for the race or species into which it has been transformed. You
+cannot, for example, turn someone into a mighty weight lifter to
+give the subject great Strength.
+The subject retains its Intelligence, Wisdom, and Charisma
+scores, level and class, hit points (despite any change in its
+Constitution score), alignment, base attack bonus, and base
+saves. (New Strength, Dexterity, and Constitution scores may
+affect final attack and save bonuses.) The subject retains its
+own type (for example, "humanoid"), extraordinary
+abilities, spells, and spell-like abilities, but not its
+supernatural abilities. The subject can cast spells for which it
+has components. It needs a humanlike voice for verbal components
+and humanlike hands for somatic components. The subject does not
+gain the spell-like abilities of its new form. The subject does
+not gain the supernatural abilities (such as breath weapons and
+gaze attacks) or the extraordinary abilities of the new creature.
+The new form can be disorienting. Any time the polymorphed
+creature is in a stressful or demanding situation (such as
+combat), the creature must succeed at a Will save (DC 19) or
+suffer a -2 penalty on all attack rolls, saves, skill
+checks, and ability checks until the situation passes. Creatures
+who are polymorphed for a long time (years and years) grow
+accustomed to their new form and can overcome some of these
+drawbacks (DM's discretion).
+When the polymorph occurs, the creature's equipment, if
+any, transforms to match the new form. If the new form is a
+creature who does not use equipment (aberration, animal, beast,
+magical beast, construct, dragon, elemental, ooze, some
+outsiders, plant, some undead creatures, some shapechangers, or
+vermin), the equipment melds into the new form and becomes
+nonfunctional. Material components and focuses melded in this way
+cannot be used to cast spells. If the new form uses equipment
+(fey, giant, humanoid, some outsiders, many shapechangers, many
+undead creatures), the subject's equipment changes to match
+the new form and retains its properties.
+You can freely designate the new form's minor physical
+qualities (such as hair color, hair texture, and skin color)
+within the normal ranges for a creature of that type. The new
+form's significant physical qualities (such as height,
+weight, and gender) are also under your control, but must fall
+within the norms for the new form's species. The subject can
+be changed into a member of its own species or even into itself.
+(If changed into itself, it does not suffer the abovementioned
+penalties from the disorientation of a new form.)
+The subject is effectively disguised as an average member of
+the new form's race. If you use this spell to create a
+disguise, you get a +10 bonus on your Disguise check.
+Incorporeal or gaseous forms cannot be assumed, and
+incorporeal or gaseous creatures are immune to being polymorphed.
+A natural shapeshifter (a lycanthrope, doppelganger, experienced
+druid, etc.) can take its natural form as a standard action.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Polymorph Other</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Fortitude negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Trickery</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Changes any subject into anything else.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>See text</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As polymorph other, except this spell changes one object or
+creature into another. The duration of the spell depends on how
+radical a change is made from the original state to its enchanted
+state. The DM determines the duration by using the following
+guidelines:
+                            Increase to
+Changed Subject Is:                     Duration Factor*
+-------------------                     ----------------
+Same kingdom (animal, vegetable, mineral)         +5
+Same class (mammals, fungi, metals, etc.)         +2
+Same size                         +2
+Related (twig is to tree, wolf fur is to wolf, etc.)     +2
+Same or lower Intelligence                 +2
+*Add all that apply. Look up the total on the next table.
+Duration
+Factor         Example            Duration
+--------    -------            --------
+0         Pebble to human     20 minutes
+2         Marionette to human     1 hour
+4         Human to marionette     3 hours
+5         Lizard to manticore     12 hours
+6         Sheep to wool coat     2 days
+7         Shrew to manticore     1 week
+9+         Manticore to shrew     Permanent
+Unlike polymorph other, polymorph any object does grant the
+creature the Intelligence score of its new form. If the original
+form didn't have a Wisdom or Charisma score, it gains those
+scores of the new form.
+As with other polymorph spells, damage sustained in the new
+form can result in the injury or death of the polymorphed
+creature. In general, damage occurs when the new form is changed
+through physical force, although the DM will have to adjudicate
+many of these situations.
+Also note that a polymorph effect often detracts from an
+item's or creature's powers but does not add new powers
+except perhaps movement capabilities not present in the old form.
+A nonmagical object cannot be made magical by this spell. A magic
+item or weapon or other object can be polymorphed into another
+type of magic object, but it never gains abilities superior to
+those of the original object.
+This spell cannot create material of great intrinsic value,
+such as copper, silver, gems, silk, gold, and platinum.
+This spell can also be used to duplicate the effects of
+polymorph other, flesh to stone, stone to flesh, transmute mud to
+rock, transmute water to dust, or transmute rock to mud.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Polymorph Any Object</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (object) (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (object)</string> 
+  </void> 
+ </object> 
+</java> 

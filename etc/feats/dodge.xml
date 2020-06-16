@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: During the character's action, the character designates an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent. The character can select a new opponent on any action. Note: A condition that makes the character lose his or her Dexterity bonus to Armor Class (if any) also makes the character lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Dodge</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Dex 13+.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

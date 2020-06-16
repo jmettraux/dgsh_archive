@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Invisible floating eye moves 30 ft./round.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Magical sensor</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string> You create an invisible magical sensor that sends you visual information. The arcane eye travels at 30 feet per round (300 feet per minute) if viewing an area ahead as a human would (primarily looking at the floor) or 10 feet per round (100 feet per minute) if examining the ceiling and walls as well as the floor ahead. The arcane eye sees exactly as you would see if you were there. The arcane eye can travel in any direction as long as the spell lasts. Solid barriers prevent the passage of an arcane eye, although it can pass through a space no smaller than a small mouse hole (1 inch in diameter).
+You must concentrate to use the eye. If you do not concentrate, the eye is inert until you again concentrate. The powers of the eye cannot be enhanced by other spells or items (though you can use magic to improve your own eyesight). You are subject to any gaze attack met by the eye. A successful dispel magic cast on you or the eye ends the spell. With respect to blindness, magical darkness, and other phenomena that affect vision, the arcane eye is considered an independent sensory organ of yours. (For example, it is not blinded if your normal eyes are blinded.)
+Any creature with Intelligence 12 or higher can notice the arcane eye by making a Scry check or an Intelligence check (DC 20). Spells such as detect scrying can also detect the eye.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Arcane Eye</string> 
+  </void> 
+  <void property="range"> 
+   <string>Unlimited</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

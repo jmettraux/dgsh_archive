@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Corpse answers one question/two levels.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You grant the semblance of life and intellect to a corpse,
+allowing it to answer several questions that you put to it. You
+may ask up to one question per two caster levels. Unasked
+questions are wasted if the duration expires. The corpse's
+knowledge is limited to what the creature knew during life,
+including the languages it spoke (if any). Answers are usually
+brief, cryptic, or repetitive. If the creature's alignment
+was different from yours, the corpse gets a Will save to resist
+the spell as if it were alive.
+If the corpse has been subject to speak with dead within the
+past week, the new spell fails. You can cast this spell on a
+corpse that has been deceased for any amount of time, but the
+body must be mostly intact to be able to respond. A damaged
+corpse may be able to give partial answers or partially correct
+answers, but it must at least have a mouth in order to speak at
+all.
+This spell does not let you actually speak to the person
+(whose soul has departed). It instead draws on the imprinted
+knowledge stored in the corpse. The partially animated body
+retains the imprint of the soul that once inhabited it, and thus
+it can speak with all the knowledge that the creature had while
+alive. The corpse, however, cannot learn new information. Indeed,
+it can't even remember being questioned. 
+Any corpse that has been turned into an undead creature
+can't be spoken to with speak with dead.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Speak with Dead</string> 
+  </void> 
+  <void property="range"> 
+   <string>10 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Necromancy</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="type"> 
+   <string>Language-Dependent</string> 
+  </void> 
+ </object> 
+</java> 

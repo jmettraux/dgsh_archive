@@ -1,0 +1,140 @@
+TODO list for dgsh
+==================
+
+$Id: todo.txt,v 1.39 2002/11/11 10:40:29 jmettraux Exp $
+
+09.11.2002 :
+	- purge temp ! or don't add monsters with 0 hp to temp 
+	  after a fight !						-todo-
+	- fix 'save all' command					-todo-
+	- effects should be removed at end of fight... Luna		-todo-
+	- 'combat reflexes' should impact 'AoOl'			-todo-
+	- 'weapon focus' should impact weapons 				+DONE+
+
+04.09.2002 :
+	- parse domain spells						-todo-
+
+	- implement extra spell for wizard specialists			-todo-
+	    - implement 's' flag for prepare command			-todo-
+	    - display specialty line for free slots (as with doms)	-todo-
+
+30.08.2002 :
+	- parse weapon ranges for monsters and [N]PCs			
+	  (How does the standard display them ?)			-todo-
+
+26.08.2002 :
+	- in Spells, store spellNames and not spells themselves		=nodo=
+
+	- turn spells into singletons... (why not also races and the
+	  like ?)							=nodo=
+
+	- fighters have martial weapons profiency : check that their
+	  modifiers are ok						+DONE+
+
+24.08.2002 :
+	- write stat block output code along the standard
+	  d20statblock.com style					-todo-
+
+22.08.2002 :
+	- restructure doc						+DONE+
+
+19.08.2002 :
+	- resolve mat and attacks for akordia...			?todo?
+
+	- domain spells for clerics...					+DONE+
+	    - insert 'domain' subcommand in 'prepare' command		+DONE+
+	    - known spells should include domain spells !		+DONE+
+
+	- check the spells by class (are in fact all spells cached ?)	-todo-
+
+16.08.2002 :
+	- WANDS and the like !						-todo-
+
+	- in SpellView, display class and level				-todo-
+
+	- tag adept spells						+DONE+	
+
+	- implement 'skill focus (x)'					+DONE+
+
+14.08.2002 :
+	- generate SRD NPC classes					+DONE+
+
+13.08.2002 :
+	- build a SRD stat block parser					+DONE+
+
+08.08.2002 :
+	- build a 'GameClock'						+DONE+
+
+06.08.2002 :
+	- fix 'Guards and Wards'					+DONE+
+
+24.07.2002 :
+	- javadoc							+DONE+
+
+21.07.2002 :
+	- clean the 'feats' output					-todo-
+
+15.07.2002 :
+	- create a 'special' command					-todo-
+
+	- reactivate log4j logging (keep a trace)			+DONE+
+
+	- add a 'specials' map to Race so that when a character's
+	  special is looked up, a racial special may be given		+DONE+
+
+	- add 'specials' to the gnome race...				+DONE+
+
+	- add 'specials' to detailView					+DONE+
+
+	- check the troll's iron will 
+	  OK : no effect (already comprised in the stats)		+DONE+
+
+13.07.2002 :
+	- add a class with a 'levelEquivalentModifier', for example
+	  the 'Aasimar' race (why not 'drow')				-todo-
+
+11.07.2002 :
+	- there is a feat for adding str mod to some ranged weapons.
+	  should investigate						-todo-
+
+08.07.2002 :
+	- when a character gains a level in a spellcasting class through
+	  addlevel, activate his new spell slots. 
+	  								=NODO=
+
+05.07.2002 :
+	- correct the jython script barbarianRage.py, it should
+	  adapt to higher level barbarians				+DONE+
+
+03.07.2002 :
+	- spell components 						-todo-
+
+27.06.2002 :
+	- add a filter to the monsters command (and document it in the
+	  web doc)
+									+DONE+
+	- implement the 'trigger' jython concept
+									+DONE+
+
+26.06.2002 :
+	- Implement a 'rage' command (do it with jython)
+									+DONE+
+
+25.06.2002 :
+	- Link Monster instances to their attacks. 
+	  => cloning of attack instances
+									+DONE+
+
+	- Add the ab command, which modifies temporarily an ability
+									+DONE+
+
+24.06.2002 :
+	- Troudukh's holy image search -1 doesn't show up in his stats. It's 
+	  normal, but I'd like a flag for MiscModifiers that say if the
+	  should apply even if the item is just carried.
+	  								-todo-
+
+23.06.2002 :
+	- check damage bonus for troudukh, it is currently not displayed (should
+	  be +5)						
+	  								+DONE+

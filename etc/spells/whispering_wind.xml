@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Sends a short message one mile/level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Until discharged (destination is reached) or no more than 1 hour/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You send a message or sound on the wind to a designated spot.
+The whispering wind travels to a specific location within range
+that is familiar to you, provided that it can find a way to the
+location. (It can't pass through walls, for instance.) The
+whispering wind is as gentle and unnoticed as a zephyr until it
+reaches the location. It then delivers its whisper-quiet message
+or other sound. Note that the message is delivered regardless of
+whether anyone is present to hear it. The wind then dissipates.
+You can prepare the spell to bear a message of up to twenty-five
+words, cause the spell to deliver other sounds for 1 round, or
+merely have the whispering wind seem to be a faint stirring of
+the air. You can likewise cause the whispering wind to move as
+slowly as one mile per hour or as quickly as one mile per 10
+minutes. When the spell reaches its objective, it swirls and
+remains until the message is delivered. As with magic mouth,
+whispering wind cannot speak verbal components, use command
+words, or activate magical effects.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Whispering Wind</string> 
+  </void> 
+  <void property="range"> 
+   <string>One mile/level</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Good</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>pal</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As protection spells, but 10-ft. radius and 10 min./level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As protection from evil, except that it encompasses a much
+larger area and its duration is longer.
+Unlike protection from evil, this spell has a special function
+that you may choose when casting the spell. A magic circle can be
+focused inward rather than outward. In this case, it serves as an
+immobile, temporary magical prison for a summoned creature. The
+creature cannot cross the circle's boundaries. 
+You must beat a creature's SR in order to keep it at bay
+(as in the third function of protection from evil), but the
+deflection and resistance bonuses and the protection from mental
+control apply regardless of enemies' SR.
+If a creature too large to fit into the spell's area is
+the subject of the spell, the spell acts as a normal protection
+from evil spell for that creature only.
+This spell is not cumulative with protection from evil and
+vice versa. 
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Magic Circle against Evil</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No (see text)</string> 
+  </void> 
+  <void property="type"> 
+   <string>Good</string> 
+  </void> 
+ </object> 
+</java> 

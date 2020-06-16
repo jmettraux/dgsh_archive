@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Strength</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Your size increases, and you gain +4 Str.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You grow to double your height, and your gear grows
+proportionally. This increase has the following effects:
+
+    *   * You gain a +4 enlargement bonus to Strength.
+    *   * Your size becomes one step larger.
+    *   * Mass increases by a factor of eight.
+    *   * Weapons increase in size one step, increasing their
+        damage as shown below.
+
+Old Damage    New Damage
+----------    ----------
+1d2         1d3
+1d3         1d4
+1d4         1d6
+1d6         1d8
+1d8         2d6
+1d10         2d6
+1d12         2d8
+Magical properties of magic items that get bigger do not
+change.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Righteous Might</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+ </object> 
+</java> 

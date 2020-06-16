@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character makes attack rolls with the weapon normally.
+Normal: A character who uses a weapon without being proficient with it suffers a -4 penalty on attack rolls.
+Special: The character can gain this feat multiple times. Each time The character takes the feat, it applies to a new weapon. Proficiency with the bastard sword or the dwarven waraxe has a prerequisite of Str 13+.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Exotic Weapon Proficiency</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Base attack bonus +1 or higher.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

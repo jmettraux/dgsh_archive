@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Fire</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Sun</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creatures attacking you take fire damage; you're protected from heat or cold.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell wreathes you in flame and causes damage to each creature who attacks you in melee. The flames also protect you from either cold-based or fire-based attacks (your choice).  Any creature striking you with its body or handheld weapons deals normal damage, but at the same time the attacker takes 1d6 points of damage +1 point per caster level. This damage is either cold damage (if the shield protects against fire-based attacks) or fire damage (if the shield protects against cold-based attacks). If a creature has spell resistance, it applies to this damage. Note that weapons with exceptional reach, such as two-handed spears, do not endanger their users in this way.  When casting this spell, you appear to immolate yourself, but the flames are thin and wispy, shedding no heat and giving light equal to only half the illumination of a normal torch (10 feet).  The color of the flames is determined randomly (50% chance of either color)---blue or green if the chill shield is cast, violet or blue if the warm shield is employed. The special powers of each version are as follows.
+
+Warm Shield: The flames are warm to the touch. You take only half damage from cold-based attacks. If that attack allows a Reflex save for half damage, you take no damage on a successful save.
+
+Chill Shield: The flames are cool to the touch. You take only half damage from fire-based attacks. If that attack allows a Reflex save for half damage, you take no damage on a successful save.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Fire Shield</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fire or Cold</string> 
+  </void> 
+ </object> 
+</java> 

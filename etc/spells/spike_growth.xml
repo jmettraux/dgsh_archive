@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creatures in area take 1d4 damage, may be slowed.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Any ground-covering vegetation in the spell's area
+becomes very hard and sharply pointed without changing its
+appearance. In areas of bare earth, roots and rootlets act in the
+same way. Typically, spike growth can be cast in any outdoor
+setting except open water, ice, heavy snow, sandy desert, or bare
+stone. Any creature moving on foot into or through the
+spell's area takes 1d4 points of damage for each 5 feet of
+movement through the spiked area.
+Any creature who sustains damage from this spell must also
+succeed at a Reflex save or suffer injuries to its feet and legs
+that slow its speed by one-third. This speed penalty lasts for 24
+hours or until the injured creature receives a cure spell (which
+also restores lost hit points). Another character can remove the
+penalty by taking 10 minutes to dress the injuries and succeeding
+at a Heal check against the spell's save DC.
+Spike growth is a magic trap that can't be disabled with
+the Disable Device skill.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Spike Growth</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex partial</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

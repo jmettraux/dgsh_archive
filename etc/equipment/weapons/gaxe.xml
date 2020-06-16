@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.equipment.MeleeWeapon"> 
+  <void property="categoryDefinition"> 
+   <string>gaxe</string> 
+  </void> 
+  <void property="critical"> 
+   <string>x3</string> 
+  </void> 
+  <void property="damages"> 
+   <string>1d12</string> 
+  </void> 
+  <void property="description"> 
+   <string>greataxe</string> 
+  </void> 
+  <void property="name"> 
+   <string>gaxe</string> 
+  </void> 
+  <void property="proficiencyType"> 
+   <string>martial weapon proficiency</string> 
+  </void> 
+  <void property="value"> 
+   <string>20 gp</string> 
+  </void> 
+  <void property="weight"> 
+   <float>20.0</float> 
+  </void> 
+ </object> 
+</java> 

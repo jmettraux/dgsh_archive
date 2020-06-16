@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As shadow conjuration, but up to 4th level and 40% real.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As shadow conjuration, except that it can duplicate wizard or sorcerer conjurations of up to 4th level, and the illusory conjurations created are two-fifths (40%) as strong as the real thing instead of one-fifth as strong.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Greater Shadow Conjuration</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Shadow</string> 
+  </void> 
+ </object> 
+</java> 

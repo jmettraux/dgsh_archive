@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Force globe protects but traps one subject.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute /level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>1-ft.-diameter/level sphere, centered around a creature</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+A globe of shimmering force encloses a creature, provided it
+is small enough to fit within the diameter of the sphere. The
+sphere contains its subject for the spell's duration. The
+sphere is not subject to damage of any sort except from a rod of
+cancellation, a wand of negation, disintegrate, or a targeted
+dispel magic spell. These destroy the sphere without harm to the
+subject. Nothing can pass through the sphere, inside or out,
+though the subject can breathe normally. The subject may
+struggle, but the only effect that act produces is to move the
+sphere slightly. The globe can be physically moved either by
+people outside it or by the struggles of those within.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Otiluke's Resilient Sphere</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

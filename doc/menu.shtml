@@ -1,0 +1,24 @@
+<!-- menu.shtml -->
+    <td width=140 valign=top>
+* <a href="index.shtml">home</a><br>
+* <a href="index.shtml#features">features</a><br>
+* <a href="index.shtml#installing">installing</a><br>
+* <a href="index.shtml#running">running</a><br>
+* <a href="index.shtml#tracking">tracking your party</a><br>
+* <a href="adding.shtml">adding a PC or a NPC</a><br>
+* <a href="parsing.shtml">parsing stat blocks</a><br>
+* <a href="index.shtml#fight">some fight</a><br>
+* <a href="commands.shtml">commands</a><br>
+* <a href="commands.shtml#jcommands">scripted commands</a><br>
+* <a href="index.shtml#jtriggers">scripted triggers</a><br>
+* <a href="index.shtml#javadoc">javadoc</a><br>
+* <a href="index.shtml#data">data files</a><br>
+* <a href="index.shtml#missing">missing features</a><br>
+* <a href="index.shtml#mailing">mailing lists</a><br>
+* <a href="index.shtml#links">some links</a><br>
+* <a href="index.shtml#credits">credits</a><br>
+* <a href="index.shtml#download">download</a><br>
+* <a href="http://sf.net/projects/dgsh/">dgsh on sf.net</a><br>
+* <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dgsh/dgsh/">sources</a><br>
+* <a href="index.shtml#contact">contact</a><br>
+    </td>

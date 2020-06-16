@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>At least 10 minutes (see text)</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Sets trigger condition for another spell.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level or until discharged</string> 
+  </void> 
+  <void property="focus"> 
+   <string>Worth at least 1,500 gp. You must carry the focus for
+the contingency to work.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You can place another spell upon your person so that the latter spell comes into effect under some condition you dictate when casting contingency. The companion spell and the spell it is to bring into effect are cast at the same time. The 10-minute casting time is the minimum total for both castings; if the companion spell has a casting time longer than 10 minutes, use that casting time instead.
+
+The spell to be brought into effect by the contingency must be one that affects your person (feather fall, levitate, fly, teleport, and so forth) and be of a spell level no higher than one-third your caster level (rounded down, maximum 6th level).  The conditions needed to bring the spell into effect must be clear, although they can be general. In all cases, the contingency immediately brings into effect the second spell, the latter being "cast" instantaneously when the prescribed circumstances occur. Note that if complicated or convoluted conditions are prescribed, the whole spell combination (contingency and the companion magic) may fail when called on.  The companion spell occurs based solely on the stated conditions, regardless of whether you want it to.
+
+You can use only one contingency spell at a time; if a second is cast, the first one (if still active) is dispelled.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Those of the companion spell, plus quicksilver and an eyelash of an ogre mage, ki-rin, or similar spell-using creature.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Contingency</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+ </object> 
+</java> 

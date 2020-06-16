@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: If the character trips an opponent in melee combat, the character immediately gets a melee attack against that opponent as if the character hadn't used the character's attack for the trip attempt.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Improved Trip</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Int 13+, Expertise.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Expertise</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

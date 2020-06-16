@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Evil</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>+4 AC, +4 resistance, and SR 25 against good spells.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level (D)</string> 
+  </void> 
+  <void property="focus"> 
+   <string>Worth at least 500 gp.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by good creatures, and weakening good creatures when they strike the subjects. This abjuration has four effects:
+
+First, the warded creatures gain a +4 deflection bonus to AC and a +4 resistance bonus to saves. Unlike the effect of protection from good, this benefit applies against all attacks, not just against attacks by evil creatures.
+
+Second, the warded creatures gain SR 25 against good spells and spells cast by good creatures.
+
+Third, the abjuration blocks possession and mental influence, just as protection from good does.
+
+Finally, if a good creature succeeds at a melee attack against a warded creature, the offending attacker takes 1d6 points of temporary Strength damage (Fortitude save negates).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Unholy Aura</string> 
+  </void> 
+  <void property="range"> 
+   <string>20 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless)</string> 
+  </void> 
+  <void property="type"> 
+   <string>Evil</string> 
+  </void> 
+ </object> 
+</java> 

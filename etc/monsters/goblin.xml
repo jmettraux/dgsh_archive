@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- GOBLIN -->
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>8</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>13</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>8</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <!-- saving throws -->
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="fortitudeModifier"> 
+     <int>2</int>
+    </void> 
+    <void property="reflexModifier"> 
+     <int>1</int>
+    </void> 
+    <void property="willModifier"> 
+     <int>0</int>
+    </void> 
+   </object> 
+  </void> 
+  <!-- attackRoutine -->
+  <void property="attackRoutine"> 
+   <string>Morningstar +1 melee; or javelin +3 ranged</string> 
+  </void> 
+  <!-- alignment -->
+  <void property="alignment"> 
+   <string>evil</string> 
+  </void> 
+  <!-- armor class -->
+  <void property="armorClass"> 
+   <int>15</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>12</int> 
+  </void> 
+  <!-- attacks -->
+  <void property="attacks"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.Attack"> 
+      <void property="attackModifier"> 
+       <array class="int" length="1"> 
+        <void index="0"> 
+         <int>1</int> 
+        </void> 
+       </array> 
+      </void> 
+      <void property="attackType"> 
+       <string>melee</string> 
+      </void> 
+      <void property="damage"> 
+       <string>1d8-1</string> 
+      </void> 
+      <void property="description"> 
+       <string></string> 
+      </void> 
+      <void property="name"> 
+       <string>lightmace</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.Attack"> 
+      <void property="attackModifier"> 
+       <array class="int" length="1"> 
+        <void index="0"> 
+         <int>3</int> 
+        </void> 
+       </array> 
+      </void> 
+      <void property="attackType"> 
+       <string>ranged</string> 
+      </void> 
+      <void property="damage"> 
+       <string>1d6-1</string> 
+      </void> 
+      <void property="description"> 
+       <string></string> 
+      </void> 
+      <void property="name"> 
+       <string>javelin</string> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>0.34</float> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>1</int> 
+  </void> 
+  <void property="name"> 
+   <string>Goblin</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>1d8</string> 
+  </void> 
+  <!--
+  <void property="raceName"> 
+   <string>Goblin</string> 
+  </void> 
+  -->
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <!-- small is 9 -->
+     <int>9</int> 
+    </void> 
+   </object> 
+  </void> 
+  <!-- skills -->
+  <void property="skills"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+      <void property="skillName"> 
+       <string>hide</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>6</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+      <void property="skillName"> 
+       <string>listen</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>3</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+      <void property="skillName"> 
+       <string>move silently</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>4</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+      <void property="skillName"> 
+       <string>spot</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>3</int> 
+      </void> 
+     </object> 
+    </void> 
+  </void> 
+  <!-- feats -->
+  <void property="feats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.FeatInstance"> 
+      <void property="featName"> 
+       <string>alertness</string> 
+      </void> 
+      <void property="beneficiaryDefinition">  
+      </void>
+      <void property="modifier"> 
+      </void>
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <!-- speeds -->
+  <void property="speeds"> 
+   <string>30ft - 10m - 6sq</string> 
+  </void> 
+ </object> 
+</java> 

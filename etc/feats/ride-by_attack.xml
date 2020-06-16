@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: When the character is mounted and uses the charge action, the character may move and attack as with a standard charge and then move again (continuing the straight line of the charge). The character's total movement for the round can't exceed double the character's mounted speed. The character does not provoke an attack of opportunity from the opponent that the character attacks.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Ride-By Attack</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Ride skill, Mounted Combat.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Mounted Combat</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

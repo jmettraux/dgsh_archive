@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: Whenever the character makes a check for performing a physical action that extends over a period of time (running, swimming, holding the character's breath, and so on), the character gets a +4 bonus to the check.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Endurance</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Calls outsider to fight for you.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As summon monster I, except you can summon one creature from the 7th-level list, 1d3 creatures of the same type from the 6th-level list, or 1d4+1 creatures of the same type from a lower-level list.
+
+7th Level
+
+    *   Celestial elephant (animal) NG
+    *   Avoral guardinal (celestial) NG
+    *   Djinni CG
+    *   Ravid [alone] N
+    *   Elemental, Huge N
+    *   Invisible stalker N
+    *   Xorn, Large N
+    *   Arrowhawk, Large N
+    *   Tojanida, Large N
+    *   Slaad, blue CN
+    *   Hamatula (devil) LE
+    *   Osyluth (devil) LE
+    *   Fiendish dire tiger CE
+    *   Bebilith CE
+    *   Fiendish octopus, giant (animal) CE</string> 
+  </void> 
+  <void property="name"> 
+   <string>Summon Monster VII</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

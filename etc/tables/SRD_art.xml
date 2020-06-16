@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.random.Table"> 
+  <void property="name"> 
+   <string>SRD_art</string> 
+  </void> 
+  <void property="possibilities"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>55gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Silver ewer; carved bone or ivory statuette; finely wrought small gold bracelet</string> 
+       </void> 
+       <void property="value"> 
+        <string>1d10x10gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>10</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>105gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Cloth of gold vestments; black velvet mask with numerous citrines; silver chalice with lapis lazuli gems</string> 
+       </void> 
+       <void property="value"> 
+        <string>3d6x10gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>15</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>350gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Large well-done wool tapestry; brass mug with jade inlays</string> 
+       </void> 
+       <void property="value"> 
+        <string>1d6x100gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>15</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>550gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Silver comb with moonstones; silver-plated steel longsword with jet jewel in hilt</string> 
+       </void> 
+       <void property="value"> 
+        <string>1d10x100gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>10</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>700gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Carved harp of exotic wood with ivory inlay and zircon gems; solid gold idol (10 lb.)</string> 
+       </void> 
+       <void property="value"> 
+        <string>2d6x100gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>10</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>1050gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Gold dragon comb with red garnet eye; gold and topaz bottle stopper cork; ceremonial electrum dagger with a star ruby in the pommel</string> 
+       </void> 
+       <void property="value"> 
+        <string>3d6x100gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>10</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>1400gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Eyepatch with mock eye of sapphire and moonstone; fire opal pendant on a fine gold chain; old masterpiece painting</string> 
+       </void> 
+       <void property="value"> 
+        <string>4d6x100gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>10</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>1750gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Embroidered silk and velvet mantle with numerous moonstones; sapphire pendant on gold chain</string> 
+       </void> 
+       <void property="value"> 
+        <string>5d6x100gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>2500gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Embroidered and bejeweled glove; jeweled anklet; gold music box</string> 
+       </void> 
+       <void property="value"> 
+        <string>1d4x1000gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>3500gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Golden circlet with four aquamarines; a string of small pink pearls (necklace)</string> 
+       </void> 
+       <void property="value"> 
+        <string>1d6x1000gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>5000gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Jeweled gold crown; jeweled electrum ring</string> 
+       </void> 
+       <void property="value"> 
+        <string>2d4x1000gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.random.Possibility"> 
+     <void property="item"> 
+      <object class="burningbox.org.dsh.random.StaticItem"> 
+       <void property="average"> 
+        <string>7000gp</string> 
+       </void> 
+       <void property="count"> 
+        <int>1</int> 
+       </void> 
+       <void property="description"> 
+        <string>Gold and ruby ring; gold cup set with emeralds</string> 
+       </void> 
+       <void property="value"> 
+        <string>2d6x1000gp</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="weight"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Chaos</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Kills, confuses, stuns, or deafens nonchaotic  subjects.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Uttering word of chaos creates two effects:
+
+If you are on your home plane, nonchaotic extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 1 day. This effect takes place regardless of whether the creatures hear the word of chaos.
+
+Creatures native to your plane who hear the word of chaos and are not chaotic suffer the following ill effects:
+
+HD             Effect
+--             ------
+12 or more     Deafened
+Less than 12   Stunned, deafened
+Less than 8    Confused, stunned, deafened
+Less than 4    Killed, confused, stunned, deafened
+
+The effects are cumulative.
+
+Deafened: The creature is struck deaf (see blindness/deafness) for 1d4 rounds.
+
+Stunned: The creature is stunned for 1 round. A stunned creature can't act and loses any Dexterity bonus to AC.  Attackers gain +2 bonuses to attack it.
+
+Confused: The creature is confused, as by the confusion spell, for 1d10 minutes. This is a mind-affecting enchantment.
+
+Killed: Living creatures die. Undead creatures are destroyed.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Word of Chaos</string> 
+  </void> 
+  <void property="range"> 
+   <string>30 ft.</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="type"> 
+   <string>Chaotic, Sonic</string> 
+  </void> 
+ </object> 
+</java> 

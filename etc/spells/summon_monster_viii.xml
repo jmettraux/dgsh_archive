@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Calls outsider to fight for you.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As summon monster I, except you can summon one creature from
+the 8th-level list, 1d3 creatures of the same type from the
+7th-level list, or 1d4+1 creatures of the same type from a
+lower-level list.
+8th Level
+
+    *   Lillend CG
+    *   Formian taskmaster [alone] LN
+    *   Janni (genie) N
+    *   Elemental, greater N
+    *   Barghest, Medium-size LE
+    *   Cornugon (devil) E
+    *   Fiendish squid, giant (animal) LE
+    *   Salamander, Large NE
+    *   Succubus (demon) CE
+
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Summon Monster VIII</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

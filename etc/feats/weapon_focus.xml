@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>The character can choose ``unarmed strike'' or ``grapple'' for the character's weapon for purposes of this feat. The character can choose ``ray,'' in which case the character is especially good with rays.  
+Benefit: The character adds +1 to all attack rolls the character makes using the selected weapon.  Special: The character can gain this feat multiple times. Its effects do not stack. Each time the character takes the feat, it applies to a new weapon.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Weapon Focus</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Proficient with weapon, base attack bonus +1 or higher.</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

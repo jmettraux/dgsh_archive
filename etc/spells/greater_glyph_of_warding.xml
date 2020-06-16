@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As glyph of warding, but up to 10d8 damage or 6th  level spell.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As glyph of warding, except that the blast deals up to 10d8 damage, and the greater glyph can store a harmful spell of up to 6th level.</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Worth at least 400 gp.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Greater Glyph of Warding</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+ </object> 
+</java> 

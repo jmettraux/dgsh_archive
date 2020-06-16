@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As phantasmal killer, but affects all within 30 ft.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As phantasmal killer, except it can affect more than one
+creature. Only the affected creatures see the phantasmal
+creatures attacking them, though you see the attackers as shadowy
+shapes.
+If a subject's Fortitude save succeeds, the subject still
+takes 3d6 points of damage and is stunned for 1 round. The
+subject's Strength score also drops 1d4 points for 10
+minutes. A stunned creature can't act and loses any
+Dexterity bonus to AC. Attackers gain +2 bonuses to attack it.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Weird</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Phantasm</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fear, Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

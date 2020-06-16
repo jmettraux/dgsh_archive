@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- CENTAUR -->
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>8</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>15</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>14</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>13</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>18</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="attackRoutine"> 
+   <string>Greatclub +7 melee (or heavy lance +7 melee), 2 hooves +3 melee; or mighty composite longbow (+4) +5 ranged</string> 
+  </void> 
+  <void property="alignment"> 
+   <string>good</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>15</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>13</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>7</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d10+4</string> 
+     </void> 
+     <void property="description"> 
+      <string>(or heavy lance)</string> 
+     </void> 
+     <void property="name"> 
+      <string>greatclub</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>7</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d8+4</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>heavy lance</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>3</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d6+2</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>2 hooves</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>5</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="attackType"> 
+      <string>110ft</string> 
+     </void> 
+     <void property="damage"> 
+      <string>1d8+4</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>mighty composite bow</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="category"> 
+   <string>large monstrous humanoid</string> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>3.0</float> 
+  </void> 
+  <void property="faceReach"> 
+   <string>5 by 10 / 5</string> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="beneficiaryDefinition"> 
+      <string>hoof</string> 
+     </void> 
+     <void property="featName"> 
+      <string>weapon focus</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>4</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>2</int> 
+  </void> 
+  <void property="name"> 
+   <string>Centaur</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>4d8+8</string> 
+  </void> 
+  <!--
+  <void property="raceName"> 
+   <string>centaur</string> 
+  </void> 
+  -->
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="fortitudeModifier"> 
+     <int>3</int> 
+    </void> 
+    <void property="reflexModifier"> 
+     <int>6</int> 
+    </void> 
+    <void property="willModifier"> 
+     <int>5</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <int>11</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>2</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>hide</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>listen</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>move silently</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spot</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>5</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>wilderness lore</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>50ft</string> 
+  </void> 
+  <void property="treasure"> 
+   <string>Standard</string> 
+  </void> 
+ </object> 
+</java> 

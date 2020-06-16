@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>F</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Subject moves up and down at your direction.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>10 minutes/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Levitate allows you to move yourself, another creature, or an
+object up and down as you wish. A creature must be willing to be
+levitated, and an object must be unattended or possessed by a
+willing creature. You can mentally direct the recipient to move
+up or down as much as 20 feet each round; doing so is a
+move-equivalent action. You cannot move the recipient
+horizontally, but the recipient could clamber along the face of a
+cliff, for example, or push against a ceiling to move laterally
+(generally at half its base speed).
+A levitating creature who attacks with a melee or ranged
+weapon finds itself increasingly unstable; the first attack has
+an attack roll penalty of -1, the second -2, and so on,
+up to a maximum penalty of -5. A full round spent
+stabilizing allows the creature to begin again at -1.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Levitate</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal or close (25 ft.+ 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

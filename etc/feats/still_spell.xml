@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: A still spell can be cast with no somatic components. Spells without somatic components are not affected. A still spell uses up a spell slot one level higher than the spell's actual level.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Still Spell</string> 
+  </void> 
+  <void property="type"> 
+   <string>[Metamagic]</string> 
+  </void> 
+ </object> 
+</java> 

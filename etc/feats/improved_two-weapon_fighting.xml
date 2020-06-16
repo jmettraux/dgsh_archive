@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: In addition to the standard single extra attack the character
+gets with an off-hand weapon, the character gets a second attack with
+the off-hand weapon, albeit at a -5 penalty.
+Normal: Without this feat, the character can only get a single extra
+attack with an off-hand weapon.
+Special: A ranger who meets only the base attack bonus prerequisite
+can gain this feat, but can only use it when wearing light armor or no
+armor.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Improved Two-Weapon Fighting</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Two-Weapon Fighting, Ambidexterity, base attack bonus +9 or higher.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Two-Weapon Fighting</string> 
+    </void> 
+    <void method="add"> 
+     <string>Ambidexterity</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

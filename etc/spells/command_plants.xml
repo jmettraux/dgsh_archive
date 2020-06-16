@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Plant</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Plants animate and vegetation entangles.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 day/level or 1 hour/level (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>Plants, fungi, plant creatures, and fungus creatures do your
+bidding.
+
+Charm: Against plant creatures and fungus creatures, command plants functions as a mass charm spell. You can command a number of plant creatures whose combined level or HD do not exceed three times your level (or at least one creature regardless of HD). No two affected creatures can be more than 30 feet from each other, and each is allowed a Will saving throw to negate the effect.  Spell resistance applies. The effect lasts 1 day per caster level. This is a charm effect.
+
+Animate: The spell imbues trees or other large, inanimate vegetable life with mobility. The animated plants then attack whomever or whatever you first designate. Animated plants gain humanlike senses. The plants' AC, speed, attacks, and special abilities vary with their size and form, as described for animated objects in the Monster Manual. You can animate two trees, four shrubs, or eight vines. All plants to be affected must be within 60 feet of each other. You can animate different types of plants if desired (for example, one tree and four vines or a tree and two shrubs). Creatures who have the plants in their possession can prevent the effect with Will saves or spell resistance. The effect lasts 1 hour per caster level.
+
+Entangle: You imbue all plants within range with semimobility, which allows them to entwine around creatures in the area. This duplicates the effect of an entangle spell. Spell resistance does not keep creatures from being entangled. The effect lasts 1 hour per caster level.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Command Plants</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>See text</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>See text</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Charm</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 

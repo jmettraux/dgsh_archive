@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creates text symbol that immobilizes reader.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Permanent or until discharged; until released or 1d4 days +1 day/level (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+When you cast sepia snake sigil, a small symbol appears in the
+text of one written work such as a book, scroll, or map. When
+this symbol is read, the sepia snake springs into being and
+strikes at the nearest living creature (but does not attack you).
+The target is entitled to a save to evade the snake's
+strike. If it succeeds, the sepia snake dissipates in a flash of
+brown light accompanied by a puff of dun-colored smoke and a loud
+noise. If the target fails its save, it is engulfed in a
+shimmering amber field of force and immobilized until released,
+either at your command or when 1d4 days +1 day per caster level
+have elapsed.
+While trapped in the amber field of force, the subject does
+not age, breathe, grow hungry, sleep, or regain spells. He is
+preserved in a state of suspended animation, unaware of his
+surroundings. He can be damaged by outside forces (and perhaps
+even killed), since the field provides him with no protection
+against physical injury. However, if he is reduced to -1 to
+-9 hit points, he does not lose hit points or stabilize
+until the spell ends.
+The hidden sigil cannot be detected by normal observation, and
+detect magic reveals only that the entire text is magical. A
+dispel magic can remove the sigil. An erase spell destroys the
+entire page of text. Sepia snake sigil can be cast in combination
+with other spells that hide or garble text, such as secret page.
+</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>Worth at least 500 gp.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Sepia Snake Sigil</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

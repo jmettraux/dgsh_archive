@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+<!-- COCKATRICE -->
+ <object class="burningbox.org.dsh.entities.MonsterTemplate"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>2</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>9</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>17</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>13</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>6</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="attackRoutine"> 
+   <string>Bite +4 melee</string> 
+  </void> 
+  <void property="alignment"> 
+   <string>neutral</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>14</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>14</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array class="int" length="1"> 
+       <void index="0"> 
+        <int>4</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d4-2</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>bite</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="category"> 
+   <string>small magical beast</string> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>3.0</float> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>alertness</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>dodge</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>5</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>3</int> 
+  </void> 
+  <void property="name"> 
+   <string>Cockatrice</string> 
+  </void> 
+  <void property="potentialHitPoints"> 
+   <string>5d10</string> 
+  </void> 
+  <!--
+  <void property="raceName"> 
+   <string>cockatrice</string> 
+  </void> 
+  -->
+  <void property="savingThrowSet"> 
+   <object class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="fortitudeModifier"> 
+     <int>4</int> 
+    </void> 
+    <void property="reflexModifier"> 
+     <int>7</int> 
+    </void> 
+    <void property="willModifier"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <int>9</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>7</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>listen</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>7</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spot</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="specials"> 
+   <void method="put"> 
+    <string>petrification</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>A cockatrice can turn beings to stone with a touch. Creatures hit by a cockatrice must succeed at a Fortitude save (DC 15) or instantly turn to stone</string> 
+     </void> 
+     <void property="name"> 
+      <string>petrification</string> 
+     </void> 
+     <void property="type"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>petrification immunity</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="description"> 
+      <string>Cockatrices are immune to the petrifying ability of other cockatrices, but other petrifying attacks affect them normally (a medusas gaze, gorgons breath, a flesh to stone spell, etc.)</string> 
+     </void> 
+     <void property="name"> 
+      <string>petrification immunity</string> 
+     </void> 
+     <void property="type"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>20ft, fly 60ft (poor)</string> 
+  </void> 
+ </object> 
+</java> 

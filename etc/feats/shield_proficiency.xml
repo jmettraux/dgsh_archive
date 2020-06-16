@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character can use a shield and suffer only the standard penalties.
+Normal: A character who is using a shield with which he or she is not proficient suffers the shield's armor check penalty on attack rolls and on all skill rolls that involve moving, including Ride.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Shield Proficiency</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 minute</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>1d4 floating eyes +1/level scout for you.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level (see text)</string> 
+  </void> 
+  <void property="effect"> 
+   <string>Creates 1d4 levitating eyes +1 eye/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You create ten or more semitangible, visible magical orbs
+(called "eyes") that move out, scout around, and return
+as you direct them when casting the spell. When an eye returns,
+it relays what it has seen to you and then disappears. Each eye
+is about the size of a small apple and can see 120 feet (normal
+vision only) in all directions.
+The spell conjures 1d4 eyes plus one eye per caster level.
+While the individual eyes are quite fragile, they're small
+and difficult to spot. Each eye is a Fine construct that has 1
+hit point, has AC 18 (+8 bonus for its size), flies at a speed of
+30 feet with perfect maneuverability, and a +16 skill modifier on
+Hide checks. The eyes are subject to illusions, darkness, fog,
+and any other factors that would affect your ability to receive
+visual information about your surroundings. An eye traveling
+through darkness must find its way by touch.
+When you create the eyes, you specify instructions you want
+the eyes to follow in a command of up to twenty-five words. Any
+knowledge you possess is known by the eyes as well.
+In order to report their findings, the eyes must return to
+your hand. Each replays in your mind everything it has seen
+during its existence. It takes an eye only 1 round to replay 1
+hour of recorded images.
+If an eye ever gets more than one mile distant from you, it
+instantly ceases to exist. However, your link with the eye is
+such that you won't know if the eye was destroyed because it
+wandered out of range or because of some other event.
+The eyes exist for up to 1 hour per caster level or until they
+return to you. After relaying its findings, an eye disappears.
+Dispel magic can destroy eyes. Roll separately for each eye
+caught in an area dispel. Of course, if the eye is sent into
+darkness, then it's very possible that it could hit a wall
+or similar obstacle and destroy itself.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Prying Eyes</string> 
+  </void> 
+  <void property="range"> 
+   <string>One mile</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

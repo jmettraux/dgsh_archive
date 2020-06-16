@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Subject resists level and ability drains.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+The warded creature gains partial protection from undead
+creatures who use negative energy and certain weapons and spells
+that drain energy levels. The negative energy protection spell
+uses positive energy, which can offset the effects of a negative
+energy attack. Each time the warded creature is struck by a
+negative energy attack that drains levels or ability scores, it
+rolls 1d20 + caster level against a DC of 11 + the
+attacker's HD.
+If the warded creature succeeds, the energies cancel with a
+bright flash of light and a thunderclap. The warded creature
+takes only hit point damage from the attack and does not suffer
+any drain of experience levels or ability scores, regardless of
+the number of levels or ability score points the attack would
+have drained. An attacking undead creature takes 2d6 points of
+damage from the positive energy. An attacking caster or weapon
+receives no damage.
+If the warded creature does not succeed, the negative energy
+attack deals its normal damage. An attacking undead creature in
+such a situation does not take any positive energy damage.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Negative Energy Protection</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates (harmless)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless)</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Brings dead subject back in a random body.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Instantaneous</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>With this spell, you bring back a dead creature in another body, provided death occurred no more than 1 week before the casting of the spell and the subject's soul is free and willing to return. If the subject's soul is not willing to return, the spell does not work; therefore, subjects who want to return receive no saving throw. Since the dead creature is returning in a new body, all physical ills and afflictions are repaired. The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand. This process requires 1 hour to complete. When the body is ready, the subject is reincarnated.
+
+A character reincarnated recalls the majority of his former life and form. He retains his Intelligence, Wisdom, and Charisma scores, as well as any class abilities or skills he formerly possessed. His class, base attack bonus, base save bonuses, and hit points are unchanged. Strength, Dexterity, and Constitution scores depend partly on his new body. First eliminate the character's racial adjustments (since he is no longer of his previous race) and then apply the adjustments found below. The character's level is reduced by 1. (If the character was 1st level, his new Constitution score is reduced by 1.) It's quite possible for the change in the character's ability scores to make it difficult for him to pursue his previous character class. If this happens, the character is well advised to become a multiclass character.
+
+The new incarnation is determined on the following table or by DM choice.
+
+d%      Incarnation     Str    Dex    Con
+--      -----------     ---    ---    ---
+01-03   Badger          +4     +8     +4
+04-09   Bear, black     +8     +2     +4
+10-13   Bear, brown     +15    +2     +8
+14-17   Boar            +4      0     +6
+18-25   Centaur         +8     +4     +4
+26-28   Dryad            0     +4      0
+29-32   Eagle            0     +4     +2
+33-42   Elf              0     +2     -2
+43-46   Gnome           -2      0     +2
+47-48   Hawk            -4     +6      0
+49-58   Halfling        -2     +2      0
+59-78   Human            0      0      0
+79-80   Leopard         +6     +8     +4
+81-82   Owl             -4     +6      0
+83-85   Pixie           -4     +8      0
+86-88   Satyr            0     +2     +2
+89-90   Sprite          -4     +6      0
+91-96   Wolf            +2     +4     +4
+97-99   Wolverine      +10     +8     +8
+100     Other            ?      ?      ?   (DM's choice)
+
+Some bodies may make it impossible for the reincarnated character to use some of his class abilities. For example, a caster reincarnated as a hawk can't cast spells with somatic components because he doesn't have hands. The reincarnated character does gain any powers or abilities associated with his new form, including forms of movement and speeds, natural armor, natural attacks, etc. A humanoid reincarnated into an animal body can speak the languages it formerly knew and is a magical beast.
+
+A wish spell can restore a reincarnated character to his original form.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Reincarnate</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None (see text)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes (harmless)</string> 
+  </void> 
+ </object> 
+</java> 

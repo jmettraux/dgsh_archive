@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The penalty the character suffers when using a ranged weapon from horseback is halved: -2 instead of -4 if the character's mount is taking a double move, and -4 instead of -8 if the character's mount is running.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Mounted Archery</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Ride skill, Mounted Combat.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Mounted Combat</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

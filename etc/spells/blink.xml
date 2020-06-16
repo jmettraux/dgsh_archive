@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>You randomly vanish and reappear for 1 round/level.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>The blink effect rapidly cycles you in and out of the ethereal
+plane. Blinking has several effects:
+
+Physical attacks suffer a 50% miss chance, and the Blind-Fight feat doesn't help (since the blinker is ethereal and not merely invisible). If the attack is capable of striking ethereal or incorporeal creatures, the miss chance is only 20% (for one-half concealment). If the attacker can see invisible creatures, the miss chance is also only 20%. If the attacker can both see and strike ethereal creatures, he suffers no penalty. Likewise, your own attacks suffer a 20% miss chance, since you sometimes go ethereal just as you are about to strike.
+
+Individually targeted spells have a 50% chance to fail against you while blinking unless your attacker can target invisible, ethereal creatures. Likewise, your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane.
+
+While blinking, you take only half damage from area attacks (or full damage from those that extend onto the Ethereal Plane).  You strike as an invisible creature (+2 attack), denying your target any Dexterity bonus to AC. You suffer only half damage from falling, since you fall only while you are material.  While blinking, you can step through (but not see through) solid objects. For each 5 feet of solid material you walk through, there's a 50% chance that you become material, with regrettable consequences (see below). You can move only at three-quarters speed: Movement on the Ethereal Plane is at half speed, and you spend about half your time there and half your time material.  Since you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures. You interact with ethereal creatures roughly the same way you interact with material ones. For instance, your spells against ethereal creatures are 20% likely to activate just as you go material and be lost. 
+
+An ethereal creature who becomes material while in a material object is shunted off to the nearest open space and takes 1d6 points of damage per 5 feet so traveled.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Blink</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+ </object> 
+</java> 

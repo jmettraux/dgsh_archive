@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character is considered to be armed even when unarmed-that is, armed opponents do not get attacks of opportunity when the character attacks them while unarmed. However, the character still gets an opportunity attack against any opponent who makes an unarmed attack on the character.
+Special: A monk fighting unarmed automatically gains the benefit of this feat.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Improved Unarmed Strike</string> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

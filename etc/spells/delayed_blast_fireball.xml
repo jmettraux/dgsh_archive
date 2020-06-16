@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>1d8 fire damage/level; you can delay blast for 5 rounds.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Up to 5 rounds (see text)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As fireball, except this spell is more powerful and can detonate up to 5 rounds after the spell is cast. The burst of flame detonates with a low roar and delivers 1d8 points of fire damage per caster level.
+The glowing bead created by the spell can detonate immediately if you desire, or you can choose to delay the burst for up to 5 rounds. You choose the amount of delay upon completing the spell, and the delay cannot change once it has been set (unless someone touches the bead; see below). If you choose a delay, the glowing bead sits at its destination until it detonates. A creature can pick up and hurl the bead as a thrown weapon (range increment 10 feet). If a creature handles and moves the bead within 1 round of its detonation, there is a 25% chance that the bead detonates while the creature is handling it.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Delayed Blast Fireball</string> 
+  </void> 
+  <void property="school"> 
+   <string>Evocation</string> 
+  </void> 
+  <void property="type"> 
+   <string>Fire</string> 
+  </void> 
+ </object> 
+</java> 

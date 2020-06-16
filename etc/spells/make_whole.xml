@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>clr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Repairs an object.</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As mending, except make whole completely repairs an object
+made of any substance, even one with multiple breaks, to be as
+strong as new. The spell does not restore the magical abilities
+of a broken magic item made whole, and it cannot mend broken
+magic rods, staffs, or wands. The spell does not repair items
+that have been warped, burned, disintegrated, ground to powder,
+melted, or vaporized.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Make Whole</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+ </object> 
+</java> 

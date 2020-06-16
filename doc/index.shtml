@@ -1,0 +1,261 @@
+<html>
+  <head>
+    <title>dgsh</title>
+    <link rel=stylesheet type="text/css" href=style.css title="">
+  </head>
+<body bgcolor=white>
+<table border=0 width=100% cellspacing=5 cellpadding=5>
+
+<!-- MAIN TITLE -->
+
+  <tr>
+    <td colspan=2 align=center>
+<!--#include virtual="logo.shtml" -->
+<small>$Id: index.shtml,v 1.6 2002/09/08 08:18:14 jmettraux Exp $</small>
+    </td>
+  </tr>
+
+  <tr>
+
+<!-- MENU -->
+
+<!--#include virtual="menu.shtml" -->
+
+<!-- TOPICS -->
+
+    <td>
+<p>Dgsh is for Dungeon Masters</p>
+<p>The DunGeon SHell is a shell-like interface for tracking a party of d20 characters and their opponents.</p>
+<p>I wrote dgsh because I was tired as a DM of rolling initiative for 5, 6 more goblins and tracking who's the next to play. The rest of the features came naturally.</p>
+<p>Dgsh hasn't any fancy graphical user interface because I wanted to concentrate on fonctionality. If your machine can run Java 1.4.0, even if it's an old machine, you can run dgsh... A good choice would be an old Pentium laptop, with linux and no X server running,...</p>
+<p>Dgsh is not a character generator. But it will soon be able to parse <a href=http://d20statblock.org>standard stat blocks</a> to turn them into its own (XML) format. If you're looking for a character generator, <a href=http://pcgen.sf.net>PCGEN</a> might be the best choice.</p>
+
+<h3>Warning</h3>
+<p>dgsh is a shell, it has no user-friendly interface, you must type commands, there is nothing to click.<br>
+It concentrates on <a href=#features>functionality</a> and tries not to drag you away from your real DM tasks.</p>
+
+<h3> !! FEEDBACK !! </h3>
+<p>Don't be shy or too polite, tell me what you think of dgsh and what you await from such a soft.</p>
+<p>My mail address is jmettraux @ burningbox.org, but the best thing would be to send your mail to the <a href=#mailing>users mailing list</a>.</p>
+<p>Thanks in advance !</p>
+
+<h3><a name=new>New :</a></h3>
+
+<p>Game time is now tracked ! At the end of each combat, time elapsed is added to the game clock. With commands like 'clock add 3h' you can add durations to the game clock.<br>
+It should be easier now to respond to the player classical question : "What time is it now ?"</p>
+
+<p>There is now a <a href=dgsh-sample-session.txt>sample session</a> you can browse.<br>
+It displays how dgsh is used. You can also browse the generated <a href=dungeon.log>log file</a>.</p>
+
+<p>Added 'charge', 'fidef' and 'todef' commands.<br>
+They implement respectively 'charge', 'fighting defensively' and 'total defense'. They can only get used during combat and tags the creature whose has the turn as 'charging', or 'fighting defensively'...<br>
+The modifiers are set on the creature</p>
+
+<p>Added a 'treasure' command for generating random treasure. For the moment, only the 1st level SRD treasure table is implemented.<br>
+The other tables will follow as well as well as a mechanism for rolling on your scenario encounter tables.</p>
+
+<!-- FEATURES -->
+
+<br><h2><a name=features>Features</a></h2>
+
+<p>Dgsh doesn't abolish scenario study and session preparation. It is designed to help you during the game session.</p>
+
+<ul>
+    <li>hit points and subdual damage tracking</li>
+    <li>initiative roll and tracking</li>
+    <li>temporary ability loss</li>
+    <li>experience computing</li>
+    <li>AC automatic determination</li>
+    <li>attacks of opportunity tracking (even with 'Combat Reflexes')</li>
+    <li>load computing (with application of modifiers and penalties)</li>
+    <li>sessions get logged into a file you can directly browse</li>
+    <li>effects that spans multiple rounds</li>
+    <li>scriptable in j[p]ython (custom commands, spell triggers, effects...)</li>
+    <li>skills (ranks, modifiers, total, ...)</li>
+    <li>feats (and their impact on weapons' attack modifiers)</li>
+    <li>a growing catalog of monsters with their special attacks and abilities</li>
+    <li>spellbooks, spell preparation and spell slots count</li>
+    <li>domain spells for clerics</li>
+    <li>SRD documents browsing</li>
+    <li>scenario documents browsing</li>
+    <li>data is stored in XML (java 1.4.x Object XML Encoding)</li>
+    <li>XML random treasure tables and random encounters table (soon)</li>
+    <li>tracking of 'charge', 'fighting defensively' and 'total defense'</li>
+    <li>game time tracking through the clock command. At the end of each combat, the time elapsed is added to the game clock.</li>
+    <li><i>raptor</i> tool for parsing <a href=http://d20statblock.org>standard stat blocks</a></li>
+</ul>
+
+<!-- INSTALLING DGSH -->
+
+<br><h2><a name=installing>Installing dgsh</a></h2>
+
+<p>Requirements :<br>
+you need at least a 1.4.0 Java Virtual Machine. You don't need any fancy monitor, dgsh is a plain ASCII shell.</p>
+
+<p><a href="http://sourceforge.net/project/showfiles.php?group_id=56085">Download</a> the zip file of the latest binary release and then unpack it in any of your directory.</p>
+
+<br><h2><a name=running>Running dgsh</a></h2>
+
+<p>Into the unpacked <tt>dgsh/</tt> dir type <tt>./dgsh.sh</tt> and start using dgsh. Make sure your JAVA_HOME is set, either in the env, either directly in dgsh.sh</p>
+<p>On windows, get into the dgsh directory and type <tt>dgsh</tt></p>
+
+<img src=images/d_shana.png align=right border=0>
+<br><h2><a name=tracking>Tracking your party</a></h2>
+
+<p>At first, you've got to load your party into the game session. Type <tt>load p.xml party</tt> to load a sample party. Then use <tt>display shana</tt> to show who and what Shana is.</p>
+
+<p>Dgsh knows 2 states : normal or fight. You enter normal mode when you start the shell. You enter the fight mode with the <tt>fight</tt> command and then leave it with <tt>relax</tt>.</p>
+
+<p>After you've typed relax, dgsh will tell you how many XP your party should earn for this encounter, but after, it's up to you as the DM to award them to the PCs and this can be done with the <tt>xp</tt> command.</p>
+
+<br><h2><a name=fight>Some fight</a></h2>
+
+<p>Make sure your party is loaded (if you haven't any, take mine by typing <tt>load p.xml p</tt>).</p>
+
+<p>Type <tt>fight</tt> to enter combat mode (it enables the opponents set).</p>
+
+<p>Then <tt>load monsters.xml</tt> and <tt>inst goblin 10 gob</tt> to instantiate 10 goblins named gob1 to gob10.<br>
+You can display your freshly generated little monsters with the <tt>opp</tt> command.</p>
+
+<p>Type <tt>init</tt> to automatically roll initiative for the goblins. Dgsh will then ask you the result of yours PC rolls (My player love to add themselves their initiative modifiers, so dgsh doesn't add this modifier to the result you type).</p>
+
+<p><tt>next</tt> will tell you 'in detail' who's the next to play.</p>
+
+<p>When the fight is over, it's time to <tt>relax</tt>.</p>
+
+<!-- JYTHON TRIGGERS -->
+
+<br><h2><a name=jtriggers>Scripted triggers</a></h2>
+
+<p>Triggers are pieces of code called at given times.</p>
+<p>A good example of trigger is the <a href=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dgsh/dgsh/etc/scripts/>regeneration</a> trigger, which allows creatures like trolls to regenerate.</p>
+<p>The barbarian rage script also contains a trigger which applies at the end of the rage and inits the barbarian's depression.</p>
+
+<p>Spells have a trigger : some code that is called when they are cast. I haven't much worked on implementing a trigger for each spell that diserves it, but I might do it one day or the other. For the moment, only 'Magic Missile' has a trigger, but a dummy demo one.</p>
+
+<p>If you are interested in writing spell triggers, study the barbarian rage script... And don't hesitate to <a href=index.shtml#contact>contact me</a></p>
+
+<p><i>The regeneration script doesn't strictly match the rules for regeneration for the moment. It is sufficient though.<br>
+I'm thinking about having a different system of hit points, and this future system will include 'subdual' damages for regenerating creatures.</i></p>
+
+<!-- JAVADOC -->
+
+<br><h2><a name=javadoc>JavaDoc</a></h2>
+
+<p>It's rather terse now, but it could improve. Anyway, you can <a href=index.shtml#api/index.html>take a look at it</a>.</p>
+
+<!-- DATA FILES -->
+
+<br><h2><a name=data>The data files of dgsh</a></h2>
+
+<p>Dgsh uses XML and Java 1.4.x XML bean externalization.</p>
+
+<p>you can <a href=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dgsh/dgsh/etc/>have a look at the data files</a>.</p>
+
+<p>Classes and races are the dnd standards, the Monk class has not been included : there is no monk in my campaign so. Also not included are prestige classes, I haven't thought about it, but they should match the current data model for character classes.</p>
+
+<p>If you want to add your own data files (do it !), add them somewhere and then modify etc/dsh-config.xml to add an entry that should read like : </p>
+<pre>
+    &lt;void method="add"&gt;
+     &lt;string&gt;c:/dnd/campaign/dgsh/my_campaign_races.xml&lt;/string&gt;
+    &lt;/void&gt;
+</pre>
+<p>under the 'dataFileNames' property of the file. Note that the my_campaign_races.xml file is referred with its absolute path in this example : relative paths are also allowed (They are relative to the working directory from which you launched dgsh).</p>
+
+<!-- MAILING LISTS -->
+
+<br><h2><a name=mailing>Mailing lists</a></h2>
+<p><ul>
+    <li><a href=http://lists.sourceforge.net/lists/listinfo/dgsh-users>subscribe</a> to the dgsh mailing list</li>
+    <li><a href=http://www.geocrawler.com/lists/3/SourceForge/23444/0/>browse</a> the list archive (there is nothing right now, we're waiting for your feedback)</li>
+</ul></p>
+
+<!-- MISSING FEATURES -->
+
+<br><h2><a name=missing>Missing features</a></h2>
+<p>I will implement these features sooner or later :
+<ul>
+<li><i>spells management</i> ... DONE</li>
+<li><i>session logging then browsing</i> ... DONE</li>
+<li><i>special abilities for monsters</i> ... DONE</li>
+<li><i>temporary ability loss (poison tracking)</i> ... DONE with the ab command and the Effects</li>
+<li><i>time tracking during session and especially combat sessions</i> ... DONE</li>
+<li><i>bodycount</i> ... DONE</li>
+<li><i>XP count</i> ... DONE</li>
+<li><i>automatic treasure generation</i> ... almost DONE</li>
+<li>more equipment</li>
+<li>a variable system (player1 could be $p1)</li>
+<li>a bit of <a href=http://www.junit.org>junit</a> testing (or pyunit...)</li>
+<li>PCGEN characters conversion to dgsh (should wait for their new XML format)</li>
+<li>As soon as the VP/WP (vitality/wounds) system hits the SRD, I will implement it.</li>
+</ul>
+</p>
+
+<p>Some ideas in my head (why_nots) :
+<ul>
+<li><i>using embedded <a href=http://jython.org>jython</a> for spells and effects</i> ... DONE</li>
+<li><i>using jython scripts to easily generate party.xml files</i> ... DONE</li>
+<li>having ASCII art for each PC or monster, or at least a skull displayed when a PC dies...</li>
+</ul>
+</p>
+
+<p>Ideas you won't find anywhere in my head (nots) :
+<ul>
+<li>implementing a GUI (graphical user interface) for dgsh (though it could easily get done with jython) ... (But if somebody insists on developing it...)</li>
+<li>implementing a .NET UI for dgsh    ;-)</li>
+</ul>
+</p>
+
+<!-- SOME LINKS -->
+
+<br><h2><a name=links>Some links</a></h2>
+
+<p>Links to tools close to dgsh :</p>
+<p>
+<ul>
+  <li><a href=http://www.enworld.org/roleplayingmaster/>RolePlayingMaster</a> is a complete Windows-only program for managing your party and its opponents. Far more advanced than dgsh.</li>
+  <li><a href=http://pcgen.sf.net>PCGen</a> is a great character generator written in Java. Also hosted on sf.net</li>
+  <li><a href=http://www.paladinpgm.com/dmf/>DM Familiar</a> is a Windows software package to help the DM prepare for and run his game</li>
+  <li><a href=http://www.d20reviews.com/generators/>Jamis Buck's generators</a> for generating NPCs, towns, dungeons or treasures online.</li>
+</ul>
+</p>
+
+<!-- CONTACT -->
+
+<br><h2><a name=contact>Contact</a></h2>
+
+<p>You are welcome to use the <a href=http://sf.net/projects/dgsh>SourceForge facilities</a> for requesting features, support or patches.<br>
+You can also contact me directly at <a href="mailto:jmettraux@ burningbox.org">jmettraux@ burningbox.org</a></p>
+
+<!-- CREDITS -->
+
+<br><h2><a name=credits>Credits</a></h2>
+
+<p><a href=http://www.wizards.com/D20>D20</a> and <a href=http://www.wizards.com/dnd/>Dungeons and Dragons</a> are registered trademarks of <a href=http://wizard.com/>Wizards of the Coast</a>.</p>
+
+<p><a href=http://java.sun.com>Java</a> is a registered trademark of <a href=http://sun.com>Sun Microsystems</a>.</p>
+
+<!-- DOWNLOAD -->
+
+<br><h2><a name=download>Download</a></h2>
+
+<p>Make sure to download the latest release (the highest on the page). You can download dgsh either packed as a zipfile or a tar.gz archive.<br>
+<font size=4><a href=http://sourceforge.net/project/showfiles.php?group_id=56085>Download!</a></font></p>
+
+<p>Remember that dgsh requires a Java Virtual Machine, which you can download at <a href=http://java.sun.com/j2se/1.4/download.html>http://java.sun.com/j2se/1.4/download.html</a>. A Java Runtime Environment (JRE) should suffice.</p>
+
+    </td>
+  </tr>
+</table>
+<br>
+<p align=center><small>$Id: index.shtml,v 1.6 2002/09/08 08:18:14 jmettraux Exp $</small><br>
+<br>
+<table>
+<tr>
+<td width=50%>hosted on <A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=56085&amp;type=4" border="0" alt="SourceForge Logo"></A></td>
+<td width=50%>and <a href=http://www.vim.org><img src=images/vim.png border=0></a></td>
+</p>
+</tr>
+</table>
+</body>
+</html>

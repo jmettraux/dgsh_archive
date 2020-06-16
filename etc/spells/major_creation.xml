@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>adp</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>As minor creation, plus stone and metal.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>See text</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>As minor creation, except you can also create an object of mineral nature: stone, crystal, metal, etc. The duration of the created item varies with its relative hardness and rarity:
+
+Hardness and
+Rarity Examples                Duration
+---------------                --------
+Vegetable matter               2 hours/level
+Stone, crystal, base metals    1 hour/level
+Precious metals                20 minutes/level
+Gems                           10 minutes/level
+Mithral*                       2 rounds/level
+Adamantite**                   1 round/level
+
+*Includes similar rare metals. Items made of mithral are 50% lighter than similar items made of steel.
+
+**Items made of adamantite weigh 75% as much as similar items made of steel. They are also harder and better capable of retaining an edge, so armor and shields provide 1 higher AC and weapons allow +1 on attack and damage rolls (although the items are not magical).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Major Creation</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

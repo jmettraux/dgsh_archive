@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>7</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Step into shadow to travel rapidly.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+To use the shadow walk spell, you must be in an area of heavy
+shadows. You and any creature you touch are then transported
+along a coiling path of shadowstuff to the edge of the Material
+Plane where it borders the Plane of Shadow. The effect is largely
+illusory, but the path is quasi-real. You can take more than one
+creature along with you (subject to your level limit), but all
+must be touching each other.
+In the region of shadow, you can move at a rate of up to seven
+miles every 10 minutes, moving normally on the borders of the
+Plane of Shadow but much more rapidly relative to the Material
+Plane. Thus, a character can use this spell to travel rapidly by
+stepping onto the Plane of Shadow, moving the desired distance,
+and then stepping back onto the Material Plane. You know where
+you will come out on the Material Plane.
+Shadow walk can also be used to travel to other planes that
+border on the Plane of Shadow, but this requires the potentially
+perilous transit of the Plane of Shadow to arrive at a border
+with another plane of reality. The transit of the Plane of Shadow
+requires 1d4 hours.
+Any creatures touched by you when shadow walk is cast also
+make the transition to the borders of the Plane of Shadow. They
+may opt to follow you, wander off through the plane, or stumble
+back into the Material Plane (50% chance for either of the latter
+results if they are lost or abandoned by you). Creatures
+unwilling to accompany you into the Plane of Shadow receive a
+Will saving throw, negating the effect if successful.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Shadow Walk</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will negates</string> 
+  </void> 
+  <void property="school"> 
+   <string>Illusion</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Shadow</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Air</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>3</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Subject becomes insubstantial and can fly slowly.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>2 minutes/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>The subject and all her gear become insubstantial, misty, and translucent. The subject gains damage reduction 20/+1. Her material armor (including natural armor) becomes worthless, though her size, Dexterity, deflection bonuses, and armor bonuses from force armor (for example, from the mage armor spell) still apply. She becomes immune to poison and critical hits. She can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. (Note that this does not rule out certain spells that the subject may have prepared using the metamagic feats Silent Spell and Still Spell.) As with polymorph other, the subject loses supernatural abilities while in gaseous form. If she has a touch spell ready to use, it is discharged harmlessly when the spell takes effect.
+
+The gaseous creature can't run but she can fly (speed 10, maneuverability perfect). She can pass through small holes or narrow openings, even mere cracks, with all she was wearing or holding in her hands, as long as the spell persists. She is subject to wind. She can't enter water or other liquid.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Gaseous Form</string> 
+  </void> 
+  <void property="range"> 
+   <string>Touch</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+ </object> 
+</java> 

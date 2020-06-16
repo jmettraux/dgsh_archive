@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: The character does not suffer an attack of opportunity when the character attempts to disarm an opponent, nor does the opponent have a chance to disarm.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Improved Disarm</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Int 13+, Expertise.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Expertise</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

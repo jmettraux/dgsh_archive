@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Calls creature to fight for you.</string> 
+  </void> 
+  <void property="effect"> 
+   <string>One or more creatures, no two of which can be more than 30 ft. apart</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+As summon nature's ally I, except that you can summon one
+5th-level creature, 1d3 4th-level creatures of the same type, or
+1d4+1 lower level creatures of the same type.
+When you use a summoning spell to summon an air, chaotic,
+earth, evil, fire, good, lawful, or water creature, it is a spell
+of that type.
+5th Level
+
+    *   Arrowhawk, Medium-size 
+    *   Bear, brown (animal)
+    *   Dire boar
+    *   Dire lion
+    *   Dire wolverine
+    *   Elemental, Medium-size 
+    *   Giant crocodile (animal)
+    *   Rhinoceros (animal)
+    *   Salamander, Medium-size [neutral evil]
+    *   Satyr [with pipes]
+    *   Shark, Large (animal)
+    *   Snake, giant constrictor (animal)
+    *   Tiger (animal)
+    *   Tojanida, Medium-size
+    *   Viper, Huge (animal)
+    *   Whale, orca (animal)
+
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Summon Nature's Ally V</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Summoning</string> 
+  </void> 
+  <void property="type"> 
+   <string>see text</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.equipment.MeleeOrRangedWeapon"> 
+  <void property="categoryDefinition"> 
+   <string>club</string> 
+  </void> 
+  <void property="damages"> 
+   <string>1d6</string> 
+  </void> 
+  <void property="description"> 
+   <string>club</string> 
+  </void> 
+  <void property="name"> 
+   <string>club</string> 
+  </void> 
+  <void property="proficiencyType"> 
+   <string>simple weapon proficiency</string> 
+  </void> 
+  <void property="rangeIncrement"> 
+   <int>10</int> 
+  </void> 
+  <void property="value"> 
+   <string>0 gp</string> 
+  </void> 
+  <void property="weight"> 
+   <float>3.0</float> 
+  </void> 
+ </object> 
+</java> 

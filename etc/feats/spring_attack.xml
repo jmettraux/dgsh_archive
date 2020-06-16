@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>higher.
+Benefit: When using the attack action with a melee weapon, the
+character can move both before and after the attack, provided that the
+character's total distance moved is not greater than the character's
+speed. Moving in this way does not provoke an attack of opportunity
+from the defender the character attacks. The character can't use this
+feat if the character is in heavy armor.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Spring Attack</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Dex 13+, Dodge, Mobility, base attack bonus +4 or</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Dodge</string> 
+    </void> 
+    <void method="add"> 
+     <string>Mobility</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

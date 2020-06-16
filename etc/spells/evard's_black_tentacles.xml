@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>1d4 +1/level tentacles grapple randomly within 15 ft.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level</string> 
+  </void> 
+  <void property="effect"> 
+   <string>1d4 tentacles + one tentacle/level, all within 15 ft. of a central point</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>This spell conjures many rubbery black tentacles. These waving members seem to spring forth from the earth, floor, or whatever surface is underfoot---including water. There are 1d4 such tentacles, plus one per caster level, appearing randomly scattered about the area. Each tentacle is 10 feet long (Large) and saves as you do. It has AC 16, 1 hit point/per caster level, an attack bonus of +1/per caster level, and a Strength score of 19 (+4 bonus). It is immune to spells that don't cause damage (other than disintegrate).
+Each round that a tentacle is not already grappling someone or something, starting the round after it appears, it makes a grapple attack at a random creature or object within 10 feet of it. These attacks take place on your turn. The tentacles do not attack each other, nor do they attack objects that are smaller than a Medium-size creature. The attacks are like regular grappling attacks, except that they don't provoke attacks of opportunity from opponents. Also, they cause 1d6 points of normal damage (+4 for Strength), not subdual damage. A tentacle maintains its grapple even after its subject is dying or dead.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Evard's Black Tentacles</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>None</string> 
+  </void> 
+  <void property="school"> 
+   <string>Conjuration</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>No</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Creation</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>6</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>You gain combat bonuses.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 round/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+You can't cast spells, even from magic items.
+You gain 1d6 temporary hit points per caster level, a +4
+natural armor bonus to AC, a +2d4 Strength enhancement bonus, a
++2d4 Dexterity enhancement bonus, a +1 base attack bonus per two
+caster levels (which may give you an extra attack), a +5
+competence bonus on Fortitude saves, and proficiency with all
+simple and martial weapons. You attack opponents with melee or
+ranged weapons if you can, even resorting to unarmed attacks if
+that's all you can do.
+</string> 
+  </void> 
+  <void property="materialComponents"> 
+   <string>A potion of Strength, which you drink (and
+whose effects are subsumed by the spell effects).</string> 
+  </void> 
+  <void property="name"> 
+   <string>Tenser's Transformation</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+ </object> 
+</java> 

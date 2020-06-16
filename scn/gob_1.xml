@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Monster"> 
+  <void property="abilities"> 
+   <object id="Abilities0" class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>10</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>8</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>13</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>8</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="alignment"> 
+   <string>evil</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>15</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>12</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array id="intArray0" class="int" length="1"> 
+       <void index="0"> 
+        <int>1</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="damage"> 
+      <string>1d8-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>lightmace</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <array id="intArray1" class="int" length="1"> 
+       <void index="0"> 
+        <int>3</int> 
+       </void> 
+      </array> 
+     </void> 
+     <void property="attackType"> 
+      <string>ranged</string> 
+     </void> 
+     <void property="damage"> 
+      <string>1d6-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>javelin</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>0.34</float> 
+  </void> 
+  <void property="currentHitPoints"> 
+   <int>6</int> 
+  </void> 
+  <void id="ArrayList0" property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>alertness</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="hitPoints"> 
+   <int>6</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>1</int> 
+  </void> 
+  <void property="name"> 
+   <string>Tcha'kitik</string> 
+  </void> 
+  <void property="raceName"> 
+   <string>Goblin</string> 
+  </void> 
+  <void property="savingThrowSet"> 
+   <object id="SavingThrowSet0" class="burningbox.org.dsh.entities.SavingThrowSet"> 
+    <void property="fortitudeModifier"> 
+     <int>2</int> 
+    </void> 
+    <void property="reflexModifier"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="size"> 
+   <object id="Size0" class="burningbox.org.dsh.entities.Size"> 
+    <void property="size"> 
+     <int>9</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void id="ArrayList1" property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>6</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>hide</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>3</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>listen</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>4</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>move silently</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.MonsterSkill"> 
+     <void property="modifier"> 
+      <int>3</int> 
+     </void> 
+     <void property="skillName"> 
+      <string>spot</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>30ft - 10m - 6sq</string> 
+  </void> 
+ </object> 
+ <object class="burningbox.org.dsh.entities.Character"> 
+  <void property="abilities"> 
+   <object class="burningbox.org.dsh.entities.Abilities"> 
+    <void property="abilities"> 
+     <void method="put"> 
+      <string>intelligence</string> 
+      <int>7</int> 
+     </void> 
+     <void method="put"> 
+      <string>constitution</string> 
+      <int>14</int> 
+     </void> 
+     <void method="put"> 
+      <string>dexterity</string> 
+      <int>13</int> 
+     </void> 
+     <void method="put"> 
+      <string>charisma</string> 
+      <int>11</int> 
+     </void> 
+     <void method="put"> 
+      <string>strength</string> 
+      <int>19</int> 
+     </void> 
+     <void method="put"> 
+      <string>wisdom</string> 
+      <int>9</int> 
+     </void> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="alignment"> 
+   <string>chaotic evil</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>ftr</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>2</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="currentHitPoints"> 
+   <int>21</int> 
+  </void> 
+  <void property="equipment"> 
+   <void property="heldEquipment"> 
+    <void property="equipmentList"> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.MeleeWeapon"> 
+       <void property="categoryDefinition"> 
+        <string>morningstar</string> 
+       </void> 
+       <void property="damages"> 
+        <string>1d8</string> 
+       </void> 
+       <void property="description"> 
+        <string>morningstar</string> 
+       </void> 
+       <void property="name"> 
+        <string>mstar</string> 
+       </void> 
+       <void property="profiencyType"> 
+        <string>simple weapon profiency</string> 
+       </void> 
+       <void property="value"> 
+        <string>8 gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>8.0</float> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+   </void> 
+   <void property="wornEquipment"> 
+    <void property="equipmentList"> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.Armor"> 
+       <void property="armorClassBonus"> 
+        <int>2</int> 
+       </void> 
+       <void property="armorType"> 
+        <string>light</string> 
+       </void> 
+       <void property="categoryDefinition"> 
+        <string></string> 
+       </void> 
+       <void property="description"> 
+        <string>leather armor</string> 
+       </void> 
+       <void property="maxDexModifier"> 
+        <int>6</int> 
+       </void> 
+       <void property="name"> 
+        <string>larm</string> 
+       </void> 
+       <void property="spellFailurePercent"> 
+        <int>10</int> 
+       </void> 
+       <void property="value"> 
+        <string>10gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>15.0</float> 
+       </void> 
+      </object> 
+     </void> 
+     <void method="add"> 
+      <object class="burningbox.org.dsh.entities.equipment.Armor"> 
+       <void property="armorClassBonus"> 
+        <int>2</int> 
+       </void> 
+       <void property="armorPenalty"> 
+        <int>-2</int> 
+       </void> 
+       <void property="armorType"> 
+        <string>shield</string> 
+       </void> 
+       <void property="categoryDefinition"> 
+        <string>shield</string> 
+       </void> 
+       <void property="description"> 
+        <string>large wooden shield</string> 
+       </void> 
+       <void property="maxDexModifier"> 
+        <int>10</int> 
+       </void> 
+       <void property="name"> 
+        <string>lwdshield</string> 
+       </void> 
+       <void property="value"> 
+        <string>7gp</string> 
+       </void> 
+       <void property="weight"> 
+        <float>10.0</float> 
+       </void> 
+      </object> 
+     </void> 
+    </void> 
+   </void> 
+  </void> 
+  <void property="experiencePoints"> 
+   <int>1000</int> 
+  </void> 
+  <void property="feats"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>alertness</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>simple weapon profiency</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>armor profiency (light)</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.FeatInstance"> 
+     <void property="featName"> 
+      <string>armor profiency (medium)</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="hitDice"> 
+   <int>2</int> 
+  </void> 
+  <void property="hitPoints"> 
+   <int>21</int> 
+  </void> 
+  <void property="miscModifiers"> 
+   <null/> 
+  </void> 
+  <void property="name"> 
+   <string>Mathss (leader)</string> 
+  </void> 
+  <void property="player"> 
+   <string></string> 
+  </void> 
+  <void property="raceName"> 
+   <string>half-orc</string> 
+  </void> 
+  <void property="size"> 
+   <object class="burningbox.org.dsh.entities.Size"/> 
+  </void> 
+  <void property="skills"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.CharacterSkill"> 
+     <void property="skillName"> 
+      <string>search</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="speeds"> 
+   <string>30ft</string> 
+  </void> 
+ </object> 
+ <object class="burningbox.org.dsh.entities.Monster"> 
+  <void property="abilities"> 
+   <object idref="Abilities0"/> 
+  </void> 
+  <void property="alignment"> 
+   <string>evil</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>15</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>12</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <object idref="intArray0"/> 
+     </void> 
+     <void property="damage"> 
+      <string>1d8-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>lightmace</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <object idref="intArray1"/> 
+     </void> 
+     <void property="attackType"> 
+      <string>ranged</string> 
+     </void> 
+     <void property="damage"> 
+      <string>1d6-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>javelin</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>0.34</float> 
+  </void> 
+  <void property="currentHitPoints"> 
+   <int>8</int> 
+  </void> 
+  <void property="feats"> 
+   <object idref="ArrayList0"/> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="hitPoints"> 
+   <int>8</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>1</int> 
+  </void> 
+  <void property="name"> 
+   <string>Konk</string> 
+  </void> 
+  <void property="raceName"> 
+   <string>Goblin</string> 
+  </void> 
+  <void property="savingThrowSet"> 
+   <object idref="SavingThrowSet0"/> 
+  </void> 
+  <void property="size"> 
+   <object idref="Size0"/> 
+  </void> 
+  <void property="skills"> 
+   <object idref="ArrayList1"/> 
+  </void> 
+  <void property="speeds"> 
+   <string>30ft - 10m - 6sq</string> 
+  </void> 
+ </object> 
+ <object class="burningbox.org.dsh.entities.Monster"> 
+  <void property="abilities"> 
+   <object idref="Abilities0"/> 
+  </void> 
+  <void property="alignment"> 
+   <string>evil</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>15</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>12</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <object idref="intArray0"/> 
+     </void> 
+     <void property="damage"> 
+      <string>1d8-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>lightmace</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <object idref="intArray1"/> 
+     </void> 
+     <void property="attackType"> 
+      <string>ranged</string> 
+     </void> 
+     <void property="damage"> 
+      <string>1d6-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>javelin</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>0.34</float> 
+  </void> 
+  <void property="currentHitPoints"> 
+   <int>3</int> 
+  </void> 
+  <void property="feats"> 
+   <object idref="ArrayList0"/> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="hitPoints"> 
+   <int>3</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>1</int> 
+  </void> 
+  <void property="name"> 
+   <string>Mefestak</string> 
+  </void> 
+  <void property="raceName"> 
+   <string>Goblin</string> 
+  </void> 
+  <void property="savingThrowSet"> 
+   <object idref="SavingThrowSet0"/> 
+  </void> 
+  <void property="size"> 
+   <object idref="Size0"/> 
+  </void> 
+  <void property="skills"> 
+   <object idref="ArrayList1"/> 
+  </void> 
+  <void property="speeds"> 
+   <string>30ft - 10m - 6sq</string> 
+  </void> 
+ </object> 
+ <object class="burningbox.org.dsh.entities.Monster"> 
+  <void property="abilities"> 
+   <object idref="Abilities0"/> 
+  </void> 
+  <void property="alignment"> 
+   <string>evil</string> 
+  </void> 
+  <void property="armorClass"> 
+   <int>15</int> 
+  </void> 
+  <void property="armorClassVsTouchAttack"> 
+   <int>12</int> 
+  </void> 
+  <void property="attacks"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <object idref="intArray0"/> 
+     </void> 
+     <void property="damage"> 
+      <string>1d8-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>lightmace</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.Attack"> 
+     <void property="attackModifier"> 
+      <object idref="intArray1"/> 
+     </void> 
+     <void property="attackType"> 
+      <string>ranged</string> 
+     </void> 
+     <void property="damage"> 
+      <string>1d6-1</string> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="name"> 
+      <string>javelin</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="challengeRating"> 
+   <float>0.34</float> 
+  </void> 
+  <void property="currentHitPoints"> 
+   <int>3</int> 
+  </void> 
+  <void property="feats"> 
+   <object idref="ArrayList0"/> 
+  </void> 
+  <void property="hitDice"> 
+   <int>1</int> 
+  </void> 
+  <void property="hitPoints"> 
+   <int>3</int> 
+  </void> 
+  <void property="initModifier"> 
+   <int>1</int> 
+  </void> 
+  <void property="name"> 
+   <string>Murdek</string> 
+  </void> 
+  <void property="raceName"> 
+   <string>Goblin</string> 
+  </void> 
+  <void property="savingThrowSet"> 
+   <object idref="SavingThrowSet0"/> 
+  </void> 
+  <void property="size"> 
+   <object idref="Size0"/> 
+  </void> 
+  <void property="skills"> 
+   <object idref="ArrayList1"/> 
+  </void> 
+  <void property="speeds"> 
+   <string>30ft - 10m - 6sq</string> 
+  </void> 
+ </object> 
+</java> 

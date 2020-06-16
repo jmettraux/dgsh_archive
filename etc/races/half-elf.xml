@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+
+<!-- HALF-ELF -->
+ <object class="burningbox.org.dsh.entities.Race"> 
+  <void property="name"> 
+   <string>half-elf</string> 
+  </void> 
+  <void property="miscModifiers"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>spot</string> 
+      </void> 
+      <void property="description"> 
+       <string>Spot +1</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>search</string> 
+      </void> 
+      <void property="description"> 
+       <string>Search +1</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+    <void method="add"> 
+     <object class="burningbox.org.dsh.entities.MiscModifier"> 
+      <void property="definition"> 
+       <string>listen</string> 
+      </void> 
+      <void property="description"> 
+       <string>Listen +1</string> 
+      </void> 
+      <void property="modifier"> 
+       <int>1</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="specials"> 
+   <void method="put"> 
+    <string>immunity</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>immunity</string> 
+     </void> 
+     <void property="description"> 
+      <string>Immunity to sleep spells and similar magical effects</string>
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>enchantments</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>enchantments</string> 
+     </void> 
+     <void property="description"> 
+      <string>+2 racial saving throw bonus against Enchantment spells or effect</string>
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>low-light vision</string> 
+    <object class="burningbox.org.dsh.entities.Special"> 
+     <void property="name"> 
+      <string>low-light vision</string> 
+     </void> 
+     <void property="description"> 
+      <string>Half-elves can see twice as far as a human in starlight, moonlight, torchlight and similar conditions of poor illumination. They retain the ability to distinguish color and detail under these conditions.</string>
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

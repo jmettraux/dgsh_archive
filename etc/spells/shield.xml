@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>1</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Invisible disc gives cover and blocks magic missiles.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 minute/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Shield creates an invisible, mobile disk of force that hovers
+in front of you. It negates magic missile attacks directed at
+you. The disk also intercepts attacks, providing three-quarters
+cover (+7 AC and +3 on Reflex saves against attacks that affect
+an area). The disk moves out of the way when you attack, so it
+does not provide cover to opponents. The disk protects you only
+against magic missiles and attacks from one direction. You
+designate half the battlefield (with yourself on the dividing
+line) as being blocked by the shield. The other half is not. You
+can change the defensive direction of the shield (that is, rotate
+the dividing line) once as a free action on each of your turns.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Shield</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Abjuration</string> 
+  </void> 
+  <void property="type"> 
+   <string>Force</string> 
+  </void> 
+ </object> 
+</java> 

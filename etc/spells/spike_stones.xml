@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 action</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>Earth</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>4</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Creatures in area take 1d8 damage, may be slowed.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>1 hour/level (D)</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>
+Rocky ground, stone floors, and similar surfaces shapes
+themselves into long, sharp points that blend into the
+background. The spike stones impede progress through an area and
+deal damage. Any creature moving on foot into or through the
+spell's area takes 1d8 points of damage for each 5 feet of
+movement through the spiked area. In addition, ground speed
+through the spell's area is reduced by half.
+Any creature who sustains damage from this spell must also
+succeed at a Reflex save or suffer injuries to its feet and legs
+that slow its speed by one-third. This movement penalty lasts for
+24 hours or until the injured creature receives a cure spell
+(which also restores lost hit points). Another character can
+remove the penalty by taking 10 minutes to dress the injuries and
+succeeding at a Heal check against the spell's save DC.
+Spike stones is a magic trap that can't be disabled with
+the Disable Device skill.
+</string> 
+  </void> 
+  <void property="name"> 
+   <string>Spike Stones</string> 
+  </void> 
+  <void property="range"> 
+   <string>Medium (100 ft. + 10 ft./level)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Reflex partial</string> 
+  </void> 
+  <void property="school"> 
+   <string>Transmutation</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+ </object> 
+</java> 

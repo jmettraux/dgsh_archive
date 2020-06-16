@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- $Id: dgsh-config.xml,v 1.2 2002/08/15 15:38:27 jmettraux Exp $ -->
+
+<java version="1.4.0" class="java.beans.XMLDecoder"> 
+
+ <object class="burningbox.org.dsh.Configuration"> 
+
+  <!-- defaults to pty/
+  <void property="partyDirectory"> 
+   <string>pty/</string>
+  </void>
+  -->
+
+  <!-- defaults to scn/
+  <void property="scenarioDirectory"> 
+   <string>scn/</string>
+  </void>
+  -->
+
+  <!-- defaults to etc/tables/
+  <void property="randomTableDirectory"> 
+   <string>etc/tables/</string>
+  </void>
+  -->
+
+  <!-- defaults to etc/monsters/
+  <void property="monsterDirectory"> 
+   <string>etc/monsters/</string> 
+  </void> 
+  -->
+
+  <!-- defaults to etc/spells/
+  <void property="spellDirectory"> 
+   <string>etc/spells/</string> 
+  </void> 
+  -->
+
+  <!-- defaults to etc/races/
+  <void property="raceDirectory"> 
+   <string>etc/races/</string> 
+  </void> 
+  -->
+
+  <!-- defaults to etc/classes/
+  <void property="classDirectory"> 
+   <string>etc/classes/</string> 
+  </void> 
+  -->
+
+  <!-- defaults to etc/skills/
+  <void property="skillDirectory"> 
+   <string>etc/skills/</string> 
+  </void> 
+  -->
+
+  <!-- defaults to etc/feats/
+  <void property="featDirectory"> 
+   <string>etc/feats/</string> 
+  </void> 
+  -->
+
+  <!-- defaults to etc/equipment/
+  <void property="equipmentDirectory"> 
+   <string>etc/equipment/</string> 
+  </void> 
+  -->
+
+  <!-- defaults to etc/scripts/
+  <void property="scriptFileDirectory"> 
+   <string>etc/scripts/</string> 
+  </void> 
+  -->
+
+  <!-- logging issues -->
+
+  <void property="logFileName"> 
+   <string>dungeon.log</string>
+  </void>
+
+  <void property="logLevel"> 
+   <!-- possible values are DEBUG, INFO and WARN 
+   	it defaults to INFO -->
+   <string>DEBUG</string>
+  </void>
+
+  <!-- script files -->
+  <!--
+  <void property="scriptFileNames"> 
+   <object class="java.util.ArrayList"> 
+
+    <void method="add"> 
+     <string>etc/scripts/regeneration.py</string> 
+    </void> 
+    <void method="add"> 
+     <string>etc/scripts/spellTriggeredTest.py</string> 
+    </void> 
+    <void method="add"> 
+     <string>etc/scripts/spells/utils.py</string> 
+    </void> 
+    <void method="add"> 
+     <string>etc/scripts/spells/Bane.py</string> 
+    </void> 
+    <void method="add"> 
+     <string>etc/scripts/spells/Bless.py</string> 
+    </void> 
+    <void method="add"> 
+     <string>etc/scripts/spells/Daze.py</string> 
+    </void> 
+    <void method="add"> 
+     <string>etc/scripts/spells/Enlarge.py</string> 
+    </void> 
+
+    <void method="add"> 
+     <string>etc/scripts/barbarianRage.py</string> 
+    </void> 
+
+   </object> 
+  </void> 
+  -->
+
+  <!-- aliases -->
+
+  <void property="aliases"> 
+   <object class="java.util.HashMap"> 
+    <void method="put"> 
+     <string>d</string> 
+     <string>display</string> 
+    </void> 
+    <void method="put"> 
+     <string>b</string> 
+     <string>browse</string> 
+    </void> 
+    <void method="put"> 
+     <string>o</string> 
+     <string>opp</string> 
+    </void> 
+    <void method="put"> 
+     <string>n</string> 
+     <string>next</string> 
+    </void> 
+    <void method="put"> 
+     <string>p</string> 
+     <string>party</string> 
+    </void> 
+    <void method="put"> 
+     <string>prep</string> 
+     <string>prepare</string> 
+    </void> 
+    <void method="put"> 
+     <string>sb</string> 
+     <string>spellbook</string> 
+    </void> 
+    <void method="put"> 
+     <string>r</string> 
+     <string>roll</string> 
+    </void> 
+    <void method="put"> 
+     <string>mv</string> 
+     <string>move</string> 
+    </void> 
+    <void method="put"> 
+     <string>trs</string> 
+     <string>treasure</string> 
+    </void> 
+   </object> 
+  </void> 
+
+  <!-- env attributes -->
+
+  <void property="envAttributes"> 
+   <object class="java.util.HashMap"> 
+
+    <!-- set to 'true' if you want characters' special abilities to be 
+         shown when the d[isplay] command is used -->
+    <void method="put"> 
+     <string>display-character-specials</string> 
+     <string>true</string> 
+    </void> 
+
+    <!-- see the DMG on page 67. The default is set to '50' which means
+	 that if a creature takes 50 from one attack, it is subject to
+	 instant death (Must succeed a Fortitude saving throw DC 15) -->
+    <void method="put"> 
+     <string>massive_damage_based_on_size</string> 
+     <string>false</string> 
+    </void> 
+
+    <!-- set this to false if you don't want the game clock to be displayed
+         for each prompt -->
+    <void method="put"> 
+     <string>display-game-clock</string> 
+     <string>true</string> 
+    </void> 
+    
+   </object> 
+  </void> 
+ </object> 
+
+</java> 

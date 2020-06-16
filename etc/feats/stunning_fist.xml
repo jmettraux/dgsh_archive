@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.Feat"> 
+  <void property="description"> 
+   <string>Benefit: Declare that the character is using the feat before making an
+attack roll (thus, a missed attack roll ruins the attempt). It forces
+a foe damaged by the character's unarmed attack to make a Fortitude
+saving throw (DC 10 + one-half the character's level + Wis modifier),
+in addition to dealing damage normally. If the defender fails his
+saving throw, he is stunned for 1 round (until just before the
+character's next action). A stunned character can't act and loses any
+Dexterity bonus to Armor Class. Attackers get a +2 bonus on attack
+rolls against a stunned opponent. The character may attempt a stunning
+attack once per day for every four levels attained, and no more than
+once per round.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Stunning Fist</string> 
+  </void> 
+  <void property="prerequisite"> 
+   <string>Dex 13+, Improved Unarmed Strike, Wis 13+, base attack bonus +8 or higher.</string> 
+  </void> 
+  <void property="requiredFeats"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>Improved Unarmed Strike</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="type"> 
+   <string>[General]</string> 
+  </void> 
+ </object> 
+</java> 

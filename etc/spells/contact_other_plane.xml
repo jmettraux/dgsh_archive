@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>10 minutes</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>brd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>5</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Ask question of extraplanar entity.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>Concentration</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string>You send your mind to another plane of existence in order to receive advice and information from powers there. (See the accompanying table for possible consequences and results of the attempt.) 
+
+                Avoid Effective   True    Don't           Random
+Plane Contacted Int/Cha Decrease  Answer  Know    Lie     Answer
+--------------- ----------------  ------  -----   -----   ------
+Elemental Plane DC 7/1 week       01-34   35-62   63-83   84-100
+(appropriate)   (DC 7/1 week)     (01-68) (69-75) (76-98) (99-100)
+Positive/Negative 
+Energy Plane    DC 8/1 week       01-39   40-65   66-86   87-100
+Astral Plane    DC 9/1 week       01-44   45-67   68-88   89-100
+Outer Plane, 
+demideity       DC 10/2 weeks     01-49   50-70   71-91   92-100
+Outer Plane, 
+lesser deity    DC 12/3 weeks     01-60   61-75   76-95   96-100
+Outer Plane, 
+intermediate 
+deity           DC 14/4 weeks     01-73   74-81   82-98   99-100
+Outer Plane, 
+greater deity   DC 16/5 weeks     01-88   89-90   91-99   100
+
+Avoid Effective Intelligence/Charisma Decrease: You must succeed at an Intelligence check against this DC in order to avoid effective Intelligence and Charisma decrease. If the check fails, your Intelligence and Charisma scores fall to 8 for the stated duration, and you become unable to cast arcane spells. If you lose Intelligence and Charisma, the effect strikes as soon as the first question is asked, and no answer is received. (The entries in parentheses are for questions that pertain to the appropriate Elemental Plane.)
+
+Results of a Successful Contact: The DM rolls d% for the result shown on the table:
+
+True Answer: You get a true, one-word answer. Questions not capable of being answered in this way are answered randomly.
+Don't Know: The entity tells you that it doesn't know.
+Lie: The entity intentionally lies to you.
+Random Answer: The entity tries to lie but doesn't know the answer, so it makes one up.
+
+The powers reply in a language you understand, but they resent such contact and give only brief answers to your questions. (The DM answers all questions with "yes," "no," "maybe," "never," "irrelevant," or some other one-word answer.) You must concentrate on maintaining the spell (a standard action) in order to ask questions at the rate of one per round. A question is answered by the power during the same round. For every two caster levels, you may ask one question.
+
+You can contact an Elemental Plane or some plane farther removed. Contact with minds far removed from your home plane increases the probability of suffering an effective decrease to Intelligence and Charisma, but the chance of the power knowing the answer, as well as the probability of the being telling the correct answer, are likewise increased by moving to distant planes. Once the Outer Planes are reached, the power of the deity contacted determines the effects. (Random results obtained from the table are subject to DM changes, the personalities of individual deities, and so on.)
+
+On rare occasions, this divination may be blocked by an act of certain deities or forces.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Contact Other Plane</string> 
+  </void> 
+  <void property="range"> 
+   <string>Personal</string> 
+  </void> 
+  <void property="school"> 
+   <string>Divination</string> 
+  </void> 
+ </object> 
+</java> 

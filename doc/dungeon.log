@@ -1,0 +1,82 @@
+2002-08-08 17:14:51,784 INFO  dgsh - dgsh - Dungeon Shell - v0.5.10 - jmettraux@burningbox.org
+2002-08-08 17:15:26,227 INFO  dgsh - >prep shana drd
+2002-08-08 17:15:31,899 INFO  dgsh.prep - >f
+2002-08-08 17:15:33,881 INFO  dgsh.prep - >l 0
+2002-08-08 17:15:33,882 DEBUG dgsh.Character - Preparing known spells for Shana
+2002-08-08 17:15:40,763 INFO  dgsh.prep - >p read_magic
+2002-08-08 17:16:08,865 INFO  dgsh.prep - >p detect_magic 2
+2002-08-08 17:16:14,188 INFO  dgsh.prep - >p create_water
+2002-08-08 17:16:15,487 INFO  dgsh.prep - >l 1
+2002-08-08 17:16:21,127 INFO  dgsh.prep - >p entangle_2
+2002-08-08 17:16:22,260 INFO  dgsh.prep - >f
+2002-08-08 17:16:27,273 INFO  dgsh.prep - >p entangle 2
+2002-08-08 17:16:38,775 INFO  dgsh.prep - >p shillelagh
+2002-08-08 17:16:41,790 INFO  dgsh.prep - >x
+2002-08-08 17:16:47,317 INFO  dgsh - >prep plume clr
+2002-08-08 17:16:53,753 INFO  dgsh.prep - >p bless 2
+2002-08-08 17:16:53,754 DEBUG dgsh.Character - Preparing known spells for Plume
+2002-08-08 17:16:54,412 INFO  dgsh.prep - >f
+2002-08-08 17:16:56,619 INFO  dgsh.prep - >l 0
+2002-08-08 17:17:00,891 INFO  dgsh.prep - >p read_magic 2
+2002-08-08 17:17:12,010 INFO  dgsh.prep - >p purify_food_and_drink 2
+2002-08-08 17:17:13,670 INFO  dgsh.prep - >l 1
+2002-08-08 17:17:32,512 INFO  dgsh.prep - >p bane 2
+2002-08-08 17:17:34,350 INFO  dgsh.prep - >p bless 1
+2002-08-08 17:17:36,661 INFO  dgsh.prep - >f
+2002-08-08 17:17:39,458 INFO  dgsh.prep - >
+2002-08-08 17:17:43,638 INFO  dgsh.prep - >x
+2002-08-08 17:18:00,017 INFO  dgsh - >hp hemgard -2
+2002-08-08 17:18:00,026 INFO  dgsh.HpCmd - Hemgard hp 17
+2002-08-08 17:18:07,376 INFO  dgsh - "small trap !"
+2002-08-08 17:18:20,648 INFO  dgsh - >fight
+2002-08-08 17:18:26,489 INFO  dgsh - c>inst goblin 3 gob
+2002-08-08 17:18:27,803 INFO  dgsh - c>o
+2002-08-08 17:18:40,244 INFO  dgsh - "small party of goblins"
+2002-08-08 17:19:03,081 INFO  dgsh - c>init
+2002-08-08 17:19:03,108 INFO  dgsh.InitCmd - gob3 ini 4
+2002-08-08 17:19:03,110 INFO  dgsh.InitCmd - gob2 ini 18
+2002-08-08 17:19:03,112 INFO  dgsh.InitCmd - gob1 ini 11
+2002-08-08 17:19:04,847 INFO  dgsh.InitCmd - Shana ini 12
+2002-08-08 17:19:07,640 INFO  dgsh.InitCmd - Delfae ini 14
+2002-08-08 17:19:10,624 INFO  dgsh.InitCmd - Sakado ini 23
+2002-08-08 17:19:12,625 INFO  dgsh.InitCmd - GlockMuch ini 11
+2002-08-08 17:19:14,041 INFO  dgsh.InitCmd - Loup ini 9
+2002-08-08 17:19:17,504 INFO  dgsh.InitCmd - Hemgard ini 5
+2002-08-08 17:19:20,060 INFO  dgsh.InitCmd - Troudukh ini 14
+2002-08-08 17:19:21,969 INFO  dgsh.InitCmd - Plume ini 14
+2002-08-08 17:19:25,624 INFO  dgsh - c>n
+2002-08-08 17:19:25,633 INFO  dgsh.NextCmd - next is Sakado
+2002-08-08 17:22:26,737 INFO  dgsh - c>hp gob1 -5
+2002-08-08 17:22:26,738 INFO  dgsh.HpCmd - gob1 hp -4
+2002-08-08 17:22:30,175 INFO  dgsh - c>n
+2002-08-08 17:22:30,176 INFO  dgsh.NextCmd - next is gob2
+2002-08-08 17:22:35,366 INFO  dgsh - c>hp shana -4
+2002-08-08 17:22:35,367 INFO  dgsh.HpCmd - Shana hp 9
+2002-08-08 17:22:41,182 INFO  dgsh - c>n
+2002-08-08 17:22:41,182 INFO  dgsh.NextCmd - next is Delfae
+2002-08-08 17:22:54,266 INFO  dgsh - c>hp sakado -3
+2002-08-08 17:22:54,267 INFO  dgsh.HpCmd - Sakado hp 15
+2002-08-08 17:23:16,953 INFO  dgsh - "oops !!!!"
+2002-08-08 17:23:18,860 INFO  dgsh - c>n
+2002-08-08 17:23:18,861 INFO  dgsh.NextCmd - next is Plume
+2002-08-08 17:23:31,859 INFO  dgsh - c>hp gob2 -4
+2002-08-08 17:23:31,860 INFO  dgsh.HpCmd - gob2 hp 2
+2002-08-08 17:23:33,970 INFO  dgsh - c>o
+2002-08-08 17:23:43,331 INFO  dgsh - c>n
+2002-08-08 17:23:43,333 INFO  dgsh.NextCmd - next is Troudukh
+2002-08-08 17:23:52,859 INFO  dgsh - c>hp gob3 -7
+2002-08-08 17:23:52,862 INFO  dgsh.HpCmd - gob3 hp -5
+2002-08-08 17:23:55,431 INFO  dgsh - c>n
+2002-08-08 17:23:55,434 INFO  dgsh.NextCmd - next is Shana
+2002-08-08 17:24:31,134 INFO  dgsh - c>hp gob2 -2
+2002-08-08 17:24:31,135 INFO  dgsh.HpCmd - gob2 hp 0
+2002-08-08 17:24:32,617 INFO  dgsh - c>o
+2002-08-08 17:24:46,274 INFO  dgsh - "gob2 surrenders."
+2002-08-08 17:24:48,247 INFO  dgsh - c>relax
+2002-08-08 17:24:48,264 INFO  dgsh.RelaxCmd - Party level                      : 2
+2002-08-08 17:24:48,265 INFO  dgsh.RelaxCmd - Total dead opponents' CR         : 0.68  (204 xp)
+2002-08-08 17:24:48,265 INFO  dgsh.RelaxCmd - Total still alive opponents' CR  : 0.34  (102 xp)
+2002-08-08 17:24:48,265 INFO  dgsh.RelaxCmd - Total CR                         : 1.02  (300 xp)
+2002-08-08 17:24:48,265 INFO  dgsh.RelaxCmd - Combat lasted 0 rounds
+2002-08-08 17:25:15,541 INFO  dgsh - >xp 306
+2002-08-08 17:25:29,276 INFO  dgsh - >exit

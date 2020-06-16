@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.0_01" class="java.beans.XMLDecoder"> 
+ <object class="burningbox.org.dsh.entities.magic.Spell"> 
+  <void property="castingTime"> 
+   <string>1 hour</string> 
+  </void> 
+  <void property="classes"> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>drd</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>9</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>sor</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="burningbox.org.dsh.entities.ClassLevel"> 
+     <void property="className"> 
+      <string>wiz</string> 
+     </void> 
+     <void property="levelReached"> 
+      <int>8</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="components"> 
+   <void method="add"> 
+    <string>V</string> 
+   </void> 
+   <void method="add"> 
+    <string>S</string> 
+   </void> 
+   <void method="add"> 
+    <string>M/DF</string> 
+   </void> 
+  </void> 
+  <void property="description"> 
+   <string>Object or location affected by spell repels certain creatures.</string> 
+  </void> 
+  <void property="duration"> 
+   <string>2 hours/level</string> 
+  </void> 
+  <void property="longDescription"> 
+   <string> You cause an object or location to emanate magical vibrations that repel either a specific type of intelligent creature or creatures of a particular alignment, as defined by you. The particular type of creature to be affected must be named specifically-for example, red dragons, hill giants, wererats, lammasu, cloakers, or vampires. Larger groups, such as "goblinoids," are not specific enough. Likewise, the specific alignment must be named-for example, chaotic evil, chaotic good, lawful neutral, or true neutral.
+Creatures of the designated type or alignment feel an overpowering urge to leave the area or to avoid the affected item. A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect. A creature who makes a successful saving throw can stay in the area or touch the item, but feels very uncomfortable doing so. This distracting discomfort reduces the creature's Dexterity score by 4 points.
+
+Antipathy counters and dispels sympathy.
+
+This spell cannot be cast upon living creatures.</string> 
+  </void> 
+  <void property="name"> 
+   <string>Antipathy</string> 
+  </void> 
+  <void property="range"> 
+   <string>Close (25 ft. + 5 ft./2 levels)</string> 
+  </void> 
+  <void property="savingThrow"> 
+   <string>Will partial</string> 
+  </void> 
+  <void property="school"> 
+   <string>Enchantment</string> 
+  </void> 
+  <void property="spellResistance"> 
+   <string>Yes</string> 
+  </void> 
+  <void property="subSchool"> 
+   <string>Compulsion</string> 
+  </void> 
+  <void property="type"> 
+   <string>Mind-Affecting</string> 
+  </void> 
+ </object> 
+</java> 
